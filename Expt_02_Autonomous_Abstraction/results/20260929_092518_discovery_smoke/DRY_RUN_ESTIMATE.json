@@ -1,0 +1,8 @@
+{
+  "boxes": 2,
+  "seconds": 0.036469099999976606,
+  "seconds_per_box": 0.018234549999988303,
+  "estimated_seconds": 7.585572799995134,
+  "planned": 416,
+  "note": "Probe boxes are excluded from episodes.csv."
+}

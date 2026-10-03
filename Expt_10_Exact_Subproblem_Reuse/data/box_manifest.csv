@@ -1,0 +1,217 @@
+task_id,n_files,files
+inv_004cd74f4e56,5,Expt_08_Action_Level_Value/data/eval.json; Expt_08C_Unseen_Confirmation/data/eval.json; Expt_08B_Consistent_Labels/data/eval.json; Expt_07_Indexed_Retrieval/data/eval.json; Expt_07B_Decision_Audit/data/eval.json
+inv_012a3b262857,1,Expt_05_Consult_and_Commit_Gates/data/eval.json
+inv_01dcb410da3d,1,Expt_06_Frozen_Library_Opportunity/data/eval.json
+inv_01e985ab4604,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_02c8738d8d04,14,Expt_08_Action_Level_Value/data/train.json; Expt_08C_Unseen_Confirmation/data/train.json; Expt_08B_Consistent_Labels/data/train.json; Expt_07_Indexed_Retrieval/data/train.json; Expt_07B_Decision_Audit/data/train.json; Expt_06_Frozen_Library_Opportunity/data/train.json; Expt_05_Consult_and_Commit_Gates/data/train.json; Expt_04_Emergent_Hierarchical_Abstraction/data/train.json; Expt_04D_Where_Reuse_Loses_Advantage/data/train.json; Expt_04D2_Costly_Choices/data/train.json; Expt_04C_Confirm_Reusable_Knowledge/data/train.json; Expt_04B_Selective_Reuse/data/train.json; Expt_03_Mined_Operation_Library/data/runtime/train.json; Expt_02_Autonomous_Abstraction/data/runtime/train.json
+inv_044defb3dd2e,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_04d049b72da2,14,Expt_08_Action_Level_Value/data/train.json; Expt_08C_Unseen_Confirmation/data/train.json; Expt_08B_Consistent_Labels/data/train.json; Expt_07_Indexed_Retrieval/data/train.json; Expt_07B_Decision_Audit/data/train.json; Expt_06_Frozen_Library_Opportunity/data/train.json; Expt_05_Consult_and_Commit_Gates/data/train.json; Expt_04_Emergent_Hierarchical_Abstraction/data/train.json; Expt_04D_Where_Reuse_Loses_Advantage/data/train.json; Expt_04D2_Costly_Choices/data/train.json; Expt_04C_Confirm_Reusable_Knowledge/data/train.json; Expt_04B_Selective_Reuse/data/train.json; Expt_03_Mined_Operation_Library/data/runtime/train.json; Expt_02_Autonomous_Abstraction/data/runtime/train.json
+inv_05bc74f7cd7c,14,Expt_08_Action_Level_Value/data/train.json; Expt_08C_Unseen_Confirmation/data/train.json; Expt_08B_Consistent_Labels/data/train.json; Expt_07_Indexed_Retrieval/data/train.json; Expt_07B_Decision_Audit/data/train.json; Expt_06_Frozen_Library_Opportunity/data/train.json; Expt_05_Consult_and_Commit_Gates/data/train.json; Expt_04_Emergent_Hierarchical_Abstraction/data/train.json; Expt_04D_Where_Reuse_Loses_Advantage/data/train.json; Expt_04D2_Costly_Choices/data/train.json; Expt_04C_Confirm_Reusable_Knowledge/data/train.json; Expt_04B_Selective_Reuse/data/train.json; Expt_03_Mined_Operation_Library/data/runtime/train.json; Expt_02_Autonomous_Abstraction/data/runtime/train.json
+inv_070fc576d093,1,Expt_06_Frozen_Library_Opportunity/data/smoke.json
+inv_0a58649f313c,14,Expt_08_Action_Level_Value/data/train.json; Expt_08C_Unseen_Confirmation/data/train.json; Expt_08B_Consistent_Labels/data/train.json; Expt_07_Indexed_Retrieval/data/train.json; Expt_07B_Decision_Audit/data/train.json; Expt_06_Frozen_Library_Opportunity/data/train.json; Expt_05_Consult_and_Commit_Gates/data/train.json; Expt_04_Emergent_Hierarchical_Abstraction/data/train.json; Expt_04D_Where_Reuse_Loses_Advantage/data/train.json; Expt_04D2_Costly_Choices/data/train.json; Expt_04C_Confirm_Reusable_Knowledge/data/train.json; Expt_04B_Selective_Reuse/data/train.json; Expt_03_Mined_Operation_Library/data/runtime/train.json; Expt_02_Autonomous_Abstraction/data/runtime/train.json
+inv_0b96b3917fa7,14,Expt_08_Action_Level_Value/data/train.json; Expt_08C_Unseen_Confirmation/data/train.json; Expt_08B_Consistent_Labels/data/train.json; Expt_07_Indexed_Retrieval/data/train.json; Expt_07B_Decision_Audit/data/train.json; Expt_06_Frozen_Library_Opportunity/data/train.json; Expt_05_Consult_and_Commit_Gates/data/train.json; Expt_04_Emergent_Hierarchical_Abstraction/data/train.json; Expt_04D_Where_Reuse_Loses_Advantage/data/train.json; Expt_04D2_Costly_Choices/data/train.json; Expt_04C_Confirm_Reusable_Knowledge/data/train.json; Expt_04B_Selective_Reuse/data/train.json; Expt_03_Mined_Operation_Library/data/runtime/train.json; Expt_02_Autonomous_Abstraction/data/runtime/train.json
+inv_1065bdddfaae,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_1091ce0260cb,1,Expt_05_Consult_and_Commit_Gates/data/eval.json
+inv_115b41c2392a,12,Expt_08_Action_Level_Value/data/development.json; Expt_08C_Unseen_Confirmation/data/development.json; Expt_08B_Consistent_Labels/data/development.json; Expt_07_Indexed_Retrieval/data/development.json; Expt_07B_Decision_Audit/data/development.json; Expt_06_Frozen_Library_Opportunity/data/development.json; Expt_05_Consult_and_Commit_Gates/data/development.json; Expt_04D_Where_Reuse_Loses_Advantage/data/development.json; Expt_04D2_Costly_Choices/data/development.json; Expt_04C_Confirm_Reusable_Knowledge/data/development.json; Expt_03_Mined_Operation_Library/data/runtime/development.json; Expt_02_Autonomous_Abstraction/data/runtime/development.json
+inv_11eeddd08f2e,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_12bf731880d8,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_12f19f828602,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_1469b8f1b8ff,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_150db7a435fc,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_1510486ea2ea,1,Expt_04D2_Costly_Choices/data/fresh.json
+inv_162658eb117f,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_1696d00e5191,12,Expt_08_Action_Level_Value/data/development.json; Expt_08C_Unseen_Confirmation/data/development.json; Expt_08B_Consistent_Labels/data/development.json; Expt_07_Indexed_Retrieval/data/development.json; Expt_07B_Decision_Audit/data/development.json; Expt_06_Frozen_Library_Opportunity/data/development.json; Expt_05_Consult_and_Commit_Gates/data/development.json; Expt_04D_Where_Reuse_Loses_Advantage/data/development.json; Expt_04D2_Costly_Choices/data/development.json; Expt_04C_Confirm_Reusable_Knowledge/data/development.json; Expt_03_Mined_Operation_Library/data/runtime/development.json; Expt_02_Autonomous_Abstraction/data/runtime/development.json
+inv_17a3000da8fc,1,Expt_04D2_Costly_Choices/data/fresh.json
+inv_188b38cb599c,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_18db09080c0d,1,Expt_06_Frozen_Library_Opportunity/data/eval.json
+inv_194ea0c6c096,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_19c6bfede4f3,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_19c90fcc3cbf,1,Expt_05_Consult_and_Commit_Gates/data/eval.json
+inv_1a6814b40954,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_1b11e8e73ecb,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_1c34ba4120bf,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_1d1cc0add90a,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_1d502c7cfaab,1,Expt_08C_Unseen_Confirmation/data/unseen.json
+inv_1e4f1d082f5d,14,Expt_08_Action_Level_Value/data/train.json; Expt_08C_Unseen_Confirmation/data/train.json; Expt_08B_Consistent_Labels/data/train.json; Expt_07_Indexed_Retrieval/data/train.json; Expt_07B_Decision_Audit/data/train.json; Expt_06_Frozen_Library_Opportunity/data/train.json; Expt_05_Consult_and_Commit_Gates/data/train.json; Expt_04_Emergent_Hierarchical_Abstraction/data/train.json; Expt_04D_Where_Reuse_Loses_Advantage/data/train.json; Expt_04D2_Costly_Choices/data/train.json; Expt_04C_Confirm_Reusable_Knowledge/data/train.json; Expt_04B_Selective_Reuse/data/train.json; Expt_03_Mined_Operation_Library/data/runtime/train.json; Expt_02_Autonomous_Abstraction/data/runtime/train.json
+inv_1f2dbf0588dc,14,Expt_08_Action_Level_Value/data/train.json; Expt_08C_Unseen_Confirmation/data/train.json; Expt_08B_Consistent_Labels/data/train.json; Expt_07_Indexed_Retrieval/data/train.json; Expt_07B_Decision_Audit/data/train.json; Expt_06_Frozen_Library_Opportunity/data/train.json; Expt_05_Consult_and_Commit_Gates/data/train.json; Expt_04_Emergent_Hierarchical_Abstraction/data/train.json; Expt_04D_Where_Reuse_Loses_Advantage/data/train.json; Expt_04D2_Costly_Choices/data/train.json; Expt_04C_Confirm_Reusable_Knowledge/data/train.json; Expt_04B_Selective_Reuse/data/train.json; Expt_03_Mined_Operation_Library/data/runtime/train.json; Expt_02_Autonomous_Abstraction/data/runtime/train.json
+inv_20195ae42790,5,Expt_04_Emergent_Hierarchical_Abstraction/data/test.json; Expt_04C_Confirm_Reusable_Knowledge/data/test.json; Expt_04B_Selective_Reuse/data/test.json; Expt_03_Mined_Operation_Library/data/runtime/test.json; Expt_02_Autonomous_Abstraction/data/runtime/test.json
+inv_20b03e28412f,1,Expt_04D2_Costly_Choices/data/fresh.json
+inv_22186c94b655,1,Expt_04D2_Costly_Choices/data/fresh.json
+inv_22521942205c,12,Expt_08_Action_Level_Value/data/development.json; Expt_08C_Unseen_Confirmation/data/development.json; Expt_08B_Consistent_Labels/data/development.json; Expt_07_Indexed_Retrieval/data/development.json; Expt_07B_Decision_Audit/data/development.json; Expt_06_Frozen_Library_Opportunity/data/development.json; Expt_05_Consult_and_Commit_Gates/data/development.json; Expt_04D_Where_Reuse_Loses_Advantage/data/development.json; Expt_04D2_Costly_Choices/data/development.json; Expt_04C_Confirm_Reusable_Knowledge/data/development.json; Expt_03_Mined_Operation_Library/data/runtime/development.json; Expt_02_Autonomous_Abstraction/data/runtime/development.json
+inv_2476cc8828e5,1,Expt_08C_Unseen_Confirmation/data/unseen.json
+inv_247f34998463,1,Expt_07_Indexed_Retrieval/data/smoke.json
+inv_28f717865766,1,Expt_06_Frozen_Library_Opportunity/data/eval.json
+inv_2a937001a603,1,Expt_05_Consult_and_Commit_Gates/data/eval.json
+inv_2bcf2bd11f08,1,Expt_06_Frozen_Library_Opportunity/data/eval.json
+inv_2c7a92e88392,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_2f008d19b368,1,Expt_05_Consult_and_Commit_Gates/data/eval.json
+inv_2ff4fed0f2c8,5,Expt_04_Emergent_Hierarchical_Abstraction/data/test.json; Expt_04C_Confirm_Reusable_Knowledge/data/test.json; Expt_04B_Selective_Reuse/data/test.json; Expt_03_Mined_Operation_Library/data/runtime/test.json; Expt_02_Autonomous_Abstraction/data/runtime/test.json
+inv_316bdc719b32,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_32c04a3a8f7d,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_33241fe6b6c2,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_348eb3b0c1c3,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_3751b4def2d7,5,Expt_04_Emergent_Hierarchical_Abstraction/data/test.json; Expt_04C_Confirm_Reusable_Knowledge/data/test.json; Expt_04B_Selective_Reuse/data/test.json; Expt_03_Mined_Operation_Library/data/runtime/test.json; Expt_02_Autonomous_Abstraction/data/runtime/test.json
+inv_37a9c4ede811,5,Expt_04_Emergent_Hierarchical_Abstraction/data/test.json; Expt_04C_Confirm_Reusable_Knowledge/data/test.json; Expt_04B_Selective_Reuse/data/test.json; Expt_03_Mined_Operation_Library/data/runtime/test.json; Expt_02_Autonomous_Abstraction/data/runtime/test.json
+inv_3853d99a7890,14,Expt_08_Action_Level_Value/data/train.json; Expt_08C_Unseen_Confirmation/data/train.json; Expt_08B_Consistent_Labels/data/train.json; Expt_07_Indexed_Retrieval/data/train.json; Expt_07B_Decision_Audit/data/train.json; Expt_06_Frozen_Library_Opportunity/data/train.json; Expt_05_Consult_and_Commit_Gates/data/train.json; Expt_04_Emergent_Hierarchical_Abstraction/data/train.json; Expt_04D_Where_Reuse_Loses_Advantage/data/train.json; Expt_04D2_Costly_Choices/data/train.json; Expt_04C_Confirm_Reusable_Knowledge/data/train.json; Expt_04B_Selective_Reuse/data/train.json; Expt_03_Mined_Operation_Library/data/runtime/train.json; Expt_02_Autonomous_Abstraction/data/runtime/train.json
+inv_3a6415ba14bb,1,Expt_06_Frozen_Library_Opportunity/data/eval.json
+inv_3aef008cf35a,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_3c0eeb1edded,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_3c732ee512eb,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_3f3d2af3a5f7,1,Expt_04D2_Costly_Choices/data/fresh.json
+inv_419341860022,1,Expt_07_Indexed_Retrieval/data/smoke.json
+inv_435a7fc36658,1,Expt_04D2_Costly_Choices/data/fresh.json
+inv_436a74b58bb1,1,Expt_06_Frozen_Library_Opportunity/data/eval.json
+inv_43da236c7b0b,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_44b82f447c59,14,Expt_08_Action_Level_Value/data/train.json; Expt_08C_Unseen_Confirmation/data/train.json; Expt_08B_Consistent_Labels/data/train.json; Expt_07_Indexed_Retrieval/data/train.json; Expt_07B_Decision_Audit/data/train.json; Expt_06_Frozen_Library_Opportunity/data/train.json; Expt_05_Consult_and_Commit_Gates/data/train.json; Expt_04_Emergent_Hierarchical_Abstraction/data/train.json; Expt_04D_Where_Reuse_Loses_Advantage/data/train.json; Expt_04D2_Costly_Choices/data/train.json; Expt_04C_Confirm_Reusable_Knowledge/data/train.json; Expt_04B_Selective_Reuse/data/train.json; Expt_03_Mined_Operation_Library/data/runtime/train.json; Expt_02_Autonomous_Abstraction/data/runtime/train.json
+inv_44f84adc131a,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_465ab2834adf,1,Expt_06_Frozen_Library_Opportunity/data/eval.json
+inv_49f577a14ca6,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_4a2a37fc1d41,1,Expt_06_Frozen_Library_Opportunity/data/smoke.json
+inv_4b2390d82508,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_4b58fb3c228c,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_4b9eb8f15eaf,1,Expt_06_Frozen_Library_Opportunity/data/eval.json
+inv_4c53ef854316,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_4c85f12133ff,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_4eff508edccb,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_4fe33ab2ac77,5,Expt_08_Action_Level_Value/data/eval.json; Expt_08C_Unseen_Confirmation/data/eval.json; Expt_08B_Consistent_Labels/data/eval.json; Expt_07_Indexed_Retrieval/data/eval.json; Expt_07B_Decision_Audit/data/eval.json
+inv_521aa3f4db2c,14,Expt_08_Action_Level_Value/data/train.json; Expt_08C_Unseen_Confirmation/data/train.json; Expt_08B_Consistent_Labels/data/train.json; Expt_07_Indexed_Retrieval/data/train.json; Expt_07B_Decision_Audit/data/train.json; Expt_06_Frozen_Library_Opportunity/data/train.json; Expt_05_Consult_and_Commit_Gates/data/train.json; Expt_04_Emergent_Hierarchical_Abstraction/data/train.json; Expt_04D_Where_Reuse_Loses_Advantage/data/train.json; Expt_04D2_Costly_Choices/data/train.json; Expt_04C_Confirm_Reusable_Knowledge/data/train.json; Expt_04B_Selective_Reuse/data/train.json; Expt_03_Mined_Operation_Library/data/runtime/train.json; Expt_02_Autonomous_Abstraction/data/runtime/train.json
+inv_524f382a0b6a,1,Expt_04D2_Costly_Choices/data/fresh.json
+inv_53675e730ed4,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_577a3918e962,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_57ddd8d6a331,5,Expt_04_Emergent_Hierarchical_Abstraction/data/test.json; Expt_04C_Confirm_Reusable_Knowledge/data/test.json; Expt_04B_Selective_Reuse/data/test.json; Expt_03_Mined_Operation_Library/data/runtime/test.json; Expt_02_Autonomous_Abstraction/data/runtime/test.json
+inv_57f8a10ba232,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_588da8b253d7,14,Expt_08_Action_Level_Value/data/train.json; Expt_08C_Unseen_Confirmation/data/train.json; Expt_08B_Consistent_Labels/data/train.json; Expt_07_Indexed_Retrieval/data/train.json; Expt_07B_Decision_Audit/data/train.json; Expt_06_Frozen_Library_Opportunity/data/train.json; Expt_05_Consult_and_Commit_Gates/data/train.json; Expt_04_Emergent_Hierarchical_Abstraction/data/train.json; Expt_04D_Where_Reuse_Loses_Advantage/data/train.json; Expt_04D2_Costly_Choices/data/train.json; Expt_04C_Confirm_Reusable_Knowledge/data/train.json; Expt_04B_Selective_Reuse/data/train.json; Expt_03_Mined_Operation_Library/data/runtime/train.json; Expt_02_Autonomous_Abstraction/data/runtime/train.json
+inv_59c915dd6531,1,Expt_04D2_Costly_Choices/data/fresh.json
+inv_5a447efe53b2,14,Expt_08_Action_Level_Value/data/train.json; Expt_08C_Unseen_Confirmation/data/train.json; Expt_08B_Consistent_Labels/data/train.json; Expt_07_Indexed_Retrieval/data/train.json; Expt_07B_Decision_Audit/data/train.json; Expt_06_Frozen_Library_Opportunity/data/train.json; Expt_05_Consult_and_Commit_Gates/data/train.json; Expt_04_Emergent_Hierarchical_Abstraction/data/train.json; Expt_04D_Where_Reuse_Loses_Advantage/data/train.json; Expt_04D2_Costly_Choices/data/train.json; Expt_04C_Confirm_Reusable_Knowledge/data/train.json; Expt_04B_Selective_Reuse/data/train.json; Expt_03_Mined_Operation_Library/data/runtime/train.json; Expt_02_Autonomous_Abstraction/data/runtime/train.json
+inv_5cf23d3b644c,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_5d56f61f5e6a,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_5d6cf472e1d9,5,Expt_04_Emergent_Hierarchical_Abstraction/data/test.json; Expt_04C_Confirm_Reusable_Knowledge/data/test.json; Expt_04B_Selective_Reuse/data/test.json; Expt_03_Mined_Operation_Library/data/runtime/test.json; Expt_02_Autonomous_Abstraction/data/runtime/test.json
+inv_5dca84e37d1b,1,Expt_05_Consult_and_Commit_Gates/data/eval.json
+inv_5f0463fcc5db,1,Expt_05_Consult_and_Commit_Gates/data/eval.json
+inv_5f82cae7b831,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_5fc1ecabd17f,12,Expt_08_Action_Level_Value/data/development.json; Expt_08C_Unseen_Confirmation/data/development.json; Expt_08B_Consistent_Labels/data/development.json; Expt_07_Indexed_Retrieval/data/development.json; Expt_07B_Decision_Audit/data/development.json; Expt_06_Frozen_Library_Opportunity/data/development.json; Expt_05_Consult_and_Commit_Gates/data/development.json; Expt_04D_Where_Reuse_Loses_Advantage/data/development.json; Expt_04D2_Costly_Choices/data/development.json; Expt_04C_Confirm_Reusable_Knowledge/data/development.json; Expt_03_Mined_Operation_Library/data/runtime/development.json; Expt_02_Autonomous_Abstraction/data/runtime/development.json
+inv_60ad11abce44,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_6257216e01fc,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_64567200de91,14,Expt_08_Action_Level_Value/data/train.json; Expt_08C_Unseen_Confirmation/data/train.json; Expt_08B_Consistent_Labels/data/train.json; Expt_07_Indexed_Retrieval/data/train.json; Expt_07B_Decision_Audit/data/train.json; Expt_06_Frozen_Library_Opportunity/data/train.json; Expt_05_Consult_and_Commit_Gates/data/train.json; Expt_04_Emergent_Hierarchical_Abstraction/data/train.json; Expt_04D_Where_Reuse_Loses_Advantage/data/train.json; Expt_04D2_Costly_Choices/data/train.json; Expt_04C_Confirm_Reusable_Knowledge/data/train.json; Expt_04B_Selective_Reuse/data/train.json; Expt_03_Mined_Operation_Library/data/runtime/train.json; Expt_02_Autonomous_Abstraction/data/runtime/train.json
+inv_6b8058ed8650,1,Expt_06_Frozen_Library_Opportunity/data/eval.json
+inv_6b95519bf410,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_6bb46fac2d5d,1,Expt_04D2_Costly_Choices/data/fresh.json
+inv_6e28f3b80d0b,5,Expt_08_Action_Level_Value/data/eval.json; Expt_08C_Unseen_Confirmation/data/eval.json; Expt_08B_Consistent_Labels/data/eval.json; Expt_07_Indexed_Retrieval/data/eval.json; Expt_07B_Decision_Audit/data/eval.json
+inv_6f03f411bbe2,5,Expt_08_Action_Level_Value/data/eval.json; Expt_08C_Unseen_Confirmation/data/eval.json; Expt_08B_Consistent_Labels/data/eval.json; Expt_07_Indexed_Retrieval/data/eval.json; Expt_07B_Decision_Audit/data/eval.json
+inv_70a1577ef82b,1,Expt_05_Consult_and_Commit_Gates/data/eval.json
+inv_724e009a0904,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_7334cb152bb1,1,Expt_06_Frozen_Library_Opportunity/data/eval.json
+inv_738c43f2151d,5,Expt_04_Emergent_Hierarchical_Abstraction/data/test.json; Expt_04C_Confirm_Reusable_Knowledge/data/test.json; Expt_04B_Selective_Reuse/data/test.json; Expt_03_Mined_Operation_Library/data/runtime/test.json; Expt_02_Autonomous_Abstraction/data/runtime/test.json
+inv_746b5ca4e9f4,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_74723b3ccf41,1,Expt_05_Consult_and_Commit_Gates/data/eval.json
+inv_753782f902c8,1,Expt_05_Consult_and_Commit_Gates/data/eval.json
+inv_76d0207d2c69,5,Expt_08_Action_Level_Value/data/eval.json; Expt_08C_Unseen_Confirmation/data/eval.json; Expt_08B_Consistent_Labels/data/eval.json; Expt_07_Indexed_Retrieval/data/eval.json; Expt_07B_Decision_Audit/data/eval.json
+inv_77153bff044a,1,Expt_04D2_Costly_Choices/data/fresh.json
+inv_791d780fc6e4,12,Expt_08_Action_Level_Value/data/development.json; Expt_08C_Unseen_Confirmation/data/development.json; Expt_08B_Consistent_Labels/data/development.json; Expt_07_Indexed_Retrieval/data/development.json; Expt_07B_Decision_Audit/data/development.json; Expt_06_Frozen_Library_Opportunity/data/development.json; Expt_05_Consult_and_Commit_Gates/data/development.json; Expt_04D_Where_Reuse_Loses_Advantage/data/development.json; Expt_04D2_Costly_Choices/data/development.json; Expt_04C_Confirm_Reusable_Knowledge/data/development.json; Expt_03_Mined_Operation_Library/data/runtime/development.json; Expt_02_Autonomous_Abstraction/data/runtime/development.json
+inv_79662ad7e7b4,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_7988f7c150bf,1,Expt_08C_Unseen_Confirmation/data/unseen.json
+inv_7d5043954135,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_7f296c0b6ffd,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_7f78315a08cd,1,Expt_06_Frozen_Library_Opportunity/data/eval.json
+inv_8170bb64bf7e,5,Expt_08_Action_Level_Value/data/eval.json; Expt_08C_Unseen_Confirmation/data/eval.json; Expt_08B_Consistent_Labels/data/eval.json; Expt_07_Indexed_Retrieval/data/eval.json; Expt_07B_Decision_Audit/data/eval.json
+inv_846c32759cc2,14,Expt_08_Action_Level_Value/data/train.json; Expt_08C_Unseen_Confirmation/data/train.json; Expt_08B_Consistent_Labels/data/train.json; Expt_07_Indexed_Retrieval/data/train.json; Expt_07B_Decision_Audit/data/train.json; Expt_06_Frozen_Library_Opportunity/data/train.json; Expt_05_Consult_and_Commit_Gates/data/train.json; Expt_04_Emergent_Hierarchical_Abstraction/data/train.json; Expt_04D_Where_Reuse_Loses_Advantage/data/train.json; Expt_04D2_Costly_Choices/data/train.json; Expt_04C_Confirm_Reusable_Knowledge/data/train.json; Expt_04B_Selective_Reuse/data/train.json; Expt_03_Mined_Operation_Library/data/runtime/train.json; Expt_02_Autonomous_Abstraction/data/runtime/train.json
+inv_8973daaab2e7,5,Expt_04_Emergent_Hierarchical_Abstraction/data/test.json; Expt_04C_Confirm_Reusable_Knowledge/data/test.json; Expt_04B_Selective_Reuse/data/test.json; Expt_03_Mined_Operation_Library/data/runtime/test.json; Expt_02_Autonomous_Abstraction/data/runtime/test.json
+inv_8a31fede406e,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_8af4933b8f50,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_8b533a843808,12,Expt_08_Action_Level_Value/data/development.json; Expt_08C_Unseen_Confirmation/data/development.json; Expt_08B_Consistent_Labels/data/development.json; Expt_07_Indexed_Retrieval/data/development.json; Expt_07B_Decision_Audit/data/development.json; Expt_06_Frozen_Library_Opportunity/data/development.json; Expt_05_Consult_and_Commit_Gates/data/development.json; Expt_04D_Where_Reuse_Loses_Advantage/data/development.json; Expt_04D2_Costly_Choices/data/development.json; Expt_04C_Confirm_Reusable_Knowledge/data/development.json; Expt_03_Mined_Operation_Library/data/runtime/development.json; Expt_02_Autonomous_Abstraction/data/runtime/development.json
+inv_8b9cdaf23e25,1,Expt_06_Frozen_Library_Opportunity/data/eval.json
+inv_8c08a611e6eb,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_8e93ec37dc50,5,Expt_08_Action_Level_Value/data/eval.json; Expt_08C_Unseen_Confirmation/data/eval.json; Expt_08B_Consistent_Labels/data/eval.json; Expt_07_Indexed_Retrieval/data/eval.json; Expt_07B_Decision_Audit/data/eval.json
+inv_92b375506a2a,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_9511a3033e66,1,Expt_05_Consult_and_Commit_Gates/data/eval.json
+inv_952b24e51f90,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_965fc9524c0a,1,Expt_06_Frozen_Library_Opportunity/data/eval.json
+inv_973973933cb0,1,Expt_04D2_Costly_Choices/data/fresh.json
+inv_99ae609def69,1,Expt_06_Frozen_Library_Opportunity/data/eval.json
+inv_9a5acff766eb,5,Expt_08_Action_Level_Value/data/eval.json; Expt_08C_Unseen_Confirmation/data/eval.json; Expt_08B_Consistent_Labels/data/eval.json; Expt_07_Indexed_Retrieval/data/eval.json; Expt_07B_Decision_Audit/data/eval.json
+inv_9a7b025d9cc6,5,Expt_04_Emergent_Hierarchical_Abstraction/data/test.json; Expt_04C_Confirm_Reusable_Knowledge/data/test.json; Expt_04B_Selective_Reuse/data/test.json; Expt_03_Mined_Operation_Library/data/runtime/test.json; Expt_02_Autonomous_Abstraction/data/runtime/test.json
+inv_9a8919219e2f,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_9a8c9e6caf19,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_9b9e7427453a,1,Expt_04D2_Costly_Choices/data/fresh.json
+inv_9bec6764c52a,1,Expt_04D2_Costly_Choices/data/fresh.json
+inv_9bf07c52d5f0,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_9ccfdb7ec516,5,Expt_08_Action_Level_Value/data/eval.json; Expt_08C_Unseen_Confirmation/data/eval.json; Expt_08B_Consistent_Labels/data/eval.json; Expt_07_Indexed_Retrieval/data/eval.json; Expt_07B_Decision_Audit/data/eval.json
+inv_9df2f8b2cfb7,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_9f8ba21015e8,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_a03ecbbbf1cc,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_a1f648b00716,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_a25252ed98bb,1,Expt_06_Frozen_Library_Opportunity/data/eval.json
+inv_a393c3ff65f1,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_a50ff1cb12a5,1,Expt_06_Frozen_Library_Opportunity/data/eval.json
+inv_a5b815783152,14,Expt_08_Action_Level_Value/data/train.json; Expt_08C_Unseen_Confirmation/data/train.json; Expt_08B_Consistent_Labels/data/train.json; Expt_07_Indexed_Retrieval/data/train.json; Expt_07B_Decision_Audit/data/train.json; Expt_06_Frozen_Library_Opportunity/data/train.json; Expt_05_Consult_and_Commit_Gates/data/train.json; Expt_04_Emergent_Hierarchical_Abstraction/data/train.json; Expt_04D_Where_Reuse_Loses_Advantage/data/train.json; Expt_04D2_Costly_Choices/data/train.json; Expt_04C_Confirm_Reusable_Knowledge/data/train.json; Expt_04B_Selective_Reuse/data/train.json; Expt_03_Mined_Operation_Library/data/runtime/train.json; Expt_02_Autonomous_Abstraction/data/runtime/train.json
+inv_a658d7abe0c2,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_a6d3d5d34585,5,Expt_04_Emergent_Hierarchical_Abstraction/data/test.json; Expt_04C_Confirm_Reusable_Knowledge/data/test.json; Expt_04B_Selective_Reuse/data/test.json; Expt_03_Mined_Operation_Library/data/runtime/test.json; Expt_02_Autonomous_Abstraction/data/runtime/test.json
+inv_a8a17961cdfe,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_abe234abc0cc,5,Expt_04_Emergent_Hierarchical_Abstraction/data/test.json; Expt_04C_Confirm_Reusable_Knowledge/data/test.json; Expt_04B_Selective_Reuse/data/test.json; Expt_03_Mined_Operation_Library/data/runtime/test.json; Expt_02_Autonomous_Abstraction/data/runtime/test.json
+inv_abe92b094331,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_ac2c19d4f316,14,Expt_08_Action_Level_Value/data/train.json; Expt_08C_Unseen_Confirmation/data/train.json; Expt_08B_Consistent_Labels/data/train.json; Expt_07_Indexed_Retrieval/data/train.json; Expt_07B_Decision_Audit/data/train.json; Expt_06_Frozen_Library_Opportunity/data/train.json; Expt_05_Consult_and_Commit_Gates/data/train.json; Expt_04_Emergent_Hierarchical_Abstraction/data/train.json; Expt_04D_Where_Reuse_Loses_Advantage/data/train.json; Expt_04D2_Costly_Choices/data/train.json; Expt_04C_Confirm_Reusable_Knowledge/data/train.json; Expt_04B_Selective_Reuse/data/train.json; Expt_03_Mined_Operation_Library/data/runtime/train.json; Expt_02_Autonomous_Abstraction/data/runtime/train.json
+inv_ac861d05fe96,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_ad0404a64b5b,14,Expt_08_Action_Level_Value/data/train.json; Expt_08C_Unseen_Confirmation/data/train.json; Expt_08B_Consistent_Labels/data/train.json; Expt_07_Indexed_Retrieval/data/train.json; Expt_07B_Decision_Audit/data/train.json; Expt_06_Frozen_Library_Opportunity/data/train.json; Expt_05_Consult_and_Commit_Gates/data/train.json; Expt_04_Emergent_Hierarchical_Abstraction/data/train.json; Expt_04D_Where_Reuse_Loses_Advantage/data/train.json; Expt_04D2_Costly_Choices/data/train.json; Expt_04C_Confirm_Reusable_Knowledge/data/train.json; Expt_04B_Selective_Reuse/data/train.json; Expt_03_Mined_Operation_Library/data/runtime/train.json; Expt_02_Autonomous_Abstraction/data/runtime/train.json
+inv_ae2b2f1169f0,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_aeb96b8d596f,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_b0fb1f2b0b6d,5,Expt_08_Action_Level_Value/data/eval.json; Expt_08C_Unseen_Confirmation/data/eval.json; Expt_08B_Consistent_Labels/data/eval.json; Expt_07_Indexed_Retrieval/data/eval.json; Expt_07B_Decision_Audit/data/eval.json
+inv_b16e0deebb43,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_b25d3a37eaa7,5,Expt_08_Action_Level_Value/data/eval.json; Expt_08C_Unseen_Confirmation/data/eval.json; Expt_08B_Consistent_Labels/data/eval.json; Expt_07_Indexed_Retrieval/data/eval.json; Expt_07B_Decision_Audit/data/eval.json
+inv_b36f7eaf1662,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_b44702db7712,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_b509560056c0,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_b63976b88948,5,Expt_04_Emergent_Hierarchical_Abstraction/data/test.json; Expt_04C_Confirm_Reusable_Knowledge/data/test.json; Expt_04B_Selective_Reuse/data/test.json; Expt_03_Mined_Operation_Library/data/runtime/test.json; Expt_02_Autonomous_Abstraction/data/runtime/test.json
+inv_b70847430efc,14,Expt_08_Action_Level_Value/data/train.json; Expt_08C_Unseen_Confirmation/data/train.json; Expt_08B_Consistent_Labels/data/train.json; Expt_07_Indexed_Retrieval/data/train.json; Expt_07B_Decision_Audit/data/train.json; Expt_06_Frozen_Library_Opportunity/data/train.json; Expt_05_Consult_and_Commit_Gates/data/train.json; Expt_04_Emergent_Hierarchical_Abstraction/data/train.json; Expt_04D_Where_Reuse_Loses_Advantage/data/train.json; Expt_04D2_Costly_Choices/data/train.json; Expt_04C_Confirm_Reusable_Knowledge/data/train.json; Expt_04B_Selective_Reuse/data/train.json; Expt_03_Mined_Operation_Library/data/runtime/train.json; Expt_02_Autonomous_Abstraction/data/runtime/train.json
+inv_b83cec44b2fd,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_b8ca10ec1d55,1,Expt_06_Frozen_Library_Opportunity/data/eval.json
+inv_b908dba97c65,5,Expt_08_Action_Level_Value/data/eval.json; Expt_08C_Unseen_Confirmation/data/eval.json; Expt_08B_Consistent_Labels/data/eval.json; Expt_07_Indexed_Retrieval/data/eval.json; Expt_07B_Decision_Audit/data/eval.json
+inv_b9faefb3c8ff,14,Expt_08_Action_Level_Value/data/train.json; Expt_08C_Unseen_Confirmation/data/train.json; Expt_08B_Consistent_Labels/data/train.json; Expt_07_Indexed_Retrieval/data/train.json; Expt_07B_Decision_Audit/data/train.json; Expt_06_Frozen_Library_Opportunity/data/train.json; Expt_05_Consult_and_Commit_Gates/data/train.json; Expt_04_Emergent_Hierarchical_Abstraction/data/train.json; Expt_04D_Where_Reuse_Loses_Advantage/data/train.json; Expt_04D2_Costly_Choices/data/train.json; Expt_04C_Confirm_Reusable_Knowledge/data/train.json; Expt_04B_Selective_Reuse/data/train.json; Expt_03_Mined_Operation_Library/data/runtime/train.json; Expt_02_Autonomous_Abstraction/data/runtime/train.json
+inv_bbfbe3c1e8fd,5,Expt_08_Action_Level_Value/data/eval.json; Expt_08C_Unseen_Confirmation/data/eval.json; Expt_08B_Consistent_Labels/data/eval.json; Expt_07_Indexed_Retrieval/data/eval.json; Expt_07B_Decision_Audit/data/eval.json
+inv_bce49701ff81,12,Expt_08_Action_Level_Value/data/development.json; Expt_08C_Unseen_Confirmation/data/development.json; Expt_08B_Consistent_Labels/data/development.json; Expt_07_Indexed_Retrieval/data/development.json; Expt_07B_Decision_Audit/data/development.json; Expt_06_Frozen_Library_Opportunity/data/development.json; Expt_05_Consult_and_Commit_Gates/data/development.json; Expt_04D_Where_Reuse_Loses_Advantage/data/development.json; Expt_04D2_Costly_Choices/data/development.json; Expt_04C_Confirm_Reusable_Knowledge/data/development.json; Expt_03_Mined_Operation_Library/data/runtime/development.json; Expt_02_Autonomous_Abstraction/data/runtime/development.json
+inv_bfb1fe2e4275,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_bfd90425f5bd,14,Expt_08_Action_Level_Value/data/train.json; Expt_08C_Unseen_Confirmation/data/train.json; Expt_08B_Consistent_Labels/data/train.json; Expt_07_Indexed_Retrieval/data/train.json; Expt_07B_Decision_Audit/data/train.json; Expt_06_Frozen_Library_Opportunity/data/train.json; Expt_05_Consult_and_Commit_Gates/data/train.json; Expt_04_Emergent_Hierarchical_Abstraction/data/train.json; Expt_04D_Where_Reuse_Loses_Advantage/data/train.json; Expt_04D2_Costly_Choices/data/train.json; Expt_04C_Confirm_Reusable_Knowledge/data/train.json; Expt_04B_Selective_Reuse/data/train.json; Expt_03_Mined_Operation_Library/data/runtime/train.json; Expt_02_Autonomous_Abstraction/data/runtime/train.json
+inv_c0cfc0835886,1,Expt_06_Frozen_Library_Opportunity/data/eval.json
+inv_c111c8e58125,1,Expt_05_Consult_and_Commit_Gates/data/eval.json
+inv_c2d9e3a2ba8d,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_c4a2fa16b6e4,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_c896259f1365,5,Expt_08_Action_Level_Value/data/eval.json; Expt_08C_Unseen_Confirmation/data/eval.json; Expt_08B_Consistent_Labels/data/eval.json; Expt_07_Indexed_Retrieval/data/eval.json; Expt_07B_Decision_Audit/data/eval.json
+inv_c982da4d25b4,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_ca731e3c4c13,1,Expt_06_Frozen_Library_Opportunity/data/eval.json
+inv_cc5b3a4fa7b9,1,Expt_08C_Unseen_Confirmation/data/unseen.json
+inv_cd1593616a9d,1,Expt_06_Frozen_Library_Opportunity/data/eval.json
+inv_cdac59dd6ff1,5,Expt_08_Action_Level_Value/data/eval.json; Expt_08C_Unseen_Confirmation/data/eval.json; Expt_08B_Consistent_Labels/data/eval.json; Expt_07_Indexed_Retrieval/data/eval.json; Expt_07B_Decision_Audit/data/eval.json
+inv_cedf3db3910b,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_d1ffed95fa3b,1,Expt_05_Consult_and_Commit_Gates/data/eval.json
+inv_d3f4b32f1171,5,Expt_08_Action_Level_Value/data/eval.json; Expt_08C_Unseen_Confirmation/data/eval.json; Expt_08B_Consistent_Labels/data/eval.json; Expt_07_Indexed_Retrieval/data/eval.json; Expt_07B_Decision_Audit/data/eval.json
+inv_d528e96c0b96,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_d61454d29f7a,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_d804ed269077,1,Expt_04D2_Costly_Choices/data/fresh.json
+inv_d99b53836623,1,Expt_04D2_Costly_Choices/data/fresh.json
+inv_db052ea527b6,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_dd91fca8432b,1,Expt_07_Indexed_Retrieval/data/smoke.json
+inv_dddce847bbe5,14,Expt_08_Action_Level_Value/data/train.json; Expt_08C_Unseen_Confirmation/data/train.json; Expt_08B_Consistent_Labels/data/train.json; Expt_07_Indexed_Retrieval/data/train.json; Expt_07B_Decision_Audit/data/train.json; Expt_06_Frozen_Library_Opportunity/data/train.json; Expt_05_Consult_and_Commit_Gates/data/train.json; Expt_04_Emergent_Hierarchical_Abstraction/data/train.json; Expt_04D_Where_Reuse_Loses_Advantage/data/train.json; Expt_04D2_Costly_Choices/data/train.json; Expt_04C_Confirm_Reusable_Knowledge/data/train.json; Expt_04B_Selective_Reuse/data/train.json; Expt_03_Mined_Operation_Library/data/runtime/train.json; Expt_02_Autonomous_Abstraction/data/runtime/train.json
+inv_dfe939717927,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_e0db3eb80e9c,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_e2258e487b41,1,Expt_06_Frozen_Library_Opportunity/data/eval.json
+inv_e351d90af305,1,Expt_05_Consult_and_Commit_Gates/data/eval.json
+inv_e5a7016014b8,14,Expt_08_Action_Level_Value/data/train.json; Expt_08C_Unseen_Confirmation/data/train.json; Expt_08B_Consistent_Labels/data/train.json; Expt_07_Indexed_Retrieval/data/train.json; Expt_07B_Decision_Audit/data/train.json; Expt_06_Frozen_Library_Opportunity/data/train.json; Expt_05_Consult_and_Commit_Gates/data/train.json; Expt_04_Emergent_Hierarchical_Abstraction/data/train.json; Expt_04D_Where_Reuse_Loses_Advantage/data/train.json; Expt_04D2_Costly_Choices/data/train.json; Expt_04C_Confirm_Reusable_Knowledge/data/train.json; Expt_04B_Selective_Reuse/data/train.json; Expt_03_Mined_Operation_Library/data/runtime/train.json; Expt_02_Autonomous_Abstraction/data/runtime/train.json
+inv_e705d8722fa9,14,Expt_08_Action_Level_Value/data/train.json; Expt_08C_Unseen_Confirmation/data/train.json; Expt_08B_Consistent_Labels/data/train.json; Expt_07_Indexed_Retrieval/data/train.json; Expt_07B_Decision_Audit/data/train.json; Expt_06_Frozen_Library_Opportunity/data/train.json; Expt_05_Consult_and_Commit_Gates/data/train.json; Expt_04_Emergent_Hierarchical_Abstraction/data/train.json; Expt_04D_Where_Reuse_Loses_Advantage/data/train.json; Expt_04D2_Costly_Choices/data/train.json; Expt_04C_Confirm_Reusable_Knowledge/data/train.json; Expt_04B_Selective_Reuse/data/train.json; Expt_03_Mined_Operation_Library/data/runtime/train.json; Expt_02_Autonomous_Abstraction/data/runtime/train.json
+inv_ea882a84a82d,1,Expt_06_Frozen_Library_Opportunity/data/smoke.json
+inv_ede60bd9d08e,1,Expt_06_Frozen_Library_Opportunity/data/eval.json
+inv_ee9750150d2d,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_ef3fd66ad9a4,1,Expt_05_Consult_and_Commit_Gates/data/eval.json
+inv_f00302178ecf,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_f16d144efb0d,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_f2f035982167,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_f30057ec00ca,1,Expt_04D2_Costly_Choices/data/fresh.json
+inv_f37c190fae44,1,Expt_06_Frozen_Library_Opportunity/data/eval.json
+inv_f38e4acaef91,1,Expt_06_Frozen_Library_Opportunity/data/eval.json
+inv_f3d185e81d1e,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_f63fad293657,1,Expt_07_Indexed_Retrieval/data/smoke.json
+inv_fad8366de4ce,1,Expt_05_Consult_and_Commit_Gates/data/eval.json
+inv_fb74b6e5ee17,14,Expt_08_Action_Level_Value/data/train.json; Expt_08C_Unseen_Confirmation/data/train.json; Expt_08B_Consistent_Labels/data/train.json; Expt_07_Indexed_Retrieval/data/train.json; Expt_07B_Decision_Audit/data/train.json; Expt_06_Frozen_Library_Opportunity/data/train.json; Expt_05_Consult_and_Commit_Gates/data/train.json; Expt_04_Emergent_Hierarchical_Abstraction/data/train.json; Expt_04D_Where_Reuse_Loses_Advantage/data/train.json; Expt_04D2_Costly_Choices/data/train.json; Expt_04C_Confirm_Reusable_Knowledge/data/train.json; Expt_04B_Selective_Reuse/data/train.json; Expt_03_Mined_Operation_Library/data/runtime/train.json; Expt_02_Autonomous_Abstraction/data/runtime/train.json
+inv_fc26ab4134dc,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_fd24c410d4e7,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_fde43750cad6,1,Expt_06_Frozen_Library_Opportunity/data/smoke.json
+inv_fe27fdae5d5c,1,Expt_04C_Confirm_Reusable_Knowledge/data/test.json
+inv_ffe570c70457,12,Expt_08_Action_Level_Value/data/development.json; Expt_08C_Unseen_Confirmation/data/development.json; Expt_08B_Consistent_Labels/data/development.json; Expt_07_Indexed_Retrieval/data/development.json; Expt_07B_Decision_Audit/data/development.json; Expt_06_Frozen_Library_Opportunity/data/development.json; Expt_05_Consult_and_Commit_Gates/data/development.json; Expt_04D_Where_Reuse_Loses_Advantage/data/development.json; Expt_04D2_Costly_Choices/data/development.json; Expt_04C_Confirm_Reusable_Knowledge/data/development.json; Expt_03_Mined_Operation_Library/data/runtime/development.json; Expt_02_Autonomous_Abstraction/data/runtime/development.json

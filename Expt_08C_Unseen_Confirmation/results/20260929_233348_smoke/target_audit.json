@@ -1,0 +1,190 @@
+{
+  "n_unique_boxes_in_data": 212,
+  "expt8b_holdout_status": "development/reused evaluation, not unseen confirmation",
+  "expt8b_holdout": [
+    {
+      "task_id": "inv_22521942205c",
+      "prior_uses": [
+        "Expt_08_Action_Level_Value/data/development.json",
+        "Expt_08C_Unseen_Confirmation/data/development.json",
+        "Expt_08B_Consistent_Labels/data/development.json",
+        "Expt_07_Indexed_Retrieval/data/development.json",
+        "Expt_07B_Decision_Audit/data/development.json",
+        "Expt_06_Frozen_Library_Opportunity/data/development.json",
+        "Expt_05_Consult_and_Commit_Gates/data/development.json",
+        "Expt_04D_Where_Reuse_Loses_Advantage/data/development.json",
+        "Expt_04D2_Costly_Choices/data/development.json",
+        "Expt_04C_Confirm_Reusable_Knowledge/data/development.json",
+        "Expt_03_Mined_Operation_Library/data/runtime/development.json",
+        "Expt_02_Autonomous_Abstraction/data/runtime/development.json"
+      ],
+      "fresh": false
+    },
+    {
+      "task_id": "inv_791d780fc6e4",
+      "prior_uses": [
+        "Expt_08_Action_Level_Value/data/development.json",
+        "Expt_08C_Unseen_Confirmation/data/development.json",
+        "Expt_08B_Consistent_Labels/data/development.json",
+        "Expt_07_Indexed_Retrieval/data/development.json",
+        "Expt_07B_Decision_Audit/data/development.json",
+        "Expt_06_Frozen_Library_Opportunity/data/development.json",
+        "Expt_05_Consult_and_Commit_Gates/data/development.json",
+        "Expt_04D_Where_Reuse_Loses_Advantage/data/development.json",
+        "Expt_04D2_Costly_Choices/data/development.json",
+        "Expt_04C_Confirm_Reusable_Knowledge/data/development.json",
+        "Expt_03_Mined_Operation_Library/data/runtime/development.json",
+        "Expt_02_Autonomous_Abstraction/data/runtime/development.json"
+      ],
+      "fresh": false
+    },
+    {
+      "task_id": "inv_115b41c2392a",
+      "prior_uses": [
+        "Expt_08_Action_Level_Value/data/development.json",
+        "Expt_08C_Unseen_Confirmation/data/development.json",
+        "Expt_08B_Consistent_Labels/data/development.json",
+        "Expt_07_Indexed_Retrieval/data/development.json",
+        "Expt_07B_Decision_Audit/data/development.json",
+        "Expt_06_Frozen_Library_Opportunity/data/development.json",
+        "Expt_05_Consult_and_Commit_Gates/data/development.json",
+        "Expt_04D_Where_Reuse_Loses_Advantage/data/development.json",
+        "Expt_04D2_Costly_Choices/data/development.json",
+        "Expt_04C_Confirm_Reusable_Knowledge/data/development.json",
+        "Expt_03_Mined_Operation_Library/data/runtime/development.json",
+        "Expt_02_Autonomous_Abstraction/data/runtime/development.json"
+      ],
+      "fresh": false
+    },
+    {
+      "task_id": "inv_5fc1ecabd17f",
+      "prior_uses": [
+        "Expt_08_Action_Level_Value/data/development.json",
+        "Expt_08C_Unseen_Confirmation/data/development.json",
+        "Expt_08B_Consistent_Labels/data/development.json",
+        "Expt_07_Indexed_Retrieval/data/development.json",
+        "Expt_07B_Decision_Audit/data/development.json",
+        "Expt_06_Frozen_Library_Opportunity/data/development.json",
+        "Expt_05_Consult_and_Commit_Gates/data/development.json",
+        "Expt_04D_Where_Reuse_Loses_Advantage/data/development.json",
+        "Expt_04D2_Costly_Choices/data/development.json",
+        "Expt_04C_Confirm_Reusable_Knowledge/data/development.json",
+        "Expt_03_Mined_Operation_Library/data/runtime/development.json",
+        "Expt_02_Autonomous_Abstraction/data/runtime/development.json"
+      ],
+      "fresh": false
+    },
+    {
+      "task_id": "inv_8b533a843808",
+      "prior_uses": [
+        "Expt_08_Action_Level_Value/data/development.json",
+        "Expt_08C_Unseen_Confirmation/data/development.json",
+        "Expt_08B_Consistent_Labels/data/development.json",
+        "Expt_07_Indexed_Retrieval/data/development.json",
+        "Expt_07B_Decision_Audit/data/development.json",
+        "Expt_06_Frozen_Library_Opportunity/data/development.json",
+        "Expt_05_Consult_and_Commit_Gates/data/development.json",
+        "Expt_04D_Where_Reuse_Loses_Advantage/data/development.json",
+        "Expt_04D2_Costly_Choices/data/development.json",
+        "Expt_04C_Confirm_Reusable_Knowledge/data/development.json",
+        "Expt_03_Mined_Operation_Library/data/runtime/development.json",
+        "Expt_02_Autonomous_Abstraction/data/runtime/development.json"
+      ],
+      "fresh": false
+    },
+    {
+      "task_id": "inv_bce49701ff81",
+      "prior_uses": [
+        "Expt_08_Action_Level_Value/data/development.json",
+        "Expt_08C_Unseen_Confirmation/data/development.json",
+        "Expt_08B_Consistent_Labels/data/development.json",
+        "Expt_07_Indexed_Retrieval/data/development.json",
+        "Expt_07B_Decision_Audit/data/development.json",
+        "Expt_06_Frozen_Library_Opportunity/data/development.json",
+        "Expt_05_Consult_and_Commit_Gates/data/development.json",
+        "Expt_04D_Where_Reuse_Loses_Advantage/data/development.json",
+        "Expt_04D2_Costly_Choices/data/development.json",
+        "Expt_04C_Confirm_Reusable_Knowledge/data/development.json",
+        "Expt_03_Mined_Operation_Library/data/runtime/development.json",
+        "Expt_02_Autonomous_Abstraction/data/runtime/development.json"
+      ],
+      "fresh": false
+    },
+    {
+      "task_id": "inv_ffe570c70457",
+      "prior_uses": [
+        "Expt_08_Action_Level_Value/data/development.json",
+        "Expt_08C_Unseen_Confirmation/data/development.json",
+        "Expt_08B_Consistent_Labels/data/development.json",
+        "Expt_07_Indexed_Retrieval/data/development.json",
+        "Expt_07B_Decision_Audit/data/development.json",
+        "Expt_06_Frozen_Library_Opportunity/data/development.json",
+        "Expt_05_Consult_and_Commit_Gates/data/development.json",
+        "Expt_04D_Where_Reuse_Loses_Advantage/data/development.json",
+        "Expt_04D2_Costly_Choices/data/development.json",
+        "Expt_04C_Confirm_Reusable_Knowledge/data/development.json",
+        "Expt_03_Mined_Operation_Library/data/runtime/development.json",
+        "Expt_02_Autonomous_Abstraction/data/runtime/development.json"
+      ],
+      "fresh": false
+    },
+    {
+      "task_id": "inv_1696d00e5191",
+      "prior_uses": [
+        "Expt_08_Action_Level_Value/data/development.json",
+        "Expt_08C_Unseen_Confirmation/data/development.json",
+        "Expt_08B_Consistent_Labels/data/development.json",
+        "Expt_07_Indexed_Retrieval/data/development.json",
+        "Expt_07B_Decision_Audit/data/development.json",
+        "Expt_06_Frozen_Library_Opportunity/data/development.json",
+        "Expt_05_Consult_and_Commit_Gates/data/development.json",
+        "Expt_04D_Where_Reuse_Loses_Advantage/data/development.json",
+        "Expt_04D2_Costly_Choices/data/development.json",
+        "Expt_04C_Confirm_Reusable_Knowledge/data/development.json",
+        "Expt_03_Mined_Operation_Library/data/runtime/development.json",
+        "Expt_02_Autonomous_Abstraction/data/runtime/development.json"
+      ],
+      "fresh": false
+    }
+  ],
+  "n_holdout_with_prior_use": 8,
+  "label_remaining_budget": "eval_cap - prefix_primitive_A",
+  "cache_key": "(state_fingerprint, action_key, remaining_cap)",
+  "cache_includes_budget": true,
+  "disk_label_cache": false,
+  "expt8_used_pair_cap_for_remaining_pair": false,
+  "expt8_remaining_pair_budget": "eval_cap - prefix_primitive_A",
+  "fit_label_comparison": {
+    "n_expt8": 1086,
+    "n_expt8b": 1086,
+    "n_common": 1086,
+    "n_only_expt8": 0,
+    "n_only_expt8b": 0,
+    "n_y_changed": 0,
+    "n_y_same": 1086,
+    "examples_changed": []
+  },
+  "val_label_comparison": {
+    "n_expt8": 287,
+    "n_expt8b": 287,
+    "n_common": 287,
+    "n_only_expt8": 0,
+    "n_only_expt8b": 0,
+    "n_y_changed": 0,
+    "n_y_same": 287,
+    "examples_changed": []
+  },
+  "labels_fit_sha256_expt8": "d2a6a5c2308d668ff35dbf7b95c43716e5343bb16f76e5c7ba8841ca0b363926",
+  "labels_fit_sha256_expt8b": "6a18c0cdff39172422046adaead86119970819dd29952808dbb66866237cd487",
+  "labels_val_sha256_expt8": "864406bc8f4005686c89e485554bafc68b6aa32200e3ed14eaa2ae199ae92549",
+  "labels_val_sha256_expt8b": "e9ceb207f78c1db1655d6bd36f7f620c4679ee5992c9d2fa7d2737d0be045026",
+  "n_fit_rows_where_1600_replay_differs": 167,
+  "matching_validation_numbers": "Expt-8 and Expt-8B per-seed, frozen Expt-7, and weighted-model validation summaries match because Expt-8 remaining_pair already used eval_cap \u2212 prefix_A for both fit and val. pair_eval_cap was recorded but not used as the solve budget. File hashes differ because 8B added censoring and 1600-replay columns. Weighted models were rebuilt from those same y values. Unweighted models are new. Frozen Expt-7 is a historical comparator trained under pair_eval_cap=1600.",
+  "frozen_expt7_historical": true,
+  "newly_fitted_need_serialized_identity": true,
+  "n_libraries": 1,
+  "train_deploy_action_mismatch": false,
+  "expt8b_cap_mismatch": false,
+  "cap_mismatch": true,
+  "training_action": "first_legal_site (8 shuffled anchors), not oracle-best placement"
+}

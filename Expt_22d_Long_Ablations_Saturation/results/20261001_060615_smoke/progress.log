@@ -1,0 +1,12 @@
+06:06:16 CKPT full s300 box 0 held-out 67.28
+06:06:16 CKPT no_sleep s200 box 0 held-out 68.20
+06:06:16 CKPT no_meta_matched_floor s200 box 0 held-out 68.20
+06:06:25 CKPT no_sleep s200 box 600 held-out 76.25
+06:06:25 CKPT full s300 box 600 held-out 75.53
+06:06:26 CKPT no_meta_matched_floor s200 box 600 held-out 74.70
+06:06:34 CKPT no_sleep s200 box 1200 held-out 80.83
+06:06:34 DONE no_sleep s200: 19s held-out@1200 80.83
+06:06:35 CKPT full s300 box 1200 held-out 83.35
+06:06:35 CKPT no_meta_matched_floor s200 box 1200 held-out 81.62
+06:06:37 DONE full s300: 20s held-out@1200 83.35
+06:06:37 DONE no_meta_matched_floor s200: 20s held-out@1200 81.62

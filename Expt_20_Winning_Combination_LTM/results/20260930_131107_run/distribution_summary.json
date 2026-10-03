@@ -1,0 +1,72 @@
+{
+  "distribution": {
+    "S1": {
+      "mean": 79.8363,
+      "std": 4.059396791396475,
+      "min": 65.0,
+      "p25": 77.0,
+      "median": 80.0,
+      "p75": 83.0,
+      "max": 94.0
+    },
+    "S2": {
+      "mean": 4.7185970665587424,
+      "std": 0.15171839937156018,
+      "min": 4.1875,
+      "p25": 4.611111111111111,
+      "median": 4.705882352941177,
+      "p75": 4.8125,
+      "max": 5.615384615384615
+    },
+    "attempts": {
+      "mean": 16.939,
+      "std": 1.0516078166312763,
+      "min": 13.0,
+      "p25": 16.0,
+      "median": 17.0,
+      "p75": 18.0,
+      "max": 20.0
+    },
+    "S1_p75_value": 83.0,
+    "S2_p75_value": 4.8125,
+    "corr_S1_S2": -0.07907417077751534,
+    "top_overlap_S1_vs_S2": 642,
+    "top_overlap_fraction": 0.2568,
+    "top25_groups": {
+      "S1": {
+        "S1_mean": 84.9844,
+        "S2_mean": 4.70943778121775,
+        "S1_mean_bottom": 78.12026666666667,
+        "S2_mean_bottom": 4.721650161672406
+      },
+      "S2": {
+        "S1_mean": 79.942,
+        "S2_mean": 4.916001514060415,
+        "S1_mean_bottom": 79.80106666666667,
+        "S2_mean_bottom": 4.652795584058184
+      }
+    }
+  },
+  "cutoffs": {
+    "S1": {
+      "n_top": 2500,
+      "last_selected_trial_id": 7956,
+      "cutoff_S1_at_boundary": 83,
+      "cutoff_S2_at_boundary": 4.611111111111111,
+      "first_excluded_S1": 83,
+      "first_excluded_S2": 4.611111111111111,
+      "n_with_primary_equal_to_boundary": 714,
+      "n_selected_with_primary_equal_to_boundary": 605
+    },
+    "S2": {
+      "n_top": 2500,
+      "last_selected_trial_id": 1643,
+      "cutoff_S1_at_boundary": 77,
+      "cutoff_S2_at_boundary": 4.8125,
+      "first_excluded_S1": 77,
+      "first_excluded_S2": 4.8125,
+      "n_with_primary_equal_to_boundary": 483,
+      "n_selected_with_primary_equal_to_boundary": 85
+    }
+  }
+}

@@ -1,0 +1,8 @@
+[   11.6s] build stage done (11.6s); builder S1 mean 79.858
+[  576.1s] dev stage 1: 45 variants x 10000 trials done in 564.4s wall
+[  587.9s] control dev S1 mean 79.8561 (earlier Phase 2 control: 79.8561)
+[  630.4s] dev combos: 4 variants x 10000 trials done in 42.5s wall
+[  632.2s] dev leaderboard written
+[  632.2s] selected on dev for held-out: ['D_anchor_contact_eps0', 'D_contact_all_eps0', 'E_joint_look_K8_eps0', 'E_ltmS2_anchor_look_K8_eps0.05', 'E_flat_look_K16_eps0', 'F_online_thompson_tau1.0_eps0.05', 'A_ltmS2_eps0.05_a3b1', 'F_online_softmax_tau0.5_eps0.05']
+[  826.9s] held-out: 8 variants x 10000 trials done in 194.7s wall
+[  830.8s] done, total 830.7s -> E:\PaperSubmissions2026\Assembly_Skill_Learning\Expt_20_Winning_Combination_LTM\results\20260930_210213_stronger

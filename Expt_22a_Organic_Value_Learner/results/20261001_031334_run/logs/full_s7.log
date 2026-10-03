@@ -1,0 +1,2 @@
+03:17:34 [full s7] box 2000 train S1 68.60 hidden 64 concepts 2 tau 1.76 eps 0.088 lr 0.0010 239s
+03:20:09 [full s7] box 4000 train S1 69.58 hidden 64 concepts 2 tau 1.36 eps 0.068 lr 0.0010 395s

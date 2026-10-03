@@ -1,0 +1,163 @@
+{
+  "created": "2026-09-30T23:35:39",
+  "code_hash": "db10d106f918499e",
+  "git_commit": null,
+  "cfg": {
+    "budget": 14,
+    "tau0": 2.0,
+    "tau_min": 0.7,
+    "eps0": 0.1,
+    "eps_min": 0.02,
+    "anneal_boxes": 15000,
+    "tau_eval": 0.3,
+    "sleep_every": 200,
+    "stm_boxes": 1000,
+    "decay": 0.98,
+    "shrink_k": 2.0,
+    "epochs": 2,
+    "dream_ratio": 0.5,
+    "dream_tau_mult": 1.5,
+    "dream_eps": 0.2,
+    "prune_n": 0.3,
+    "prune_w": 0.05,
+    "prune_occupancy": 0.85,
+    "dream_w": 0.5,
+    "bl_rate": 0.01,
+    "bits": {
+      "type": 8,
+      "pair": 10,
+      "trip": 12,
+      "A": 13,
+      "S1": 14,
+      "S2": 15
+    },
+    "stages": [
+      [
+        "stage0 type+context(A)",
+        [
+          "type",
+          "A"
+        ],
+        0,
+        1.0,
+        1.0
+      ],
+      [
+        "G1 pair combos",
+        [
+          "pair"
+        ],
+        0,
+        1.0,
+        1.0
+      ],
+      [
+        "G2 3x3 context",
+        [
+          "S1"
+        ],
+        1,
+        1.0,
+        1.0
+      ],
+      [
+        "G3 triple combos + 2x STM",
+        [
+          "trip"
+        ],
+        1,
+        2.0,
+        1.0
+      ],
+      [
+        "G4 5x5 context + 2x dreams",
+        [
+          "S2"
+        ],
+        1,
+        2.0,
+        2.0
+      ],
+      [
+        "G5 capacity + 4x STM",
+        [],
+        1,
+        4.0,
+        2.0
+      ]
+    ],
+    "check_every": 2000,
+    "sat_window": 6000,
+    "sat_delta": 0.3,
+    "max_stage_boxes": 40000,
+    "sat_z": 1.645,
+    "rehearse": 200,
+    "stop_after_flat_stages": 2,
+    "min_boxes": 60000,
+    "max_boxes": 150000,
+    "eval_boxes": 2000,
+    "eval_seed": 7700000,
+    "checkpoints": [
+      0,
+      500,
+      1000,
+      2000,
+      5000,
+      10000,
+      20000,
+      30000,
+      40000,
+      50000,
+      60000,
+      80000,
+      100000,
+      125000,
+      150000
+    ]
+  },
+  "variants": {
+    "full": [
+      true,
+      true,
+      true,
+      "sat"
+    ],
+    "no_sleep": [
+      true,
+      false,
+      false,
+      "sat"
+    ],
+    "sleep_no_dream": [
+      true,
+      true,
+      false,
+      "sat"
+    ],
+    "no_growth": [
+      true,
+      true,
+      true,
+      "none"
+    ],
+    "all_upfront": [
+      true,
+      true,
+      true,
+      "upfront"
+    ],
+    "frozen": [
+      false,
+      false,
+      false,
+      "none"
+    ]
+  },
+  "full_reps": 12,
+  "abl_reps": 6,
+  "abl_boxes": 60000,
+  "max_boxes": 150000,
+  "workers": 14,
+  "python": "3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]",
+  "wall_s": 8245.793715238571
+}

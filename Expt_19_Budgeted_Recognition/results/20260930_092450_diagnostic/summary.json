@@ -1,0 +1,115 @@
+{
+  "budget": 141,
+  "development_mean_primitive": 1410.85,
+  "development_n": 120,
+  "n_frozen": 58,
+  "reference_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    22,
+    19,
+    24,
+    44,
+    7,
+    18,
+    9
+  ],
+  "high_support_indices": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "n_excluded": 8,
+  "fresh": {
+    "n_boxes": 60,
+    "mean_primitive": 1125.05,
+    "mean_recognition": 127.66666666666667,
+    "mean_ratio": 0.13809986096599344,
+    "boxes_under_gate": 15,
+    "boxes_budget_exhausted": 18,
+    "n_boxes_with_reference": 39,
+    "state_recall": 0.6226415094339622,
+    "n_audited_states_with_useful": 53,
+    "action_recall": 0.4859154929577465,
+    "n_useful_actions": 142,
+    "mean_retention": 0.7915869568262094,
+    "mean_oracle_saving": 425.35897435897436,
+    "mean_retained_saving": 316.53846153846155,
+    "miss_reasons": {
+      "budget_before_state": 49,
+      "exposed": 69,
+      "budget_during_consult": 24
+    },
+    "high_support": {
+      "useful_actions": 60,
+      "exposed_actions": 39,
+      "action_recall": 0.65,
+      "n_boxes": 24,
+      "mean_retention": 0.9123439000960615
+    },
+    "support_two": {
+      "useful_actions": 82,
+      "exposed_actions": 30,
+      "action_recall": 0.36585365853658536,
+      "n_boxes": 15,
+      "mean_retention": 0.5983758475944463
+    },
+    "unlabeled_exposures": 198,
+    "diagnostic_A": 611742,
+    "diagnostic_checks": 10590
+  },
+  "family": {
+    "n_boxes": 52,
+    "mean_primitive": 1182.9615384615386,
+    "mean_recognition": 138.80769230769232,
+    "mean_ratio": 0.15306716254422092,
+    "boxes_under_gate": 8,
+    "boxes_budget_exhausted": 39,
+    "n_boxes_with_reference": 45,
+    "state_recall": 0.5217391304347826,
+    "n_audited_states_with_useful": 69,
+    "action_recall": 0.5048076923076923,
+    "n_useful_actions": 208,
+    "mean_retention": 0.7956033581712127,
+    "mean_oracle_saving": 548.2222222222222,
+    "mean_retained_saving": 526.0888888888888,
+    "miss_reasons": {
+      "exposed": 105,
+      "budget_during_consult": 29,
+      "budget_before_state": 74
+    },
+    "high_support": {
+      "useful_actions": 84,
+      "exposed_actions": 52,
+      "action_recall": 0.6190476190476191,
+      "n_boxes": 34,
+      "mean_retention": 0.8203640200474809
+    },
+    "support_two": {
+      "useful_actions": 124,
+      "exposed_actions": 53,
+      "action_recall": 0.4274193548387097,
+      "n_boxes": 11,
+      "mean_retention": 0.7190704032809296
+    },
+    "unlabeled_exposures": 157,
+    "diagnostic_A": 816828,
+    "diagnostic_checks": 15753
+  },
+  "decision": {
+    "row": "recognition_expensive",
+    "text": "Recognition remains expensive relative to primitive effort on the held-out fresh boxes. Stop this access design.",
+    "fresh_ratio": 0.1134764380842333,
+    "cheap": false,
+    "state_recall": 0.6226415094339622,
+    "mean_retention": 0.7915869568262094,
+    "commitment": "disabled",
+    "cost_gate": "applied to validation fresh; not used to choose the absolute budget"
+  }
+}

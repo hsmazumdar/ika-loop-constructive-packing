@@ -1,0 +1,13 @@
+# Expt-12 audit
+
+{
+  "hypothesis": "net saving of frozen learned isometries in a mixed stream as a function of useful-recurrence rate",
+  "mechanism": "frozen Expt-11",
+  "category_hidden": true,
+  "rates_include_zero": true,
+  "nomatch_checked_against_full_table": true,
+  "accidental_other_intermediate_is_valid_retrieval": true,
+  "does_not_invent_transforms": true,
+  "does_not_expand_abstraction": true,
+  "A_identity": "primitive_evals + lookup + matching + transformation + validation + learning"
+}

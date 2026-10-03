@@ -1,0 +1,5 @@
+..........                                                               [100%]
+10 passed in 0.13s
+trials done in 20.3s
+K:\PaperSubmissions2026\Assembly_Skill_Learning\Expt_20_Winning_Combination_LTM\results\20260930_131353_run_S2default
+total 40.4s

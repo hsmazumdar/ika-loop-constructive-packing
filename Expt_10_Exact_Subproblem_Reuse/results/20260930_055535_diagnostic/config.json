@@ -1,0 +1,32 @@
+{
+  "q_min": 75.0,
+  "quality_loss_margin": 1.0,
+  "scan": 48,
+  "physical": 80,
+  "undo_budget": 4,
+  "eval_cap": 8000,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "score_area": 1.0,
+  "score_contact": 0.2,
+  "score_boundary": 0.05,
+  "n_store": 12,
+  "n_fresh": 12,
+  "n_boxes": 24,
+  "generate_seed": 2026093010,
+  "max_prefix_cells": 22,
+  "min_prefix_cells": 4,
+  "min_prefix_placements": 1,
+  "no_library_retrain": true,
+  "no_operation_predictor": true,
+  "memory": "exact continuation keyed by (mask, inventory)",
+  "exact_reuse_is": "memorization, not abstraction",
+  "memory_sharing": "one shared table across seeds; frozen before eval; first write wins",
+  "A_identity": "primitive_evals + lookup + validation + learning",
+  "constructed_recurrence": "labeled; alternative covering of a stored prefix region",
+  "natural_recurrence_separate": true,
+  "remaining_saving_not_used": true
+}

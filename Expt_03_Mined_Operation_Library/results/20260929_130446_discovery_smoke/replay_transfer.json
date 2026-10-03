@@ -1,0 +1,728 @@
+{
+  "key": "heldout|10|11|inv_a6d3d5d34585|rect_mined",
+  "row": {
+    "phase": "heldout",
+    "snapshot": 10,
+    "arm": "rect_mined",
+    "seed": 11,
+    "task_id": "inv_a6d3d5d34585",
+    "Q": 75,
+    "best_Q": 75,
+    "P": 21,
+    "E": 3.571429,
+    "target_met": false,
+    "attempts_to_target": 21,
+    "censored": true,
+    "undos": 6,
+    "physical": 28,
+    "invalid_places": 0,
+    "termination": "compute_budget",
+    "candidate_evals": 8000,
+    "guard_evals": 1,
+    "library_lookups": 36,
+    "feature_evals": 2715,
+    "model_transitions": 252,
+    "sim_expansions": 48,
+    "gpu_ops": 81,
+    "macros_invoked": 1,
+    "macros_completed": 1,
+    "macros_interrupted": 0,
+    "cheap_actions": 2,
+    "library_ops": 2,
+    "library_bytes": 546
+  },
+  "events": [
+    {
+      "kind": "macro",
+      "placement_index": null,
+      "op_id": "op_39629fae45f444ed",
+      "Q": 10,
+      "P": 2,
+      "occupied": 10,
+      "candidate_evals": 86,
+      "mask": 260300800
+    },
+    {
+      "kind": "primitive",
+      "placement_index": 1232,
+      "op_id": null,
+      "Q": 15,
+      "P": 3,
+      "occupied": 15,
+      "candidate_evals": 153,
+      "mask": 264502276
+    },
+    {
+      "kind": "primitive",
+      "placement_index": 2057,
+      "op_id": null,
+      "Q": 20,
+      "P": 4,
+      "occupied": 20,
+      "candidate_evals": 220,
+      "mask": 2258410032856068
+    },
+    {
+      "kind": "primitive",
+      "placement_index": 2059,
+      "op_id": null,
+      "Q": 25,
+      "P": 5,
+      "occupied": 25,
+      "candidate_evals": 287,
+      "mask": 11292049106271236
+    },
+    {
+      "kind": "primitive",
+      "placement_index": 982,
+      "op_id": null,
+      "Q": 30,
+      "P": 6,
+      "occupied": 30,
+      "candidate_evals": 354,
+      "mask": 11714742607674372
+    },
+    {
+      "kind": "primitive",
+      "placement_index": 111,
+      "op_id": null,
+      "Q": 35,
+      "P": 7,
+      "occupied": 35,
+      "candidate_evals": 421,
+      "mask": 605496227420561081629700
+    },
+    {
+      "kind": "primitive",
+      "placement_index": 1402,
+      "op_id": null,
+      "Q": 40,
+      "P": 8,
+      "occupied": 40,
+      "candidate_evals": 488,
+      "mask": 610250880209159345929220
+    },
+    {
+      "kind": "primitive",
+      "placement_index": 2357,
+      "op_id": null,
+      "Q": 45,
+      "P": 9,
+      "occupied": 45,
+      "candidate_evals": 555,
+      "mask": 610250880209159346192324
+    },
+    {
+      "kind": "primitive",
+      "placement_index": 2532,
+      "op_id": null,
+      "Q": 50,
+      "P": 10,
+      "occupied": 50,
+      "candidate_evals": 614,
+      "mask": 1161330153437704995710959556
+    },
+    {
+      "kind": "primitive",
+      "placement_index": 1213,
+      "op_id": null,
+      "Q": 55,
+      "P": 11,
+      "occupied": 55,
+      "candidate_evals": 673,
+      "mask": 1161405785340608784005332932
+    },
+    {
+      "kind": "primitive",
+      "placement_index": 2333,
+      "op_id": null,
+      "Q": 60,
+      "P": 12,
+      "occupied": 60,
+      "candidate_evals": 740,
+      "mask": 1162615895211734544318726084
+    },
+    {
+      "kind": "primitive",
+      "placement_index": 2472,
+      "op_id": null,
+      "Q": 65,
+      "P": 13,
+      "occupied": 65,
+      "candidate_evals": 799,
+      "mask": 40834763407510756646057410500
+    },
+    {
+      "kind": "primitive",
+      "placement_index": 1352,
+      "op_id": null,
+      "Q": 70,
+      "P": 14,
+      "occupied": 70,
+      "candidate_evals": 906,
+      "mask": 49502763895330889263523299268
+    },
+    {
+      "kind": "cheap",
+      "placement_index": 58,
+      "op_id": null,
+      "Q": 75,
+      "P": 15,
+      "occupied": 75,
+      "candidate_evals": 1109,
+      "mask": 59420819653648204230684049348
+    },
+    {
+      "kind": "undo",
+      "placement_index": null,
+      "op_id": null,
+      "Q": 70,
+      "P": 15,
+      "occupied": 70,
+      "candidate_evals": 1761,
+      "mask": 49502763895330889263523299268
+    },
+    {
+      "kind": "undo",
+      "placement_index": null,
+      "op_id": null,
+      "Q": 65,
+      "P": 15,
+      "occupied": 65,
+      "candidate_evals": 2669,
+      "mask": 40834763407510756646057410500
+    },
+    {
+      "kind": "primitive",
+      "placement_index": 184,
+      "op_id": null,
+      "Q": 70,
+      "P": 16,
+      "occupied": 70,
+      "candidate_evals": 2728,
+      "mask": 44555839441467826680625627076
+    },
+    {
+      "kind": "primitive",
+      "placement_index": 1354,
+      "op_id": null,
+      "Q": 75,
+      "P": 17,
+      "occupied": 75,
+      "candidate_evals": 2835,
+      "mask": 79227841392748357150489182148
+    },
+    {
+      "kind": "undo",
+      "placement_index": null,
+      "op_id": null,
+      "Q": 70,
+      "P": 17,
+      "occupied": 70,
+      "candidate_evals": 3487,
+      "mask": 44555839441467826680625627076
+    },
+    {
+      "kind": "undo",
+      "placement_index": null,
+      "op_id": null,
+      "Q": 65,
+      "P": 17,
+      "occupied": 65,
+      "candidate_evals": 4395,
+      "mask": 40834763407510756646057410500
+    },
+    {
+      "kind": "primitive",
+      "placement_index": 2533,
+      "op_id": null,
+      "Q": 70,
+      "P": 18,
+      "occupied": 70,
+      "candidate_evals": 4550,
+      "mask": 59406281848430690027893686212
+    },
+    {
+      "kind": "undo",
+      "placement_index": null,
+      "op_id": null,
+      "Q": 65,
+      "P": 18,
+      "occupied": 65,
+      "candidate_evals": 5714,
+      "mask": 40834763407510756646057410500
+    },
+    {
+      "kind": "primitive",
+      "placement_index": 2217,
+      "op_id": null,
+      "Q": 70,
+      "P": 19,
+      "occupied": 70,
+      "candidate_evals": 5869,
+      "mask": 48276920197791379584839057348
+    },
+    {
+      "kind": "undo",
+      "placement_index": null,
+      "op_id": null,
+      "Q": 65,
+      "P": 19,
+      "occupied": 65,
+      "candidate_evals": 7033,
+      "mask": 40834763407510756646057410500
+    },
+    {
+      "kind": "primitive",
+      "placement_index": 1354,
+      "op_id": null,
+      "Q": 70,
+      "P": 20,
+      "occupied": 70,
+      "candidate_evals": 7188,
+      "mask": 75506765358791287115920965572
+    },
+    {
+      "kind": "cheap",
+      "placement_index": 184,
+      "op_id": null,
+      "Q": 75,
+      "P": 21,
+      "occupied": 75,
+      "candidate_evals": 7517,
+      "mask": 79227841392748357150489182148
+    },
+    {
+      "kind": "compute_budget",
+      "placement_index": null,
+      "op_id": null,
+      "Q": 75,
+      "P": 21,
+      "occupied": 75,
+      "candidate_evals": 8000,
+      "mask": 79227841392748357150489182148
+    }
+  ],
+  "placements": [
+    {
+      "type": "E",
+      "rotation": 3,
+      "x": 3,
+      "y": 1,
+      "cells": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          5,
+          2
+        ]
+      ]
+    },
+    {
+      "type": "E",
+      "rotation": 1,
+      "x": 5,
+      "y": 1,
+      "cells": [
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          7,
+          2
+        ]
+      ]
+    },
+    {
+      "type": "F",
+      "rotation": 1,
+      "x": 0,
+      "y": 0,
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "type": "I",
+      "rotation": 1,
+      "x": 1,
+      "y": 3,
+      "cells": [
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          3
+        ]
+      ]
+    },
+    {
+      "type": "I",
+      "rotation": 1,
+      "x": 3,
+      "y": 3,
+      "cells": [
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          3
+        ]
+      ]
+    },
+    {
+      "type": "E",
+      "rotation": 1,
+      "x": 6,
+      "y": 3,
+      "cells": [
+        [
+          6,
+          3
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          8,
+          3
+        ],
+        [
+          8,
+          4
+        ]
+      ]
+    },
+    {
+      "type": "A",
+      "rotation": 1,
+      "x": 7,
+      "y": 5,
+      "cells": [
+        [
+          7,
+          6
+        ],
+        [
+          8,
+          5
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          9,
+          6
+        ],
+        [
+          9,
+          7
+        ]
+      ]
+    },
+    {
+      "type": "F",
+      "rotation": 3,
+      "x": 2,
+      "y": 5,
+      "cells": [
+        [
+          2,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          6
+        ]
+      ]
+    },
+    {
+      "type": "K",
+      "rotation": 1,
+      "x": 6,
+      "y": 0,
+      "cells": [
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ],
+        [
+          8,
+          0
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          9,
+          0
+        ]
+      ]
+    },
+    {
+      "type": "K",
+      "rotation": 3,
+      "x": 6,
+      "y": 7,
+      "cells": [
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          8
+        ],
+        [
+          9,
+          8
+        ]
+      ]
+    },
+    {
+      "type": "F",
+      "rotation": 0,
+      "x": 5,
+      "y": 5,
+      "cells": [
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          5
+        ]
+      ]
+    },
+    {
+      "type": "K",
+      "rotation": 0,
+      "x": 0,
+      "y": 5,
+      "cells": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          6
+        ]
+      ]
+    },
+    {
+      "type": "K",
+      "rotation": 2,
+      "x": 4,
+      "y": 6,
+      "cells": [
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          5,
+          9
+        ]
+      ]
+    },
+    {
+      "type": "F",
+      "rotation": 2,
+      "x": 2,
+      "y": 7,
+      "cells": [
+        [
+          2,
+          9
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          4,
+          9
+        ]
+      ]
+    },
+    {
+      "type": "A",
+      "rotation": 2,
+      "x": 0,
+      "y": 7,
+      "cells": [
+        [
+          0,
+          9
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          8
+        ]
+      ]
+    }
+  ]
+}

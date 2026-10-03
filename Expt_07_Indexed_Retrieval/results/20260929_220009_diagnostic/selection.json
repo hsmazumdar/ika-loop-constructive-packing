@@ -1,0 +1,50 @@
+{
+  "k": 2,
+  "consult_budget": 25,
+  "dev_recall": [
+    {
+      "k": 1,
+      "n_states_with_oracle_useful": 242,
+      "n_shortlist_contains_useful": 240,
+      "recall": 0.9917355371900827
+    },
+    {
+      "k": 2,
+      "n_states_with_oracle_useful": 242,
+      "n_shortlist_contains_useful": 242,
+      "recall": 1.0
+    },
+    {
+      "k": 4,
+      "n_states_with_oracle_useful": 242,
+      "n_shortlist_contains_useful": 242,
+      "recall": 1.0
+    }
+  ],
+  "budget_table": [
+    {
+      "consult_budget": 25,
+      "n": 72,
+      "mean_saving": -22.36111111111111,
+      "quality_loss_rate": 0.0
+    },
+    {
+      "consult_budget": 50,
+      "n": 72,
+      "mean_saving": -34.97222222222222,
+      "quality_loss_rate": 0.0
+    },
+    {
+      "consult_budget": 100,
+      "n": 72,
+      "mean_saving": -41.708333333333336,
+      "quality_loss_rate": 0.0
+    },
+    {
+      "consult_budget": 200,
+      "n": 72,
+      "mean_saving": -41.708333333333336,
+      "quality_loss_rate": 0.0
+    }
+  ]
+}

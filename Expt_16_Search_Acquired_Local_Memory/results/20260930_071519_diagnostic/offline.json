@@ -1,0 +1,244 @@
+{
+  "acquisition": {
+    "n_trajectories": 48,
+    "n_excluded_unacceptable": 8,
+    "n_snapshots": 128,
+    "status": {
+      "impossible": 123,
+      "found": 5
+    },
+    "fill_rate": 0.0390625,
+    "n_valid": 5,
+    "n_uses_only_end_unused": 4,
+    "by_size": {
+      "8": {
+        "impossible": 17,
+        "found": 2
+      },
+      "9": {
+        "found": 1,
+        "impossible": 14
+      },
+      "10": {
+        "impossible": 13
+      },
+      "11": {
+        "impossible": 12
+      },
+      "12": {
+        "impossible": 10,
+        "found": 1
+      },
+      "13": {
+        "impossible": 9
+      },
+      "14": {
+        "impossible": 6
+      },
+      "15": {
+        "impossible": 10
+      },
+      "16": {
+        "impossible": 9
+      },
+      "17": {
+        "impossible": 9
+      },
+      "18": {
+        "impossible": 8
+      },
+      "19": {
+        "found": 1,
+        "impossible": 3
+      },
+      "20": {
+        "impossible": 3
+      }
+    },
+    "by_placements_left": {
+      "0": {
+        "impossible": 9
+      },
+      "1": {
+        "impossible": 15
+      },
+      "2": {
+        "impossible": 20
+      },
+      "3": {
+        "impossible": 21,
+        "found": 2
+      },
+      "4": {
+        "found": 1,
+        "impossible": 24
+      },
+      "5": {
+        "impossible": 11
+      },
+      "6": {
+        "found": 2,
+        "impossible": 6
+      },
+      "7": {
+        "impossible": 7
+      },
+      "8": {
+        "impossible": 2
+      },
+      "9": {
+        "impossible": 3
+      },
+      "10": {
+        "impossible": 2
+      },
+      "11": {
+        "impossible": 3
+      }
+    },
+    "search_evals_found": {
+      "mean": 777.4,
+      "median": 325,
+      "max": 2934
+    },
+    "search_evals_impossible": {
+      "mean": 443.3008130081301,
+      "median": 140
+    },
+    "costs": {
+      "detection": 20684,
+      "search": 58413,
+      "validation": 13,
+      "insertion": 10
+    },
+    "insertion_outcomes": {
+      "written": 5
+    },
+    "n_entries": 5,
+    "n_geometries": 5,
+    "n_entries_with_alternatives": 0,
+    "geometries_with_multiple_multisets": 0,
+    "seconds": 0.9955494000168983
+  },
+  "applicability": {
+    "independent_fresh": {
+      "n_boxes": 60,
+      "n_inventory_in_store": 0,
+      "regions_per_box": 2.8666666666666667,
+      "detection_per_box": 497.78333333333336,
+      "lookup_per_box": 2.8666666666666667,
+      "availability_per_box": 0.05,
+      "detector_lookup_total": 30042,
+      "primitive_A_per_box": 1597.7166666666667,
+      "geometry_matches": 3,
+      "compatible_matches": 1,
+      "boxes_with_geometry_match": 3,
+      "boxes_with_compatible_match": 1,
+      "boxes_with_compatible_match_new_inventory": 1
+    },
+    "recurring_family": {
+      "n_boxes": 60,
+      "n_inventory_in_store": 0,
+      "regions_per_box": 3.2666666666666666,
+      "detection_per_box": 497.05,
+      "lookup_per_box": 3.2666666666666666,
+      "availability_per_box": 0.03333333333333333,
+      "detector_lookup_total": 30021,
+      "primitive_A_per_box": 1138.1666666666667,
+      "geometry_matches": 2,
+      "compatible_matches": 1,
+      "boxes_with_geometry_match": 2,
+      "boxes_with_compatible_match": 1,
+      "boxes_with_compatible_match_new_inventory": 1
+    }
+  },
+  "counterfactuals": {
+    "first_match_first_entry": {
+      "n": 2,
+      "n_boxes": 2,
+      "n_valid": 2,
+      "mean_effort_saving": -242.0,
+      "median_effort_saving": -242.0,
+      "n_positive": 1,
+      "n_negative": 1,
+      "mean_quality_delta": -0.5,
+      "n_quality_loss": 0,
+      "n_quality_gain": 0,
+      "quality_loss_rate": 0.0,
+      "n_acceptability_lost": 0,
+      "mean_region_size": 8.0
+    },
+    "all_first_entries": {
+      "n": 2,
+      "n_boxes": 2,
+      "n_valid": 2,
+      "mean_effort_saving": -242.0,
+      "median_effort_saving": -242.0,
+      "n_positive": 1,
+      "n_negative": 1,
+      "mean_quality_delta": -0.5,
+      "n_quality_loss": 0,
+      "n_quality_gain": 0,
+      "quality_loss_rate": 0.0,
+      "n_acceptability_lost": 0,
+      "mean_region_size": 8.0
+    },
+    "all": {
+      "n": 2,
+      "n_boxes": 2,
+      "n_valid": 2,
+      "mean_effort_saving": -242.0,
+      "median_effort_saving": -242.0,
+      "n_positive": 1,
+      "n_negative": 1,
+      "mean_quality_delta": -0.5,
+      "n_quality_loss": 0,
+      "n_quality_gain": 0,
+      "quality_loss_rate": 0.0,
+      "n_acceptability_lost": 0,
+      "mean_region_size": 8.0
+    },
+    "by_workload_first": {
+      "independent_fresh": {
+        "n": 1,
+        "n_boxes": 1,
+        "n_valid": 1,
+        "mean_effort_saving": 94.0,
+        "median_effort_saving": 94,
+        "n_positive": 1,
+        "n_negative": 0,
+        "mean_quality_delta": 0.0,
+        "n_quality_loss": 0,
+        "n_quality_gain": 0,
+        "quality_loss_rate": 0.0,
+        "n_acceptability_lost": 0,
+        "mean_region_size": 8.0
+      },
+      "recurring_family": {
+        "n": 1,
+        "n_boxes": 1,
+        "n_valid": 1,
+        "mean_effort_saving": -578.0,
+        "median_effort_saving": -578,
+        "n_positive": 0,
+        "n_negative": 1,
+        "mean_quality_delta": -1.0,
+        "n_quality_loss": 0,
+        "n_quality_gain": 0,
+        "quality_loss_rate": 0.0,
+        "n_acceptability_lost": 0,
+        "mean_region_size": 8.0
+      }
+    },
+    "primitive_branch_reproduces": 2,
+    "primitive_branch_checked": 2
+  },
+  "stopped": null,
+  "decision": {
+    "row": "no_recurrence",
+    "implication": "Representation or coverage remains the problem.",
+    "few_fillings": true,
+    "boxes_with_compatible_match": 2
+  },
+  "deployment": "not run: a deployed policy is tested only after the decision row saves_and_preserves"
+}

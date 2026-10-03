@@ -1,0 +1,13 @@
+{
+ "n_pairs_ckpt_ge5000": 89,
+ "mean_abs_diff": 0.000608614232209823,
+ "sd_diff": 0.005741655183368585,
+ "mean_diff": -0.000608614232209823,
+ "n_pairs_ckpt_ge20000": 37,
+ "mean_abs_diff_ge20000": 0.0014639639639641689,
+ "sd_diff_ge20000": 0.0089049451457081,
+ "mean_diff_ge20000": -0.0014639639639641689,
+ "max_abs_diff": 0.054166666666674246,
+ "identical_checkpoints": 153,
+ "n_checkpoints": 154
+}

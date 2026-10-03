@@ -1,0 +1,7 @@
+{
+  "k": 2,
+  "n_states_with_oracle_useful": 170,
+  "n_shortlist_contains_useful": 170,
+  "recall": 1.0,
+  "n_pairs": 48
+}

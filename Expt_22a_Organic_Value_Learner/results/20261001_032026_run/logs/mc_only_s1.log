@@ -1,0 +1,16 @@
+03:58:01 [mc_only s1] box 1000 train S1 68.75 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 172s
+04:00:01 [mc_only s1] box 2000 train S1 69.68 hidden 64 concepts 1 tau 1.94 eps 0.097 lr 0.0010 292s
+04:02:02 [mc_only s1] box 3000 train S1 70.19 hidden 64 concepts 5 tau 1.88 eps 0.094 lr 0.0010 412s
+04:03:27 [mc_only s1] box 4000 train S1 70.10 hidden 64 concepts 0 tau 1.66 eps 0.083 lr 0.0010 498s
+04:04:47 [mc_only s1] box 5000 train S1 70.59 hidden 64 concepts 4 tau 1.61 eps 0.080 lr 0.0010 578s
+04:06:33 [mc_only s1] box 6000 train S1 70.63 hidden 64 concepts 4 tau 1.48 eps 0.072 lr 0.0009 683s
+04:07:51 [mc_only s1] box 7000 train S1 71.23 hidden 64 concepts 1 tau 1.36 eps 0.065 lr 0.0008 762s
+04:09:09 [mc_only s1] box 8000 train S1 72.02 hidden 64 concepts 2 tau 1.25 eps 0.059 lr 0.0007 840s
+04:10:24 [mc_only s1] box 9000 train S1 72.37 hidden 64 concepts 2 tau 1.21 eps 0.057 lr 0.0007 915s
+04:11:24 [mc_only s1] box 10000 train S1 72.70 hidden 64 concepts 6 tau 1.18 eps 0.055 lr 0.0007 975s
+04:12:48 [mc_only s1] box 11000 train S1 72.69 hidden 64 concepts 6 tau 1.14 eps 0.053 lr 0.0007 1059s
+04:13:53 [mc_only s1] box 12000 train S1 72.68 hidden 64 concepts 5 tau 1.05 eps 0.048 lr 0.0007 1123s
+04:14:52 [mc_only s1] box 13000 train S1 73.50 hidden 64 concepts 5 tau 0.97 eps 0.043 lr 0.0006 1183s
+04:15:49 [mc_only s1] box 14000 train S1 73.95 hidden 64 concepts 8 tau 0.94 eps 0.042 lr 0.0006 1239s
+04:16:54 [mc_only s1] box 15000 train S1 74.55 hidden 64 concepts 8 tau 0.91 eps 0.041 lr 0.0006 1304s
+04:17:19 DONE mc_only s1: 15000 boxes, 1330s, heldout@15000=84.91

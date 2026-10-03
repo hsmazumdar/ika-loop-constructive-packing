@@ -1,0 +1,45 @@
+{
+  "complete": true,
+  "stop_reason": "finished",
+  "episodes": 736,
+  "planned": 736,
+  "catalogue_hash": "3f727dd211eccd639da03bb8e724ddfd00a6e556df043c8a71b91da111952e14",
+  "dataset_hash": "668304e744f0d0ef22b164fb0e6a63a2fb065f835e170e9073a8fe3be7af53ce",
+  "source_hash": "7f0923aec6673c77e0cfd841cdcf47ffecd75fce665e543a08489d1ed3f25070",
+  "device": "NVIDIA GeForce RTX 5060 Ti",
+  "cuda_bytes": 2968064,
+  "teacher_cost": {
+    "exact_nodes": 1291729,
+    "exact_seconds": 28.891385100054322,
+    "gpu_seconds": 5.028851000068244,
+    "gpu_ops": 505,
+    "tasks": 24,
+    "exact_solutions": 24,
+    "gpu_solutions": 24,
+    "rejected_replay": 0,
+    "solutions": 48,
+    "quality_min": 90,
+    "quality_max": 100
+  },
+  "mine_seconds": 0.0,
+  "snapshot_notes": [
+    {
+      "requested": 40,
+      "status": "unavailable",
+      "available_tasks": 24
+    },
+    {
+      "requested": null,
+      "status": "added_actual_corpus_size",
+      "available_tasks": 24
+    }
+  ],
+  "snapshots": [
+    0,
+    10,
+    20,
+    24
+  ],
+  "wall_seconds": 0.0015724999830126762,
+  "corpus_solutions": 48
+}

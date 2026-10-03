@@ -1,0 +1,5 @@
+workload,index,task_id,pattern_index,pieces,n_inventories,stage,occupied,n_place,prefix_A,origin_x,origin_y,Q_primitive,A_rest_primitive,acceptable_primitive,Q_commit,A_rest_commit,validation_checks,acceptable_commit,valid,replay_ok,effort_saving,quality_delta,quality_loss,acceptability_lost,quality_preserving_benefit,termination_primitive,termination_commit
+independent_fresh,0,inv_1dec36052a8a,2,2,3,early,0,0,0,0,0,77.0,5327,True,78.0,1548,12,True,True,True,3779,1.0,False,False,True,quality,quality
+independent_fresh,0,inv_1dec36052a8a,3,2,3,early,0,0,0,0,0,77.0,5327,True,77.0,2620,12,True,True,True,2707,0.0,False,False,True,quality,quality
+independent_fresh,0,inv_1dec36052a8a,4,2,3,early,0,0,0,0,0,77.0,5327,True,77.0,732,12,True,True,True,4595,0.0,False,False,True,quality,quality
+recurring_family,0,inv_a8956340ad37,2,2,3,early,0,0,0,0,0,78.0,768,True,76.0,3451,12,True,True,True,-2683,-2.0,True,False,False,quality,quality

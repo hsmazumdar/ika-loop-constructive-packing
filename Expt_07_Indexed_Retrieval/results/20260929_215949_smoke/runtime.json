@@ -1,0 +1,43 @@
+{
+  "preset": "smoke",
+  "python": "3.13.1",
+  "git": "unavailable",
+  "catalogue_hash": "3f727dd211eccd639da03bb8e724ddfd00a6e556df043c8a71b91da111952e14",
+  "source_hashes": {
+    "__init__.py": "84d83b07527d22a25d30b66c2aa7b3a91c36485c1e2226271e619d2a6b3c8e44",
+    "config.py": "3ef8c5e33c865ef8d5779bbd7497794589f841f9e7f86f8a60788cd68c0572bc",
+    "diagnostic.py": "9da1256e51803ebce6c3b4976cc2eaba4e9a57455ff9d0edaef859ba79d2adb0",
+    "enumerate_ops.py": "6576f33eb871d6e24f4a3c8a19d885d40a6fc9a488a381f65abd5a6d64993cfd",
+    "environment.py": "e056ebb733fc19c3dafa9370188bf030992718d26d53ee40cdc3fa63ba43e0b6",
+    "experiment.py": "67a6d35f8b4aa162a0c3a568b3c0625721845175a95e411a75ef1e9520be1a1b",
+    "gates.py": "4da39caa07033b308aa73c3c77b1e084b2219f91d5324a48af54be2420d57faa",
+    "index.py": "430772bf8bedfe209b3897e0279941163d4a3931fb56189898dd3b63a14fe295",
+    "inventory.py": "bc1a15daf91d1de9cbddc9d2ec580decf4445a4137907416b615f11ce8658e28",
+    "library_io.py": "2008eeaf03d6e51c5a50eeb0af7c38d4184e913391f39124bc7bb9dac7e79bc3",
+    "memory.py": "f5cab6887dfc5344b686cd7f21c5c53554f2100fb8d1bc42ef760c912fd4c448",
+    "miner.py": "a04efdc6c4d6ac541008311087fc141b0510be64bd7a904d008839ef1420107b",
+    "oracle.py": "36131ac8b21e55a61c98752380dec33c19df34545904574c28b8dceea82aeb17",
+    "pieces.py": "309ff8ed53fa8076408172e8c62bc1b7b45290c7236b282b5810d357a4fc967c",
+    "policy.py": "27cddc7154f9ba7ee6798a5250291b771d38825e543232785ec2dc4c1a6ac968",
+    "primitive_search.py": "240ab4c9896960babcf32880c21c9cdeb65b8f254e1c55baf2a57b5ce18d301c",
+    "promotion.py": "561835036d93646a448c6c7da42d15faa38f85c7726cee99477e593067515fbb",
+    "ranker.py": "4d2a26ee386765485adb18c49d00dc57c2ee3ceecb4e07b6de3d8df9d005c298",
+    "reconstruct.py": "4ad864d3e3c7b8eaffaed43a26fba319d0e2c1239290f4bd404aa1dc06f15bd3",
+    "retrieval.py": "c0c960821662560b7e619233c1ddb71694298eb2d9754c4b8267b0873096e554",
+    "snapshot.py": "fd384044bd9cdad74ec44626cd088f56e813a34ff1b5fc2da5dc7fbc1daf68e8",
+    "solver.py": "4572c1302afe380db405c14cff36eaaa1f9b62862e2071c569fe4e6c4b542554",
+    "run_expt7.py": "ad8e6a45631ba84de2bdd3492aa7bfcc1d0ec4a13748abaecfa57139dc8ea114",
+    "analysis.py": "c3d6d38f18e24ec27d9602f3e0c2ac8b3b2f37b72713de2b1dfd422c77d03819"
+  },
+  "reconstruction": false,
+  "index_build": [
+    {
+      "seed": 11,
+      "build_s": 0.0001686000032350421,
+      "n_bytes": 1080,
+      "n_entries": 3
+    }
+  ],
+  "n_eval": 4,
+  "learning_A": 51219
+}

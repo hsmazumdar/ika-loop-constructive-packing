@@ -1,0 +1,66 @@
+{
+  "acquisition": {
+    "n_trajectories": 2,
+    "n_excluded_unacceptable": 0,
+    "n_acceptable": 2,
+    "primitive_A_sum": 3840,
+    "primitive_A_per_trajectory": 1920.0,
+    "extraction_checks": 1120,
+    "extraction_connected_groups": 151,
+    "extraction_per_acceptable_box": 560.0,
+    "boxes_capped": 0,
+    "n_patterns": 151,
+    "n_frozen": 0,
+    "support": {
+      "by_inventories": {
+        "1": 151
+      },
+      "by_boxes": {
+        "1": 151
+      }
+    },
+    "frozen_by_pieces": {},
+    "seconds": 0.04692990000012287
+  },
+  "applicability": {
+    "independent_fresh": {
+      "n_boxes": 2,
+      "n_inventory_in_store": 0,
+      "primitive_A_per_box": 3119.5,
+      "match_checks_per_box": 0.0,
+      "match_fraction_of_primitive": 0.0,
+      "boxes_with_fit": 0,
+      "boxes_with_early_or_middle_fit": 0,
+      "fit_events": 0,
+      "early_fits": 0,
+      "middle_fits": 0,
+      "late_fits": 0,
+      "patterns_with_fit_mean": 0.0
+    },
+    "recurring_family": {
+      "n_boxes": 2,
+      "n_inventory_in_store": 0,
+      "primitive_A_per_box": 792.0,
+      "match_checks_per_box": 0.0,
+      "match_fraction_of_primitive": 0.0,
+      "boxes_with_fit": 0,
+      "boxes_with_early_or_middle_fit": 0,
+      "fit_events": 0,
+      "early_fits": 0,
+      "middle_fits": 0,
+      "late_fits": 0,
+      "patterns_with_fit_mean": 0.0
+    },
+    "seconds": 0.06419380000011188
+  },
+  "decision": {
+    "row": "no_cross_inventory_recurrence",
+    "text": "No small arrangement recurred across the predeclared number of distinct training inventories.",
+    "n_frozen": 0,
+    "fresh_boxes_with_fit": 0,
+    "fresh_boxes_with_early_or_middle_fit": 0,
+    "fresh_match_fraction": 0.0,
+    "family_boxes_with_fit": 0,
+    "commitment": "not run"
+  }
+}

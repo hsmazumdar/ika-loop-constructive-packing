@@ -1,0 +1,136 @@
+{
+  "tasks": [
+    {
+      "task_id": "inv_22521942205c",
+      "family": "inventory_tasks",
+      "inventory": {
+        "B": 4,
+        "F": 1,
+        "J": 2,
+        "K": 4,
+        "L": 1,
+        "M": 9,
+        "N": 1
+      },
+      "descriptors": {
+        "types": 7,
+        "pieces": 22,
+        "max_type_cells": 36
+      }
+    },
+    {
+      "task_id": "inv_791d780fc6e4",
+      "family": "inventory_tasks",
+      "inventory": {
+        "B": 4,
+        "F": 2,
+        "G": 2,
+        "H": 2,
+        "I": 1,
+        "K": 1,
+        "M": 10
+      },
+      "descriptors": {
+        "types": 7,
+        "pieces": 22,
+        "max_type_cells": 40
+      }
+    },
+    {
+      "task_id": "inv_115b41c2392a",
+      "family": "inventory_tasks",
+      "inventory": {
+        "B": 4,
+        "C": 4,
+        "E": 3,
+        "H": 4,
+        "I": 1,
+        "M": 5
+      },
+      "descriptors": {
+        "types": 6,
+        "pieces": 21,
+        "max_type_cells": 20
+      }
+    },
+    {
+      "task_id": "inv_5fc1ecabd17f",
+      "family": "inventory_tasks",
+      "inventory": {
+        "B": 4,
+        "C": 6,
+        "H": 6,
+        "I": 4
+      },
+      "descriptors": {
+        "types": 4,
+        "pieces": 20,
+        "max_type_cells": 30
+      }
+    },
+    {
+      "task_id": "inv_8b533a843808",
+      "family": "inventory_tasks",
+      "inventory": {
+        "B": 5,
+        "H": 3,
+        "K": 2,
+        "L": 2,
+        "M": 10
+      },
+      "descriptors": {
+        "types": 5,
+        "pieces": 22,
+        "max_type_cells": 40
+      }
+    },
+    {
+      "task_id": "inv_bce49701ff81",
+      "family": "inventory_tasks",
+      "inventory": {
+        "B": 5,
+        "F": 5,
+        "G": 6,
+        "N": 5
+      },
+      "descriptors": {
+        "types": 4,
+        "pieces": 21,
+        "max_type_cells": 30
+      }
+    },
+    {
+      "task_id": "inv_ffe570c70457",
+      "family": "inventory_tasks",
+      "inventory": {
+        "B": 6,
+        "C": 5,
+        "H": 4,
+        "I": 1,
+        "L": 1,
+        "O": 2,
+        "P": 1
+      },
+      "descriptors": {
+        "types": 7,
+        "pieces": 20,
+        "max_type_cells": 30
+      }
+    },
+    {
+      "task_id": "inv_1696d00e5191",
+      "family": "inventory_tasks",
+      "inventory": {
+        "B": 7,
+        "C": 4,
+        "K": 5,
+        "N": 5
+      },
+      "descriptors": {
+        "types": 4,
+        "pieces": 21,
+        "max_type_cells": 35
+      }
+    }
+  ]
+}

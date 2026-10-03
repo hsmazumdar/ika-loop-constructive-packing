@@ -1,0 +1,3 @@
+condition,seed,op_id,status,depth,retrievals,applicability_failures,commitments,successes,failures,average_q,paired_savings,attempts_saved,utility,nbytes,children
+contextual_abstention,11,M0001,active,1,0,0,0,0,0,,0.0,0.0,-0.134,134,O_N_0|O_N_1
+both,11,M0001,provisional,1,0,0,0,0,0,,0.0,0.0,0.0,134,O_O_3|O_M_0

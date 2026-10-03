@@ -1,0 +1,114 @@
+[
+ {
+  "name": "FF_largest_first_legal",
+  "group": "baseline",
+  "anchor": true,
+  "piece": "largest",
+  "place": "first",
+  "note": "first-fit: anchor, largest piece, first legal orientation/position"
+ },
+ {
+  "name": "FF_largest_random_tie",
+  "group": "baseline",
+  "anchor": true,
+  "piece": "largest",
+  "place": "random",
+  "note": ""
+ },
+ {
+  "name": "FF_largest_contact_tie",
+  "group": "baseline",
+  "anchor": true,
+  "piece": "largest",
+  "place": "contact_random",
+  "note": ""
+ },
+ {
+  "name": "FF_smallest_first_legal",
+  "group": "baseline",
+  "anchor": true,
+  "piece": "smallest",
+  "place": "first",
+  "note": ""
+ },
+ {
+  "name": "FF_smallest_random_tie",
+  "group": "baseline",
+  "anchor": true,
+  "piece": "smallest",
+  "place": "random",
+  "note": ""
+ },
+ {
+  "name": "FF_random_type_random_orient",
+  "group": "baseline",
+  "anchor": true,
+  "piece": "random_type",
+  "place": "random",
+  "note": "anchor, random piece type, random orientation/position"
+ },
+ {
+  "name": "FF_first_legal_any_orientation",
+  "group": "baseline",
+  "anchor": true,
+  "piece": "any",
+  "place": "first",
+  "note": "anchor, first legal placement in catalogue order (A rot0 ...)"
+ },
+ {
+  "name": "FF_contact_first_tie",
+  "group": "baseline",
+  "anchor": true,
+  "piece": "any",
+  "place": "contact_first",
+  "note": ""
+ },
+ {
+  "name": "G_area_any_random_tie",
+  "group": "baseline",
+  "anchor": false,
+  "piece": "largest",
+  "place": "random",
+  "note": "greedy by area, no anchor"
+ },
+ {
+  "name": "G_area_any_rowmajor_tie",
+  "group": "baseline",
+  "anchor": false,
+  "piece": "largest",
+  "place": "rowmajor_first",
+  "note": "greedy by area, ties -> first row-major"
+ },
+ {
+  "name": "G_contact_any_random_tie",
+  "group": "baseline",
+  "anchor": false,
+  "piece": "any",
+  "place": "contact_random",
+  "note": "greedy by contact only, no anchor"
+ },
+ {
+  "name": "G_contact_any_first_tie",
+  "group": "baseline",
+  "anchor": false,
+  "piece": "any",
+  "place": "contact_first",
+  "note": ""
+ },
+ {
+  "name": "G_E16score_any_random_tie",
+  "group": "baseline",
+  "anchor": false,
+  "piece": "any",
+  "place": "score_random",
+  "note": "Expt-16 primitive score over all legal placements"
+ },
+ {
+  "name": "FF_E16score_random_tie",
+  "group": "baseline",
+  "anchor": true,
+  "piece": "any",
+  "place": "score_random",
+  "note": ""
+ }
+]

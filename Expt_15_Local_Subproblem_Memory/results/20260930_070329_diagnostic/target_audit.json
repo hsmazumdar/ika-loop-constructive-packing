@@ -1,0 +1,11 @@
+{
+  "hypothesis": "a local region-filling memory creates cross-problem matches that remain beneficial after completing the whole box",
+  "test1": "constructed independent regions with assigned budgets; region supplied as experimental aid",
+  "test2": "ordinary packing; engineered billed region detector; shared inventory; no gate",
+  "local_match_rule": "identical translation-normalised geometry; multiset available",
+  "transformations": false,
+  "hierarchy": false,
+  "learned_gate": false,
+  "memories_frozen_before_eval": true,
+  "A_identity": "primitive_evals (incl. region search) + detection + lookup + availability + validation + insertion"
+}

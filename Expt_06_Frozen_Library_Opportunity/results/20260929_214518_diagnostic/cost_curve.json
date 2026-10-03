@@ -1,0 +1,50 @@
+[
+  {
+    "C": 0,
+    "mean_saving": 373.3333333333333,
+    "fraction_boxes_saving_gt_C": 0.6111111111111112,
+    "n": 72
+  },
+  {
+    "C": 10,
+    "mean_saving": 363.3333333333333,
+    "fraction_boxes_saving_gt_C": 0.6111111111111112,
+    "n": 72
+  },
+  {
+    "C": 25,
+    "mean_saving": 348.3333333333333,
+    "fraction_boxes_saving_gt_C": 0.6111111111111112,
+    "n": 72
+  },
+  {
+    "C": 50,
+    "mean_saving": 323.3333333333333,
+    "fraction_boxes_saving_gt_C": 0.6111111111111112,
+    "n": 72
+  },
+  {
+    "C": 100,
+    "mean_saving": 273.3333333333333,
+    "fraction_boxes_saving_gt_C": 0.4027777777777778,
+    "n": 72
+  },
+  {
+    "C": 200,
+    "mean_saving": 173.33333333333334,
+    "fraction_boxes_saving_gt_C": 0.3333333333333333,
+    "n": 72
+  },
+  {
+    "C": 400,
+    "mean_saving": -26.666666666666668,
+    "fraction_boxes_saving_gt_C": 0.2222222222222222,
+    "n": 72
+  },
+  {
+    "C": 800,
+    "mean_saving": -426.6666666666667,
+    "fraction_boxes_saving_gt_C": 0.1527777777777778,
+    "n": 72
+  }
+]

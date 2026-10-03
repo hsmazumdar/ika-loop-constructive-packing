@@ -1,0 +1,11 @@
+{
+  "arm": "rect_mined",
+  "frozen": true,
+  "ops": [],
+  "nbytes": 0,
+  "n_ops": 0,
+  "meta": {
+    "snapshot": 2,
+    "pool_ops": 259
+  }
+}

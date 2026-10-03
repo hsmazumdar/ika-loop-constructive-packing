@@ -1,0 +1,86 @@
+[
+  {
+    "phase": "development",
+    "snapshot": 2,
+    "seed": 11,
+    "task_id": "inv_22521942205c",
+    "arm": "primitive"
+  },
+  {
+    "phase": "development",
+    "snapshot": 2,
+    "seed": 11,
+    "task_id": "inv_22521942205c",
+    "arm": "rect_mined"
+  },
+  {
+    "phase": "heldout",
+    "snapshot": 0,
+    "seed": 11,
+    "task_id": "inv_37a9c4ede811",
+    "arm": "primitive"
+  },
+  {
+    "phase": "heldout",
+    "snapshot": 0,
+    "seed": 11,
+    "task_id": "inv_37a9c4ede811",
+    "arm": "rect_mined"
+  },
+  {
+    "phase": "heldout",
+    "snapshot": 0,
+    "seed": 11,
+    "task_id": "inv_37a9c4ede811",
+    "arm": "neutral_mined"
+  },
+  {
+    "phase": "heldout",
+    "snapshot": 0,
+    "seed": 11,
+    "task_id": "inv_37a9c4ede811",
+    "arm": "matched_control"
+  },
+  {
+    "phase": "heldout",
+    "snapshot": 0,
+    "seed": 11,
+    "task_id": "inv_37a9c4ede811",
+    "arm": "rect_mined_no_retrieval"
+  },
+  {
+    "phase": "heldout",
+    "snapshot": 2,
+    "seed": 11,
+    "task_id": "inv_37a9c4ede811",
+    "arm": "primitive"
+  },
+  {
+    "phase": "heldout",
+    "snapshot": 2,
+    "seed": 11,
+    "task_id": "inv_37a9c4ede811",
+    "arm": "rect_mined"
+  },
+  {
+    "phase": "heldout",
+    "snapshot": 2,
+    "seed": 11,
+    "task_id": "inv_37a9c4ede811",
+    "arm": "neutral_mined"
+  },
+  {
+    "phase": "heldout",
+    "snapshot": 2,
+    "seed": 11,
+    "task_id": "inv_37a9c4ede811",
+    "arm": "matched_control"
+  },
+  {
+    "phase": "heldout",
+    "snapshot": 2,
+    "seed": 11,
+    "task_id": "inv_37a9c4ede811",
+    "arm": "rect_mined_no_retrieval"
+  }
+]

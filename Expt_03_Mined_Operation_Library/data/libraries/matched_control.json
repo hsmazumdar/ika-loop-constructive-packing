@@ -1,0 +1,516 @@
+{
+  "arm": "matched_control",
+  "frozen": true,
+  "ops": [
+    {
+      "op_id": "op_4287156939364308",
+      "steps": [
+        {
+          "type": "N",
+          "cells": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ]
+        },
+        {
+          "type": "N",
+          "cells": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        }
+      ],
+      "canonical": "[{\"type\":\"N\",\"cells\":[[0,1],[1,1],[1,2],[1,3]]},{\"type\":\"N\",\"cells\":[[1,0],[2,0],[2,1],[2,2]]}]",
+      "rectangular": false,
+      "width": 3,
+      "height": 4,
+      "area": 8,
+      "n_pieces": 2,
+      "demand": {
+        "N": 2
+      },
+      "support_tasks": [
+        "inv_05bc74f7cd7c",
+        "inv_521aa3f4db2c"
+      ],
+      "support_positions": 3,
+      "validation_hits": 4,
+      "train_success": 0.6666666666666666,
+      "example": {
+        "task_id": "inv_521aa3f4db2c",
+        "solution_id": "sol_8db7b819c1d1556b",
+        "placements": [
+          {
+            "type": "N",
+            "rotation": 3,
+            "x": 5,
+            "y": 0,
+            "cells": [
+              [
+                5,
+                1
+              ],
+              [
+                6,
+                1
+              ],
+              [
+                7,
+                0
+              ],
+              [
+                7,
+                1
+              ]
+            ]
+          },
+          {
+            "type": "N",
+            "rotation": 3,
+            "x": 6,
+            "y": 1,
+            "cells": [
+              [
+                6,
+                2
+              ],
+              [
+                7,
+                2
+              ],
+              [
+                8,
+                1
+              ],
+              [
+                8,
+                2
+              ]
+            ]
+          }
+        ]
+      },
+      "provenance": "teacher_training_solutions",
+      "nbytes": 258
+    },
+    {
+      "op_id": "op_5fde1d2fc65cef7a",
+      "steps": [
+        {
+          "type": "N",
+          "cells": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "type": "N",
+          "cells": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              3
+            ]
+          ]
+        }
+      ],
+      "canonical": "[{\"type\":\"N\",\"cells\":[[0,0],[0,1],[0,2],[1,2]]},{\"type\":\"N\",\"cells\":[[0,3],[1,3],[2,2],[2,3]]}]",
+      "rectangular": false,
+      "width": 3,
+      "height": 4,
+      "area": 8,
+      "n_pieces": 2,
+      "demand": {
+        "N": 2
+      },
+      "support_tasks": [
+        "inv_05bc74f7cd7c",
+        "inv_1e4f1d082f5d",
+        "inv_521aa3f4db2c"
+      ],
+      "support_positions": 3,
+      "validation_hits": 4,
+      "train_success": 0.6666666666666666,
+      "example": {
+        "task_id": "inv_1e4f1d082f5d",
+        "solution_id": "sol_87a5ce13bbfca947",
+        "placements": [
+          {
+            "type": "N",
+            "rotation": 0,
+            "x": 0,
+            "y": 6,
+            "cells": [
+              [
+                0,
+                6
+              ],
+              [
+                0,
+                7
+              ],
+              [
+                0,
+                8
+              ],
+              [
+                1,
+                8
+              ]
+            ]
+          },
+          {
+            "type": "N",
+            "rotation": 3,
+            "x": 0,
+            "y": 8,
+            "cells": [
+              [
+                0,
+                9
+              ],
+              [
+                1,
+                9
+              ],
+              [
+                2,
+                8
+              ],
+              [
+                2,
+                9
+              ]
+            ]
+          }
+        ]
+      },
+      "provenance": "teacher_training_solutions",
+      "nbytes": 277
+    },
+    {
+      "op_id": "op_102ec83de84c8a97",
+      "steps": [
+        {
+          "type": "G",
+          "cells": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ]
+          ]
+        },
+        {
+          "type": "I",
+          "cells": [
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              5,
+              2
+            ]
+          ]
+        }
+      ],
+      "canonical": "[{\"type\":\"G\",\"cells\":[[0,0],[0,1],[1,1],[2,0],[2,1]]},{\"type\":\"I\",\"cells\":[[3,0],[3,1],[4,1],[4,2],[5,2]]}]",
+      "rectangular": false,
+      "width": 6,
+      "height": 3,
+      "area": 10,
+      "n_pieces": 2,
+      "demand": {
+        "G": 1,
+        "I": 1
+      },
+      "support_tasks": [
+        "inv_05bc74f7cd7c",
+        "inv_1e4f1d082f5d"
+      ],
+      "support_positions": 2,
+      "validation_hits": 4,
+      "train_success": 0.6666666666666666,
+      "example": {
+        "task_id": "inv_1e4f1d082f5d",
+        "solution_id": "sol_4b09a23071d1aed0",
+        "placements": [
+          {
+            "type": "G",
+            "rotation": 1,
+            "x": 8,
+            "y": 2,
+            "cells": [
+              [
+                8,
+                2
+              ],
+              [
+                8,
+                3
+              ],
+              [
+                8,
+                4
+              ],
+              [
+                9,
+                2
+              ],
+              [
+                9,
+                4
+              ]
+            ]
+          },
+          {
+            "type": "I",
+            "rotation": 1,
+            "x": 7,
+            "y": 5,
+            "cells": [
+              [
+                7,
+                6
+              ],
+              [
+                7,
+                7
+              ],
+              [
+                8,
+                5
+              ],
+              [
+                8,
+                6
+              ],
+              [
+                9,
+                5
+              ]
+            ]
+          }
+        ]
+      },
+      "provenance": "teacher_training_solutions",
+      "nbytes": 277
+    },
+    {
+      "op_id": "op_36171cea580b84de",
+      "steps": [
+        {
+          "type": "C",
+          "cells": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ]
+        },
+        {
+          "type": "M",
+          "cells": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              1
+            ]
+          ]
+        }
+      ],
+      "canonical": "[{\"type\":\"C\",\"cells\":[[0,0],[0,1],[1,0],[2,0],[3,0]]},{\"type\":\"M\",\"cells\":[[1,1],[2,1],[3,1],[4,1]]}]",
+      "rectangular": false,
+      "width": 5,
+      "height": 2,
+      "area": 9,
+      "n_pieces": 2,
+      "demand": {
+        "C": 1,
+        "M": 1
+      },
+      "support_tasks": [
+        "inv_1f2dbf0588dc",
+        "inv_846c32759cc2",
+        "inv_b70847430efc",
+        "inv_e705d8722fa9"
+      ],
+      "support_positions": 7,
+      "validation_hits": 2,
+      "train_success": 0.3333333333333333,
+      "example": {
+        "task_id": "inv_b70847430efc",
+        "solution_id": "sol_6bb3f84e3b2f4a82",
+        "placements": [
+          {
+            "type": "C",
+            "rotation": 2,
+            "x": 0,
+            "y": 0,
+            "cells": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                1,
+                1
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ]
+            ]
+          },
+          {
+            "type": "M",
+            "rotation": 0,
+            "x": 0,
+            "y": 1,
+            "cells": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ]
+            ]
+          }
+        ]
+      },
+      "provenance": "teacher_training_solutions",
+      "nbytes": 308
+    }
+  ],
+  "nbytes": 1120,
+  "n_ops": 4,
+  "meta": {
+    "pool_ops": 4574
+  }
+}

@@ -1,0 +1,2 @@
+candidate,depth,Q_with,A_with,Q_without,A_without,A_children,promoted,task_id,pair_eval_with,pair_eval_without,internal_with,internal_without,elapsed_with,elapsed_without,condition,seed,experience
+M0001,1,68.0,648,68.0,624,,False,inv_02c8738d8d04,648,624,0,0,0.010813100001541898,0.010535299996263348,both,11,9

@@ -1,0 +1,37 @@
+{
+  "q_min": 75.0,
+  "quality_loss_margin": 1.0,
+  "scan": 48,
+  "physical": 80,
+  "undo_budget": 4,
+  "eval_cap": 8000,
+  "store_seeds": [
+    11
+  ],
+  "stream_seeds": [
+    11
+  ],
+  "score_area": 1.0,
+  "score_contact": 0.2,
+  "score_boundary": 0.05,
+  "n_store_independent": 2,
+  "n_families": 1,
+  "n_store_per_family": 1,
+  "n_per_stream": 4,
+  "generate_seed": 2026093018,
+  "growth_substantial_factor": 1.5,
+  "n_streams": 1,
+  "conditions": [
+    "primitive",
+    "frozen_exact",
+    "growing_exact"
+  ],
+  "retrieval": "exact (mask, inventory) identity",
+  "transformation_matching_in_primary": false,
+  "first_write_wins": true,
+  "per_stream_memory_copy": true,
+  "constructed_prefix_on_eval": false,
+  "future_tasks_chosen_by_memory": false,
+  "insertion_billing": "1 per stack state probed + 1 per key written, charged to the box that inserts",
+  "A_identity": "primitive_evals + lookup + validation + insertion"
+}

@@ -1,0 +1,48 @@
+hand_rule (contact -3*holes -notches +2*area, noise .5) 89.62 P-frac 1.0
+contact_only_greedy (random tie) 77.52 P-frac 0.991
+contact_minus_holes (no area term) 70.24 P-frac 0.346
+area_only_greedy (largest piece, random tie) 83.12 P-frac 1.0
+contact_plus_area (no hole terms) 88.92 P-frac 1.0
+{
+ "engine_hashes": {
+  "Expt_21_Continuous_Learning_Memory": "8295979bb1e6",
+  "Expt_22a_Organic_Value_Learner": "8295979bb1e6",
+  "Expt_22b_Organic_Value_Learner": "8295979bb1e6",
+  "Expt_22c_Long_Streams": "8295979bb1e6",
+  "Expt_22d_Long_Ablations_Saturation": "8295979bb1e6"
+ },
+ "learner_ref_hashes": {
+  "Expt_22b_Organic_Value_Learner": "8fe669b8f1f3",
+  "Expt_22c_Long_Streams": "8fe669b8f1f3",
+  "Expt_22d_Long_Ablations_Saturation": "8fe669b8f1f3"
+ },
+ "start_board_empty": true,
+ "distinctness": {
+  "learner_22c_s100_memory": {
+   "distinct_sequences": 1200,
+   "distinct_final_placement_sets": 1200,
+   "distinct_first_placements": 130,
+   "n": 1200
+  },
+  "uniform_natural": {
+   "distinct_sequences": 1200,
+   "distinct_final_placement_sets": 1200,
+   "distinct_first_placements": 827,
+   "n": 1200
+  },
+  "hand_rule": {
+   "distinct_sequences": 1181,
+   "distinct_final_placement_sets": 447,
+   "distinct_first_placements": 8,
+   "n": 1200
+  }
+ },
+ "learner_22c_s100_episode_sd": 2.3695219808160033,
+ "learner_22c_s100_se_of_mean_1200": 0.06840220767374273,
+ "learner_22c_s100_S1_1200": 87.82666666666667
+}
+set,ckpt,mean_first300_eps,mean_rest900_eps,diff_first300_minus_rest,sd_of_diff_over_streams,streams_first300_higher,n_streams
+22b full@20k (12),20000,85.61055555555555,85.57287037037038,0.03768518518518604,0.20305658615075634,7,12
+22c full@32k (12),32000,88.27305555555556,88.2837037037037,-0.010648148148149517,0.11221017870502266,6,12
+22d full@60k (6),60000,91.77277777777778,91.75648148148149,0.016296296296294106,0.07924852817628145,3,6
+

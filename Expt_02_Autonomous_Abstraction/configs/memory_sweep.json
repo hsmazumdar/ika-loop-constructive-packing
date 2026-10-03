@@ -1,0 +1,30 @@
+{
+  "note": "Capacity presets for a later sweep. The first delivery does not launch this preset.",
+  "board_size": 10,
+  "profiles": [
+    {"name": "small", "stm_bytes": 16384, "ltm_bytes": 65536},
+    {"name": "large", "stm_bytes": 262144, "ltm_bytes": 1048576}
+  ],
+  "seeds": [11],
+  "train_boxes": 10,
+  "modes": ["flat_library", "hierarchical_library"],
+  "budgets": {
+    "physical_actions": 100,
+    "model_transitions": 10000,
+    "candidate_evals": 50000,
+    "planning_bytes": 131072
+  },
+  "utility": {
+    "fill_scale": 100,
+    "physical_weight": 0.002,
+    "transition_weight": 0.0001,
+    "horizon": 8
+  },
+  "language": {
+    "max_nodes": 24,
+    "max_expanded": 12,
+    "max_call_depth": 4,
+    "default_lookahead_depth": 1,
+    "default_lookahead_width": 2
+  }
+}

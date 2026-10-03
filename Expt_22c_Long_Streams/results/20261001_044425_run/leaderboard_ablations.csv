@@ -1,0 +1,2 @@
+variant,n,boxes,S1,lo,hi,full_minus,d_lo,d_hi,p,train_last3k,min_per_stream
+full,12,32000,88.28104166666667,87.48613888888889,88.9469513888889,nan,nan,nan,nan,87.64475,57.64629538787736

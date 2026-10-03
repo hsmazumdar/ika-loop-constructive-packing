@@ -1,0 +1,30 @@
+{
+  "task_ids": [
+    "inv_247f34998463",
+    "inv_f63fad293657",
+    "inv_419341860022",
+    "inv_dd91fca8432b"
+  ],
+  "split": {
+    "prior_sources": {
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_07_Indexed_Retrieval\\data\\train.json": 24,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_07_Indexed_Retrieval\\data\\development.json": 8,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_04_Emergent_Hierarchical_Abstraction\\data\\test.json": 12,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_04B_Selective_Reuse\\data\\test.json": 12,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_04C_Confirm_Reusable_Knowledge\\data\\test.json": 100,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_04C_Confirm_Reusable_Knowledge\\data\\train.json": 24,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_04D_Where_Reuse_Loses_Advantage\\data\\development.json": 8,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_04D2_Costly_Choices\\data\\fresh.json": 16,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_05_Consult_and_Commit_Gates\\data\\eval.json": 16,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_05_Consult_and_Commit_Gates\\data\\train.json": 24,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_05_Consult_and_Commit_Gates\\data\\development.json": 8,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_06_Frozen_Library_Opportunity\\data\\eval.json": 24,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_06_Frozen_Library_Opportunity\\data\\smoke.json": 4,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_06_Frozen_Library_Opportunity\\data\\train.json": 24,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_06_Frozen_Library_Opportunity\\data\\development.json": 8
+    },
+    "n_eval": 4
+  },
+  "k": 2,
+  "consult_budget": 50
+}

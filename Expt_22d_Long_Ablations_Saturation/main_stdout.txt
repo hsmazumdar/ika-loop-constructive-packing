@@ -1,0 +1,15 @@
+output: E:\PaperSubmissions2026\Assembly_Skill_Learning\Expt_22d_Long_Ablations_Saturation\results\20261001_060654_main
+26 streams on 26 workers (pid 20564)
+[   2705s] finished no_dream s203
+[   2753s] finished no_sleep s201
+[   2851s] finished no_sleep s203
+[   3108s] finished no_sleep s200
+[   3173s] finished no_sleep s202
+[   3290s] finished no_dream s202
+[   3348s] finished no_concepts s203
+[   3377s] finished no_meta_matched_floor s203
+[   3381s] finished no_meta s202
+[   3401s] finished no_meta s200
+[   3469s] finished no_meta_matched_floor s202
+[   3626s] finished no_meta s201
+[   3686s] finished no_meta_matched_floor s201

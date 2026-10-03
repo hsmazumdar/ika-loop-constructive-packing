@@ -1,0 +1,13 @@
+{
+  "preset": "smoke",
+  "task_ids": [
+    "inv_ea882a84a82d",
+    "inv_4a2a37fc1d41",
+    "inv_070fc576d093",
+    "inv_fde43750cad6"
+  ],
+  "seeds": [
+    11
+  ],
+  "n_boxes": 4
+}

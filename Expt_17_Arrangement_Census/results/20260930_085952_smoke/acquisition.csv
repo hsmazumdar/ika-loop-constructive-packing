@@ -1,0 +1,3 @@
+seed,task_id,store_index,Q,A,acceptable,n_place,checks,unique_in_box,capped,connected_groups
+11,inv_2b222cbab0cf,0,78.0,3120,True,17,560,59,False,59
+11,inv_b36eb250af14,1,75.0,720,True,15,560,92,False,92

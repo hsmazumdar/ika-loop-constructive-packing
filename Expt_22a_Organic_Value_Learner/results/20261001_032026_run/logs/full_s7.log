@@ -1,0 +1,21 @@
+03:22:51 [full s7] box 1000 train S1 68.18 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 144s
+03:24:36 [full s7] box 2000 train S1 69.03 hidden 64 concepts 2 tau 1.76 eps 0.088 lr 0.0010 248s
+03:26:17 [full s7] box 3000 train S1 69.36 hidden 64 concepts 2 tau 1.55 eps 0.077 lr 0.0010 350s
+03:27:26 [full s7] box 4000 train S1 69.80 hidden 64 concepts 2 tau 1.36 eps 0.068 lr 0.0010 419s
+03:28:33 [full s7] box 5000 train S1 70.16 hidden 64 concepts 3 tau 1.20 eps 0.060 lr 0.0010 486s
+03:30:08 [full s7] box 6000 train S1 71.20 hidden 64 concepts 3 tau 1.06 eps 0.053 lr 0.0010 581s
+03:31:14 [full s7] box 7000 train S1 71.46 hidden 64 concepts 8 tau 0.93 eps 0.046 lr 0.0010 646s
+03:32:23 [full s7] box 8000 train S1 72.27 hidden 64 concepts 6 tau 0.82 eps 0.041 lr 0.0010 716s
+03:33:30 [full s7] box 9000 train S1 72.65 hidden 64 concepts 6 tau 0.79 eps 0.040 lr 0.0010 783s
+03:34:30 [full s7] box 10000 train S1 72.60 hidden 64 concepts 12 tau 0.77 eps 0.038 lr 0.0010 843s
+03:36:20 [full s7] box 11000 train S1 73.36 hidden 64 concepts 12 tau 0.71 eps 0.035 lr 0.0009 953s
+03:37:31 [full s7] box 12000 train S1 74.59 hidden 128 concepts 23 tau 0.69 eps 0.034 lr 0.0009 1024s
+03:39:25 [full s7] box 13000 train S1 75.64 hidden 128 concepts 23 tau 0.60 eps 0.030 lr 0.0010 1138s
+03:41:05 [full s7] box 14000 train S1 76.64 hidden 128 concepts 29 tau 0.53 eps 0.026 lr 0.0010 1238s
+03:42:50 [full s7] box 15000 train S1 77.91 hidden 128 concepts 29 tau 0.47 eps 0.023 lr 0.0010 1343s
+03:45:09 [full s7] box 16000 train S1 79.27 hidden 128 concepts 21 tau 0.41 eps 0.020 lr 0.0010 1482s
+03:46:53 [full s7] box 17000 train S1 80.52 hidden 128 concepts 21 tau 0.40 eps 0.020 lr 0.0010 1586s
+03:48:23 [full s7] box 18000 train S1 81.57 hidden 128 concepts 24 tau 0.39 eps 0.019 lr 0.0011 1676s
+03:49:57 [full s7] box 19000 train S1 82.25 hidden 128 concepts 24 tau 0.36 eps 0.017 lr 0.0010 1770s
+03:51:28 [full s7] box 20000 train S1 83.77 hidden 128 concepts 40 tau 0.35 eps 0.017 lr 0.0010 1861s
+03:52:11 DONE full s7: 20000 boxes, 1904s, heldout@20000=86.38

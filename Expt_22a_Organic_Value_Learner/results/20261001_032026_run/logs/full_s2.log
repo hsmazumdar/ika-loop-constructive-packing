@@ -1,0 +1,21 @@
+03:22:39 [full s2] box 1000 train S1 68.21 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 132s
+03:24:15 [full s2] box 2000 train S1 68.97 hidden 64 concepts 1 tau 1.76 eps 0.088 lr 0.0010 228s
+03:25:47 [full s2] box 3000 train S1 69.32 hidden 64 concepts 4 tau 1.55 eps 0.077 lr 0.0010 320s
+03:26:53 [full s2] box 4000 train S1 69.93 hidden 64 concepts 1 tau 1.36 eps 0.068 lr 0.0010 385s
+03:27:59 [full s2] box 5000 train S1 70.28 hidden 64 concepts 4 tau 1.20 eps 0.060 lr 0.0010 452s
+03:29:31 [full s2] box 6000 train S1 70.72 hidden 64 concepts 4 tau 1.06 eps 0.053 lr 0.0010 544s
+03:30:37 [full s2] box 7000 train S1 71.31 hidden 64 concepts 4 tau 0.93 eps 0.046 lr 0.0010 610s
+03:31:48 [full s2] box 8000 train S1 71.94 hidden 64 concepts 4 tau 0.90 eps 0.045 lr 0.0010 680s
+03:33:06 [full s2] box 9000 train S1 72.28 hidden 64 concepts 4 tau 0.87 eps 0.044 lr 0.0010 759s
+03:34:21 [full s2] box 10000 train S1 72.26 hidden 64 concepts 7 tau 0.80 eps 0.039 lr 0.0009 834s
+03:36:19 [full s2] box 11000 train S1 73.73 hidden 64 concepts 7 tau 0.78 eps 0.038 lr 0.0009 952s
+03:37:48 [full s2] box 12000 train S1 73.55 hidden 128 concepts 3 tau 0.72 eps 0.034 lr 0.0008 1040s
+03:40:09 [full s2] box 13000 train S1 75.37 hidden 128 concepts 3 tau 0.63 eps 0.030 lr 0.0008 1181s
+03:42:22 [full s2] box 14000 train S1 76.52 hidden 128 concepts 6 tau 0.56 eps 0.027 lr 0.0008 1315s
+03:44:44 [full s2] box 15000 train S1 78.67 hidden 128 concepts 6 tau 0.49 eps 0.023 lr 0.0008 1457s
+03:47:49 [full s2] box 16000 train S1 79.37 hidden 256 concepts 10 tau 0.47 eps 0.023 lr 0.0008 1642s
+03:52:25 [full s2] box 17000 train S1 80.15 hidden 256 concepts 10 tau 0.46 eps 0.022 lr 0.0009 1918s
+03:56:57 [full s2] box 18000 train S1 80.00 hidden 256 concepts 17 tau 0.45 eps 0.021 lr 0.0009 2190s
+04:02:17 [full s2] box 19000 train S1 80.40 hidden 256 concepts 17 tau 0.43 eps 0.021 lr 0.0009 2510s
+04:07:03 [full s2] box 20000 train S1 80.59 hidden 256 concepts 16 tau 0.40 eps 0.019 lr 0.0008 2795s
+04:09:15 DONE full s2: 20000 boxes, 2928s, heldout@20000=85.53

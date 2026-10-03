@@ -1,0 +1,18 @@
+{
+  "unique": 8,
+  "target": 8,
+  "attempts": 9,
+  "status": "OK",
+  "seed": 2026093019,
+  "out_name": "store",
+  "task_ids": [
+    "inv_14b23c96d389",
+    "inv_df7793fb8a55",
+    "inv_26b826d85ffc",
+    "inv_2b7e57c9079c",
+    "inv_e0c44f0609a8",
+    "inv_2c8bf8c8028b",
+    "inv_44e21af494f1",
+    "inv_6f53a9f3ab40"
+  ]
+}

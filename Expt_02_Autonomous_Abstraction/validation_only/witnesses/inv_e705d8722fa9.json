@@ -1,0 +1,150 @@
+{
+  "task_id": "inv_e705d8722fa9",
+  "inventory": {
+    "C": 5,
+    "D": 3,
+    "M": 3,
+    "N": 5,
+    "O": 7
+  },
+  "placements": [
+    {
+      "type": "C",
+      "rotation": 1,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "N",
+      "rotation": 3,
+      "x": 7,
+      "y": 0
+    },
+    {
+      "type": "D",
+      "rotation": 3,
+      "x": 5,
+      "y": 0
+    },
+    {
+      "type": "D",
+      "rotation": 1,
+      "x": 2,
+      "y": 0
+    },
+    {
+      "type": "O",
+      "rotation": 2,
+      "x": 0,
+      "y": 1
+    },
+    {
+      "type": "O",
+      "rotation": 1,
+      "x": 8,
+      "y": 2
+    },
+    {
+      "type": "O",
+      "rotation": 0,
+      "x": 6,
+      "y": 2
+    },
+    {
+      "type": "C",
+      "rotation": 1,
+      "x": 0,
+      "y": 3
+    },
+    {
+      "type": "N",
+      "rotation": 2,
+      "x": 3,
+      "y": 2
+    },
+    {
+      "type": "O",
+      "rotation": 3,
+      "x": 5,
+      "y": 2
+    },
+    {
+      "type": "O",
+      "rotation": 3,
+      "x": 1,
+      "y": 4
+    },
+    {
+      "type": "C",
+      "rotation": 2,
+      "x": 2,
+      "y": 4
+    },
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 0,
+      "y": 5
+    },
+    {
+      "type": "N",
+      "rotation": 1,
+      "x": 6,
+      "y": 4
+    },
+    {
+      "type": "O",
+      "rotation": 1,
+      "x": 1,
+      "y": 6
+    },
+    {
+      "type": "N",
+      "rotation": 0,
+      "x": 4,
+      "y": 5
+    },
+    {
+      "type": "D",
+      "rotation": 0,
+      "x": 5,
+      "y": 5
+    },
+    {
+      "type": "C",
+      "rotation": 2,
+      "x": 8,
+      "y": 5
+    },
+    {
+      "type": "O",
+      "rotation": 2,
+      "x": 0,
+      "y": 8
+    },
+    {
+      "type": "N",
+      "rotation": 1,
+      "x": 3,
+      "y": 8
+    },
+    {
+      "type": "M",
+      "rotation": 1,
+      "x": 4,
+      "y": 9
+    },
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 7,
+      "y": 5
+    },
+    {
+      "type": "C",
+      "rotation": 0,
+      "x": 8,
+      "y": 6
+    }
+  ]
+}

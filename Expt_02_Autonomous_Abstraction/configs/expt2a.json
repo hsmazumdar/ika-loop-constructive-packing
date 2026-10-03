@@ -1,0 +1,50 @@
+{
+  "board_size": 10,
+  "seeds": [11, 22],
+  "exam_limit": 0,
+  "library_run": "results/20260929_092518_discovery_smoke",
+  "library_mode": "flat_library",
+  "policies": ["primitive_only", "library_lookup", "fixed_think", "adaptive_think"],
+  "think_eval_allowance": 3636,
+  "diagnostic_box": {"seed": 11, "repetition": 0, "policy": "adaptive_think"},
+  "budgets": {
+    "physical_actions": 100,
+    "model_transitions": 10000,
+    "candidate_evals": 50000,
+    "planning_bytes": 131072,
+    "allow_think": true,
+    "cheap_scan_reserve": 0
+  },
+  "memory": {"stm_bytes": 65536, "ltm_bytes": 262144},
+  "utility": {
+    "fill_scale": 100,
+    "physical_weight": 0.002,
+    "transition_weight": 0.0001,
+    "horizon": 8
+  },
+  "language": {
+    "max_nodes": 24,
+    "max_expanded": 12,
+    "max_call_depth": 4,
+    "repeat_range": [1, 4],
+    "lookahead_depth": [1, 3],
+    "lookahead_width": [1, 4],
+    "default_lookahead_depth": 1,
+    "default_lookahead_width": 2
+  },
+  "discovery": {
+    "max_candidates": 8,
+    "max_paired_trials": 2,
+    "max_origin_trials": 64,
+    "max_consecutive_think": 2,
+    "flat_think_interval": 5,
+    "search_think_probability": 0.25
+  },
+  "bandit": {
+    "exploration_c": 0.5,
+    "unseen_mean": 0.0,
+    "unseen_count": 1.0,
+    "stm_explore_prob": 0.2
+  },
+  "lifecycle": {"confirm_uses": 3, "confirm_tasks": 2, "expiry_boxes": 20}
+}

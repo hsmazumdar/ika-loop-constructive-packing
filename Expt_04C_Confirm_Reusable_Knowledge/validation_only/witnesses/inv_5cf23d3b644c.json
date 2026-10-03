@@ -1,0 +1,149 @@
+{
+  "task_id": "inv_5cf23d3b644c",
+  "inventory": {
+    "A": 2,
+    "H": 6,
+    "M": 9,
+    "N": 6
+  },
+  "placements": [
+    {
+      "type": "N",
+      "rotation": 1,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 9,
+      "y": 0
+    },
+    {
+      "type": "H",
+      "rotation": 1,
+      "x": 6,
+      "y": 0
+    },
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 5,
+      "y": 0
+    },
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 8,
+      "y": 1
+    },
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 7,
+      "y": 1
+    },
+    {
+      "type": "N",
+      "rotation": 2,
+      "x": 3,
+      "y": 0
+    },
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 3,
+      "y": 1
+    },
+    {
+      "type": "A",
+      "rotation": 0,
+      "x": 0,
+      "y": 1
+    },
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 2,
+      "y": 2
+    },
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 0,
+      "y": 3
+    },
+    {
+      "type": "H",
+      "rotation": 0,
+      "x": 1,
+      "y": 4
+    },
+    {
+      "type": "H",
+      "rotation": 3,
+      "x": 7,
+      "y": 4
+    },
+    {
+      "type": "A",
+      "rotation": 2,
+      "x": 3,
+      "y": 3
+    },
+    {
+      "type": "H",
+      "rotation": 0,
+      "x": 6,
+      "y": 3
+    },
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 5,
+      "y": 5
+    },
+    {
+      "type": "H",
+      "rotation": 3,
+      "x": 2,
+      "y": 6
+    },
+    {
+      "type": "N",
+      "rotation": 1,
+      "x": 1,
+      "y": 7
+    },
+    {
+      "type": "N",
+      "rotation": 0,
+      "x": 0,
+      "y": 7
+    },
+    {
+      "type": "N",
+      "rotation": 0,
+      "x": 6,
+      "y": 6
+    },
+    {
+      "type": "M",
+      "rotation": 1,
+      "x": 2,
+      "y": 9
+    },
+    {
+      "type": "H",
+      "rotation": 2,
+      "x": 7,
+      "y": 7
+    },
+    {
+      "type": "N",
+      "rotation": 3,
+      "x": 6,
+      "y": 8
+    }
+  ]
+}

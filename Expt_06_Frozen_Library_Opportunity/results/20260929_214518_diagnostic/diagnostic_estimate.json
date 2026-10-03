@@ -1,0 +1,10 @@
+{
+  "smoke_dir": "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_06_Frozen_Library_Opportunity\\results\\20260929_214446_smoke",
+  "smoke_pairs": 4,
+  "elapsed_s": 3.148810863494873,
+  "seconds_per_pair": 0.7872027158737183,
+  "mean_candidates": 20.0,
+  "predicted_diagnostic_s": 297.5626266002655,
+  "declared_limit_s": 21600,
+  "reduction": null
+}

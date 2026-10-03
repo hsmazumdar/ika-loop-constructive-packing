@@ -1,0 +1,408 @@
+{
+  "tasks": [
+    {
+      "task_id": "inv_a21f4dc3bf54",
+      "family": "fam_26a74e92e1e9",
+      "inventory": {
+        "C": 6,
+        "E": 1,
+        "G": 2,
+        "H": 1,
+        "M": 5,
+        "O": 4,
+        "P": 2
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 7,
+        "pieces": 21,
+        "max_type_cells": 30
+      },
+      "family_id": "fam_26a74e92e1e9",
+      "type_set": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "M",
+        "O",
+        "P"
+      ],
+      "workload": "recurring_family"
+    },
+    {
+      "task_id": "inv_cb8252e2d284",
+      "family": "fam_8c7628f04bfa",
+      "inventory": {
+        "B": 5,
+        "C": 3,
+        "D": 4,
+        "M": 4,
+        "O": 6
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 5,
+        "pieces": 22,
+        "max_type_cells": 25
+      },
+      "family_id": "fam_8c7628f04bfa",
+      "type_set": [
+        "B",
+        "C",
+        "D",
+        "M",
+        "O"
+      ],
+      "workload": "recurring_family"
+    },
+    {
+      "task_id": "inv_ac777b0fa794",
+      "family": "fam_26a74e92e1e9",
+      "inventory": {
+        "C": 3,
+        "E": 4,
+        "G": 1,
+        "H": 5,
+        "M": 4,
+        "O": 3,
+        "P": 1
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 7,
+        "pieces": 21,
+        "max_type_cells": 25
+      },
+      "family_id": "fam_26a74e92e1e9",
+      "type_set": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "M",
+        "O",
+        "P"
+      ],
+      "workload": "recurring_family"
+    },
+    {
+      "task_id": "inv_809a89780438",
+      "family": "fam_401a1ef987d4",
+      "inventory": {
+        "A": 2,
+        "B": 5,
+        "I": 5,
+        "N": 10
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 4,
+        "pieces": 22,
+        "max_type_cells": 40
+      },
+      "family_id": "fam_401a1ef987d4",
+      "type_set": [
+        "A",
+        "B",
+        "I",
+        "N"
+      ],
+      "workload": "recurring_family"
+    },
+    {
+      "task_id": "inv_738b144c16f2",
+      "family": "fam_26a74e92e1e9",
+      "inventory": {
+        "C": 4,
+        "E": 3,
+        "G": 1,
+        "H": 2,
+        "M": 7,
+        "O": 2,
+        "P": 2
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 7,
+        "pieces": 21,
+        "max_type_cells": 28
+      },
+      "family_id": "fam_26a74e92e1e9",
+      "type_set": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "M",
+        "O",
+        "P"
+      ],
+      "workload": "recurring_family"
+    },
+    {
+      "task_id": "inv_6072d77b0d47",
+      "family": "fam_401a1ef987d4",
+      "inventory": {
+        "A": 3,
+        "B": 6,
+        "I": 3,
+        "N": 10
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 4,
+        "pieces": 22,
+        "max_type_cells": 40
+      },
+      "family_id": "fam_401a1ef987d4",
+      "type_set": [
+        "A",
+        "B",
+        "I",
+        "N"
+      ],
+      "workload": "recurring_family"
+    },
+    {
+      "task_id": "inv_7e1a250f5232",
+      "family": "fam_8c7628f04bfa",
+      "inventory": {
+        "B": 5,
+        "C": 4,
+        "D": 3,
+        "M": 4,
+        "O": 6
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 5,
+        "pieces": 22,
+        "max_type_cells": 25
+      },
+      "family_id": "fam_8c7628f04bfa",
+      "type_set": [
+        "B",
+        "C",
+        "D",
+        "M",
+        "O"
+      ],
+      "workload": "recurring_family"
+    },
+    {
+      "task_id": "inv_f36ec75272be",
+      "family": "fam_26a74e92e1e9",
+      "inventory": {
+        "C": 3,
+        "E": 3,
+        "H": 4,
+        "M": 4,
+        "O": 5,
+        "P": 2
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 6,
+        "pieces": 21,
+        "max_type_cells": 20
+      },
+      "family_id": "fam_26a74e92e1e9",
+      "type_set": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "M",
+        "O",
+        "P"
+      ],
+      "workload": "recurring_family"
+    },
+    {
+      "task_id": "inv_649ffb4a8b16",
+      "family": "fam_26a74e92e1e9",
+      "inventory": {
+        "C": 1,
+        "E": 4,
+        "H": 4,
+        "M": 7,
+        "O": 5,
+        "P": 1
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 6,
+        "pieces": 22,
+        "max_type_cells": 28
+      },
+      "family_id": "fam_26a74e92e1e9",
+      "type_set": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "M",
+        "O",
+        "P"
+      ],
+      "workload": "recurring_family"
+    },
+    {
+      "task_id": "inv_a73da20e908b",
+      "family": "fam_8c7628f04bfa",
+      "inventory": {
+        "B": 3,
+        "C": 3,
+        "D": 2,
+        "M": 7,
+        "O": 8
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 5,
+        "pieces": 23,
+        "max_type_cells": 32
+      },
+      "family_id": "fam_8c7628f04bfa",
+      "type_set": [
+        "B",
+        "C",
+        "D",
+        "M",
+        "O"
+      ],
+      "workload": "recurring_family"
+    },
+    {
+      "task_id": "inv_5ba647788a08",
+      "family": "fam_401a1ef987d4",
+      "inventory": {
+        "A": 1,
+        "B": 5,
+        "I": 6,
+        "N": 10
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 4,
+        "pieces": 22,
+        "max_type_cells": 40
+      },
+      "family_id": "fam_401a1ef987d4",
+      "type_set": [
+        "A",
+        "B",
+        "I",
+        "N"
+      ],
+      "workload": "recurring_family"
+    },
+    {
+      "task_id": "inv_360d6e640289",
+      "family": "fam_8c7628f04bfa",
+      "inventory": {
+        "B": 2,
+        "C": 3,
+        "D": 3,
+        "M": 6,
+        "O": 9
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 5,
+        "pieces": 23,
+        "max_type_cells": 36
+      },
+      "family_id": "fam_8c7628f04bfa",
+      "type_set": [
+        "B",
+        "C",
+        "D",
+        "M",
+        "O"
+      ],
+      "workload": "recurring_family"
+    },
+    {
+      "task_id": "inv_0bbf173f5567",
+      "family": "fam_26a74e92e1e9",
+      "inventory": {
+        "C": 1,
+        "E": 3,
+        "G": 1,
+        "H": 2,
+        "M": 7,
+        "O": 4,
+        "P": 3
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 7,
+        "pieces": 21,
+        "max_type_cells": 28
+      },
+      "family_id": "fam_26a74e92e1e9",
+      "type_set": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "M",
+        "O",
+        "P"
+      ],
+      "workload": "recurring_family"
+    },
+    {
+      "task_id": "inv_3c649e3d8e3f",
+      "family": "fam_401a1ef987d4",
+      "inventory": {
+        "A": 2,
+        "B": 6,
+        "I": 4,
+        "N": 10
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 4,
+        "pieces": 22,
+        "max_type_cells": 40
+      },
+      "family_id": "fam_401a1ef987d4",
+      "type_set": [
+        "A",
+        "B",
+        "I",
+        "N"
+      ],
+      "workload": "recurring_family"
+    },
+    {
+      "task_id": "inv_e6f660639c2b",
+      "family": "fam_8c7628f04bfa",
+      "inventory": {
+        "B": 4,
+        "C": 4,
+        "D": 4,
+        "M": 4,
+        "O": 6
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 5,
+        "pieces": 22,
+        "max_type_cells": 24
+      },
+      "family_id": "fam_8c7628f04bfa",
+      "type_set": [
+        "B",
+        "C",
+        "D",
+        "M",
+        "O"
+      ],
+      "workload": "recurring_family"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "unique": 15,
+  "target": 15,
+  "attempts": 72,
+  "status": "OK",
+  "seed": 2026093124,
+  "out_name": "fresh_s3",
+  "task_ids": [
+    "inv_409c6f911b79",
+    "inv_07d43218e317",
+    "inv_a14d85fc03c4",
+    "inv_a1c02012cee5",
+    "inv_ce06d9757a20",
+    "inv_b66becccc330",
+    "inv_b375ec89077a",
+    "inv_0ce13bd1f245",
+    "inv_7f21211006d0",
+    "inv_3e312937944c",
+    "inv_03a3ed18d5b2",
+    "inv_c812363d17c5",
+    "inv_a13486b287bf",
+    "inv_ddf7bbfb8031",
+    "inv_9929ee5f3363"
+  ]
+}

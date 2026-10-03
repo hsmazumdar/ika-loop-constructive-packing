@@ -1,0 +1,16 @@
+{
+  "skip_A": 558078,
+  "commit_A": 9064701,
+  "skip_rollouts": 504,
+  "commit_rollouts": 7808,
+  "C_box_sum": 107556,
+  "gate_probes": 504,
+  "incomplete_pairs": 44,
+  "primitive_boxes": 72,
+  "cache_hits": 0,
+  "historical_expt5_learning_A": 486500,
+  "historical_expt5_learning_scope": "Expt-5 counterfactual remaining-solves plus collection retrieve/check on training boxes",
+  "elapsed_s": 112.55988097190857,
+  "n_pairs": 72,
+  "n_computed": 72
+}

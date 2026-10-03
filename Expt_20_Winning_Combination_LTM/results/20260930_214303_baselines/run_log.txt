@@ -1,0 +1,5 @@
+[    5.6s] submitted 720 chunks
+[ 2216.9s] main pool done (2217s)
+[ 2261.3s] Expt16_primitive_recorded_stop_Q75 done
+[ 2321.5s] Expt16_primitive_run_to_cap_Q101 done
+[ 2337.4s] done -> E:\PaperSubmissions2026\Assembly_Skill_Learning\Expt_20_Winning_Combination_LTM\results\20260930_214303_baselines

@@ -1,0 +1,50 @@
+{
+  "quality_target": 80,
+  "sensitivity_targets": [
+    70,
+    90
+  ],
+  "byte_cap": 262144,
+  "window": 6,
+  "min_support_tasks": 2,
+  "match_seed": 20260929,
+  "seeds": [
+    11
+  ],
+  "snapshots": [
+    0,
+    2
+  ],
+  "arms": [
+    "primitive",
+    "rect_mined",
+    "neutral_mined",
+    "matched_control",
+    "rect_mined_no_retrieval"
+  ],
+  "budgets": {
+    "physical": 80,
+    "eval_cap": 8000,
+    "cheap_reserve": 400,
+    "scan_per_decision": 48,
+    "macros_considered": 6,
+    "anchors_per_macro": 8,
+    "max_consecutive_retrieval": 4,
+    "think_allowance": 0
+  },
+  "teacher": {
+    "seeds": [
+      11,
+      22
+    ],
+    "node_cap": 40000,
+    "max_solutions_per_task": 1,
+    "gpu_trajectories": 64
+  },
+  "device": "cuda",
+  "notes": "Budgets were predeclared from the Expt-2 diagnosis: deliberation must leave a cheap legal scan, and a decision examines a bounded window rather than a 50,000-evaluation THINK. Development boxes confirm the lock; they do not choose the arm.",
+  "preset": "tiny",
+  "train_limit": 2,
+  "heldout_limit": 1,
+  "dev_limit": 1
+}

@@ -1,0 +1,103 @@
+{
+  "reconstruction": true,
+  "snapshot_dir": "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_06_Frozen_Library_Opportunity\\snapshots",
+  "seeds": [
+    {
+      "seed": 11,
+      "library_hash": "d0d970996e690a73db70a75608858811d0cad24b991a0bc4905dab1ea9c32a8c",
+      "library_file_sha256": "67487c7f70fd90b0519dfcc3006c5e2105970dad082fb402e03982cb95d6059a",
+      "gate_file_sha256": "67e00a6c8b536ca73f0a70972dcbc03de9af6b0aa6b323228f199dfa3ca5c271",
+      "n_active": 3
+    }
+  ],
+  "expt5": {
+    "expt5_result": "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_05_Consult_and_Commit_Gates\\results\\20260929_212658_diagnostic",
+    "expt5_result_configured": "Expt_05_Consult_and_Commit_Gates/results/20260929_212658_diagnostic",
+    "gates": {
+      "11": {
+        "path": "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_05_Consult_and_Commit_Gates\\results\\20260929_212658_diagnostic\\gates_seed11.json",
+        "exists": true,
+        "sha256": "67e00a6c8b536ca73f0a70972dcbc03de9af6b0aa6b323228f199dfa3ca5c271"
+      },
+      "22": {
+        "path": "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_05_Consult_and_Commit_Gates\\results\\20260929_212658_diagnostic\\gates_seed22.json",
+        "exists": true,
+        "sha256": "05c7449d9a9cb597365638cef10e2e3b90f415cfa7302bd4b526be436f4e2252"
+      },
+      "33": {
+        "path": "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_05_Consult_and_Commit_Gates\\results\\20260929_212658_diagnostic\\gates_seed33.json",
+        "exists": true,
+        "sha256": "365d1144c0fb4087b1c160ca0844a97c26af1e7944c4b946d5e255e2bd3e70c7"
+      }
+    },
+    "libraries_serialized_in_expt5": false,
+    "missing_library_files": [
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_05_Consult_and_Commit_Gates\\results\\20260929_212658_diagnostic\\library_seed11.json",
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_05_Consult_and_Commit_Gates\\results\\20260929_212658_diagnostic\\library_seed22.json",
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_05_Consult_and_Commit_Gates\\results\\20260929_212658_diagnostic\\library_seed33.json"
+    ],
+    "reconstruction_required": true,
+    "reconstruction_note": "Expt-5 stored frozen gates only. Libraries are reconstructed from the recorded 80-box training streams and marked reconstruction=True. Exact library-hash match with the unpublished in-memory Expt-5 objects cannot be verified.",
+    "catalogue_hash": "3f727dd211eccd639da03bb8e724ddfd00a6e556df043c8a71b91da111952e14",
+    "source_hashes": {
+      "__init__.py": "84d83b07527d22a25d30b66c2aa7b3a91c36485c1e2226271e619d2a6b3c8e44",
+      "config.py": "b2df85b2eaf72c5f5b226d4dec0093ad8de641a4a0868ed1581291f6b42a80d9",
+      "diagnostic.py": "ad806b1307df579a1034728779f9d5edc392144bcb7bf4c719f08b4f3e34d62b",
+      "enumerate_ops.py": "6576f33eb871d6e24f4a3c8a19d885d40a6fc9a488a381f65abd5a6d64993cfd",
+      "environment.py": "e056ebb733fc19c3dafa9370188bf030992718d26d53ee40cdc3fa63ba43e0b6",
+      "experiment.py": "2f768eda0a58a4528fd2e63babc1d515ae1e1ec513388e1f2766fd3f37c625b8",
+      "gates.py": "4da39caa07033b308aa73c3c77b1e084b2219f91d5324a48af54be2420d57faa",
+      "inventory.py": "bc1a15daf91d1de9cbddc9d2ec580decf4445a4137907416b615f11ce8658e28",
+      "library_io.py": "2008eeaf03d6e51c5a50eeb0af7c38d4184e913391f39124bc7bb9dac7e79bc3",
+      "memory.py": "f5cab6887dfc5344b686cd7f21c5c53554f2100fb8d1bc42ef760c912fd4c448",
+      "miner.py": "a04efdc6c4d6ac541008311087fc141b0510be64bd7a904d008839ef1420107b",
+      "oracle.py": "36131ac8b21e55a61c98752380dec33c19df34545904574c28b8dceea82aeb17",
+      "pieces.py": "309ff8ed53fa8076408172e8c62bc1b7b45290c7236b282b5810d357a4fc967c",
+      "primitive_search.py": "240ab4c9896960babcf32880c21c9cdeb65b8f254e1c55baf2a57b5ce18d301c",
+      "promotion.py": "561835036d93646a448c6c7da42d15faa38f85c7726cee99477e593067515fbb",
+      "reconstruct.py": "a6e15f4aad07cc87b5d74f130162b179422e0e9bf1998dd0e1b2d6eb668da521",
+      "retrieval.py": "c0c960821662560b7e619233c1ddb71694298eb2d9754c4b8267b0873096e554",
+      "snapshot.py": "fd384044bd9cdad74ec44626cd088f56e813a34ff1b5fc2da5dc7fbc1daf68e8",
+      "solver.py": "0db124c2eb78dc870b34f61916c935de88af19f673c2f9d375732c6552c25637",
+      "run_expt6.py": "fa42ef0e4bf8d4abe368ed90b4c14c2c3bef361e6e878e488f6d685b2996f398",
+      "analysis.py": "d1f1ef36f952e87c35320f1a4db71267e349cf445240ff98bc0b0dc500fe2f60"
+    },
+    "historical_expt5_learning_A": 486500,
+    "a_identity": "A = primitive_evals + retrieval + applicability + learned_site_checks + gate_checks",
+    "remaining_budget": "eval_cap - prefix_primitive_A",
+    "occupancy_schedule": [
+      0,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "oracle_sees_futures": true,
+    "gui_does_not_train": true
+  },
+  "split": {
+    "prior_sources": {
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_06_Frozen_Library_Opportunity\\data\\train.json": 24,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_06_Frozen_Library_Opportunity\\data\\development.json": 8,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_04_Emergent_Hierarchical_Abstraction\\data\\test.json": 12,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_04B_Selective_Reuse\\data\\test.json": 12,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_04C_Confirm_Reusable_Knowledge\\data\\test.json": 100,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_04C_Confirm_Reusable_Knowledge\\data\\train.json": 24,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_04D_Where_Reuse_Loses_Advantage\\data\\development.json": 8,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_04D2_Costly_Choices\\data\\fresh.json": 16,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_05_Consult_and_Commit_Gates\\data\\eval.json": 16,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_05_Consult_and_Commit_Gates\\data\\train.json": 24,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_05_Consult_and_Commit_Gates\\data\\development.json": 8
+    },
+    "missing_prior_files": [],
+    "n_eval": 4
+  },
+  "task_ids": [
+    "inv_ea882a84a82d",
+    "inv_4a2a37fc1d41",
+    "inv_070fc576d093",
+    "inv_fde43750cad6"
+  ]
+}

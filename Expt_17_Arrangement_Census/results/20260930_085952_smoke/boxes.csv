@@ -1,0 +1,5 @@
+workload,index,task_id,inventory_in_store,Q,A,acceptable,n_place,match_checks,fit_events,patterns_with_fit,early_fits,middle_fits,late_fits,earliest_prefix
+independent_fresh,0,inv_1dec36052a8a,False,77.0,5327,True,18,0,0,0,0,0,0,"{""early"": null, ""middle"": null, ""late"": null}"
+independent_fresh,1,inv_983a9f0c8a3a,False,76.0,912,True,15,0,0,0,0,0,0,"{""early"": null, ""middle"": null, ""late"": null}"
+recurring_family,0,inv_a8956340ad37,False,78.0,768,True,15,0,0,0,0,0,0,"{""early"": null, ""middle"": null, ""late"": null}"
+recurring_family,1,inv_ff8902d1aa04,False,77.0,816,True,16,0,0,0,0,0,0,"{""early"": null, ""middle"": null, ""late"": null}"

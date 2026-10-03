@@ -1,0 +1,374 @@
+{
+  "unseen_ids": [
+    "inv_1d502c7cfaab",
+    "inv_2476cc8828e5",
+    "inv_7988f7c150bf",
+    "inv_cc5b3a4fa7b9"
+  ],
+  "pooled": [
+    {
+      "predictor": "per_seed_mean",
+      "historical_comparator": false,
+      "errors_first_legal": {
+        "n": 10,
+        "mae": 1247.327802690583,
+        "rmse": 1943.0377598917369,
+        "pearson_pooled": null,
+        "pearson_within_seed": {
+          "pooled": null,
+          "within_seed": {
+            "11": null
+          }
+        },
+        "auc_beneficial": 0.5,
+        "pred_mean": -350.1390134529148,
+        "y_mean": -1062.1,
+        "pred_min": -350.1390134529148,
+        "pred_max": -350.1390134529148
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 3,
+        "n_seed_box_pairs": 3,
+        "n_states": 10,
+        "n_actions": 10,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "decision_costs": {
+        "n_accepted": 0,
+        "n_accepted_seeds": 0,
+        "sum_remaining_saving": null,
+        "mean_net_after_site_checks": null,
+        "sum_action_decision_cost": null,
+        "consult_cost_all_states": 32.0,
+        "consult_cost_accepted_states": 0.0,
+        "net_after_decision_costs": null,
+        "largest_box": null,
+        "saving_without_largest_box": null,
+        "by_box": [],
+        "by_seed": {},
+        "note": "net_after_decision_costs subtracts accepted site checks and feature checks plus index/ranking on every consulted state, including rejected consultations. It is still not whole-box policy savings."
+      }
+    },
+    {
+      "predictor": "frozen",
+      "historical_comparator": true,
+      "errors_first_legal": {
+        "n": 10,
+        "mae": 1213.9740201052232,
+        "rmse": 1974.297633084652,
+        "pearson_pooled": 0.4610129056888414,
+        "pearson_within_seed": {
+          "pooled": 0.4610129056888414,
+          "within_seed": {
+            "11": 0.4610129056888414
+          }
+        },
+        "auc_beneficial": 0.75,
+        "pred_mean": -242.00278789778912,
+        "y_mean": -1062.1,
+        "pred_min": -290.91449531142916,
+        "pred_max": -200.0193668535233
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 3,
+        "n_seed_box_pairs": 3,
+        "n_states": 10,
+        "n_actions": 10,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "decision_costs": {
+        "n_accepted": 0,
+        "n_accepted_seeds": 0,
+        "sum_remaining_saving": null,
+        "mean_net_after_site_checks": null,
+        "sum_action_decision_cost": null,
+        "consult_cost_all_states": 32.0,
+        "consult_cost_accepted_states": 0.0,
+        "net_after_decision_costs": null,
+        "largest_box": null,
+        "saving_without_largest_box": null,
+        "by_box": [],
+        "by_seed": {},
+        "note": "net_after_decision_costs subtracts accepted site checks and feature checks plus index/ranking on every consulted state, including rejected consultations. It is still not whole-box policy savings."
+      }
+    },
+    {
+      "predictor": "context_unweighted",
+      "historical_comparator": false,
+      "errors_first_legal": {
+        "n": 10,
+        "mae": 1267.1709274209084,
+        "rmse": 1933.9282384252203,
+        "pearson_pooled": -0.05809868454190303,
+        "pearson_within_seed": {
+          "pooled": -0.05809868454190303,
+          "within_seed": {
+            "11": -0.05809868454190303
+          }
+        },
+        "auc_beneficial": 0.25,
+        "pred_mean": -381.21657004463134,
+        "y_mean": -1062.1,
+        "pred_min": -426.583155182913,
+        "pred_max": -323.4979755326752
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 3,
+        "n_seed_box_pairs": 3,
+        "n_states": 10,
+        "n_actions": 10,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "decision_costs": {
+        "n_accepted": 0,
+        "n_accepted_seeds": 0,
+        "sum_remaining_saving": null,
+        "mean_net_after_site_checks": null,
+        "sum_action_decision_cost": null,
+        "consult_cost_all_states": 32.0,
+        "consult_cost_accepted_states": 0.0,
+        "net_after_decision_costs": null,
+        "largest_box": null,
+        "saving_without_largest_box": null,
+        "by_box": [],
+        "by_seed": {},
+        "note": "net_after_decision_costs subtracts accepted site checks and feature checks plus index/ranking on every consulted state, including rejected consultations. It is still not whole-box policy savings."
+      }
+    },
+    {
+      "predictor": "action_unweighted",
+      "historical_comparator": false,
+      "errors_first_legal": {
+        "n": 10,
+        "mae": 1260.656556942583,
+        "rmse": 1914.9237631228814,
+        "pearson_pooled": 0.20914271875228208,
+        "pearson_within_seed": {
+          "pooled": 0.20914271875228208,
+          "within_seed": {
+            "11": 0.20914271875228208
+          }
+        },
+        "auc_beneficial": 0.5416666666666666,
+        "pred_mean": -407.7624446294568,
+        "y_mean": -1062.1,
+        "pred_min": -479.00676915314193,
+        "pred_max": -357.3477000562648
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 3,
+        "n_seed_box_pairs": 3,
+        "n_states": 10,
+        "n_actions": 10,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "decision_costs": {
+        "n_accepted": 0,
+        "n_accepted_seeds": 0,
+        "sum_remaining_saving": null,
+        "mean_net_after_site_checks": null,
+        "sum_action_decision_cost": null,
+        "consult_cost_all_states": 32.0,
+        "consult_cost_accepted_states": 0.0,
+        "net_after_decision_costs": null,
+        "largest_box": null,
+        "saving_without_largest_box": null,
+        "by_box": [],
+        "by_seed": {},
+        "note": "net_after_decision_costs subtracts accepted site checks and feature checks plus index/ranking on every consulted state, including rejected consultations. It is still not whole-box policy savings."
+      }
+    },
+    {
+      "predictor": "context_weighted",
+      "historical_comparator": true,
+      "errors_first_legal": {
+        "n": 10,
+        "mae": 1784.8413156842041,
+        "rmse": 1960.7231730269184,
+        "pearson_pooled": -0.13179685794952914,
+        "pearson_within_seed": {
+          "pooled": -0.13179685794952914,
+          "within_seed": {
+            "11": -0.13179685794952914
+          }
+        },
+        "auc_beneficial": 0.25,
+        "pred_mean": -1759.2002200610889,
+        "y_mean": -1062.1,
+        "pred_min": -1954.4901774241316,
+        "pred_max": -1482.3525671577277
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 3,
+        "n_seed_box_pairs": 3,
+        "n_states": 10,
+        "n_actions": 10,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "decision_costs": {
+        "n_accepted": 0,
+        "n_accepted_seeds": 0,
+        "sum_remaining_saving": null,
+        "mean_net_after_site_checks": null,
+        "sum_action_decision_cost": null,
+        "consult_cost_all_states": 32.0,
+        "consult_cost_accepted_states": 0.0,
+        "net_after_decision_costs": null,
+        "largest_box": null,
+        "saving_without_largest_box": null,
+        "by_box": [],
+        "by_seed": {},
+        "note": "net_after_decision_costs subtracts accepted site checks and feature checks plus index/ranking on every consulted state, including rejected consultations. It is still not whole-box policy savings."
+      }
+    },
+    {
+      "predictor": "action_weighted",
+      "historical_comparator": true,
+      "errors_first_legal": {
+        "n": 10,
+        "mae": 1811.91416912098,
+        "rmse": 1942.4080802778349,
+        "pearson_pooled": 0.28056506829212735,
+        "pearson_within_seed": {
+          "pooled": 0.28056506829212735,
+          "within_seed": {
+            "11": 0.28056506829212735
+          }
+        },
+        "auc_beneficial": 0.5416666666666666,
+        "pred_mean": -1866.2449887144994,
+        "y_mean": -1062.1,
+        "pred_min": -2110.692229520863,
+        "pred_max": -1545.3216945916706
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 3,
+        "n_seed_box_pairs": 3,
+        "n_states": 10,
+        "n_actions": 10,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "decision_costs": {
+        "n_accepted": 0,
+        "n_accepted_seeds": 0,
+        "sum_remaining_saving": null,
+        "mean_net_after_site_checks": null,
+        "sum_action_decision_cost": null,
+        "consult_cost_all_states": 32.0,
+        "consult_cost_accepted_states": 0.0,
+        "net_after_decision_costs": null,
+        "largest_box": null,
+        "saving_without_largest_box": null,
+        "by_box": [],
+        "by_seed": {},
+        "note": "net_after_decision_costs subtracts accepted site checks and feature checks plus index/ranking on every consulted state, including rejected consultations. It is still not whole-box policy savings."
+      }
+    }
+  ],
+  "beats_constant": false,
+  "remaining_check": 8,
+  "ledger": {
+    "skip_A": 6672,
+    "commit_A": 17293,
+    "skip_rollouts": 10,
+    "commit_rollouts": 10,
+    "cache_hits": 0,
+    "feature_checks": 322,
+    "index_probes": 16,
+    "compat_checks": 14
+  },
+  "proceed_wholebox": false,
+  "convincing_offline": false,
+  "holdout_status": "Expt-8B eight-box set is development/reused evaluation, not this confirmation set",
+  "frozen_identity": {
+    "labels_fit_sha256": "6a18c0cdff39172422046adaead86119970819dd29952808dbb66866237cd487",
+    "model_payload_sha256": "f2b78e90a808a038b6ab6599360f52ff5b1be216977f88c90c76579788dec087",
+    "frozen_file_sha256": "e14c795908ac987f14267cdaf8659ecccd65754407f67fc2b71fd8b2f15348cf",
+    "label_remaining_budget": "eval_cap - prefix_primitive_A",
+    "cache_key": "(state_fingerprint, action_key, remaining_cap)"
+  }
+}

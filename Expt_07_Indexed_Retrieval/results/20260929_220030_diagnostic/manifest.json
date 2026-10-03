@@ -1,0 +1,42 @@
+{
+  "task_ids": [
+    "inv_6f03f411bbe2",
+    "inv_c896259f1365",
+    "inv_b908dba97c65",
+    "inv_8170bb64bf7e",
+    "inv_6e28f3b80d0b",
+    "inv_9a5acff766eb",
+    "inv_76d0207d2c69",
+    "inv_d3f4b32f1171",
+    "inv_bbfbe3c1e8fd",
+    "inv_b25d3a37eaa7",
+    "inv_004cd74f4e56",
+    "inv_9ccfdb7ec516",
+    "inv_b0fb1f2b0b6d",
+    "inv_8e93ec37dc50",
+    "inv_4fe33ab2ac77",
+    "inv_cdac59dd6ff1"
+  ],
+  "split": {
+    "prior_sources": {
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_07_Indexed_Retrieval\\data\\train.json": 24,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_07_Indexed_Retrieval\\data\\development.json": 8,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_04_Emergent_Hierarchical_Abstraction\\data\\test.json": 12,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_04B_Selective_Reuse\\data\\test.json": 12,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_04C_Confirm_Reusable_Knowledge\\data\\test.json": 100,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_04C_Confirm_Reusable_Knowledge\\data\\train.json": 24,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_04D_Where_Reuse_Loses_Advantage\\data\\development.json": 8,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_04D2_Costly_Choices\\data\\fresh.json": 16,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_05_Consult_and_Commit_Gates\\data\\eval.json": 16,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_05_Consult_and_Commit_Gates\\data\\train.json": 24,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_05_Consult_and_Commit_Gates\\data\\development.json": 8,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_06_Frozen_Library_Opportunity\\data\\eval.json": 24,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_06_Frozen_Library_Opportunity\\data\\smoke.json": 4,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_06_Frozen_Library_Opportunity\\data\\train.json": 24,
+      "E:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_06_Frozen_Library_Opportunity\\data\\development.json": 8
+    },
+    "n_eval": 16
+  },
+  "k": 2,
+  "consult_budget": 25
+}

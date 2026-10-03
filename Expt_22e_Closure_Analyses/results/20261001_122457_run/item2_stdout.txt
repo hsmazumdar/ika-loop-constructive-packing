@@ -1,0 +1,9 @@
+hand S1 on 1200: 89.61666666666666 on first 1000 (the 89.61 convention): 89.606 uniform 1200: 67.31916666666666
+22b full s0 @20k boxes S1 83.88666666666667 saved 83.88666666666667 exact True P frac 1.0
+22c full s100 @32k boxes S1 87.82583333333334 saved 87.82583333333334 exact True P frac 1.0
+22d full s300 @60k boxes (rerun, saved memory) S1 91.145 saved 91.145 exact True P frac 1.0
+22d full s301 @60k boxes (rerun, saved memory) S1 93.98833333333333 saved 93.98833333333333 exact True P frac 1.0
+22d full s302 @60k boxes (rerun, saved memory) S1 91.54583333333333 saved 91.54583333333333 exact True P frac 1.0
+22d full s303 @60k boxes (rerun, saved memory) S1 91.42916666666666 saved 91.42916666666666 exact True P frac 1.0
+22d full s304 @60k boxes (rerun, saved memory) S1 91.47 saved 91.47 exact True P frac 1.0
+22d full s305 @60k boxes (rerun, saved memory) S1 90.985 saved 90.985 exact True P frac 1.0

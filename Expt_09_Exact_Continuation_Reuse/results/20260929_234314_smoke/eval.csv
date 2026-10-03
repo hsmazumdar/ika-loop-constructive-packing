@@ -1,0 +1,9 @@
+seed,task_id,split,condition,Q,A,acceptable,termination,primitive_evals,lookup_cost,validation_cost,learning_cost,reuse_cost,lookups,hits,replays,validation_fails,A_identity_ok,n_place,A_primitive,Q_primitive,effort_saving,quality_loss,n_keys_added
+11,inv_e87f1d136371,store,primitive,76.0,1264,True,quality,1248,0,0,16,16,0,0,0,0,True,16,1248,76.0,0,False,16
+11,inv_3ae11652dd8a,store,primitive,76.0,976,True,quality,960,0,0,16,16,0,0,0,0,True,16,960,76.0,0,False,16
+11,inv_e87f1d136371,recurring,exact,76.0,17,True,quality,0,1,16,0,17,1,1,1,0,True,16,1248,76.0,1231,False,
+11,inv_3ae11652dd8a,recurring,exact,76.0,17,True,quality,0,1,16,0,17,1,1,1,0,True,16,960,76.0,943,False,
+11,inv_24870bb4615d,fresh,primitive,76.0,1408,True,quality,1408,0,0,0,0,0,0,0,0,True,15,1408,76.0,0,False,
+11,inv_24870bb4615d,fresh,exact,76.0,1423,True,quality,1408,15,0,0,15,15,0,0,0,True,15,1408,76.0,-15,False,
+11,inv_40f63ca5c47b,fresh,primitive,76.0,1388,True,quality,1388,0,0,0,0,0,0,0,0,True,17,1388,76.0,0,False,
+11,inv_40f63ca5c47b,fresh,exact,76.0,1405,True,quality,1388,17,0,0,17,17,0,0,0,True,17,1388,76.0,-17,False,

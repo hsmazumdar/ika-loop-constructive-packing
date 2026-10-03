@@ -1,0 +1,16 @@
+seed,task_id,split,condition,workload,stream_id,family_id,Q,A,acceptable,primitive_evals,lookup_cost,matching_cost,transformation_cost,validation_cost,hits,exact_hits,equiv_hits,replays,validation_fails,used_transform,initial_state_hit,initial_state_hits,intermediate_hits,valid_reuse,first_hit_kind,first_hit_occupied,primitive_evals_before_first_hit,A_identity_ok,constructed_prefix_used,inventory_repeats_store,A_primitive,Q_primitive,effort_saving,quality_loss,quality_delta,learning_cost
+11,inv_2f4940dd8206,store,primitive,store_independent,,,77.0,1935,True,1920,0,0,0,0,0,0,0,0,0,,False,0,0,False,,,,True,False,False,1920,77.0,0,False,0.0,15
+11,inv_82c6d6f9ea01,store,primitive,store_independent,,,75.0,783,True,768,0,0,0,0,0,0,0,0,0,,False,0,0,False,,,,True,False,False,768,75.0,0,False,0.0,15
+11,inv_523e0d487bd9,store,primitive,recurring_family,,fam_56b8c7003102,75.0,2727,True,2712,0,0,0,0,0,0,0,0,0,,False,0,0,False,,,,True,False,False,2712,75.0,0,False,0.0,15
+11,inv_6d3cafdad352,independent_fresh_s0,primitive,independent_fresh,0,,70.0,7741,False,7741,0,0,0,0,0,0,0,0,0,,False,0,0,False,,,,True,False,False,7741,70.0,0,False,0.0,
+11,inv_6d3cafdad352,independent_fresh_s0,exact,independent_fresh,0,,70.0,7764,False,7741,23,0,0,0,0,0,0,0,0,,False,0,0,False,,,,True,False,False,7741,70.0,-23,False,0.0,
+11,inv_6d3cafdad352,independent_fresh_s0,learned,independent_fresh,0,,70.0,7810,False,7741,23,46,0,0,0,0,0,0,0,,False,0,0,False,,,,True,False,False,7741,70.0,-69,False,0.0,
+11,inv_4906ea167bc4,independent_fresh_s0,primitive,independent_fresh,0,,76.0,768,True,768,0,0,0,0,0,0,0,0,0,,False,0,0,False,,,,True,False,False,768,76.0,0,False,0.0,
+11,inv_4906ea167bc4,independent_fresh_s0,exact,independent_fresh,0,,76.0,784,True,768,16,0,0,0,0,0,0,0,0,,False,0,0,False,,,,True,False,False,768,76.0,-16,False,0.0,
+11,inv_4906ea167bc4,independent_fresh_s0,learned,independent_fresh,0,,76.0,816,True,768,16,32,0,0,0,0,0,0,0,,False,0,0,False,,,,True,False,False,768,76.0,-48,False,0.0,
+11,inv_bad29549fedf,recurring_family_s0,primitive,recurring_family,0,fam_56b8c7003102,75.0,2384,True,2384,0,0,0,0,0,0,0,0,0,,False,0,0,False,,,,True,False,False,2384,75.0,0,False,0.0,
+11,inv_bad29549fedf,recurring_family_s0,exact,recurring_family,0,fam_56b8c7003102,75.0,2401,True,2384,17,0,0,0,0,0,0,0,0,,False,0,0,False,,,,True,False,False,2384,75.0,-17,False,0.0,
+11,inv_bad29549fedf,recurring_family_s0,learned,recurring_family,0,fam_56b8c7003102,75.0,2435,True,2384,17,34,0,0,0,0,0,0,0,,False,0,0,False,,,,True,False,False,2384,75.0,-51,False,0.0,
+11,inv_20b8e4e43687,recurring_family_s0,primitive,recurring_family,0,fam_56b8c7003102,75.0,912,True,912,0,0,0,0,0,0,0,0,0,,False,0,0,False,,,,True,False,False,912,75.0,0,False,0.0,
+11,inv_20b8e4e43687,recurring_family_s0,exact,recurring_family,0,fam_56b8c7003102,75.0,927,True,912,15,0,0,0,0,0,0,0,0,,False,0,0,False,,,,True,False,False,912,75.0,-15,False,0.0,
+11,inv_20b8e4e43687,recurring_family_s0,learned,recurring_family,0,fam_56b8c7003102,75.0,957,True,912,15,30,0,0,0,0,0,0,0,,False,0,0,False,,,,True,False,False,912,75.0,-45,False,0.0,

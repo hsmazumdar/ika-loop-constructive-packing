@@ -1,0 +1,75 @@
+{
+  "acquisition": {
+    "n_trajectories": 48,
+    "n_excluded_unacceptable": 8,
+    "n_acceptable": 40,
+    "primitive_A_sum": 83345,
+    "primitive_A_per_trajectory": 1736.3541666666667,
+    "extraction_checks": 24482,
+    "extraction_connected_groups": 3139,
+    "extraction_per_acceptable_box": 612.05,
+    "boxes_capped": 0,
+    "n_patterns": 3043,
+    "n_frozen": 58,
+    "support": {
+      "by_inventories": {
+        "1": 2985,
+        "2": 53,
+        "3": 4,
+        "4": 1
+      },
+      "by_boxes": {
+        "1": 2967,
+        "2": 64,
+        "3": 10,
+        "4": 2
+      }
+    },
+    "frozen_by_pieces": {
+      "2": 55,
+      "3": 3
+    },
+    "seconds": 1.070189899999832
+  },
+  "applicability": {
+    "independent_fresh": {
+      "n_boxes": 60,
+      "n_inventory_in_store": 0,
+      "primitive_A_per_box": 1597.7166666666667,
+      "match_checks_per_box": 72872.21666666666,
+      "match_fraction_of_primitive": 45.61022500860603,
+      "boxes_with_fit": 59,
+      "boxes_with_early_or_middle_fit": 59,
+      "fit_events": 7107,
+      "early_fits": 4999,
+      "middle_fits": 2089,
+      "late_fits": 19,
+      "patterns_with_fit_mean": 14.383333333333333
+    },
+    "recurring_family": {
+      "n_boxes": 60,
+      "n_inventory_in_store": 0,
+      "primitive_A_per_box": 1138.1666666666667,
+      "match_checks_per_box": 93095.75,
+      "match_fraction_of_primitive": 81.79447942597744,
+      "boxes_with_fit": 60,
+      "boxes_with_early_or_middle_fit": 60,
+      "fit_events": 9130,
+      "early_fits": 6888,
+      "middle_fits": 2206,
+      "late_fits": 36,
+      "patterns_with_fit_mean": 19.933333333333334
+    },
+    "seconds": 2.565750499999922
+  },
+  "decision": {
+    "row": "fits_but_not_cheap",
+    "text": "Legal fits exist, but matching cost is not under the predeclared fraction of primitive effort.",
+    "n_frozen": 58,
+    "fresh_boxes_with_fit": 59,
+    "fresh_boxes_with_early_or_middle_fit": 59,
+    "fresh_match_fraction": 45.61022500860603,
+    "family_boxes_with_fit": 60,
+    "commitment": "not run"
+  }
+}

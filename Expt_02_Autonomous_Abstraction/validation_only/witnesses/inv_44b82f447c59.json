@@ -1,0 +1,145 @@
+{
+  "task_id": "inv_44b82f447c59",
+  "inventory": {
+    "D": 4,
+    "H": 3,
+    "K": 2,
+    "M": 5,
+    "O": 7,
+    "P": 1
+  },
+  "placements": [
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "O",
+      "rotation": 3,
+      "x": 1,
+      "y": 0
+    },
+    {
+      "type": "K",
+      "rotation": 1,
+      "x": 2,
+      "y": 0
+    },
+    {
+      "type": "O",
+      "rotation": 2,
+      "x": 2,
+      "y": 1
+    },
+    {
+      "type": "K",
+      "rotation": 2,
+      "x": 8,
+      "y": 0
+    },
+    {
+      "type": "H",
+      "rotation": 1,
+      "x": 6,
+      "y": 0
+    },
+    {
+      "type": "P",
+      "rotation": 0,
+      "x": 7,
+      "y": 1
+    },
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 5,
+      "y": 1
+    },
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 6,
+      "y": 3
+    },
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 4,
+      "y": 3
+    },
+    {
+      "type": "O",
+      "rotation": 1,
+      "x": 8,
+      "y": 4
+    },
+    {
+      "type": "D",
+      "rotation": 3,
+      "x": 0,
+      "y": 3
+    },
+    {
+      "type": "H",
+      "rotation": 0,
+      "x": 5,
+      "y": 5
+    },
+    {
+      "type": "D",
+      "rotation": 0,
+      "x": 7,
+      "y": 5
+    },
+    {
+      "type": "D",
+      "rotation": 1,
+      "x": 0,
+      "y": 4
+    },
+    {
+      "type": "O",
+      "rotation": 1,
+      "x": 2,
+      "y": 5
+    },
+    {
+      "type": "H",
+      "rotation": 3,
+      "x": 7,
+      "y": 7
+    },
+    {
+      "type": "O",
+      "rotation": 2,
+      "x": 3,
+      "y": 7
+    },
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 0,
+      "y": 6
+    },
+    {
+      "type": "D",
+      "rotation": 1,
+      "x": 4,
+      "y": 8
+    },
+    {
+      "type": "O",
+      "rotation": 2,
+      "x": 1,
+      "y": 8
+    },
+    {
+      "type": "O",
+      "rotation": 3,
+      "x": 1,
+      "y": 6
+    }
+  ]
+}

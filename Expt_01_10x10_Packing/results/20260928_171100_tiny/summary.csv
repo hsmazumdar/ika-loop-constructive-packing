@@ -1,0 +1,5 @@
+mode,phase,seeds_completed,train_or_eval_boxes,mean_terminal_score,seed_score_std,perfect_box_fraction,mean_actions,mean_undos,ltm_hit_fraction,mean_serialized_memory_bytes,perfect_per_1000_actions,wall_time_seconds
+both,train,1,5,87.8,0.0,0.0,100.0,43.0,0.0046801872074883,11755.4,0.0,9.47253020000062
+ltm,train,1,5,86.8,0.0,0.0,100.0,43.0,0.0007489234225800412,4943.2,0.0,9.128055300001506
+none,train,1,5,93.6,0.0,0.2,83.4,34.0,0.0,0.0,2.3980815347721824,7.9707465000046795
+stm,train,1,5,82.4,0.0,0.0,100.0,43.4,0.0,0.0,0.0,8.38553359999969

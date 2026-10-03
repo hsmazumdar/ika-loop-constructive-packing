@@ -1,0 +1,5 @@
+condition,seed,n,wins,ties,effort_losses,quality_losses,mean_delta_A,median_delta_A,mean_Q,pct_Q_ge_75
+lesion,11,8,0,8,0,0,0.0,0.0,75.25,87.5
+selective_flat,11,8,0,8,0,0,0.0,0.0,75.25,87.5
+selective_hierarchical,11,8,0,8,0,0,0.0,0.0,75.25,87.5
+transfer,11,8,0,8,0,0,0.0,0.0,75.25,87.5

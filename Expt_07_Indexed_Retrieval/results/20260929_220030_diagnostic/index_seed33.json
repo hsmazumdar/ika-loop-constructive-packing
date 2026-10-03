@@ -1,0 +1,57 @@
+{
+  "n_entries": 4,
+  "build_s": 0.00023729998792987317,
+  "n_bytes": 1176,
+  "entries": [
+    {
+      "op_id": "M0001",
+      "definition_hash": "0339710d0f49c58089a45cb8b13d218346a8698d391c9838b89ef6253bc7ff9f",
+      "demand": {
+        "H": 1,
+        "E": 1
+      },
+      "bbox_w": 5,
+      "bbox_h": 5,
+      "area": 10,
+      "n_steps": 2,
+      "depth": 1
+    },
+    {
+      "op_id": "M0003",
+      "definition_hash": "32e3d8bd8b0930d95e599ba1e2890cff6f9b38d77bee7ab46892a465ba9151c1",
+      "demand": {
+        "C": 2
+      },
+      "bbox_w": 3,
+      "bbox_h": 6,
+      "area": 10,
+      "n_steps": 2,
+      "depth": 1
+    },
+    {
+      "op_id": "M0004",
+      "definition_hash": "69300fce0f971ebd183646bd72be49bd2653a5e81015301cb93f1590e8f8dba2",
+      "demand": {
+        "M": 2
+      },
+      "bbox_w": 2,
+      "bbox_h": 4,
+      "area": 8,
+      "n_steps": 2,
+      "depth": 1
+    },
+    {
+      "op_id": "M0006",
+      "definition_hash": "c0734cfe9d135e76376a728b405a1701f1a0098c8909a49895b80f59d9f49d76",
+      "demand": {
+        "D": 1,
+        "N": 1
+      },
+      "bbox_w": 3,
+      "bbox_h": 4,
+      "area": 9,
+      "n_steps": 2,
+      "depth": 1
+    }
+  ]
+}

@@ -1,0 +1,745 @@
+seed,box,kind,param,old,new,reason
+0,2000,hyper,tau,2.0,1.76,steady progress (3-epoch gain +0.54): cool exploration
+0,2000,hyper,eps,0.1,0.08800000000000001,steady progress: cool exploration
+0,2000,hyper,sleep_every,200,220,replay balanced: sleep less often
+0,2000,hyper,dream,0.5,0.465,progress without extra dreams: fewer dreams
+0,3000,hyper,tau,1.76,1.7072,slow progress: mild cooling
+0,3000,hyper,eps,0.08800000000000001,0.08536,slow progress: mild cooling
+0,3000,hyper,sleep_every,220,242,replay balanced: sleep less often
+0,4000,hyper,tau,1.7072,1.655984,slow progress: mild cooling
+0,4000,hyper,eps,0.08536,0.0827992,slow progress: mild cooling
+0,4000,hyper,sleep_every,242,266,replay balanced: sleep less often
+0,5000,hyper,tau,1.655984,1.52350528,plateau at strong probe 83.0: cool
+0,5000,hyper,eps,0.0827992,0.07451928000000001,plateau at strong probe: cool
+0,5000,hyper,lr,0.001,0.0009000000000000001,plateau: smaller steps
+0,5000,hyper,sleep_every,266,293,replay balanced: sleep less often
+0,6000,hyper,tau,1.52350528,1.4778001215999998,slow progress: mild cooling
+0,6000,hyper,eps,0.07451928000000001,0.0722837016,slow progress: mild cooling
+0,6000,hyper,sleep_every,293,322,replay balanced: sleep less often
+0,7000,hyper,tau,1.4778001215999998,1.4334661179519999,slow progress: mild cooling
+0,7000,hyper,eps,0.0722837016,0.070115190552,slow progress: mild cooling
+0,7000,hyper,sleep_every,322,354,replay balanced: sleep less often
+0,8000,hyper,tau,1.4334661179519999,1.3904621344134398,slow progress: mild cooling
+0,8000,hyper,eps,0.070115190552,0.06801173483544,slow progress: mild cooling
+0,8000,hyper,sleep_every,354,389,replay balanced: sleep less often
+0,8000,capacity_test,capacity,64,128,capacity NOT the bottleneck (widening does not beat control)
+0,9000,hyper,tau,1.3904621344134398,1.3487482703810365,slow progress: mild cooling
+0,9000,hyper,eps,0.06801173483544,0.0659713827903768,slow progress: mild cooling
+0,9000,hyper,sleep_every,389,400,replay balanced: sleep less often
+0,10000,hyper,tau,1.3487482703810365,1.3082858222696054,slow progress: mild cooling
+0,10000,hyper,eps,0.0659713827903768,0.06399224130666549,slow progress: mild cooling
+0,11000,hyper,tau,1.3082858222696054,1.203622956488037,plateau at strong probe 83.8: cool
+0,11000,hyper,eps,0.06399224130666549,0.05759301717599894,plateau at strong probe: cool
+0,11000,hyper,lr,0.0009000000000000001,0.0008100000000000001,plateau: smaller steps
+0,12000,hyper,tau,1.203622956488037,1.107333119968994,plateau at strong probe 83.9: cool
+0,12000,hyper,eps,0.05759301717599894,0.05183371545839905,plateau at strong probe: cool
+0,12000,hyper,lr,0.0008100000000000001,0.000729,plateau: smaller steps
+0,12000,capacity_test,capacity,64,128,widening beats same-width control on held-out replay
+0,13000,hyper,tau,1.107333119968994,1.0741131263699242,slow progress: mild cooling
+0,13000,hyper,eps,0.05183371545839905,0.050278703994647074,slow progress: mild cooling
+0,14000,hyper,tau,1.0741131263699242,0.9881840762603303,plateau at strong probe 83.8: cool
+0,14000,hyper,eps,0.050278703994647074,0.045250833595182366,plateau at strong probe: cool
+0,14000,hyper,lr,0.000729,0.0006561000000000001,plateau: smaller steps
+0,15000,hyper,tau,0.9881840762603303,0.9091293501595039,plateau at strong probe 83.6: cool
+0,15000,hyper,eps,0.045250833595182366,0.04072575023566413,plateau at strong probe: cool
+0,15000,hyper,lr,0.0006561000000000001,0.00059049,plateau: smaller steps
+0,16000,hyper,tau,0.9091293501595039,0.8363990021467437,plateau at strong probe 82.9: cool
+0,16000,hyper,eps,0.04072575023566413,0.03665317521209772,plateau at strong probe: cool
+0,16000,hyper,lr,0.00059049,0.000531441,plateau: smaller steps
+0,16000,capacity_test,capacity,128,256,capacity NOT the bottleneck (widening does not beat control)
+0,17000,hyper,tau,0.8363990021467437,0.7694870819750043,plateau at strong probe 83.5: cool
+0,17000,hyper,eps,0.03665317521209772,0.032987857690887946,plateau at strong probe: cool
+0,17000,hyper,lr,0.000531441,0.0004782969,plateau: smaller steps
+0,18000,hyper,tau,0.7694870819750043,0.707928115417004,plateau at strong probe 83.9: cool
+0,18000,hyper,eps,0.032987857690887946,0.029689071921799152,plateau at strong probe: cool
+0,18000,hyper,lr,0.0004782969,0.00043046721,plateau: smaller steps
+0,19000,hyper,tau,0.707928115417004,0.6866902719544938,slow progress: mild cooling
+0,19000,hyper,eps,0.029689071921799152,0.028798399764145177,slow progress: mild cooling
+0,20000,hyper,tau,0.6866902719544938,0.666089563795859,slow progress: mild cooling
+0,20000,hyper,eps,0.028798399764145177,0.02793444777122082,slow progress: mild cooling
+0,20000,capacity_test,capacity,128,256,capacity NOT the bottleneck (widening does not beat control)
+1,2000,hyper,tau,2.0,1.94,slow progress: mild cooling
+1,2000,hyper,eps,0.1,0.097,slow progress: mild cooling
+1,2000,hyper,sleep_every,200,220,replay balanced: sleep less often
+1,3000,hyper,tau,1.94,1.8818,slow progress: mild cooling
+1,3000,hyper,eps,0.097,0.09409000000000001,slow progress: mild cooling
+1,3000,hyper,sleep_every,220,242,replay balanced: sleep less often
+1,4000,hyper,tau,1.8818,1.655984,steady progress (3-epoch gain +0.31): cool exploration
+1,4000,hyper,eps,0.09409000000000001,0.0827992,steady progress: cool exploration
+1,4000,hyper,sleep_every,242,266,replay balanced: sleep less often
+1,4000,hyper,dream,0.5,0.465,progress without extra dreams: fewer dreams
+1,5000,hyper,tau,1.655984,1.60630448,slow progress: mild cooling
+1,5000,hyper,eps,0.0827992,0.080315224,slow progress: mild cooling
+1,5000,hyper,sleep_every,266,293,replay balanced: sleep less often
+1,6000,hyper,tau,1.60630448,1.4778001216,plateau at strong probe 83.4: cool
+1,6000,hyper,eps,0.080315224,0.0722837016,plateau at strong probe: cool
+1,6000,hyper,lr,0.001,0.0009000000000000001,plateau: smaller steps
+1,6000,hyper,sleep_every,293,322,replay balanced: sleep less often
+1,7000,hyper,tau,1.4778001216,1.3595761118720002,plateau at strong probe 83.2: cool
+1,7000,hyper,eps,0.0722837016,0.06505533144,plateau at strong probe: cool
+1,7000,hyper,lr,0.0009000000000000001,0.0008100000000000001,plateau: smaller steps
+1,7000,hyper,sleep_every,322,354,replay balanced: sleep less often
+1,8000,hyper,tau,1.3595761118720002,1.2508100229222403,plateau at strong probe 83.5: cool
+1,8000,hyper,eps,0.06505533144,0.058549798296,plateau at strong probe: cool
+1,8000,hyper,lr,0.0008100000000000001,0.000729,plateau: smaller steps
+1,8000,hyper,sleep_every,354,389,replay balanced: sleep less often
+1,8000,capacity_test,capacity,64,128,capacity NOT the bottleneck (widening does not beat control)
+1,9000,hyper,tau,1.2508100229222403,1.213285722234573,slow progress: mild cooling
+1,9000,hyper,eps,0.058549798296,0.05679330434712,slow progress: mild cooling
+1,9000,hyper,sleep_every,389,400,replay balanced: sleep less often
+1,10000,hyper,tau,1.213285722234573,1.1768871505675358,slow progress: mild cooling
+1,10000,hyper,eps,0.05679330434712,0.0550895052167064,slow progress: mild cooling
+1,11000,hyper,tau,1.1768871505675358,1.1415805360505096,slow progress: mild cooling
+1,11000,hyper,eps,0.0550895052167064,0.053436820060205205,slow progress: mild cooling
+1,12000,hyper,tau,1.1415805360505096,1.0502540931664688,plateau at strong probe 83.8: cool
+1,12000,hyper,eps,0.053436820060205205,0.048093138054184685,plateau at strong probe: cool
+1,12000,hyper,lr,0.000729,0.0006561000000000001,plateau: smaller steps
+1,12000,capacity_test,capacity,64,128,capacity NOT the bottleneck (widening does not beat control)
+1,13000,hyper,tau,1.0502540931664688,0.9662337657131513,plateau at strong probe 84.6: cool
+1,13000,hyper,eps,0.048093138054184685,0.043283824248766214,plateau at strong probe: cool
+1,13000,hyper,lr,0.0006561000000000001,0.00059049,plateau: smaller steps
+1,14000,hyper,tau,0.9662337657131513,0.9372467527417567,slow progress: mild cooling
+1,14000,hyper,eps,0.043283824248766214,0.04198530952130323,slow progress: mild cooling
+1,15000,hyper,tau,0.9372467527417567,0.909129350159504,slow progress: mild cooling
+1,15000,hyper,eps,0.04198530952130323,0.04072575023566413,slow progress: mild cooling
+1,16000,hyper,tau,0.909129350159504,0.8000338281403635,steady progress (3-epoch gain +0.27): cool exploration
+1,16000,hyper,eps,0.04072575023566413,0.03583866020738444,steady progress: cool exploration
+1,16000,hyper,dream,0.465,0.43245000000000006,progress without extra dreams: fewer dreams
+1,17000,hyper,tau,0.8000338281403635,0.7040297687635199,steady progress (3-epoch gain +0.28): cool exploration
+1,17000,hyper,eps,0.03583866020738444,0.031538020982498305,steady progress: cool exploration
+1,17000,hyper,dream,0.43245000000000006,0.40217850000000005,progress without extra dreams: fewer dreams
+1,18000,hyper,tau,0.7040297687635199,0.6195461965118975,steady progress (3-epoch gain +0.26): cool exploration
+1,18000,hyper,eps,0.031538020982498305,0.027753458464598507,steady progress: cool exploration
+1,18000,hyper,dream,0.40217850000000005,0.37402600500000005,progress without extra dreams: fewer dreams
+1,19000,hyper,tau,0.6195461965118975,0.5699825007909457,plateau at strong probe 85.3: cool
+1,19000,hyper,eps,0.027753458464598507,0.02497811261813866,plateau at strong probe: cool
+1,19000,hyper,lr,0.00059049,0.000531441,plateau: smaller steps
+1,20000,hyper,tau,0.5699825007909457,0.52438390072767,plateau at strong probe 85.6: cool
+1,20000,hyper,eps,0.02497811261813866,0.022480301356324794,plateau at strong probe: cool
+1,20000,hyper,lr,0.000531441,0.0004782969,plateau: smaller steps
+1,20000,capacity_test,capacity,64,128,capacity NOT the bottleneck (widening does not beat control)
+10,2000,hyper,tau,2.0,1.94,slow progress: mild cooling
+10,2000,hyper,eps,0.1,0.097,slow progress: mild cooling
+10,2000,hyper,sleep_every,200,220,replay balanced: sleep less often
+10,3000,hyper,tau,1.94,1.8818,slow progress: mild cooling
+10,3000,hyper,eps,0.097,0.09409000000000001,slow progress: mild cooling
+10,3000,hyper,sleep_every,220,242,replay balanced: sleep less often
+10,4000,hyper,tau,1.8818,1.825346,slow progress: mild cooling
+10,4000,hyper,eps,0.09409000000000001,0.09126730000000001,slow progress: mild cooling
+10,4000,hyper,sleep_every,242,266,replay balanced: sleep less often
+10,5000,hyper,tau,1.825346,1.60630448,steady progress (3-epoch gain +0.27): cool exploration
+10,5000,hyper,eps,0.09126730000000001,0.080315224,steady progress: cool exploration
+10,5000,hyper,sleep_every,266,293,replay balanced: sleep less often
+10,5000,hyper,dream,0.5,0.465,progress without extra dreams: fewer dreams
+10,6000,hyper,tau,1.60630448,1.4135479424,steady progress (3-epoch gain +0.39): cool exploration
+10,6000,hyper,eps,0.080315224,0.07067739712,steady progress: cool exploration
+10,6000,hyper,sleep_every,293,322,replay balanced: sleep less often
+10,6000,hyper,dream,0.465,0.43245000000000006,progress without extra dreams: fewer dreams
+10,7000,hyper,tau,1.4135479424,1.243922189312,steady progress (3-epoch gain +0.44): cool exploration
+10,7000,hyper,eps,0.07067739712,0.0621961094656,steady progress: cool exploration
+10,7000,hyper,sleep_every,322,354,replay balanced: sleep less often
+10,7000,hyper,dream,0.43245000000000006,0.40217850000000005,progress without extra dreams: fewer dreams
+10,8000,hyper,tau,1.243922189312,1.09465152659456,steady progress (3-epoch gain +0.49): cool exploration
+10,8000,hyper,eps,0.0621961094656,0.054732576329728,steady progress: cool exploration
+10,8000,hyper,sleep_every,354,389,replay balanced: sleep less often
+10,8000,hyper,dream,0.40217850000000005,0.37402600500000005,progress without extra dreams: fewer dreams
+10,9000,hyper,tau,1.09465152659456,0.9632933434032128,steady progress (3-epoch gain +0.42): cool exploration
+10,9000,hyper,eps,0.054732576329728,0.04816466717016064,steady progress: cool exploration
+10,9000,hyper,sleep_every,389,400,replay balanced: sleep less often
+10,9000,hyper,dream,0.37402600500000005,0.34784418465000005,progress without extra dreams: fewer dreams
+10,10000,hyper,tau,0.9632933434032128,0.9343945431011164,slow progress: mild cooling
+10,10000,hyper,eps,0.04816466717016064,0.04671972715505582,slow progress: mild cooling
+10,10000,hyper,stm,1000,1300,old-episode loss 0.137 >> new 0.081: forgetting
+10,11000,hyper,tau,0.9343945431011164,0.9063627068080828,slow progress: mild cooling
+10,11000,hyper,eps,0.04671972715505582,0.045318135340404145,slow progress: mild cooling
+10,12000,hyper,tau,0.9063627068080828,0.8791718256038403,slow progress: mild cooling
+10,12000,hyper,eps,0.045318135340404145,0.04395859128019202,slow progress: mild cooling
+10,12000,capacity_test,capacity,64,128,widening beats same-width control on held-out replay
+10,13000,hyper,tau,0.8791718256038403,0.8527966708357251,slow progress: mild cooling
+10,13000,hyper,eps,0.04395859128019202,0.04263983354178626,slow progress: mild cooling
+10,13000,hyper,lr,0.001,0.0011200000000000001,loss falling smoothly (0.093->0.073)
+10,14000,hyper,tau,0.8527966708357251,0.8272127707106534,slow progress: mild cooling
+10,14000,hyper,eps,0.04263983354178626,0.041360638535532665,slow progress: mild cooling
+10,15000,hyper,tau,0.8272127707106534,0.7610357490538011,plateau at strong probe 85.2: cool
+10,15000,hyper,eps,0.041360638535532665,0.0372245746819794,plateau at strong probe: cool
+10,15000,hyper,lr,0.0011200000000000001,0.0010080000000000002,plateau: smaller steps
+10,16000,hyper,tau,0.7610357490538011,0.700152889129497,plateau at strong probe 85.4: cool
+10,16000,hyper,eps,0.0372245746819794,0.03350211721378146,plateau at strong probe: cool
+10,16000,hyper,lr,0.0010080000000000002,0.0009072000000000003,plateau: smaller steps
+10,16000,capacity_test,capacity,128,256,capacity NOT the bottleneck (widening does not beat control)
+10,17000,hyper,tau,0.700152889129497,0.6441406579991373,plateau at strong probe 85.7: cool
+10,17000,hyper,eps,0.03350211721378146,0.030151905492403316,plateau at strong probe: cool
+10,17000,hyper,lr,0.0009072000000000003,0.0008164800000000003,plateau: smaller steps
+10,18000,hyper,tau,0.6441406579991373,0.5926094053592064,plateau at strong probe 84.7: cool
+10,18000,hyper,eps,0.030151905492403316,0.027136714943162984,plateau at strong probe: cool
+10,18000,hyper,lr,0.0008164800000000003,0.0007348320000000003,plateau: smaller steps
+10,19000,hyper,tau,0.5926094053592064,0.5452006529304699,plateau at strong probe 84.3: cool
+10,19000,hyper,eps,0.027136714943162984,0.024423043448846687,plateau at strong probe: cool
+10,19000,hyper,lr,0.0007348320000000003,0.0006613488000000002,plateau: smaller steps
+10,20000,hyper,tau,0.5452006529304699,0.5015846006960324,plateau at strong probe 84.0: cool
+10,20000,hyper,eps,0.024423043448846687,0.02198073910396202,plateau at strong probe: cool
+10,20000,hyper,lr,0.0006613488000000002,0.0005952139200000003,plateau: smaller steps
+10,20000,capacity_test,capacity,128,256,capacity NOT the bottleneck (widening does not beat control)
+11,2000,hyper,tau,2.0,1.76,steady progress (3-epoch gain +0.48): cool exploration
+11,2000,hyper,eps,0.1,0.08800000000000001,steady progress: cool exploration
+11,2000,hyper,sleep_every,200,220,replay balanced: sleep less often
+11,2000,hyper,dream,0.5,0.465,progress without extra dreams: fewer dreams
+11,3000,hyper,tau,1.76,1.5488,steady progress (3-epoch gain +0.37): cool exploration
+11,3000,hyper,eps,0.08800000000000001,0.07744000000000001,steady progress: cool exploration
+11,3000,hyper,sleep_every,220,242,replay balanced: sleep less often
+11,3000,hyper,dream,0.465,0.43245000000000006,progress without extra dreams: fewer dreams
+11,4000,hyper,tau,1.5488,1.362944,steady progress (3-epoch gain +0.47): cool exploration
+11,4000,hyper,eps,0.07744000000000001,0.0681472,steady progress: cool exploration
+11,4000,hyper,sleep_every,242,266,replay balanced: sleep less often
+11,4000,hyper,dream,0.43245000000000006,0.40217850000000005,progress without extra dreams: fewer dreams
+11,5000,hyper,tau,1.362944,1.19939072,steady progress (3-epoch gain +0.34): cool exploration
+11,5000,hyper,eps,0.0681472,0.059969536000000004,steady progress: cool exploration
+11,5000,hyper,sleep_every,266,293,replay balanced: sleep less often
+11,5000,hyper,dream,0.40217850000000005,0.37402600500000005,progress without extra dreams: fewer dreams
+11,6000,hyper,tau,1.19939072,1.0554638336,steady progress (3-epoch gain +0.28): cool exploration
+11,6000,hyper,eps,0.059969536000000004,0.052773191680000005,steady progress: cool exploration
+11,6000,hyper,sleep_every,293,322,replay balanced: sleep less often
+11,6000,hyper,dream,0.37402600500000005,0.34784418465000005,progress without extra dreams: fewer dreams
+11,7000,hyper,tau,1.0554638336,0.971026726912,plateau at strong probe 83.2: cool
+11,7000,hyper,eps,0.052773191680000005,0.047495872512000006,plateau at strong probe: cool
+11,7000,hyper,lr,0.001,0.0009000000000000001,plateau: smaller steps
+11,7000,hyper,sleep_every,322,354,replay balanced: sleep less often
+11,8000,hyper,tau,0.971026726912,0.89334458875904,plateau at strong probe 83.9: cool
+11,8000,hyper,eps,0.047495872512000006,0.04274628526080001,plateau at strong probe: cool
+11,8000,hyper,lr,0.0009000000000000001,0.0008100000000000001,plateau: smaller steps
+11,8000,hyper,sleep_every,354,389,replay balanced: sleep less often
+11,8000,capacity_test,capacity,64,128,capacity NOT the bottleneck (widening does not beat control)
+11,9000,hyper,tau,0.89334458875904,0.8665442510962688,slow progress: mild cooling
+11,9000,hyper,eps,0.04274628526080001,0.041463896702976004,slow progress: mild cooling
+11,9000,hyper,sleep_every,389,400,replay balanced: sleep less often
+11,10000,hyper,tau,0.8665442510962688,0.8405479235633807,slow progress: mild cooling
+11,10000,hyper,eps,0.041463896702976004,0.04021997980188672,slow progress: mild cooling
+11,11000,hyper,tau,0.8405479235633807,0.8153314858564793,slow progress: mild cooling
+11,11000,hyper,eps,0.04021997980188672,0.03901338040783012,slow progress: mild cooling
+11,12000,hyper,tau,0.8153314858564793,0.750104966987961,plateau at strong probe 84.4: cool
+11,12000,hyper,eps,0.03901338040783012,0.035112042367047104,plateau at strong probe: cool
+11,12000,hyper,lr,0.0008100000000000001,0.000729,plateau: smaller steps
+11,12000,capacity_test,capacity,64,128,capacity NOT the bottleneck (widening does not beat control)
+11,13000,hyper,tau,0.750104966987961,0.7276018179783221,slow progress: mild cooling
+11,13000,hyper,eps,0.035112042367047104,0.03405868109603569,slow progress: mild cooling
+11,14000,hyper,tau,0.7276018179783221,0.6693936725400564,plateau at strong probe 84.6: cool
+11,14000,hyper,eps,0.03405868109603569,0.030652812986432118,plateau at strong probe: cool
+11,14000,hyper,lr,0.000729,0.0006561000000000001,plateau: smaller steps
+11,15000,hyper,tau,0.6693936725400564,0.615842178736852,plateau at strong probe 84.2: cool
+11,15000,hyper,eps,0.030652812986432118,0.027587531687788908,plateau at strong probe: cool
+11,15000,hyper,lr,0.0006561000000000001,0.00059049,plateau: smaller steps
+11,16000,hyper,tau,0.615842178736852,0.5665748044379039,plateau at strong probe 84.2: cool
+11,16000,hyper,eps,0.027587531687788908,0.024828778519010018,plateau at strong probe: cool
+11,16000,hyper,lr,0.00059049,0.000531441,plateau: smaller steps
+11,16000,capacity_test,capacity,64,128,capacity NOT the bottleneck (widening does not beat control)
+11,17000,hyper,tau,0.5665748044379039,0.5212488200828715,plateau at strong probe 84.3: cool
+11,17000,hyper,eps,0.024828778519010018,0.022345900667109016,plateau at strong probe: cool
+11,17000,hyper,lr,0.000531441,0.0004782969,plateau: smaller steps
+11,18000,hyper,tau,0.5212488200828715,0.4795489144762418,plateau at strong probe 84.3: cool
+11,18000,hyper,eps,0.022345900667109016,0.020111310600398113,plateau at strong probe: cool
+11,18000,hyper,lr,0.0004782969,0.00043046721,plateau: smaller steps
+11,19000,hyper,tau,0.4795489144762418,0.46516244704195453,slow progress: mild cooling
+11,19000,hyper,eps,0.020111310600398113,0.01950797128238617,slow progress: mild cooling
+11,20000,hyper,tau,0.46516244704195453,0.45120757363069586,slow progress: mild cooling
+11,20000,hyper,eps,0.01950797128238617,0.018922732143914583,slow progress: mild cooling
+2,2000,hyper,tau,2.0,1.76,steady progress (3-epoch gain +1.01): cool exploration
+2,2000,hyper,eps,0.1,0.08800000000000001,steady progress: cool exploration
+2,2000,hyper,sleep_every,200,220,replay balanced: sleep less often
+2,2000,hyper,dream,0.5,0.465,progress without extra dreams: fewer dreams
+2,3000,hyper,tau,1.76,1.5488,steady progress (3-epoch gain +0.59): cool exploration
+2,3000,hyper,eps,0.08800000000000001,0.07744000000000001,steady progress: cool exploration
+2,3000,hyper,sleep_every,220,242,replay balanced: sleep less often
+2,3000,hyper,dream,0.465,0.43245000000000006,progress without extra dreams: fewer dreams
+2,4000,hyper,tau,1.5488,1.362944,steady progress (3-epoch gain +0.71): cool exploration
+2,4000,hyper,eps,0.07744000000000001,0.0681472,steady progress: cool exploration
+2,4000,hyper,sleep_every,242,266,replay balanced: sleep less often
+2,4000,hyper,dream,0.43245000000000006,0.40217850000000005,progress without extra dreams: fewer dreams
+2,5000,hyper,tau,1.362944,1.19939072,steady progress (3-epoch gain +0.53): cool exploration
+2,5000,hyper,eps,0.0681472,0.059969536000000004,steady progress: cool exploration
+2,5000,hyper,sleep_every,266,293,replay balanced: sleep less often
+2,5000,hyper,dream,0.40217850000000005,0.37402600500000005,progress without extra dreams: fewer dreams
+2,6000,hyper,tau,1.19939072,1.1634089984,slow progress: mild cooling
+2,6000,hyper,eps,0.059969536000000004,0.05817044992,slow progress: mild cooling
+2,6000,hyper,sleep_every,293,322,replay balanced: sleep less often
+2,7000,hyper,tau,1.1634089984,1.128506728448,slow progress: mild cooling
+2,7000,hyper,eps,0.05817044992,0.056425336422399996,slow progress: mild cooling
+2,7000,hyper,sleep_every,322,354,replay balanced: sleep less often
+2,8000,hyper,tau,1.128506728448,1.09465152659456,slow progress: mild cooling
+2,8000,hyper,eps,0.056425336422399996,0.05473257632972799,slow progress: mild cooling
+2,8000,hyper,sleep_every,354,389,replay balanced: sleep less often
+2,9000,hyper,tau,1.09465152659456,0.9632933434032128,steady progress (3-epoch gain +0.30): cool exploration
+2,9000,hyper,eps,0.05473257632972799,0.04816466717016064,steady progress: cool exploration
+2,9000,hyper,sleep_every,389,400,replay balanced: sleep less often
+2,9000,hyper,dream,0.37402600500000005,0.34784418465000005,progress without extra dreams: fewer dreams
+2,10000,hyper,tau,0.9632933434032128,0.9343945431011164,slow progress: mild cooling
+2,10000,hyper,eps,0.04816466717016064,0.04671972715505582,slow progress: mild cooling
+2,11000,hyper,tau,0.9343945431011164,0.8222671979289824,steady progress (3-epoch gain +0.30): cool exploration
+2,11000,hyper,eps,0.04671972715505582,0.04111335989644912,steady progress: cool exploration
+2,11000,hyper,dream,0.34784418465000005,0.3234950917245001,progress without extra dreams: fewer dreams
+2,12000,hyper,tau,0.8222671979289824,0.7975991819911129,slow progress: mild cooling
+2,12000,hyper,eps,0.04111335989644912,0.03987995909955564,slow progress: mild cooling
+2,13000,hyper,tau,0.7975991819911129,0.7736712065313794,slow progress: mild cooling
+2,13000,hyper,eps,0.03987995909955564,0.03868356032656897,slow progress: mild cooling
+2,14000,hyper,tau,0.7736712065313794,0.7117775100088691,plateau at strong probe 85.4: cool
+2,14000,hyper,eps,0.03868356032656897,0.03481520429391208,plateau at strong probe: cool
+2,14000,hyper,lr,0.001,0.0009000000000000001,plateau: smaller steps
+2,15000,hyper,tau,0.7117775100088691,0.6548353092081596,plateau at strong probe 84.8: cool
+2,15000,hyper,eps,0.03481520429391208,0.03133368386452087,plateau at strong probe: cool
+2,15000,hyper,lr,0.0009000000000000001,0.0008100000000000001,plateau: smaller steps
+2,16000,hyper,tau,0.6548353092081596,0.6351902499319148,slow progress: mild cooling
+2,16000,hyper,eps,0.03133368386452087,0.030393673348585247,slow progress: mild cooling
+2,16000,capacity_test,capacity,64,128,capacity NOT the bottleneck (widening does not beat control)
+2,17000,hyper,tau,0.6351902499319148,0.5843750299373616,plateau at strong probe 85.3: cool
+2,17000,hyper,eps,0.030393673348585247,0.027354306013726723,plateau at strong probe: cool
+2,17000,hyper,lr,0.0008100000000000001,0.000729,plateau: smaller steps
+2,18000,hyper,tau,0.5843750299373616,0.5668437790392407,slow progress: mild cooling
+2,18000,hyper,eps,0.027354306013726723,0.02653367683331492,slow progress: mild cooling
+2,19000,hyper,tau,0.5668437790392407,0.5214962767161014,plateau at strong probe 85.1: cool
+2,19000,hyper,eps,0.02653367683331492,0.023880309149983427,plateau at strong probe: cool
+2,19000,hyper,lr,0.000729,0.0006561000000000001,plateau: smaller steps
+2,20000,hyper,tau,0.5214962767161014,0.47977657457881334,plateau at strong probe 85.5: cool
+2,20000,hyper,eps,0.023880309149983427,0.021492278234985084,plateau at strong probe: cool
+2,20000,hyper,lr,0.0006561000000000001,0.00059049,plateau: smaller steps
+2,20000,capacity_test,capacity,64,128,capacity NOT the bottleneck (widening does not beat control)
+3,2000,hyper,tau,2.0,1.76,steady progress (3-epoch gain +1.29): cool exploration
+3,2000,hyper,eps,0.1,0.08800000000000001,steady progress: cool exploration
+3,2000,hyper,sleep_every,200,220,replay balanced: sleep less often
+3,2000,hyper,dream,0.5,0.465,progress without extra dreams: fewer dreams
+3,3000,hyper,tau,1.76,1.5488,steady progress (3-epoch gain +0.63): cool exploration
+3,3000,hyper,eps,0.08800000000000001,0.07744000000000001,steady progress: cool exploration
+3,3000,hyper,sleep_every,220,242,replay balanced: sleep less often
+3,3000,hyper,dream,0.465,0.43245000000000006,progress without extra dreams: fewer dreams
+3,4000,hyper,tau,1.5488,1.362944,steady progress (3-epoch gain +0.85): cool exploration
+3,4000,hyper,eps,0.07744000000000001,0.0681472,steady progress: cool exploration
+3,4000,hyper,sleep_every,242,266,replay balanced: sleep less often
+3,4000,hyper,dream,0.43245000000000006,0.40217850000000005,progress without extra dreams: fewer dreams
+3,5000,hyper,tau,1.362944,1.19939072,steady progress (3-epoch gain +0.70): cool exploration
+3,5000,hyper,eps,0.0681472,0.059969536000000004,steady progress: cool exploration
+3,5000,hyper,sleep_every,266,293,replay balanced: sleep less often
+3,5000,hyper,dream,0.40217850000000005,0.37402600500000005,progress without extra dreams: fewer dreams
+3,6000,hyper,tau,1.19939072,1.0554638336,steady progress (3-epoch gain +0.68): cool exploration
+3,6000,hyper,eps,0.059969536000000004,0.052773191680000005,steady progress: cool exploration
+3,6000,hyper,sleep_every,293,322,replay balanced: sleep less often
+3,6000,hyper,dream,0.37402600500000005,0.34784418465000005,progress without extra dreams: fewer dreams
+3,7000,hyper,tau,1.0554638336,0.9288081735679999,steady progress (3-epoch gain +0.38): cool exploration
+3,7000,hyper,eps,0.052773191680000005,0.046440408678400005,steady progress: cool exploration
+3,7000,hyper,sleep_every,322,354,replay balanced: sleep less often
+3,7000,hyper,dream,0.34784418465000005,0.3234950917245001,progress without extra dreams: fewer dreams
+3,8000,hyper,tau,0.9288081735679999,0.9009439283609599,slow progress: mild cooling
+3,8000,hyper,eps,0.046440408678400005,0.045047196418048004,slow progress: mild cooling
+3,8000,hyper,sleep_every,354,389,replay balanced: sleep less often
+3,8000,capacity_test,capacity,64,128,capacity NOT the bottleneck (widening does not beat control)
+3,9000,hyper,tau,0.9009439283609599,0.8739156105101311,slow progress: mild cooling
+3,9000,hyper,eps,0.045047196418048004,0.043695780525506565,slow progress: mild cooling
+3,9000,hyper,sleep_every,389,400,replay balanced: sleep less often
+3,10000,hyper,tau,0.8739156105101311,0.7690457372489153,steady progress (3-epoch gain +0.26): cool exploration
+3,10000,hyper,eps,0.043695780525506565,0.03845228686244578,steady progress: cool exploration
+3,10000,hyper,dream,0.3234950917245001,0.3008504353037851,progress without extra dreams: fewer dreams
+3,11000,hyper,tau,0.7690457372489153,0.7459743651314479,slow progress: mild cooling
+3,11000,hyper,eps,0.03845228686244578,0.037298718256572404,slow progress: mild cooling
+3,12000,hyper,tau,0.7459743651314479,0.7235951341775044,slow progress: mild cooling
+3,12000,hyper,eps,0.037298718256572404,0.03617975670887523,slow progress: mild cooling
+3,12000,capacity_test,capacity,64,128,capacity NOT the bottleneck (widening does not beat control)
+3,13000,hyper,tau,0.7235951341775044,0.7018872801521793,slow progress: mild cooling
+3,13000,hyper,eps,0.03617975670887523,0.03509436400760897,slow progress: mild cooling
+3,14000,hyper,tau,0.7018872801521793,0.6808306617476139,slow progress: mild cooling
+3,14000,hyper,eps,0.03509436400760897,0.0340415330873807,slow progress: mild cooling
+3,14000,hyper,stm,1000,1300,old-episode loss 0.132 >> new 0.079: forgetting
+3,15000,hyper,tau,0.6808306617476139,0.6604057418951854,slow progress: mild cooling
+3,15000,hyper,eps,0.0340415330873807,0.03302028709475928,slow progress: mild cooling
+3,16000,hyper,tau,0.6604057418951854,0.6075732825435706,plateau at strong probe 85.8: cool
+3,16000,hyper,eps,0.03302028709475928,0.02971825838528335,plateau at strong probe: cool
+3,16000,hyper,lr,0.001,0.0009000000000000001,plateau: smaller steps
+3,16000,capacity_test,capacity,64,128,capacity NOT the bottleneck (widening does not beat control)
+3,17000,hyper,tau,0.6075732825435706,0.5893460840672634,slow progress: mild cooling
+3,17000,hyper,eps,0.02971825838528335,0.02882671063372485,slow progress: mild cooling
+3,17000,hyper,lr,0.0009000000000000001,0.0010080000000000002,loss falling smoothly (0.110->0.087)
+3,18000,hyper,tau,0.5893460840672634,0.5716657015452455,slow progress: mild cooling
+3,18000,hyper,eps,0.02882671063372485,0.027961909314713103,slow progress: mild cooling
+3,19000,hyper,tau,0.5716657015452455,0.5545157304988881,slow progress: mild cooling
+3,19000,hyper,eps,0.027961909314713103,0.027123052035271707,slow progress: mild cooling
+3,19000,hyper,lr,0.0010080000000000002,0.0011289600000000002,loss falling smoothly (0.113->0.081)
+3,20000,hyper,tau,0.5545157304988881,0.5101544720589771,plateau at strong probe 86.1: cool
+3,20000,hyper,eps,0.027123052035271707,0.02441074683174454,plateau at strong probe: cool
+3,20000,hyper,lr,0.0011289600000000002,0.0010160640000000003,plateau: smaller steps
+3,20000,capacity_test,capacity,64,128,capacity NOT the bottleneck (widening does not beat control)
+4,2000,hyper,tau,2.0,1.76,steady progress (3-epoch gain +0.93): cool exploration
+4,2000,hyper,eps,0.1,0.08800000000000001,steady progress: cool exploration
+4,2000,hyper,sleep_every,200,220,replay balanced: sleep less often
+4,2000,hyper,dream,0.5,0.465,progress without extra dreams: fewer dreams
+4,3000,hyper,tau,1.76,1.5488,steady progress (3-epoch gain +0.59): cool exploration
+4,3000,hyper,eps,0.08800000000000001,0.07744000000000001,steady progress: cool exploration
+4,3000,hyper,sleep_every,220,242,replay balanced: sleep less often
+4,3000,hyper,dream,0.465,0.43245000000000006,progress without extra dreams: fewer dreams
+4,4000,hyper,tau,1.5488,1.362944,steady progress (3-epoch gain +0.66): cool exploration
+4,4000,hyper,eps,0.07744000000000001,0.0681472,steady progress: cool exploration
+4,4000,hyper,sleep_every,242,266,replay balanced: sleep less often
+4,4000,hyper,dream,0.43245000000000006,0.40217850000000005,progress without extra dreams: fewer dreams
+4,5000,hyper,tau,1.362944,1.19939072,steady progress (3-epoch gain +0.50): cool exploration
+4,5000,hyper,eps,0.0681472,0.059969536000000004,steady progress: cool exploration
+4,5000,hyper,sleep_every,266,293,replay balanced: sleep less often
+4,5000,hyper,dream,0.40217850000000005,0.37402600500000005,progress without extra dreams: fewer dreams
+4,6000,hyper,tau,1.19939072,1.0554638336,steady progress (3-epoch gain +0.28): cool exploration
+4,6000,hyper,eps,0.059969536000000004,0.052773191680000005,steady progress: cool exploration
+4,6000,hyper,sleep_every,293,322,replay balanced: sleep less often
+4,6000,hyper,dream,0.37402600500000005,0.34784418465000005,progress without extra dreams: fewer dreams
+4,7000,hyper,tau,1.0554638336,0.9288081735679999,steady progress (3-epoch gain +0.43): cool exploration
+4,7000,hyper,eps,0.052773191680000005,0.046440408678400005,steady progress: cool exploration
+4,7000,hyper,sleep_every,322,354,replay balanced: sleep less often
+4,7000,hyper,dream,0.34784418465000005,0.3234950917245001,progress without extra dreams: fewer dreams
+4,8000,hyper,tau,0.9288081735679999,0.8173511927398399,steady progress (3-epoch gain +0.35): cool exploration
+4,8000,hyper,eps,0.046440408678400005,0.040867559636992006,steady progress: cool exploration
+4,8000,hyper,sleep_every,354,389,replay balanced: sleep less often
+4,8000,hyper,dream,0.3234950917245001,0.3008504353037851,progress without extra dreams: fewer dreams
+4,9000,hyper,tau,0.8173511927398399,0.7192690496110591,steady progress (3-epoch gain +0.27): cool exploration
+4,9000,hyper,eps,0.040867559636992006,0.035963452480552965,steady progress: cool exploration
+4,9000,hyper,sleep_every,389,400,replay balanced: sleep less often
+4,9000,hyper,dream,0.3008504353037851,0.2797909048325201,progress without extra dreams: fewer dreams
+4,10000,hyper,tau,0.7192690496110591,0.6617275256421744,plateau at strong probe 84.5: cool
+4,10000,hyper,eps,0.035963452480552965,0.03236710723249767,plateau at strong probe: cool
+4,10000,hyper,lr,0.001,0.0009000000000000001,plateau: smaller steps
+4,11000,hyper,tau,0.6617275256421744,0.6418756998729092,slow progress: mild cooling
+4,11000,hyper,eps,0.03236710723249767,0.03139609401552274,slow progress: mild cooling
+4,12000,hyper,tau,0.6418756998729092,0.5905256438830765,plateau at strong probe 84.2: cool
+4,12000,hyper,eps,0.03139609401552274,0.02825648461397047,plateau at strong probe: cool
+4,12000,hyper,lr,0.0009000000000000001,0.0008100000000000001,plateau: smaller steps
+4,12000,capacity_test,capacity,64,128,widening beats same-width control on held-out replay
+4,13000,hyper,tau,0.5905256438830765,0.5728098745665842,slow progress: mild cooling
+4,13000,hyper,eps,0.02825648461397047,0.027408790075551356,slow progress: mild cooling
+4,14000,hyper,tau,0.5728098745665842,0.5269850846012575,plateau at strong probe 85.3: cool
+4,14000,hyper,eps,0.027408790075551356,0.02466791106799622,plateau at strong probe: cool
+4,14000,hyper,lr,0.0008100000000000001,0.000729,plateau: smaller steps
+4,15000,hyper,tau,0.5269850846012575,0.46374687444910656,steady progress (3-epoch gain +0.31): cool exploration
+4,15000,hyper,eps,0.02466791106799622,0.021707761739836674,steady progress: cool exploration
+4,15000,hyper,dream,0.2797909048325201,0.26020554149424374,progress without extra dreams: fewer dreams
+4,16000,hyper,tau,0.46374687444910656,0.44983446821563333,slow progress: mild cooling
+4,16000,hyper,eps,0.021707761739836674,0.021056528887641573,slow progress: mild cooling
+4,17000,hyper,tau,0.44983446821563333,0.4363394341691643,slow progress: mild cooling
+4,17000,hyper,eps,0.021056528887641573,0.020424833021012324,slow progress: mild cooling
+4,17000,hyper,lr,0.000729,0.0008164800000000002,loss falling smoothly (0.103->0.072)
+4,18000,hyper,tau,0.4363394341691643,0.4014322794356312,plateau at strong probe 84.8: cool
+4,18000,hyper,eps,0.020424833021012324,0.018382349718911093,plateau at strong probe: cool
+4,18000,hyper,lr,0.0008164800000000002,0.0007348320000000001,plateau: smaller steps
+4,19000,hyper,tau,0.4014322794356312,0.3693176970807807,plateau at strong probe 85.5: cool
+4,19000,hyper,eps,0.018382349718911093,0.016544114747019983,plateau at strong probe: cool
+4,19000,hyper,lr,0.0007348320000000001,0.0006613488000000001,plateau: smaller steps
+4,20000,hyper,tau,0.3693176970807807,0.33977228131431825,plateau at strong probe 85.9: cool
+4,20000,hyper,eps,0.016544114747019983,0.014889703272317985,plateau at strong probe: cool
+4,20000,hyper,lr,0.0006613488000000001,0.0005952139200000002,plateau: smaller steps
+4,20000,capacity_test,capacity,128,256,capacity NOT the bottleneck (widening does not beat control)
+5,2000,hyper,tau,2.0,1.76,steady progress (3-epoch gain +2.28): cool exploration
+5,2000,hyper,eps,0.1,0.08800000000000001,steady progress: cool exploration
+5,2000,hyper,sleep_every,200,220,replay balanced: sleep less often
+5,2000,hyper,dream,0.5,0.465,progress without extra dreams: fewer dreams
+5,3000,hyper,tau,1.76,1.5488,steady progress (3-epoch gain +1.27): cool exploration
+5,3000,hyper,eps,0.08800000000000001,0.07744000000000001,steady progress: cool exploration
+5,3000,hyper,sleep_every,220,242,replay balanced: sleep less often
+5,3000,hyper,dream,0.465,0.43245000000000006,progress without extra dreams: fewer dreams
+5,4000,hyper,tau,1.5488,1.362944,steady progress (3-epoch gain +1.54): cool exploration
+5,4000,hyper,eps,0.07744000000000001,0.0681472,steady progress: cool exploration
+5,4000,hyper,sleep_every,242,266,replay balanced: sleep less often
+5,4000,hyper,dream,0.43245000000000006,0.40217850000000005,progress without extra dreams: fewer dreams
+5,5000,hyper,tau,1.362944,1.19939072,steady progress (3-epoch gain +0.98): cool exploration
+5,5000,hyper,eps,0.0681472,0.059969536000000004,steady progress: cool exploration
+5,5000,hyper,sleep_every,266,293,replay balanced: sleep less often
+5,5000,hyper,dream,0.40217850000000005,0.37402600500000005,progress without extra dreams: fewer dreams
+5,6000,hyper,tau,1.19939072,1.0554638336,steady progress (3-epoch gain +0.60): cool exploration
+5,6000,hyper,eps,0.059969536000000004,0.052773191680000005,steady progress: cool exploration
+5,6000,hyper,sleep_every,293,322,replay balanced: sleep less often
+5,6000,hyper,dream,0.37402600500000005,0.34784418465000005,progress without extra dreams: fewer dreams
+5,7000,hyper,tau,1.0554638336,0.9288081735679999,steady progress (3-epoch gain +0.36): cool exploration
+5,7000,hyper,eps,0.052773191680000005,0.046440408678400005,steady progress: cool exploration
+5,7000,hyper,sleep_every,322,354,replay balanced: sleep less often
+5,7000,hyper,dream,0.34784418465000005,0.3234950917245001,progress without extra dreams: fewer dreams
+5,8000,hyper,tau,0.9288081735679999,0.9009439283609599,slow progress: mild cooling
+5,8000,hyper,eps,0.046440408678400005,0.045047196418048004,slow progress: mild cooling
+5,8000,hyper,sleep_every,354,389,replay balanced: sleep less often
+5,9000,hyper,tau,0.9009439283609599,0.8739156105101311,slow progress: mild cooling
+5,9000,hyper,eps,0.045047196418048004,0.043695780525506565,slow progress: mild cooling
+5,9000,hyper,sleep_every,389,400,replay balanced: sleep less often
+5,10000,hyper,tau,0.8739156105101311,0.8476981421948272,slow progress: mild cooling
+5,10000,hyper,eps,0.043695780525506565,0.04238490710974137,slow progress: mild cooling
+5,11000,hyper,tau,0.8476981421948272,0.7798822908192411,plateau at strong probe 83.9: cool
+5,11000,hyper,eps,0.04238490710974137,0.03814641639876723,plateau at strong probe: cool
+5,11000,hyper,lr,0.001,0.0009000000000000001,plateau: smaller steps
+5,12000,hyper,tau,0.7798822908192411,0.7564858220946639,slow progress: mild cooling
+5,12000,hyper,eps,0.03814641639876723,0.03700202390680421,slow progress: mild cooling
+5,12000,capacity_test,capacity,64,128,capacity NOT the bottleneck (widening does not beat control)
+5,13000,hyper,tau,0.7564858220946639,0.6959669563270908,plateau at strong probe 84.0: cool
+5,13000,hyper,eps,0.03700202390680421,0.03330182151612379,plateau at strong probe: cool
+5,13000,hyper,lr,0.0009000000000000001,0.0008100000000000001,plateau: smaller steps
+5,14000,hyper,tau,0.6959669563270908,0.6750879476372781,slow progress: mild cooling
+5,14000,hyper,eps,0.03330182151612379,0.03230276687064008,slow progress: mild cooling
+5,15000,hyper,tau,0.6750879476372781,0.6210809118262959,plateau at strong probe 84.5: cool
+5,15000,hyper,eps,0.03230276687064008,0.02907249018357607,plateau at strong probe: cool
+5,15000,hyper,lr,0.0008100000000000001,0.000729,plateau: smaller steps
+5,16000,hyper,tau,0.6210809118262959,0.602448484471507,slow progress: mild cooling
+5,16000,hyper,eps,0.02907249018357607,0.028200315478068786,slow progress: mild cooling
+5,17000,hyper,tau,0.602448484471507,0.5843750299373618,slow progress: mild cooling
+5,17000,hyper,eps,0.028200315478068786,0.027354306013726723,slow progress: mild cooling
+5,18000,hyper,tau,0.5843750299373618,0.5668437790392409,slow progress: mild cooling
+5,18000,hyper,eps,0.027354306013726723,0.02653367683331492,slow progress: mild cooling
+5,19000,hyper,tau,0.5668437790392409,0.5214962767161017,plateau at strong probe 84.6: cool
+5,19000,hyper,eps,0.02653367683331492,0.023880309149983427,plateau at strong probe: cool
+5,19000,hyper,lr,0.000729,0.0006561000000000001,plateau: smaller steps
+5,20000,hyper,tau,0.5214962767161017,0.47977657457881356,plateau at strong probe 84.7: cool
+5,20000,hyper,eps,0.023880309149983427,0.021492278234985084,plateau at strong probe: cool
+5,20000,hyper,lr,0.0006561000000000001,0.00059049,plateau: smaller steps
+5,20000,capacity_test,capacity,64,128,capacity NOT the bottleneck (widening does not beat control)
+6,2000,hyper,tau,2.0,1.76,steady progress (3-epoch gain +1.35): cool exploration
+6,2000,hyper,eps,0.1,0.08800000000000001,steady progress: cool exploration
+6,2000,hyper,sleep_every,200,220,replay balanced: sleep less often
+6,2000,hyper,dream,0.5,0.465,progress without extra dreams: fewer dreams
+6,3000,hyper,tau,1.76,1.5488,steady progress (3-epoch gain +0.71): cool exploration
+6,3000,hyper,eps,0.08800000000000001,0.07744000000000001,steady progress: cool exploration
+6,3000,hyper,sleep_every,220,242,replay balanced: sleep less often
+6,3000,hyper,dream,0.465,0.43245000000000006,progress without extra dreams: fewer dreams
+6,4000,hyper,tau,1.5488,1.362944,steady progress (3-epoch gain +0.91): cool exploration
+6,4000,hyper,eps,0.07744000000000001,0.0681472,steady progress: cool exploration
+6,4000,hyper,sleep_every,242,266,replay balanced: sleep less often
+6,4000,hyper,dream,0.43245000000000006,0.40217850000000005,progress without extra dreams: fewer dreams
+6,5000,hyper,tau,1.362944,1.19939072,steady progress (3-epoch gain +0.57): cool exploration
+6,5000,hyper,eps,0.0681472,0.059969536000000004,steady progress: cool exploration
+6,5000,hyper,stm,1000,1300,old-episode loss 0.134 >> new 0.080: forgetting
+6,5000,hyper,dream,0.40217850000000005,0.37402600500000005,progress without extra dreams: fewer dreams
+6,6000,hyper,tau,1.19939072,1.0554638336,steady progress (3-epoch gain +0.45): cool exploration
+6,6000,hyper,eps,0.059969536000000004,0.052773191680000005,steady progress: cool exploration
+6,6000,hyper,sleep_every,266,293,replay balanced: sleep less often
+6,6000,hyper,dream,0.37402600500000005,0.34784418465000005,progress without extra dreams: fewer dreams
+6,7000,hyper,tau,1.0554638336,0.9288081735679999,steady progress (3-epoch gain +0.45): cool exploration
+6,7000,hyper,eps,0.052773191680000005,0.046440408678400005,steady progress: cool exploration
+6,7000,hyper,sleep_every,293,322,replay balanced: sleep less often
+6,7000,hyper,dream,0.34784418465000005,0.3234950917245001,progress without extra dreams: fewer dreams
+6,8000,hyper,tau,0.9288081735679999,0.8173511927398399,steady progress (3-epoch gain +0.48): cool exploration
+6,8000,hyper,eps,0.046440408678400005,0.040867559636992006,steady progress: cool exploration
+6,8000,hyper,sleep_every,322,354,replay balanced: sleep less often
+6,8000,hyper,dream,0.3234950917245001,0.3008504353037851,progress without extra dreams: fewer dreams
+6,9000,hyper,tau,0.8173511927398399,0.7192690496110591,steady progress (3-epoch gain +0.45): cool exploration
+6,9000,hyper,eps,0.040867559636992006,0.035963452480552965,steady progress: cool exploration
+6,9000,hyper,sleep_every,354,389,replay balanced: sleep less often
+6,9000,hyper,dream,0.3008504353037851,0.2797909048325201,progress without extra dreams: fewer dreams
+6,10000,hyper,tau,0.7192690496110591,0.632956763657732,steady progress (3-epoch gain +0.30): cool exploration
+6,10000,hyper,eps,0.035963452480552965,0.03164783818288661,steady progress: cool exploration
+6,10000,hyper,sleep_every,389,400,replay balanced: sleep less often
+6,10000,hyper,dream,0.2797909048325201,0.26020554149424374,progress without extra dreams: fewer dreams
+6,11000,hyper,tau,0.632956763657732,0.613968060748,slow progress: mild cooling
+6,11000,hyper,eps,0.03164783818288661,0.030698403037400013,slow progress: mild cooling
+6,11000,hyper,lr,0.001,0.0011200000000000001,loss falling smoothly (0.148->0.113)
+6,12000,hyper,tau,0.613968060748,0.59554901892556,slow progress: mild cooling
+6,12000,hyper,eps,0.030698403037400013,0.02977745094627801,slow progress: mild cooling
+6,12000,capacity_test,capacity,64,128,capacity NOT the bottleneck (widening does not beat control)
+6,13000,hyper,tau,0.59554901892556,0.5479050974115153,plateau at strong probe 85.3: cool
+6,13000,hyper,eps,0.02977745094627801,0.026799705851650212,plateau at strong probe: cool
+6,13000,hyper,lr,0.0011200000000000001,0.0010080000000000002,plateau: smaller steps
+6,14000,hyper,tau,0.5479050974115153,0.5314679444891698,slow progress: mild cooling
+6,14000,hyper,eps,0.026799705851650212,0.025995714676100706,slow progress: mild cooling
+6,15000,hyper,tau,0.5314679444891698,0.46769179115046944,steady progress (3-epoch gain +0.27): cool exploration
+6,15000,hyper,eps,0.025995714676100706,0.02287622891496862,steady progress: cool exploration
+6,15000,hyper,dream,0.26020554149424374,0.24199115358964668,progress without extra dreams: fewer dreams
+6,16000,hyper,tau,0.46769179115046944,0.4536610374159553,slow progress: mild cooling
+6,16000,hyper,eps,0.02287622891496862,0.022189942047519562,slow progress: mild cooling
+6,16000,capacity_test,capacity,64,128,widening beats same-width control on held-out replay
+6,17000,hyper,tau,0.4536610374159553,0.3992217129260407,steady progress (3-epoch gain +0.25): cool exploration
+6,17000,hyper,eps,0.022189942047519562,0.019527149001817214,steady progress: cool exploration
+6,17000,hyper,dream,0.24199115358964668,0.2250517728383714,progress without extra dreams: fewer dreams
+6,18000,hyper,tau,0.3992217129260407,0.35131510737491584,steady progress (3-epoch gain +0.45): cool exploration
+6,18000,hyper,eps,0.019527149001817214,0.017183891121599147,steady progress: cool exploration
+6,18000,hyper,dream,0.2250517728383714,0.2092981487396854,progress without extra dreams: fewer dreams
+6,19000,hyper,tau,0.35131510737491584,0.30915729448992596,steady progress (3-epoch gain +0.60): cool exploration
+6,19000,hyper,eps,0.017183891121599147,0.015121824187007249,steady progress: cool exploration
+6,19000,hyper,stm,1300,1690,old-episode loss 0.095 >> new 0.054: forgetting
+6,19000,hyper,dream,0.2092981487396854,0.19464727832790746,progress without extra dreams: fewer dreams
+6,20000,hyper,tau,0.30915729448992596,0.2720584191511348,steady progress (3-epoch gain +0.46): cool exploration
+6,20000,hyper,eps,0.015121824187007249,0.01330720528456638,steady progress: cool exploration
+6,20000,hyper,dream,0.19464727832790746,0.18102196884495395,progress without extra dreams: fewer dreams
+7,2000,hyper,tau,2.0,1.76,steady progress (3-epoch gain +0.78): cool exploration
+7,2000,hyper,eps,0.1,0.08800000000000001,steady progress: cool exploration
+7,2000,hyper,sleep_every,200,220,replay balanced: sleep less often
+7,2000,hyper,dream,0.5,0.465,progress without extra dreams: fewer dreams
+7,3000,hyper,tau,1.76,1.5488,steady progress (3-epoch gain +0.38): cool exploration
+7,3000,hyper,eps,0.08800000000000001,0.07744000000000001,steady progress: cool exploration
+7,3000,hyper,sleep_every,220,242,replay balanced: sleep less often
+7,3000,hyper,dream,0.465,0.43245000000000006,progress without extra dreams: fewer dreams
+7,4000,hyper,tau,1.5488,1.362944,steady progress (3-epoch gain +0.58): cool exploration
+7,4000,hyper,eps,0.07744000000000001,0.0681472,steady progress: cool exploration
+7,4000,hyper,sleep_every,242,266,replay balanced: sleep less often
+7,4000,hyper,dream,0.43245000000000006,0.40217850000000005,progress without extra dreams: fewer dreams
+7,5000,hyper,tau,1.362944,1.19939072,steady progress (3-epoch gain +0.56): cool exploration
+7,5000,hyper,eps,0.0681472,0.059969536000000004,steady progress: cool exploration
+7,5000,hyper,sleep_every,266,293,replay balanced: sleep less often
+7,5000,hyper,dream,0.40217850000000005,0.37402600500000005,progress without extra dreams: fewer dreams
+7,6000,hyper,tau,1.19939072,1.0554638336,steady progress (3-epoch gain +0.49): cool exploration
+7,6000,hyper,eps,0.059969536000000004,0.052773191680000005,steady progress: cool exploration
+7,6000,hyper,sleep_every,293,322,replay balanced: sleep less often
+7,6000,hyper,dream,0.37402600500000005,0.34784418465000005,progress without extra dreams: fewer dreams
+7,7000,hyper,tau,1.0554638336,0.9288081735679999,steady progress (3-epoch gain +0.56): cool exploration
+7,7000,hyper,eps,0.052773191680000005,0.046440408678400005,steady progress: cool exploration
+7,7000,hyper,stm,1000,1300,old-episode loss 0.200 >> new 0.115: forgetting
+7,7000,hyper,dream,0.34784418465000005,0.3234950917245001,progress without extra dreams: fewer dreams
+7,8000,hyper,tau,0.9288081735679999,0.8173511927398399,steady progress (3-epoch gain +0.52): cool exploration
+7,8000,hyper,eps,0.046440408678400005,0.040867559636992006,steady progress: cool exploration
+7,8000,hyper,sleep_every,322,354,replay balanced: sleep less often
+7,8000,hyper,dream,0.3234950917245001,0.3008504353037851,progress without extra dreams: fewer dreams
+7,9000,hyper,tau,0.8173511927398399,0.7192690496110591,steady progress (3-epoch gain +0.53): cool exploration
+7,9000,hyper,eps,0.040867559636992006,0.035963452480552965,steady progress: cool exploration
+7,9000,hyper,sleep_every,354,389,replay balanced: sleep less often
+7,9000,hyper,dream,0.3008504353037851,0.2797909048325201,progress without extra dreams: fewer dreams
+7,10000,hyper,tau,0.7192690496110591,0.632956763657732,steady progress (3-epoch gain +0.50): cool exploration
+7,10000,hyper,eps,0.035963452480552965,0.03164783818288661,steady progress: cool exploration
+7,10000,hyper,sleep_every,389,400,replay balanced: sleep less often
+7,10000,hyper,dream,0.2797909048325201,0.26020554149424374,progress without extra dreams: fewer dreams
+7,11000,hyper,tau,0.632956763657732,0.5570019520188042,steady progress (3-epoch gain +0.40): cool exploration
+7,11000,hyper,eps,0.03164783818288661,0.02785009760094022,steady progress: cool exploration
+7,11000,hyper,stm,1300,1690,old-episode loss 0.147 >> new 0.081: forgetting
+7,11000,hyper,dream,0.26020554149424374,0.24199115358964668,progress without extra dreams: fewer dreams
+7,12000,hyper,tau,0.5570019520188042,0.4901617177765477,steady progress (3-epoch gain +0.41): cool exploration
+7,12000,hyper,eps,0.02785009760094022,0.024508085888827393,steady progress: cool exploration
+7,12000,hyper,dream,0.24199115358964668,0.2250517728383714,progress without extra dreams: fewer dreams
+7,13000,hyper,tau,0.4901617177765477,0.4754568662432513,slow progress: mild cooling
+7,13000,hyper,eps,0.024508085888827393,0.02377284331216257,slow progress: mild cooling
+7,14000,hyper,tau,0.4754568662432513,0.46119316025595375,slow progress: mild cooling
+7,14000,hyper,eps,0.02377284331216257,0.02305965801279769,slow progress: mild cooling
+7,15000,hyper,tau,0.46119316025595375,0.44735736544827515,slow progress: mild cooling
+7,15000,hyper,eps,0.02305965801279769,0.022367868272413757,slow progress: mild cooling
+7,16000,hyper,tau,0.44735736544827515,0.4339366444848269,slow progress: mild cooling
+7,16000,hyper,eps,0.022367868272413757,0.021696832224241343,slow progress: mild cooling
+7,16000,hyper,stm,1690,2197,old-episode loss 0.110 >> new 0.067: forgetting
+7,17000,hyper,tau,0.4339366444848269,0.42091854515028204,slow progress: mild cooling
+7,17000,hyper,eps,0.021696832224241343,0.021045927257514103,slow progress: mild cooling
+7,18000,hyper,tau,0.42091854515028204,0.4082909887957736,slow progress: mild cooling
+7,18000,hyper,eps,0.021045927257514103,0.02041454943978868,slow progress: mild cooling
+7,19000,hyper,tau,0.4082909887957736,0.3960422591319004,slow progress: mild cooling
+7,19000,hyper,eps,0.02041454943978868,0.01980211295659502,slow progress: mild cooling
+7,20000,hyper,tau,0.3960422591319004,0.3643588784013484,plateau at strong probe 87.0: cool
+7,20000,hyper,eps,0.01980211295659502,0.017821901660935516,plateau at strong probe: cool
+7,20000,hyper,lr,0.001,0.0009000000000000001,plateau: smaller steps
+7,20000,capacity_test,capacity,64,128,capacity NOT the bottleneck (widening does not beat control)
+8,2000,hyper,tau,2.0,1.76,steady progress (3-epoch gain +0.76): cool exploration
+8,2000,hyper,eps,0.1,0.08800000000000001,steady progress: cool exploration
+8,2000,hyper,sleep_every,200,220,replay balanced: sleep less often
+8,2000,hyper,dream,0.5,0.465,progress without extra dreams: fewer dreams
+8,3000,hyper,tau,1.76,1.5488,steady progress (3-epoch gain +0.44): cool exploration
+8,3000,hyper,eps,0.08800000000000001,0.07744000000000001,steady progress: cool exploration
+8,3000,hyper,sleep_every,220,242,replay balanced: sleep less often
+8,3000,hyper,dream,0.465,0.43245000000000006,progress without extra dreams: fewer dreams
+8,4000,hyper,tau,1.5488,1.362944,steady progress (3-epoch gain +0.60): cool exploration
+8,4000,hyper,eps,0.07744000000000001,0.0681472,steady progress: cool exploration
+8,4000,hyper,sleep_every,242,266,replay balanced: sleep less often
+8,4000,hyper,dream,0.43245000000000006,0.40217850000000005,progress without extra dreams: fewer dreams
+8,5000,hyper,tau,1.362944,1.19939072,steady progress (3-epoch gain +0.49): cool exploration
+8,5000,hyper,eps,0.0681472,0.059969536000000004,steady progress: cool exploration
+8,5000,hyper,sleep_every,266,293,replay balanced: sleep less often
+8,5000,hyper,dream,0.40217850000000005,0.37402600500000005,progress without extra dreams: fewer dreams
+8,6000,hyper,tau,1.19939072,1.0554638336,steady progress (3-epoch gain +0.51): cool exploration
+8,6000,hyper,eps,0.059969536000000004,0.052773191680000005,steady progress: cool exploration
+8,6000,hyper,sleep_every,293,322,replay balanced: sleep less often
+8,6000,hyper,dream,0.37402600500000005,0.34784418465000005,progress without extra dreams: fewer dreams
+8,7000,hyper,tau,1.0554638336,0.9288081735679999,steady progress (3-epoch gain +0.45): cool exploration
+8,7000,hyper,eps,0.052773191680000005,0.046440408678400005,steady progress: cool exploration
+8,7000,hyper,sleep_every,322,354,replay balanced: sleep less often
+8,7000,hyper,dream,0.34784418465000005,0.3234950917245001,progress without extra dreams: fewer dreams
+8,8000,hyper,tau,0.9288081735679999,0.8173511927398399,steady progress (3-epoch gain +0.35): cool exploration
+8,8000,hyper,eps,0.046440408678400005,0.040867559636992006,steady progress: cool exploration
+8,8000,hyper,sleep_every,354,389,replay balanced: sleep less often
+8,8000,hyper,dream,0.3234950917245001,0.3008504353037851,progress without extra dreams: fewer dreams
+8,9000,hyper,tau,0.8173511927398399,0.7192690496110591,steady progress (3-epoch gain +0.26): cool exploration
+8,9000,hyper,eps,0.040867559636992006,0.035963452480552965,steady progress: cool exploration
+8,9000,hyper,sleep_every,389,400,replay balanced: sleep less often
+8,9000,hyper,dream,0.3008504353037851,0.2797909048325201,progress without extra dreams: fewer dreams
+8,10000,hyper,tau,0.7192690496110591,0.6976909781227273,slow progress: mild cooling
+8,10000,hyper,eps,0.035963452480552965,0.034884548906136376,slow progress: mild cooling
+8,11000,hyper,tau,0.6976909781227273,0.6767602487790455,slow progress: mild cooling
+8,11000,hyper,eps,0.034884548906136376,0.033838012438952285,slow progress: mild cooling
+8,12000,hyper,tau,0.6767602487790455,0.6564574413156741,slow progress: mild cooling
+8,12000,hyper,eps,0.033838012438952285,0.032822872065783715,slow progress: mild cooling
+8,12000,capacity_test,capacity,64,128,capacity NOT the bottleneck (widening does not beat control)
+8,13000,hyper,tau,0.6564574413156741,0.6367637180762038,slow progress: mild cooling
+8,13000,hyper,eps,0.032822872065783715,0.031838185903810205,slow progress: mild cooling
+8,14000,hyper,tau,0.6367637180762038,0.6176608065339176,slow progress: mild cooling
+8,14000,hyper,eps,0.031838185903810205,0.030883040326695897,slow progress: mild cooling
+8,15000,hyper,tau,0.6176608065339176,0.5991309823379001,slow progress: mild cooling
+8,15000,hyper,eps,0.030883040326695897,0.02995654911689502,slow progress: mild cooling
+8,16000,hyper,tau,0.5991309823379001,0.551200503750868,plateau at strong probe 85.6: cool
+8,16000,hyper,eps,0.02995654911689502,0.02696089420520552,plateau at strong probe: cool
+8,16000,hyper,lr,0.001,0.0009000000000000001,plateau: smaller steps
+8,16000,capacity_test,capacity,64,128,widening beats same-width control on held-out replay
+8,17000,hyper,tau,0.551200503750868,0.5071044634507986,plateau at strong probe 85.8: cool
+8,17000,hyper,eps,0.02696089420520552,0.024264804784684967,plateau at strong probe: cool
+8,17000,hyper,lr,0.0009000000000000001,0.0008100000000000001,plateau: smaller steps
+8,18000,hyper,tau,0.5071044634507986,0.49189132954727466,slow progress: mild cooling
+8,18000,hyper,eps,0.024264804784684967,0.02353686064114442,slow progress: mild cooling
+8,19000,hyper,tau,0.49189132954727466,0.4525400231834927,plateau at strong probe 85.7: cool
+8,19000,hyper,eps,0.02353686064114442,0.02118317457702998,plateau at strong probe: cool
+8,19000,hyper,lr,0.0008100000000000001,0.000729,plateau: smaller steps
+8,20000,hyper,tau,0.4525400231834927,0.4389638224879879,slow progress: mild cooling
+8,20000,hyper,eps,0.02118317457702998,0.02054767933971908,slow progress: mild cooling
+8,20000,hyper,stm,1000,1300,old-episode loss 0.107 >> new 0.065: forgetting
+8,20000,capacity_test,capacity,128,256,capacity NOT the bottleneck (widening does not beat control)
+9,2000,hyper,tau,2.0,1.76,steady progress (3-epoch gain +0.49): cool exploration
+9,2000,hyper,eps,0.1,0.08800000000000001,steady progress: cool exploration
+9,2000,hyper,sleep_every,200,220,replay balanced: sleep less often
+9,2000,hyper,dream,0.5,0.465,progress without extra dreams: fewer dreams
+9,3000,hyper,tau,1.76,1.5488,steady progress (3-epoch gain +0.34): cool exploration
+9,3000,hyper,eps,0.08800000000000001,0.07744000000000001,steady progress: cool exploration
+9,3000,hyper,sleep_every,220,242,replay balanced: sleep less often
+9,3000,hyper,dream,0.465,0.43245000000000006,progress without extra dreams: fewer dreams
+9,4000,hyper,tau,1.5488,1.362944,steady progress (3-epoch gain +0.54): cool exploration
+9,4000,hyper,eps,0.07744000000000001,0.0681472,steady progress: cool exploration
+9,4000,hyper,sleep_every,242,266,replay balanced: sleep less often
+9,4000,hyper,dream,0.43245000000000006,0.40217850000000005,progress without extra dreams: fewer dreams
+9,5000,hyper,tau,1.362944,1.19939072,steady progress (3-epoch gain +0.52): cool exploration
+9,5000,hyper,eps,0.0681472,0.059969536000000004,steady progress: cool exploration
+9,5000,hyper,stm,1000,1300,old-episode loss 0.132 >> new 0.080: forgetting
+9,5000,hyper,dream,0.40217850000000005,0.37402600500000005,progress without extra dreams: fewer dreams
+9,6000,hyper,tau,1.19939072,1.0554638336,steady progress (3-epoch gain +0.48): cool exploration
+9,6000,hyper,eps,0.059969536000000004,0.052773191680000005,steady progress: cool exploration
+9,6000,hyper,sleep_every,266,293,replay balanced: sleep less often
+9,6000,hyper,dream,0.37402600500000005,0.34784418465000005,progress without extra dreams: fewer dreams
+9,7000,hyper,tau,1.0554638336,0.9288081735679999,steady progress (3-epoch gain +0.43): cool exploration
+9,7000,hyper,eps,0.052773191680000005,0.046440408678400005,steady progress: cool exploration
+9,7000,hyper,sleep_every,293,322,replay balanced: sleep less often
+9,7000,hyper,dream,0.34784418465000005,0.3234950917245001,progress without extra dreams: fewer dreams
+9,8000,hyper,tau,0.9288081735679999,0.8173511927398399,steady progress (3-epoch gain +0.36): cool exploration
+9,8000,hyper,eps,0.046440408678400005,0.040867559636992006,steady progress: cool exploration
+9,8000,hyper,stm,1300,1690,old-episode loss 0.118 >> new 0.074: forgetting
+9,8000,hyper,dream,0.3234950917245001,0.3008504353037851,progress without extra dreams: fewer dreams
+9,9000,hyper,tau,0.8173511927398399,0.7192690496110591,steady progress (3-epoch gain +0.35): cool exploration
+9,9000,hyper,eps,0.040867559636992006,0.035963452480552965,steady progress: cool exploration
+9,9000,hyper,sleep_every,322,354,replay balanced: sleep less often
+9,9000,hyper,dream,0.3008504353037851,0.2797909048325201,progress without extra dreams: fewer dreams
+9,10000,hyper,tau,0.7192690496110591,0.6976909781227273,slow progress: mild cooling
+9,10000,hyper,eps,0.035963452480552965,0.034884548906136376,slow progress: mild cooling
+9,10000,hyper,lr,0.001,0.0011200000000000001,loss falling smoothly (0.123->0.098)
+9,10000,hyper,sleep_every,354,389,replay balanced: sleep less often
+9,11000,hyper,tau,0.6976909781227273,0.6767602487790455,slow progress: mild cooling
+9,11000,hyper,eps,0.034884548906136376,0.033838012438952285,slow progress: mild cooling
+9,11000,hyper,sleep_every,389,400,replay balanced: sleep less often
+9,12000,hyper,tau,0.6767602487790455,0.6564574413156741,slow progress: mild cooling
+9,12000,hyper,eps,0.033838012438952285,0.032822872065783715,slow progress: mild cooling
+9,12000,capacity_test,capacity,64,128,widening beats same-width control on held-out replay
+9,13000,hyper,tau,0.6564574413156741,0.5776825483577932,steady progress (3-epoch gain +0.29): cool exploration
+9,13000,hyper,eps,0.032822872065783715,0.02888412741788967,steady progress: cool exploration
+9,13000,hyper,dream,0.2797909048325201,0.26020554149424374,progress without extra dreams: fewer dreams
+9,14000,hyper,tau,0.5776825483577932,0.508360642554858,steady progress (3-epoch gain +0.31): cool exploration
+9,14000,hyper,eps,0.02888412741788967,0.02541803212774291,steady progress: cool exploration
+9,14000,hyper,dream,0.26020554149424374,0.24199115358964668,progress without extra dreams: fewer dreams
+9,15000,hyper,tau,0.508360642554858,0.4676917911504694,plateau at strong probe 85.6: cool
+9,15000,hyper,eps,0.02541803212774291,0.02287622891496862,plateau at strong probe: cool
+9,15000,hyper,lr,0.0011200000000000001,0.0010080000000000002,plateau: smaller steps
+9,16000,hyper,tau,0.4676917911504694,0.43027644785843183,plateau at strong probe 85.8: cool
+9,16000,hyper,eps,0.02287622891496862,0.020588606023471758,plateau at strong probe: cool
+9,16000,hyper,lr,0.0010080000000000002,0.0009072000000000003,plateau: smaller steps
+9,16000,capacity_test,capacity,128,256,capacity NOT the bottleneck (widening does not beat control)
+9,17000,hyper,tau,0.43027644785843183,0.3958543320297573,plateau at strong probe 85.5: cool
+9,17000,hyper,eps,0.020588606023471758,0.018529745421124583,plateau at strong probe: cool
+9,17000,hyper,lr,0.0009072000000000003,0.0008164800000000003,plateau: smaller steps
+9,18000,hyper,tau,0.3958543320297573,0.36418598546737674,plateau at strong probe 85.8: cool
+9,18000,hyper,eps,0.018529745421124583,0.016676770879012124,plateau at strong probe: cool
+9,18000,hyper,lr,0.0008164800000000003,0.0007348320000000003,plateau: smaller steps
+9,19000,hyper,tau,0.36418598546737674,0.3350511066299866,plateau at strong probe 85.4: cool
+9,19000,hyper,eps,0.016676770879012124,0.015009093791110912,plateau at strong probe: cool
+9,19000,hyper,lr,0.0007348320000000003,0.0006613488000000002,plateau: smaller steps
+9,20000,hyper,tau,0.3350511066299866,0.3082470180995877,plateau at strong probe 85.3: cool
+9,20000,hyper,eps,0.015009093791110912,0.013508184411999821,plateau at strong probe: cool
+9,20000,hyper,lr,0.0006613488000000002,0.0005952139200000003,plateau: smaller steps
+9,20000,capacity_test,capacity,128,256,capacity NOT the bottleneck (widening does not beat control)

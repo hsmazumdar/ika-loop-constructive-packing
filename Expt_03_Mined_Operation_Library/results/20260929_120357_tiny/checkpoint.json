@@ -1,0 +1,19 @@
+{
+  "completed": [
+    "development|2|11|inv_22521942205c|primitive",
+    "development|2|11|inv_22521942205c|rect_mined",
+    "heldout|0|11|inv_37a9c4ede811|matched_control",
+    "heldout|0|11|inv_37a9c4ede811|neutral_mined",
+    "heldout|0|11|inv_37a9c4ede811|primitive",
+    "heldout|0|11|inv_37a9c4ede811|rect_mined",
+    "heldout|0|11|inv_37a9c4ede811|rect_mined_no_retrieval",
+    "heldout|2|11|inv_37a9c4ede811|matched_control",
+    "heldout|2|11|inv_37a9c4ede811|neutral_mined",
+    "heldout|2|11|inv_37a9c4ede811|primitive",
+    "heldout|2|11|inv_37a9c4ede811|rect_mined",
+    "heldout|2|11|inv_37a9c4ede811|rect_mined_no_retrieval"
+  ],
+  "stop_reason": "finished",
+  "episodes": 12,
+  "complete": true
+}

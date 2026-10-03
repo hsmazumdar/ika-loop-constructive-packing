@@ -1,0 +1,17 @@
+{
+  "hypothesis": "online exact-memory growth creates useful future matches the frozen table lacked",
+  "conditions": [
+    "primitive",
+    "frozen_exact",
+    "growing_exact"
+  ],
+  "retrieval": "exact (mask, inventory) identity",
+  "transformation_matching_in_primary": false,
+  "first_write_wins": true,
+  "per_stream_memory_copy": true,
+  "solve_before_insert": true,
+  "insertion_billed": true,
+  "future_tasks_chosen_by_memory": false,
+  "constructed_prefix_on_eval": false,
+  "A_identity": "primitive_evals + lookup + validation + insertion"
+}

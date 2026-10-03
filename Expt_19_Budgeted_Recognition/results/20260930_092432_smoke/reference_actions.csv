@@ -1,0 +1,2 @@
+workload,index,task_id,pattern_index,n_inventories,pieces,prefix,stage,occupied,origin_x,origin_y,legal,useful,effort_saving,quality_delta,replay_ok,discovery_checks,diagnostic_A,valid,quality_loss,exposed,miss_reason
+validation_family,0,inv_6030e6af70f2,3,3,2,0,early,0,0,0,True,False,-7665,-5.0,True,12,9201,True,True,True,exposed

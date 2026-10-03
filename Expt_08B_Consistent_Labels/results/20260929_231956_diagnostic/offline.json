@@ -1,0 +1,2189 @@
+{
+  "fit_ids": [
+    "inv_01dcb410da3d",
+    "inv_28f717865766",
+    "inv_4b9eb8f15eaf",
+    "inv_ca731e3c4c13",
+    "inv_6b8058ed8650",
+    "inv_a50ff1cb12a5",
+    "inv_b8ca10ec1d55",
+    "inv_7334cb152bb1",
+    "inv_7f78315a08cd",
+    "inv_3a6415ba14bb",
+    "inv_a25252ed98bb",
+    "inv_2bcf2bd11f08",
+    "inv_e2258e487b41",
+    "inv_cd1593616a9d",
+    "inv_f37c190fae44",
+    "inv_f38e4acaef91",
+    "inv_99ae609def69",
+    "inv_18db09080c0d"
+  ],
+  "val_ids": [
+    "inv_ede60bd9d08e",
+    "inv_8b9cdaf23e25",
+    "inv_436a74b58bb1",
+    "inv_c0cfc0835886",
+    "inv_965fc9524c0a",
+    "inv_465ab2834adf"
+  ],
+  "holdout_ids": [
+    "inv_22521942205c",
+    "inv_791d780fc6e4",
+    "inv_115b41c2392a",
+    "inv_5fc1ecabd17f",
+    "inv_8b533a843808",
+    "inv_bce49701ff81",
+    "inv_ffe570c70457",
+    "inv_1696d00e5191"
+  ],
+  "pooled": [
+    {
+      "predictor": "per_seed_mean",
+      "errors_all_placements": {
+        "n": 287,
+        "mae": 2406.370670829477,
+        "rmse": 3611.6409006880253,
+        "pearson_pooled": -0.2184614359049533,
+        "pearson_within_seed": {
+          "pooled": -0.2184614359049533,
+          "within_seed": {
+            "11": null,
+            "22": null,
+            "33": null
+          }
+        },
+        "auc_beneficial": 0.3950135685210312,
+        "pred_mean": -131.03777256800458,
+        "y_mean": 1960.2229965156794,
+        "pred_min": -350.1390134529148,
+        "pred_max": 31.041484716157207
+      },
+      "errors_first_legal": {
+        "n": 56,
+        "mae": 2567.3354594545804,
+        "rmse": 3752.7252313464173,
+        "pearson_pooled": -0.2142362742743906,
+        "pearson_within_seed": {
+          "pooled": -0.2142362742743906,
+          "within_seed": {
+            "11": null,
+            "22": null,
+            "33": null
+          }
+        },
+        "auc_beneficial": 0.4171875,
+        "pred_mean": -122.85558295472268,
+        "y_mean": 1875.3392857142858,
+        "pred_min": -350.1390134529148,
+        "pred_max": 31.041484716157207
+      },
+      "selection_all_placements": {
+        "n_unique_boxes": 5,
+        "n_seed_box_pairs": 11,
+        "n_states": 53,
+        "n_actions": 287,
+        "n_accepted": 112,
+        "n_accepted_unique_boxes": 5,
+        "n_accepted_seed_box_pairs": 5,
+        "n_accepted_states": 26,
+        "coverage_actions": 0.3902439024390244,
+        "mean_remaining_saving": 1694.732142857143,
+        "mean_net_after_check": 1693.4642857142858,
+        "mean_examined_billed": 1.2678571428571428,
+        "admission_bound": 8,
+        "quality_loss_rate": 0.15178571428571427,
+        "severe_loss_n": 19,
+        "severe_loss_rate": 0.16964285714285715,
+        "mean_pred": 31.041484716157207,
+        "mean_observed": 1694.732142857143,
+        "zero_coverage": false
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 5,
+        "n_seed_box_pairs": 11,
+        "n_states": 40,
+        "n_actions": 56,
+        "n_accepted": 22,
+        "n_accepted_unique_boxes": 5,
+        "n_accepted_seed_box_pairs": 5,
+        "n_accepted_states": 20,
+        "coverage_actions": 0.39285714285714285,
+        "mean_remaining_saving": 1805.409090909091,
+        "mean_net_after_check": 1803.0454545454545,
+        "mean_examined_billed": 2.3636363636363638,
+        "admission_bound": 8,
+        "quality_loss_rate": 0.22727272727272727,
+        "severe_loss_n": 3,
+        "severe_loss_rate": 0.13636363636363635,
+        "mean_pred": 31.041484716157207,
+        "mean_observed": 1805.409090909091,
+        "zero_coverage": false
+      }
+    },
+    {
+      "predictor": "frozen",
+      "errors_all_placements": {
+        "n": 287,
+        "mae": 2720.0380801991014,
+        "rmse": 3799.6598106455504,
+        "pearson_pooled": 0.3006584656650341,
+        "pearson_within_seed": {
+          "pooled": 0.3006584656650341,
+          "within_seed": {
+            "11": -0.46695678621342995,
+            "22": -0.1255481379988546,
+            "33": 0.8056849683471492
+          }
+        },
+        "auc_beneficial": 0.6114314789687924,
+        "pred_mean": -551.5679865727908,
+        "y_mean": 1960.2229965156794,
+        "pred_min": -745.9937855406939,
+        "pred_max": -156.2119869319585
+      },
+      "errors_first_legal": {
+        "n": 56,
+        "mae": 2885.508880607307,
+        "rmse": 3934.779950037438,
+        "pearson_pooled": 0.35352139290725665,
+        "pearson_within_seed": {
+          "pooled": 0.35352139290725665,
+          "within_seed": {
+            "11": -0.3083899218050123,
+            "22": -0.26521566920307676,
+            "33": 0.7790658915248916
+          }
+        },
+        "auc_beneficial": 0.5953125,
+        "pred_mean": -576.9279939634699,
+        "y_mean": 1875.3392857142858,
+        "pred_min": -745.9937855406939,
+        "pred_max": -190.74384700053662
+      },
+      "selection_all_placements": {
+        "n_unique_boxes": 5,
+        "n_seed_box_pairs": 11,
+        "n_states": 53,
+        "n_actions": 287,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 5,
+        "n_seed_box_pairs": 11,
+        "n_states": 40,
+        "n_actions": 56,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      }
+    },
+    {
+      "predictor": "context_unweighted",
+      "errors_all_placements": {
+        "n": 287,
+        "mae": 2400.147184330194,
+        "rmse": 3614.493416424765,
+        "pearson_pooled": -0.27597310021650845,
+        "pearson_within_seed": {
+          "pooled": -0.27597310021650845,
+          "within_seed": {
+            "11": -0.11856741807396992,
+            "22": 0.15095374525064223,
+            "33": -0.27499849200430837
+          }
+        },
+        "auc_beneficial": 0.39562415196743556,
+        "pred_mean": -128.34256851695318,
+        "y_mean": 1960.2229965156794,
+        "pred_min": -417.3298133079756,
+        "pred_max": 95.45451695012561
+      },
+      "errors_first_legal": {
+        "n": 56,
+        "mae": 2560.8673440574885,
+        "rmse": 3761.77790902583,
+        "pearson_pooled": -0.3037099128659243,
+        "pearson_within_seed": {
+          "pooled": -0.3037099128659243,
+          "within_seed": {
+            "11": 0.1740374024895242,
+            "22": 0.2532006966678221,
+            "33": -0.3341877811093087
+          }
+        },
+        "auc_beneficial": 0.3984375,
+        "pred_mean": -118.79623380521174,
+        "y_mean": 1875.3392857142858,
+        "pred_min": -417.3298133079756,
+        "pred_max": 95.45451695012561
+      },
+      "selection_all_placements": {
+        "n_unique_boxes": 5,
+        "n_seed_box_pairs": 11,
+        "n_states": 53,
+        "n_actions": 287,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 5,
+        "n_seed_box_pairs": 11,
+        "n_states": 40,
+        "n_actions": 56,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      }
+    },
+    {
+      "predictor": "action_unweighted",
+      "errors_all_placements": {
+        "n": 287,
+        "mae": 2431.015589149405,
+        "rmse": 3629.2237752965807,
+        "pearson_pooled": -0.16230674602881273,
+        "pearson_within_seed": {
+          "pooled": -0.16230674602881273,
+          "within_seed": {
+            "11": -0.13132254623442163,
+            "22": 0.13255773738315618,
+            "33": -0.18519240816746338
+          }
+        },
+        "auc_beneficial": 0.3823609226594301,
+        "pred_mean": -160.4095873111788,
+        "y_mean": 1960.2229965156794,
+        "pred_min": -638.0986903340232,
+        "pred_max": 315.00501689282845
+      },
+      "errors_first_legal": {
+        "n": 56,
+        "mae": 2649.9856287473863,
+        "rmse": 3798.398101522701,
+        "pearson_pooled": -0.05982808768300165,
+        "pearson_within_seed": {
+          "pooled": -0.05982808768300165,
+          "within_seed": {
+            "11": 0.059178503004828006,
+            "22": 0.06801629105590024,
+            "33": 0.11794527644599721
+          }
+        },
+        "auc_beneficial": 0.3765625,
+        "pred_mean": -240.02072326013553,
+        "y_mean": 1875.3392857142858,
+        "pred_min": -605.4450192699289,
+        "pred_max": 152.93445784139107
+      },
+      "selection_all_placements": {
+        "n_unique_boxes": 5,
+        "n_seed_box_pairs": 11,
+        "n_states": 53,
+        "n_actions": 287,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 5,
+        "n_seed_box_pairs": 11,
+        "n_states": 40,
+        "n_actions": 56,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      }
+    },
+    {
+      "predictor": "context_weighted",
+      "errors_all_placements": {
+        "n": 287,
+        "mae": 4366.233189696254,
+        "rmse": 5146.035824475706,
+        "pearson_pooled": 0.22457133351870084,
+        "pearson_within_seed": {
+          "pooled": 0.22457133351870084,
+          "within_seed": {
+            "11": -0.044154634518194104,
+            "22": -0.7108540471822099,
+            "33": -0.13710881295362204
+          }
+        },
+        "auc_beneficial": 0.5068181818181818,
+        "pred_mean": -2335.8847822744033,
+        "y_mean": 1960.2229965156794,
+        "pred_min": -3460.8332939242223,
+        "pred_max": -1205.0238427760012
+      },
+      "errors_first_legal": {
+        "n": 56,
+        "mae": 4486.718870885081,
+        "rmse": 5249.907598387763,
+        "pearson_pooled": 0.3130655050072426,
+        "pearson_within_seed": {
+          "pooled": 0.3130655050072426,
+          "within_seed": {
+            "11": 0.2639555719195702,
+            "22": -0.6600835136380244,
+            "33": -0.10904793176945488
+          }
+        },
+        "auc_beneficial": 0.4890625,
+        "pred_mean": -2431.8700027377317,
+        "y_mean": 1875.3392857142858,
+        "pred_min": -3460.8332939242223,
+        "pred_max": -1358.7665588272685
+      },
+      "selection_all_placements": {
+        "n_unique_boxes": 5,
+        "n_seed_box_pairs": 11,
+        "n_states": 53,
+        "n_actions": 287,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 5,
+        "n_seed_box_pairs": 11,
+        "n_states": 40,
+        "n_actions": 56,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      }
+    },
+    {
+      "predictor": "action_weighted",
+      "errors_all_placements": {
+        "n": 287,
+        "mae": 4349.358298927381,
+        "rmse": 5121.691730847439,
+        "pearson_pooled": 0.2249382510797212,
+        "pearson_within_seed": {
+          "pooled": 0.2249382510797212,
+          "within_seed": {
+            "11": 0.037477855091676185,
+            "22": 0.05501837666984506,
+            "33": -0.16542424250178514
+          }
+        },
+        "auc_beneficial": 0.5057666214382632,
+        "pred_mean": -2306.9455945124932,
+        "y_mean": 1960.2229965156794,
+        "pred_min": -4611.147057487213,
+        "pred_max": -1127.4840590358217
+      },
+      "errors_first_legal": {
+        "n": 56,
+        "mae": 4766.039475339499,
+        "rmse": 5463.0860475230875,
+        "pearson_pooled": 0.3090045114442123,
+        "pearson_within_seed": {
+          "pooled": 0.3090045114442123,
+          "within_seed": {
+            "11": 0.4264606520386135,
+            "22": -0.051528315497965396,
+            "33": -0.009344105539754325
+          }
+        },
+        "auc_beneficial": 0.475,
+        "pred_mean": -2696.9368452376016,
+        "y_mean": 1875.3392857142858,
+        "pred_min": -4611.147057487213,
+        "pred_max": -1387.5680374444055
+      },
+      "selection_all_placements": {
+        "n_unique_boxes": 5,
+        "n_seed_box_pairs": 11,
+        "n_states": 53,
+        "n_actions": 287,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 5,
+        "n_seed_box_pairs": 11,
+        "n_states": 40,
+        "n_actions": 56,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      }
+    }
+  ],
+  "holdout_pooled": [
+    {
+      "predictor": "per_seed_mean",
+      "errors_first_legal": {
+        "n": 72,
+        "mae": 1053.0752676766688,
+        "rmse": 2125.2206237043956,
+        "pearson_pooled": 0.28930343335076414,
+        "pearson_within_seed": {
+          "pooled": 0.28930343335076414,
+          "within_seed": {
+            "11": null,
+            "22": null,
+            "33": null
+          }
+        },
+        "auc_beneficial": 0.59609375,
+        "pred_mean": -141.45750958429892,
+        "y_mean": 141.54166666666666,
+        "pred_min": -350.1390134529148,
+        "pred_max": 31.041484716157207
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 7,
+        "n_seed_box_pairs": 14,
+        "n_states": 59,
+        "n_actions": 72,
+        "n_accepted": 36,
+        "n_accepted_unique_boxes": 7,
+        "n_accepted_seed_box_pairs": 7,
+        "n_accepted_states": 32,
+        "coverage_actions": 0.5,
+        "mean_remaining_saving": 814.5555555555555,
+        "mean_net_after_check": 812.25,
+        "mean_examined_billed": 2.3055555555555554,
+        "admission_bound": 8,
+        "quality_loss_rate": 0.027777777777777776,
+        "severe_loss_n": 10,
+        "severe_loss_rate": 0.2777777777777778,
+        "mean_pred": 31.041484716157203,
+        "mean_observed": 814.5555555555555,
+        "zero_coverage": false
+      }
+    },
+    {
+      "predictor": "context_unweighted",
+      "errors_first_legal": {
+        "n": 72,
+        "mae": 1059.009217874791,
+        "rmse": 2131.2785080936687,
+        "pearson_pooled": 0.22649609814727953,
+        "pearson_within_seed": {
+          "pooled": 0.22649609814727953,
+          "within_seed": {
+            "11": 0.13084417287881092,
+            "22": 0.7556523037996558,
+            "33": -0.09552068355866532
+          }
+        },
+        "auc_beneficial": 0.62578125,
+        "pred_mean": -130.49656797089978,
+        "y_mean": 141.54166666666666,
+        "pred_min": -430.4632443864454,
+        "pred_max": 155.50924605054348
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 7,
+        "n_seed_box_pairs": 14,
+        "n_states": 59,
+        "n_actions": 72,
+        "n_accepted": 3,
+        "n_accepted_unique_boxes": 2,
+        "n_accepted_seed_box_pairs": 2,
+        "n_accepted_states": 3,
+        "coverage_actions": 0.041666666666666664,
+        "mean_remaining_saving": 1029.6666666666667,
+        "mean_net_after_check": 1026.6666666666667,
+        "mean_examined_billed": 3.0,
+        "admission_bound": 8,
+        "quality_loss_rate": 0.0,
+        "severe_loss_n": 0,
+        "severe_loss_rate": 0.0,
+        "mean_pred": 102.74974526369253,
+        "mean_observed": 1029.6666666666667,
+        "zero_coverage": false
+      }
+    },
+    {
+      "predictor": "action_unweighted",
+      "errors_first_legal": {
+        "n": 72,
+        "mae": 1054.3353586939409,
+        "rmse": 2127.724369399145,
+        "pearson_pooled": 0.30480997461541887,
+        "pearson_within_seed": {
+          "pooled": 0.30480997461541887,
+          "within_seed": {
+            "11": 0.06117252977515784,
+            "22": 0.7359959290783582,
+            "33": -0.007256480983435678
+          }
+        },
+        "auc_beneficial": 0.65703125,
+        "pred_mean": -192.36670852838182,
+        "y_mean": 141.54166666666666,
+        "pred_min": -503.5564258142914,
+        "pred_max": 158.2003299078249
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 7,
+        "n_seed_box_pairs": 14,
+        "n_states": 59,
+        "n_actions": 72,
+        "n_accepted": 4,
+        "n_accepted_unique_boxes": 3,
+        "n_accepted_seed_box_pairs": 3,
+        "n_accepted_states": 4,
+        "coverage_actions": 0.05555555555555555,
+        "mean_remaining_saving": 546.5,
+        "mean_net_after_check": 543.25,
+        "mean_examined_billed": 3.25,
+        "admission_bound": 8,
+        "quality_loss_rate": 0.0,
+        "severe_loss_n": 0,
+        "severe_loss_rate": 0.0,
+        "mean_pred": 99.41743561915783,
+        "mean_observed": 546.5,
+        "zero_coverage": false
+      }
+    }
+  ],
+  "predictor_summaries": [
+    {
+      "seed": 11,
+      "predictor": "per_seed_mean",
+      "n_fit": 446,
+      "errors_all_placements": {
+        "n": 82,
+        "mae": 3657.0068905173357,
+        "rmse": 4673.0783481581275,
+        "pearson_pooled": null,
+        "pearson_within_seed": {
+          "pooled": null,
+          "within_seed": {
+            "11": null
+          }
+        },
+        "auc_beneficial": 0.5,
+        "pred_mean": -350.1390134529148,
+        "y_mean": 3271.1951219512193,
+        "pred_min": -350.1390134529148,
+        "pred_max": -350.1390134529148
+      },
+      "errors_first_legal": {
+        "n": 14,
+        "mae": 4024.904868673927,
+        "rmse": 5018.312237028119,
+        "pearson_pooled": null,
+        "pearson_within_seed": {
+          "pooled": null,
+          "within_seed": {
+            "11": null
+          }
+        },
+        "auc_beneficial": 0.5,
+        "pred_mean": -350.1390134529148,
+        "y_mean": 3642.0714285714284,
+        "pred_min": -350.1390134529148,
+        "pred_max": -350.1390134529148
+      },
+      "selection_all_placements": {
+        "n_unique_boxes": 2,
+        "n_seed_box_pairs": 2,
+        "n_states": 13,
+        "n_actions": 82,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 2,
+        "n_seed_box_pairs": 2,
+        "n_states": 8,
+        "n_actions": 14,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "quality_threshold": 1.0,
+      "per_seed_mean_saving": -350.1390134529148
+    },
+    {
+      "seed": 11,
+      "predictor": "frozen",
+      "n_fit": 446,
+      "errors_all_placements": {
+        "n": 82,
+        "mae": 3549.223005637112,
+        "rmse": 4586.093052987821,
+        "pearson_pooled": -0.46695678621342995,
+        "pearson_within_seed": {
+          "pooled": -0.46695678621342995,
+          "within_seed": {
+            "11": -0.46695678621342995
+          }
+        },
+        "auc_beneficial": 0.3773690078037904,
+        "pred_mean": -225.52249534867835,
+        "y_mean": 3271.1951219512193,
+        "pred_min": -269.3271326502878,
+        "pred_max": -156.2119869319585
+      },
+      "errors_first_legal": {
+        "n": 14,
+        "mae": 3928.608331701909,
+        "rmse": 4935.025244269252,
+        "pearson_pooled": -0.3083899218050123,
+        "pearson_within_seed": {
+          "pooled": -0.3083899218050123,
+          "within_seed": {
+            "11": -0.3083899218050123
+          }
+        },
+        "auc_beneficial": 0.36363636363636365,
+        "pred_mean": -240.12952150307007,
+        "y_mean": 3642.0714285714284,
+        "pred_min": -269.3271326502878,
+        "pred_max": -190.74384700053662
+      },
+      "selection_all_placements": {
+        "n_unique_boxes": 2,
+        "n_seed_box_pairs": 2,
+        "n_states": 13,
+        "n_actions": 82,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 2,
+        "n_seed_box_pairs": 2,
+        "n_states": 8,
+        "n_actions": 14,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "quality_threshold": 0.5837760812855243,
+      "per_seed_mean_saving": null
+    },
+    {
+      "seed": 11,
+      "predictor": "context_unweighted",
+      "n_fit": 446,
+      "errors_all_placements": {
+        "n": 82,
+        "mae": 3652.8397437967856,
+        "rmse": 4671.520113791009,
+        "pearson_pooled": -0.11856741807396992,
+        "pearson_within_seed": {
+          "pooled": -0.11856741807396992,
+          "within_seed": {
+            "11": -0.11856741807396992
+          }
+        },
+        "auc_beneficial": 0.4977703455964326,
+        "pred_mean": -343.16455756113555,
+        "y_mean": 3271.1951219512193,
+        "pred_min": -417.3298133079756,
+        "pred_max": -267.2049095123492
+      },
+      "errors_first_legal": {
+        "n": 14,
+        "mae": 4037.654255601453,
+        "rmse": 5028.745996785721,
+        "pearson_pooled": 0.1740374024895242,
+        "pearson_within_seed": {
+          "pooled": 0.1740374024895242,
+          "within_seed": {
+            "11": 0.1740374024895242
+          }
+        },
+        "auc_beneficial": 0.5454545454545454,
+        "pred_mean": -367.75173392395425,
+        "y_mean": 3642.0714285714284,
+        "pred_min": -417.3298133079756,
+        "pred_max": -303.1449430135756
+      },
+      "selection_all_placements": {
+        "n_unique_boxes": 2,
+        "n_seed_box_pairs": 2,
+        "n_states": 13,
+        "n_actions": 82,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 2,
+        "n_seed_box_pairs": 2,
+        "n_states": 8,
+        "n_actions": 14,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "quality_threshold": 0.8,
+      "per_seed_mean_saving": null
+    },
+    {
+      "seed": 11,
+      "predictor": "action_unweighted",
+      "n_fit": 446,
+      "errors_all_placements": {
+        "n": 82,
+        "mae": 3658.4835195062446,
+        "rmse": 4676.833533792928,
+        "pearson_pooled": -0.13132254623442163,
+        "pearson_within_seed": {
+          "pooled": -0.13132254623442163,
+          "within_seed": {
+            "11": -0.13132254623442163
+          }
+        },
+        "auc_beneficial": 0.46488294314381273,
+        "pred_mean": -347.9026610658722,
+        "y_mean": 3271.1951219512193,
+        "pred_min": -458.7050065967135,
+        "pred_max": -209.7028149293721
+      },
+      "errors_first_legal": {
+        "n": 14,
+        "mae": 4053.5011243786344,
+        "rmse": 5044.471609518518,
+        "pearson_pooled": 0.059178503004828006,
+        "pearson_within_seed": {
+          "pooled": 0.059178503004828006,
+          "within_seed": {
+            "11": 0.059178503004828006
+          }
+        },
+        "auc_beneficial": 0.5151515151515151,
+        "pred_mean": -384.71918839948734,
+        "y_mean": 3642.0714285714284,
+        "pred_min": -458.7050065967135,
+        "pred_max": -319.11842050950514
+      },
+      "selection_all_placements": {
+        "n_unique_boxes": 2,
+        "n_seed_box_pairs": 2,
+        "n_states": 13,
+        "n_actions": 82,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 2,
+        "n_seed_box_pairs": 2,
+        "n_states": 8,
+        "n_actions": 14,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "quality_threshold": 0.9,
+      "per_seed_mean_saving": null
+    },
+    {
+      "seed": 11,
+      "predictor": "context_weighted",
+      "n_fit": 446,
+      "errors_all_placements": {
+        "n": 82,
+        "mae": 4823.350896428493,
+        "rmse": 5664.659205830085,
+        "pearson_pooled": -0.044154634518194104,
+        "pearson_within_seed": {
+          "pooled": -0.044154634518194104,
+          "within_seed": {
+            "11": -0.044154634518194104
+          }
+        },
+        "auc_beneficial": 0.4955406911928651,
+        "pred_mean": -1552.1557744772729,
+        "y_mean": 3271.1951219512193,
+        "pred_min": -1865.8933990186074,
+        "pred_max": -1205.0238427760012
+      },
+      "errors_first_legal": {
+        "n": 14,
+        "mae": 5300.754601445304,
+        "rmse": 6092.237838936263,
+        "pearson_pooled": 0.2639555719195702,
+        "pearson_within_seed": {
+          "pooled": 0.2639555719195702,
+          "within_seed": {
+            "11": 0.2639555719195702
+          }
+        },
+        "auc_beneficial": 0.5454545454545454,
+        "pred_mean": -1658.6831728738757,
+        "y_mean": 3642.0714285714284,
+        "pred_min": -1865.8933990186074,
+        "pred_max": -1358.7665588272685
+      },
+      "selection_all_placements": {
+        "n_unique_boxes": 2,
+        "n_seed_box_pairs": 2,
+        "n_states": 13,
+        "n_actions": 82,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 2,
+        "n_seed_box_pairs": 2,
+        "n_states": 8,
+        "n_actions": 14,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "quality_threshold": 0.4,
+      "per_seed_mean_saving": null
+    },
+    {
+      "seed": 11,
+      "predictor": "action_weighted",
+      "n_fit": 446,
+      "errors_all_placements": {
+        "n": 82,
+        "mae": 4827.303920464349,
+        "rmse": 5659.369007012107,
+        "pearson_pooled": 0.037477855091676185,
+        "pearson_within_seed": {
+          "pooled": 0.037477855091676185,
+          "within_seed": {
+            "11": 0.037477855091676185
+          }
+        },
+        "auc_beneficial": 0.5261984392419174,
+        "pred_mean": -1556.1087985131303,
+        "y_mean": 3271.1951219512193,
+        "pred_min": -2046.5501993572138,
+        "pred_max": -1127.4840590358217
+      },
+      "errors_first_legal": {
+        "n": 14,
+        "mae": 5424.924508675702,
+        "rmse": 6179.375329204131,
+        "pearson_pooled": 0.4264606520386135,
+        "pearson_within_seed": {
+          "pooled": 0.4264606520386135,
+          "within_seed": {
+            "11": 0.4264606520386135
+          }
+        },
+        "auc_beneficial": 0.6363636363636364,
+        "pred_mean": -1782.8530801042739,
+        "y_mean": 3642.0714285714284,
+        "pred_min": -2046.5501993572138,
+        "pred_max": -1387.5680374444055
+      },
+      "selection_all_placements": {
+        "n_unique_boxes": 2,
+        "n_seed_box_pairs": 2,
+        "n_states": 13,
+        "n_actions": 82,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 2,
+        "n_seed_box_pairs": 2,
+        "n_states": 8,
+        "n_actions": 14,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "quality_threshold": 0.5,
+      "per_seed_mean_saving": null
+    },
+    {
+      "seed": 22,
+      "predictor": "per_seed_mean",
+      "n_fit": 182,
+      "errors_all_placements": {
+        "n": 93,
+        "mae": 1608.8868013706724,
+        "rmse": 2696.886417689385,
+        "pearson_pooled": null,
+        "pearson_within_seed": {
+          "pooled": null,
+          "within_seed": {
+            "22": null
+          }
+        },
+        "auc_beneficial": 0.5,
+        "pred_mean": -133.04395604395606,
+        "y_mean": 1124.0430107526881,
+        "pred_min": -133.04395604395606,
+        "pred_max": -133.04395604395606
+      },
+      "errors_first_legal": {
+        "n": 20,
+        "mae": 1536.7807692307692,
+        "rmse": 2476.502483288545,
+        "pearson_pooled": null,
+        "pearson_within_seed": {
+          "pooled": null,
+          "within_seed": {
+            "22": null
+          }
+        },
+        "auc_beneficial": 0.5,
+        "pred_mean": -133.04395604395606,
+        "y_mean": 715.55,
+        "pred_min": -133.04395604395606,
+        "pred_max": -133.04395604395606
+      },
+      "selection_all_placements": {
+        "n_unique_boxes": 4,
+        "n_seed_box_pairs": 4,
+        "n_states": 14,
+        "n_actions": 93,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 4,
+        "n_seed_box_pairs": 4,
+        "n_states": 12,
+        "n_actions": 20,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "quality_threshold": 0.5,
+      "per_seed_mean_saving": -133.04395604395606
+    },
+    {
+      "seed": 22,
+      "predictor": "frozen",
+      "n_fit": 182,
+      "errors_all_placements": {
+        "n": 93,
+        "mae": 2080.123471047585,
+        "rmse": 2997.7206196051,
+        "pearson_pooled": -0.1255481379988546,
+        "pearson_within_seed": {
+          "pooled": -0.1255481379988546,
+          "within_seed": {
+            "22": -0.1255481379988546
+          }
+        },
+        "auc_beneficial": 0.5807407407407408,
+        "pred_mean": -683.230120881732,
+        "y_mean": 1124.0430107526881,
+        "pred_min": -745.9937855406939,
+        "pred_max": -604.7542677116272
+      },
+      "errors_first_legal": {
+        "n": 20,
+        "mae": 1930.3902984926121,
+        "rmse": 2728.4746868825746,
+        "pearson_pooled": -0.26521566920307676,
+        "pearson_within_seed": {
+          "pooled": -0.26521566920307676,
+          "within_seed": {
+            "22": -0.26521566920307676
+          }
+        },
+        "auc_beneficial": 0.5866666666666667,
+        "pred_mean": -694.2633166153975,
+        "y_mean": 715.55,
+        "pred_min": -745.9937855406939,
+        "pred_max": -637.108068043065
+      },
+      "selection_all_placements": {
+        "n_unique_boxes": 4,
+        "n_seed_box_pairs": 4,
+        "n_states": 14,
+        "n_actions": 93,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 4,
+        "n_seed_box_pairs": 4,
+        "n_states": 12,
+        "n_actions": 20,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "quality_threshold": 0.733584081392797,
+      "per_seed_mean_saving": null
+    },
+    {
+      "seed": 22,
+      "predictor": "context_unweighted",
+      "n_fit": 182,
+      "errors_all_placements": {
+        "n": 93,
+        "mae": 1537.8831080071138,
+        "rmse": 2647.637560177154,
+        "pearson_pooled": 0.15095374525064223,
+        "pearson_within_seed": {
+          "pooled": 0.15095374525064223,
+          "within_seed": {
+            "22": 0.15095374525064223
+          }
+        },
+        "auc_beneficial": 0.46074074074074073,
+        "pred_mean": -43.077537581782366,
+        "y_mean": 1124.0430107526881,
+        "pred_min": -160.82810253525395,
+        "pred_max": 95.45451695012561
+      },
+      "errors_first_legal": {
+        "n": 20,
+        "mae": 1457.3706399023818,
+        "rmse": 2428.5637250005734,
+        "pearson_pooled": 0.2532006966678221,
+        "pearson_within_seed": {
+          "pooled": 0.2532006966678221,
+          "within_seed": {
+            "22": 0.2532006966678221
+          }
+        },
+        "auc_beneficial": 0.49333333333333335,
+        "pred_mean": -24.590126642867723,
+        "y_mean": 715.55,
+        "pred_min": -100.40187587570423,
+        "pred_max": 95.45451695012561
+      },
+      "selection_all_placements": {
+        "n_unique_boxes": 4,
+        "n_seed_box_pairs": 4,
+        "n_states": 14,
+        "n_actions": 93,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 4,
+        "n_seed_box_pairs": 4,
+        "n_states": 12,
+        "n_actions": 20,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "quality_threshold": 1.0,
+      "per_seed_mean_saving": null
+    },
+    {
+      "seed": 22,
+      "predictor": "action_unweighted",
+      "n_fit": 182,
+      "errors_all_placements": {
+        "n": 93,
+        "mae": 1591.4968071565872,
+        "rmse": 2656.070464648113,
+        "pearson_pooled": 0.13255773738315618,
+        "pearson_within_seed": {
+          "pooled": 0.13255773738315618,
+          "within_seed": {
+            "22": 0.13255773738315618
+          }
+        },
+        "auc_beneficial": 0.37037037037037035,
+        "pred_mean": -83.68430838776698,
+        "y_mean": 1124.0430107526881,
+        "pred_min": -638.0986903340232,
+        "pred_max": 315.00501689282845
+      },
+      "errors_first_legal": {
+        "n": 20,
+        "mae": 1644.566161070553,
+        "rmse": 2527.0987380998363,
+        "pearson_pooled": 0.06801629105590024,
+        "pearson_within_seed": {
+          "pooled": 0.06801629105590024,
+          "within_seed": {
+            "22": 0.06801629105590024
+          }
+        },
+        "auc_beneficial": 0.3333333333333333,
+        "pred_mean": -283.35803985430266,
+        "y_mean": 715.55,
+        "pred_min": -605.4450192699289,
+        "pred_max": 152.93445784139107
+      },
+      "selection_all_placements": {
+        "n_unique_boxes": 4,
+        "n_seed_box_pairs": 4,
+        "n_states": 14,
+        "n_actions": 93,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 4,
+        "n_seed_box_pairs": 4,
+        "n_states": 12,
+        "n_actions": 20,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "quality_threshold": 0.9394965268051563,
+      "per_seed_mean_saving": null
+    },
+    {
+      "seed": 22,
+      "predictor": "context_weighted",
+      "n_fit": 182,
+      "errors_all_placements": {
+        "n": 93,
+        "mae": 4433.881510200291,
+        "rmse": 5005.930809198259,
+        "pearson_pooled": -0.7108540471822099,
+        "pearson_within_seed": {
+          "pooled": -0.7108540471822099,
+          "within_seed": {
+            "22": -0.7108540471822099
+          }
+        },
+        "auc_beneficial": 0.4888888888888889,
+        "pred_mean": -3243.568113936549,
+        "y_mean": 1124.0430107526881,
+        "pred_min": -3460.8332939242223,
+        "pred_max": -3099.668474038247
+      },
+      "errors_first_legal": {
+        "n": 20,
+        "mae": 4004.674406536406,
+        "rmse": 4627.342196376203,
+        "pearson_pooled": -0.6600835136380244,
+        "pearson_within_seed": {
+          "pooled": -0.6600835136380244,
+          "within_seed": {
+            "22": -0.6600835136380244
+          }
+        },
+        "auc_beneficial": 0.5333333333333333,
+        "pred_mean": -3249.2231030501594,
+        "y_mean": 715.55,
+        "pred_min": -3460.8332939242223,
+        "pred_max": -3099.668474038247
+      },
+      "selection_all_placements": {
+        "n_unique_boxes": 4,
+        "n_seed_box_pairs": 4,
+        "n_states": 14,
+        "n_actions": 93,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 4,
+        "n_seed_box_pairs": 4,
+        "n_states": 12,
+        "n_actions": 20,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "quality_threshold": 0.7,
+      "per_seed_mean_saving": null
+    },
+    {
+      "seed": 22,
+      "predictor": "action_weighted",
+      "n_fit": 182,
+      "errors_all_placements": {
+        "n": 93,
+        "mae": 4154.112901421584,
+        "rmse": 4720.448509179314,
+        "pearson_pooled": 0.05501837666984506,
+        "pearson_within_seed": {
+          "pooled": 0.05501837666984506,
+          "within_seed": {
+            "22": 0.05501837666984506
+          }
+        },
+        "auc_beneficial": 0.3540740740740741,
+        "pred_mean": -2916.527948723067,
+        "y_mean": 1124.0430107526881,
+        "pred_min": -4611.147057487213,
+        "pred_max": -2052.278751360556
+      },
+      "errors_first_legal": {
+        "n": 20,
+        "mae": 4453.617898505503,
+        "rmse": 4994.022104183955,
+        "pearson_pooled": -0.051528315497965396,
+        "pearson_within_seed": {
+          "pooled": -0.051528315497965396,
+          "within_seed": {
+            "22": -0.051528315497965396
+          }
+        },
+        "auc_beneficial": 0.37333333333333335,
+        "pred_mean": -3641.141672135873,
+        "y_mean": 715.55,
+        "pred_min": -4611.147057487213,
+        "pred_max": -2250.737300002814
+      },
+      "selection_all_placements": {
+        "n_unique_boxes": 4,
+        "n_seed_box_pairs": 4,
+        "n_states": 14,
+        "n_actions": 93,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 4,
+        "n_seed_box_pairs": 4,
+        "n_states": 12,
+        "n_actions": 20,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "quality_threshold": 0.6602699315753985,
+      "per_seed_mean_saving": null
+    },
+    {
+      "seed": 33,
+      "predictor": "per_seed_mean",
+      "n_fit": 458,
+      "errors_all_placements": {
+        "n": 112,
+        "mae": 2152.9227230193387,
+        "rmse": 3376.0159394653115,
+        "pearson_pooled": null,
+        "pearson_within_seed": {
+          "pooled": null,
+          "within_seed": {
+            "33": null
+          }
+        },
+        "auc_beneficial": 0.5,
+        "pred_mean": 31.041484716157207,
+        "y_mean": 1694.732142857143,
+        "pred_min": 31.041484716157207,
+        "pred_max": 31.041484716157207
+      },
+      "errors_first_legal": {
+        "n": 22,
+        "mae": 2576.659190154823,
+        "rmse": 3774.407323493634,
+        "pearson_pooled": null,
+        "pearson_within_seed": {
+          "pooled": null,
+          "within_seed": {
+            "33": null
+          }
+        },
+        "auc_beneficial": 0.5,
+        "pred_mean": 31.041484716157207,
+        "y_mean": 1805.409090909091,
+        "pred_min": 31.041484716157207,
+        "pred_max": 31.041484716157207
+      },
+      "selection_all_placements": {
+        "n_unique_boxes": 5,
+        "n_seed_box_pairs": 5,
+        "n_states": 26,
+        "n_actions": 112,
+        "n_accepted": 112,
+        "n_accepted_unique_boxes": 5,
+        "n_accepted_seed_box_pairs": 5,
+        "n_accepted_states": 26,
+        "coverage_actions": 1.0,
+        "mean_remaining_saving": 1694.732142857143,
+        "mean_net_after_check": 1693.4642857142858,
+        "mean_examined_billed": 1.2678571428571428,
+        "admission_bound": 8,
+        "quality_loss_rate": 0.15178571428571427,
+        "severe_loss_n": 19,
+        "severe_loss_rate": 0.16964285714285715,
+        "mean_pred": 31.041484716157207,
+        "mean_observed": 1694.732142857143,
+        "zero_coverage": false
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 5,
+        "n_seed_box_pairs": 5,
+        "n_states": 20,
+        "n_actions": 22,
+        "n_accepted": 22,
+        "n_accepted_unique_boxes": 5,
+        "n_accepted_seed_box_pairs": 5,
+        "n_accepted_states": 20,
+        "coverage_actions": 1.0,
+        "mean_remaining_saving": 1805.409090909091,
+        "mean_net_after_check": 1803.0454545454545,
+        "mean_examined_billed": 2.3636363636363638,
+        "admission_bound": 8,
+        "quality_loss_rate": 0.22727272727272727,
+        "severe_loss_n": 3,
+        "severe_loss_rate": 0.13636363636363635,
+        "mean_pred": 31.041484716157207,
+        "mean_observed": 1805.409090909091,
+        "zero_coverage": false
+      },
+      "quality_threshold": 0.5,
+      "per_seed_mean_saving": 31.041484716157207
+    },
+    {
+      "seed": 33,
+      "predictor": "frozen",
+      "n_fit": 458,
+      "errors_all_placements": {
+        "n": 112,
+        "mae": 2644.313926316728,
+        "rmse": 3759.7076313854104,
+        "pearson_pooled": 0.8056849683471492,
+        "pearson_within_seed": {
+          "pooled": 0.8056849683471492,
+          "within_seed": {
+            "33": 0.8056849683471492
+          }
+        },
+        "auc_beneficial": 0.6388888888888888,
+        "pred_mean": -680.9532704089128,
+        "y_mean": 1694.732142857143,
+        "pred_min": -721.8079108674738,
+        "pred_max": -621.0110892316512
+      },
+      "errors_first_legal": {
+        "n": 22,
+        "mae": 3090.007940924101,
+        "rmse": 4140.517653687237,
+        "pearson_pooled": 0.7790658915248916,
+        "pearson_within_seed": {
+          "pooled": 0.7790658915248916,
+          "within_seed": {
+            "33": 0.7790658915248916
+          }
+        },
+        "auc_beneficial": 0.6160714285714286,
+        "pred_mean": -684.585819481972,
+        "y_mean": 1805.409090909091,
+        "pred_min": -721.8079108674738,
+        "pred_max": -625.0456446596082
+      },
+      "selection_all_placements": {
+        "n_unique_boxes": 5,
+        "n_seed_box_pairs": 5,
+        "n_states": 26,
+        "n_actions": 112,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 5,
+        "n_seed_box_pairs": 5,
+        "n_states": 20,
+        "n_actions": 22,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "quality_threshold": 0.6564805760280588,
+      "per_seed_mean_saving": null
+    },
+    {
+      "seed": 33,
+      "predictor": "context_unweighted",
+      "n_fit": 458,
+      "errors_all_placements": {
+        "n": 112,
+        "mae": 2198.9844095247104,
+        "rmse": 3417.5318683596097,
+        "pearson_pooled": -0.27499849200430837,
+        "pearson_within_seed": {
+          "pooled": -0.27499849200430837,
+          "within_seed": {
+            "33": -0.27499849200430837
+          }
+        },
+        "auc_beneficial": 0.34649122807017546,
+        "pred_mean": -41.862611153988304,
+        "y_mean": 1694.732142857143,
+        "pred_min": -80.686252279402,
+        "pred_max": 10.386582523509754
+      },
+      "errors_first_legal": {
+        "n": 22,
+        "mae": 2624.2726768523353,
+        "rmse": 3816.5908546069963,
+        "pearson_pooled": -0.3341877811093087,
+        "pearson_within_seed": {
+          "pooled": -0.3341877811093087,
+          "within_seed": {
+            "33": -0.3341877811093087
+          }
+        },
+        "auc_beneficial": 0.3125,
+        "pred_mean": -46.01192205905199,
+        "y_mean": 1805.409090909091,
+        "pred_min": -80.686252279402,
+        "pred_max": -4.928255142292706
+      },
+      "selection_all_placements": {
+        "n_unique_boxes": 5,
+        "n_seed_box_pairs": 5,
+        "n_states": 26,
+        "n_actions": 112,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 5,
+        "n_seed_box_pairs": 5,
+        "n_states": 20,
+        "n_actions": 22,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "quality_threshold": 0.9160684788522063,
+      "per_seed_mean_saving": null
+    },
+    {
+      "seed": 33,
+      "predictor": "action_unweighted",
+      "n_fit": 458,
+      "errors_all_placements": {
+        "n": 112,
+        "mae": 2229.4341287571833,
+        "rmse": 3446.656973032347,
+        "pearson_pooled": -0.18519240816746338,
+        "pearson_within_seed": {
+          "pooled": -0.18519240816746338,
+          "within_seed": {
+            "33": -0.18519240816746338
+          }
+        },
+        "auc_beneficial": 0.45248538011695905,
+        "pred_mean": -86.84725598968275,
+        "y_mean": 1694.732142857143,
+        "pred_min": -200.8646541837197,
+        "pred_max": 100.54502569766484
+      },
+      "errors_first_legal": {
+        "n": 22,
+        "mae": 2670.857102142805,
+        "rmse": 3837.495049431322,
+        "pearson_pooled": 0.11794527644599721,
+        "pearson_within_seed": {
+          "pooled": 0.11794527644599721,
+          "within_seed": {
+            "33": 0.11794527644599721
+          }
+        },
+        "auc_beneficial": 0.5892857142857143,
+        "pred_mean": -108.54232126766878,
+        "y_mean": 1805.409090909091,
+        "pred_min": -191.95333745653613,
+        "pred_max": -6.261740875687323
+      },
+      "selection_all_placements": {
+        "n_unique_boxes": 5,
+        "n_seed_box_pairs": 5,
+        "n_states": 26,
+        "n_actions": 112,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 5,
+        "n_seed_box_pairs": 5,
+        "n_states": 20,
+        "n_actions": 22,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "quality_threshold": 0.9415205011094608,
+      "per_seed_mean_saving": null
+    },
+    {
+      "seed": 33,
+      "predictor": "context_weighted",
+      "n_fit": 458,
+      "errors_all_placements": {
+        "n": 112,
+        "mae": 3975.385459705905,
+        "rmse": 4853.642543946162,
+        "pearson_pooled": -0.13710881295362204,
+        "pearson_within_seed": {
+          "pooled": -0.13710881295362204,
+          "within_seed": {
+            "33": -0.13710881295362204
+          }
+        },
+        "auc_beneficial": 0.4649122807017544,
+        "pred_mean": -2155.9850393706993,
+        "y_mean": 1694.732142857143,
+        "pred_min": -2360.9716453244228,
+        "pred_max": -1934.2982543735236
+      },
+      "errors_first_legal": {
+        "n": 22,
+        "mae": 4406.918373572826,
+        "rmse": 5203.079009221918,
+        "pearson_pooled": -0.10904793176945488,
+        "pearson_within_seed": {
+          "pooled": -0.10904793176945488,
+          "within_seed": {
+            "33": -0.10904793176945488
+          }
+        },
+        "auc_beneficial": 0.375,
+        "pred_mean": -2180.8497123670695,
+        "y_mean": 1805.409090909091,
+        "pred_min": -2360.9716453244228,
+        "pred_max": -1967.94686216831
+      },
+      "selection_all_placements": {
+        "n_unique_boxes": 5,
+        "n_seed_box_pairs": 5,
+        "n_states": 26,
+        "n_actions": 112,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 5,
+        "n_seed_box_pairs": 5,
+        "n_states": 20,
+        "n_actions": 22,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "quality_threshold": 0.6869130795600916,
+      "per_seed_mean_saving": null
+    },
+    {
+      "seed": 33,
+      "predictor": "action_weighted",
+      "n_fit": 458,
+      "errors_all_placements": {
+        "n": 112,
+        "mae": 4161.5572364453055,
+        "rmse": 5026.613921462623,
+        "pearson_pooled": -0.16542424250178514,
+        "pearson_within_seed": {
+          "pooled": -0.16542424250178514,
+          "within_seed": {
+            "33": -0.16542424250178514
+          }
+        },
+        "auc_beneficial": 0.4926900584795322,
+        "pred_mean": -2350.4943296050324,
+        "y_mean": 1694.732142857143,
+        "pred_min": -2731.805638585287,
+        "pred_max": -1674.02753069253
+      },
+      "errors_first_legal": {
+        "n": 22,
+        "mae": 4630.76861488373,
+        "rmse": 5384.939710719687,
+        "pearson_pooled": -0.009344105539754325,
+        "pearson_within_seed": {
+          "pooled": -0.009344105539754325,
+          "within_seed": {
+            "33": -0.009344105539754325
+          }
+        },
+        "auc_beneficial": 0.48214285714285715,
+        "pred_mean": -2420.258489505837,
+        "y_mean": 1805.409090909091,
+        "pred_min": -2731.805638585287,
+        "pred_max": -2011.0220167182433
+      },
+      "selection_all_placements": {
+        "n_unique_boxes": 5,
+        "n_seed_box_pairs": 5,
+        "n_states": 26,
+        "n_actions": 112,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 5,
+        "n_seed_box_pairs": 5,
+        "n_states": 20,
+        "n_actions": 22,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "quality_threshold": 0.7250249111706889,
+      "per_seed_mean_saving": null
+    }
+  ],
+  "beats_constant": false,
+  "cap_distortion": {
+    "n_paired": 1373,
+    "n_skip_capped_1600": 248,
+    "n_commit_capped_1600": 203,
+    "n_either_capped_1600": 384,
+    "mean_saving_full": 288.72906045156594,
+    "mean_saving_1600": 61.6504005826657,
+    "mean_delta_full_minus_1600": 227.07865986890022,
+    "n_full_greater": 195,
+    "n_full_smaller": 105,
+    "n_equal": 1073,
+    "note": "A positive delta means the full remaining budget records a larger saving than the 1600 cap on that same state\u2013action. Both directions occur."
+  },
+  "proceed_placement": false,
+  "proceed_wholebox": true,
+  "placement_table": [],
+  "chosen_n_placements": 1,
+  "remaining_check": 8,
+  "gate_first": false,
+  "gate_all": false,
+  "holdout_useful": true
+}

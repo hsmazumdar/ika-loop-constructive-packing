@@ -1,0 +1,306 @@
+12:34:06 CKPT full s305 box 0 held-out 67.23
+12:34:06 CKPT full s303 box 0 held-out 66.33
+12:34:07 CKPT full s304 box 0 held-out 68.45
+12:34:07 CKPT full s300 box 0 held-out 66.94
+12:34:07 CKPT full s302 box 0 held-out 67.27
+12:34:10 CKPT full s301 box 0 held-out 68.86
+12:35:00 CKPT full s302 box 500 held-out 72.10
+12:35:00 CKPT full s305 box 500 held-out 71.12
+12:35:00 CKPT full s303 box 500 held-out 68.46
+12:35:00 CKPT full s304 box 500 held-out 74.29
+12:35:01 CKPT full s300 box 500 held-out 70.31
+12:35:01 CKPT full s301 box 500 held-out 72.10
+12:35:52 CKPT full s302 box 1000 held-out 82.22
+12:35:54 CKPT full s305 box 1000 held-out 80.63
+12:35:55 CKPT full s304 box 1000 held-out 83.23
+12:35:55 CKPT full s303 box 1000 held-out 79.74
+12:35:57 CKPT full s300 box 1000 held-out 82.39
+12:35:58 CKPT full s301 box 1000 held-out 82.14
+12:36:37 [full s302] box 2000 train S1 69.40 hidden 64 concepts 1 tau 1.76 eps 0.088 lr 0.0010 178s
+12:36:38 [full s305] box 2000 train S1 69.16 hidden 64 concepts 1 tau 1.76 eps 0.088 lr 0.0010 179s
+12:36:39 [full s303] box 2000 train S1 69.20 hidden 64 concepts 1 tau 1.76 eps 0.088 lr 0.0010 180s
+12:36:40 [full s304] box 2000 train S1 69.51 hidden 64 concepts 4 tau 1.94 eps 0.097 lr 0.0010 181s
+12:36:43 [full s301] box 2000 train S1 69.37 hidden 64 concepts 4 tau 1.76 eps 0.088 lr 0.0010 184s
+12:36:45 [full s300] box 2000 train S1 69.53 hidden 64 concepts 0 tau 1.76 eps 0.088 lr 0.0010 186s
+12:37:13 CKPT full s302 box 2000 held-out 83.44
+12:37:14 CKPT full s305 box 2000 held-out 82.59
+12:37:14 CKPT full s303 box 2000 held-out 83.01
+12:37:16 CKPT full s304 box 2000 held-out 83.38
+12:37:18 CKPT full s301 box 2000 held-out 83.41
+12:37:23 CKPT full s300 box 2000 held-out 83.00
+12:38:35 CKPT full s305 box 3000 held-out 83.07
+12:38:37 CKPT full s302 box 3000 held-out 83.38
+12:38:37 CKPT full s303 box 3000 held-out 83.67
+12:38:41 CKPT full s304 box 3000 held-out 83.47
+12:38:48 CKPT full s300 box 3000 held-out 83.41
+12:38:50 CKPT full s301 box 3000 held-out 83.59
+12:39:18 [full s305] box 4000 train S1 70.99 hidden 64 concepts 1 tau 1.36 eps 0.068 lr 0.0010 339s
+12:39:21 [full s303] box 4000 train S1 70.89 hidden 64 concepts 0 tau 1.36 eps 0.068 lr 0.0010 342s
+12:39:21 [full s302] box 4000 train S1 70.54 hidden 64 concepts 4 tau 1.50 eps 0.075 lr 0.0010 342s
+12:39:27 [full s304] box 4000 train S1 70.42 hidden 64 concepts 2 tau 1.64 eps 0.079 lr 0.0008 348s
+12:39:32 [full s300] box 4000 train S1 70.96 hidden 64 concepts 1 tau 1.36 eps 0.068 lr 0.0010 353s
+12:39:35 [full s301] box 4000 train S1 70.83 hidden 64 concepts 3 tau 1.36 eps 0.068 lr 0.0010 356s
+12:40:34 CKPT full s305 box 5000 held-out 83.25
+12:40:40 CKPT full s303 box 5000 held-out 83.75
+12:40:41 CKPT full s302 box 5000 held-out 83.74
+12:40:49 CKPT full s304 box 5000 held-out 83.98
+12:40:55 CKPT full s300 box 5000 held-out 83.92
+12:40:56 CKPT full s301 box 5000 held-out 83.68
+12:41:15 [full s305] box 6000 train S1 72.07 hidden 64 concepts 0 tau 1.06 eps 0.053 lr 0.0010 456s
+12:41:23 [full s303] box 6000 train S1 72.06 hidden 64 concepts 2 tau 1.06 eps 0.053 lr 0.0010 464s
+12:41:25 [full s302] box 6000 train S1 71.33 hidden 64 concepts 5 tau 1.41 eps 0.071 lr 0.0010 466s
+12:41:34 [full s304] box 6000 train S1 71.49 hidden 64 concepts 4 tau 1.40 eps 0.067 lr 0.0008 475s
+12:41:38 [full s300] box 6000 train S1 72.38 hidden 64 concepts 5 tau 1.06 eps 0.053 lr 0.0010 479s
+12:41:39 [full s301] box 6000 train S1 72.51 hidden 64 concepts 2 tau 1.16 eps 0.058 lr 0.0010 480s
+12:42:58 CKPT full s305 box 7500 held-out 84.32
+12:43:04 CKPT full s303 box 7500 held-out 84.65
+12:43:11 CKPT full s302 box 7500 held-out 84.32
+12:43:24 [full s305] box 8000 train S1 73.81 hidden 64 concepts 3 tau 0.82 eps 0.041 lr 0.0010 585s
+12:43:26 CKPT full s304 box 7500 held-out 84.47
+12:43:29 [full s303] box 8000 train S1 73.55 hidden 64 concepts 3 tau 0.99 eps 0.050 lr 0.0010 590s
+12:43:30 CKPT full s301 box 7500 held-out 83.96
+12:43:31 CKPT full s300 box 7500 held-out 85.30
+12:43:37 [full s302] box 8000 train S1 71.85 hidden 64 concepts 7 tau 1.09 eps 0.055 lr 0.0010 598s
+12:43:51 [full s304] box 8000 train S1 71.94 hidden 64 concepts 6 tau 1.20 eps 0.057 lr 0.0008 612s
+12:43:54 [full s301] box 8000 train S1 73.27 hidden 64 concepts 7 tau 0.98 eps 0.047 lr 0.0008 615s
+12:43:55 [full s300] box 8000 train S1 73.95 hidden 64 concepts 7 tau 0.82 eps 0.041 lr 0.0011 616s
+12:44:51 [full s305] box 10000 train S1 75.94 hidden 64 concepts 12 tau 0.63 eps 0.032 lr 0.0010 672s
+12:44:55 [full s303] box 10000 train S1 74.48 hidden 64 concepts 8 tau 0.85 eps 0.042 lr 0.0010 676s
+12:45:03 [full s302] box 10000 train S1 73.92 hidden 64 concepts 18 tau 0.93 eps 0.047 lr 0.0010 684s
+12:45:21 [full s300] box 10000 train S1 76.15 hidden 64 concepts 13 tau 0.63 eps 0.032 lr 0.0013 702s
+12:45:22 [full s304] box 10000 train S1 72.72 hidden 64 concepts 12 tau 1.07 eps 0.050 lr 0.0007 703s
+12:45:23 [full s301] box 10000 train S1 74.22 hidden 64 concepts 7 tau 0.84 eps 0.040 lr 0.0008 704s
+12:45:27 CKPT full s305 box 10000 held-out 84.89
+12:45:32 CKPT full s303 box 10000 held-out 84.85
+12:45:40 CKPT full s302 box 10000 held-out 84.68
+12:45:58 CKPT full s301 box 10000 held-out 84.36
+12:46:00 CKPT full s304 box 10000 held-out 84.86
+12:46:00 CKPT full s300 box 10000 held-out 85.54
+12:46:53 [full s305] box 12000 train S1 77.83 hidden 128 concepts 26 tau 0.60 eps 0.030 lr 0.0010 794s
+12:46:59 [full s303] box 12000 train S1 75.00 hidden 128 concepts 17 tau 0.76 eps 0.037 lr 0.0009 800s
+12:47:06 [full s302] box 12000 train S1 74.35 hidden 64 concepts 28 tau 0.88 eps 0.044 lr 0.0010 807s
+12:47:25 [full s300] box 12000 train S1 78.32 hidden 128 concepts 14 tau 0.60 eps 0.030 lr 0.0013 826s
+12:47:26 [full s301] box 12000 train S1 75.80 hidden 64 concepts 22 tau 0.72 eps 0.034 lr 0.0008 827s
+12:47:30 [full s304] box 12000 train S1 73.56 hidden 128 concepts 15 tau 0.90 eps 0.040 lr 0.0006 831s
+12:48:32 [full s302] box 14000 train S1 75.53 hidden 64 concepts 45 tau 0.75 eps 0.038 lr 0.0010 893s
+12:48:53 [full s301] box 14000 train S1 76.73 hidden 64 concepts 18 tau 0.61 eps 0.028 lr 0.0007 914s
+12:49:10 [full s305] box 14000 train S1 78.48 hidden 128 concepts 30 tau 0.56 eps 0.028 lr 0.0010 931s
+12:49:20 [full s303] box 14000 train S1 76.71 hidden 128 concepts 8 tau 0.65 eps 0.032 lr 0.0010 941s
+12:49:28 [full s304] box 14000 train S1 74.80 hidden 128 concepts 24 tau 0.81 eps 0.035 lr 0.0005 949s
+12:49:28 CKPT full s302 box 15000 held-out 85.75
+12:49:36 CKPT full s301 box 15000 held-out 84.03
+12:49:37 [full s300] box 14000 train S1 77.77 hidden 128 concepts 13 tau 0.50 eps 0.024 lr 0.0010 958s
+12:49:45 [full s302] box 16000 train S1 76.48 hidden 128 concepts 81 tau 0.67 eps 0.033 lr 0.0009 966s
+12:49:51 [full s301] box 16000 train S1 77.96 hidden 64 concepts 51 tau 0.51 eps 0.023 lr 0.0005 972s
+12:49:59 CKPT full s305 box 15000 held-out 85.33
+12:50:14 CKPT full s304 box 15000 held-out 84.79
+12:50:18 CKPT full s303 box 15000 held-out 85.53
+12:50:19 [full s301] box 18000 train S1 79.50 hidden 64 concepts 102 tau 0.46 eps 0.020 lr 0.0005 1000s
+12:50:21 [full s305] box 16000 train S1 78.32 hidden 256 concepts 26 tau 0.53 eps 0.026 lr 0.0011 1002s
+12:50:37 CKPT full s300 box 15000 held-out 84.97
+12:50:40 [full s304] box 16000 train S1 75.89 hidden 128 concepts 21 tau 0.68 eps 0.029 lr 0.0004 1022s
+12:50:44 [full s302] box 18000 train S1 77.19 hidden 128 concepts 92 tau 0.57 eps 0.027 lr 0.0007 1025s
+12:50:46 [full s303] box 16000 train S1 78.36 hidden 256 concepts 12 tau 0.58 eps 0.028 lr 0.0009 1027s
+12:50:47 [full s301] box 20000 train S1 81.08 hidden 64 concepts 134 tau 0.43 eps 0.019 lr 0.0005 1028s
+12:50:59 CKPT full s301 box 20000 held-out 85.43
+12:51:10 [full s300] box 16000 train S1 78.76 hidden 128 concepts 21 tau 0.43 eps 0.020 lr 0.0008 1051s
+12:51:27 [full s301] box 22000 train S1 82.52 hidden 64 concepts 143 tau 0.37 eps 0.016 lr 0.0005 1068s
+12:51:32 [full s304] box 18000 train S1 77.88 hidden 128 concepts 55 tau 0.58 eps 0.023 lr 0.0003 1073s
+12:51:47 [full s302] box 20000 train S1 78.87 hidden 128 concepts 144 tau 0.53 eps 0.025 lr 0.0007 1088s
+12:51:55 [full s301] box 24000 train S1 84.80 hidden 64 concepts 167 tau 0.29 eps 0.012 lr 0.0005 1096s
+12:52:08 CKPT full s301 box 24000 held-out 87.04
+12:52:15 [full s300] box 18000 train S1 80.90 hidden 128 concepts 27 tau 0.38 eps 0.017 lr 0.0007 1117s
+12:52:17 CKPT full s302 box 20000 held-out 85.82
+12:52:23 [full s304] box 20000 train S1 79.15 hidden 128 concepts 57 tau 0.52 eps 0.020 lr 0.0003 1124s
+12:52:25 [full s305] box 18000 train S1 78.50 hidden 256 concepts 43 tau 0.45 eps 0.021 lr 0.0009 1126s
+12:52:42 [full s301] box 26000 train S1 87.65 hidden 64 concepts 153 tau 0.25 eps 0.009 lr 0.0005 1143s
+12:52:51 CKPT full s304 box 20000 held-out 84.96
+12:52:54 [full s303] box 18000 train S1 78.73 hidden 256 concepts 17 tau 0.49 eps 0.022 lr 0.0007 1155s
+12:53:15 [full s301] box 28000 train S1 88.20 hidden 64 concepts 157 tau 0.25 eps 0.007 lr 0.0005 1177s
+12:53:30 [full s302] box 22000 train S1 78.98 hidden 128 concepts 152 tau 0.50 eps 0.023 lr 0.0007 1191s
+12:53:30 [full s300] box 20000 train S1 81.77 hidden 128 concepts 37 tau 0.36 eps 0.016 lr 0.0007 1191s
+12:53:30 CKPT full s301 box 28000 held-out 88.43
+12:53:50 [full s304] box 22000 train S1 80.22 hidden 128 concepts 74 tau 0.46 eps 0.018 lr 0.0003 1211s
+12:54:10 CKPT full s300 box 20000 held-out 85.63
+12:54:11 [full s301] box 30000 train S1 88.79 hidden 64 concepts 163 tau 0.25 eps 0.006 lr 0.0005 1232s
+12:54:41 [full s301] box 32000 train S1 89.00 hidden 64 concepts 180 tau 0.25 eps 0.005 lr 0.0005 1263s
+12:54:44 [full s304] box 24000 train S1 81.26 hidden 128 concepts 72 tau 0.43 eps 0.017 lr 0.0003 1265s
+12:54:44 [full s302] box 24000 train S1 80.36 hidden 128 concepts 188 tau 0.47 eps 0.022 lr 0.0007 1265s
+12:54:46 [full s305] box 20000 train S1 79.70 hidden 256 concepts 47 tau 0.38 eps 0.017 lr 0.0007 1267s
+12:54:55 CKPT full s301 box 32000 held-out 89.61
+12:55:05 CKPT full s304 box 24000 held-out 85.57
+12:55:11 [full s303] box 20000 train S1 80.67 hidden 256 concepts 20 tau 0.41 eps 0.018 lr 0.0006 1293s
+12:55:14 CKPT full s302 box 24000 held-out 86.33
+12:55:15 [full s300] box 22000 train S1 82.58 hidden 128 concepts 38 tau 0.30 eps 0.013 lr 0.0006 1296s
+12:55:25 [full s301] box 34000 train S1 89.79 hidden 64 concepts 203 tau 0.25 eps 0.005 lr 0.0005 1306s
+12:55:45 CKPT full s305 box 20000 held-out 84.67
+12:55:55 [full s301] box 36000 train S1 91.10 hidden 64 concepts 217 tau 0.25 eps 0.005 lr 0.0005 1336s
+12:55:57 [full s304] box 26000 train S1 81.64 hidden 128 concepts 70 tau 0.37 eps 0.013 lr 0.0002 1338s
+12:56:08 CKPT full s301 box 36000 held-out 91.58
+12:56:13 CKPT full s303 box 20000 held-out 85.75
+12:56:18 [full s302] box 26000 train S1 80.26 hidden 128 concepts 131 tau 0.42 eps 0.019 lr 0.0007 1360s
+12:56:19 [full s300] box 24000 train S1 84.54 hidden 128 concepts 51 tau 0.27 eps 0.011 lr 0.0005 1360s
+12:56:37 [full s301] box 38000 train S1 91.21 hidden 64 concepts 229 tau 0.25 eps 0.005 lr 0.0005 1378s
+12:56:48 CKPT full s300 box 24000 held-out 86.10
+12:56:51 [full s304] box 28000 train S1 83.26 hidden 128 concepts 77 tau 0.31 eps 0.011 lr 0.0002 1392s
+12:57:07 [full s301] box 40000 train S1 91.19 hidden 64 concepts 228 tau 0.25 eps 0.005 lr 0.0005 1408s
+12:57:12 CKPT full s304 box 28000 held-out 85.96
+12:57:20 CKPT full s301 box 40000 held-out 91.52
+12:57:23 [full s302] box 28000 train S1 81.34 hidden 128 concepts 135 tau 0.36 eps 0.016 lr 0.0005 1424s
+12:57:49 [full s300] box 26000 train S1 86.04 hidden 128 concepts 66 tau 0.25 eps 0.009 lr 0.0005 1450s
+12:57:49 [full s305] box 22000 train S1 81.08 hidden 256 concepts 42 tau 0.36 eps 0.016 lr 0.0007 1450s
+12:57:50 [full s301] box 42000 train S1 91.46 hidden 64 concepts 246 tau 0.25 eps 0.005 lr 0.0004 1451s
+12:57:50 CKPT full s302 box 28000 held-out 86.43
+12:57:57 [full s304] box 30000 train S1 84.46 hidden 128 concepts 84 tau 0.29 eps 0.010 lr 0.0002 1458s
+12:58:16 [full s303] box 22000 train S1 82.97 hidden 256 concepts 31 tau 0.35 eps 0.015 lr 0.0006 1477s
+12:58:18 [full s301] box 44000 train S1 93.01 hidden 64 concepts 251 tau 0.25 eps 0.005 lr 0.0004 1480s
+12:58:34 CKPT full s301 box 44000 held-out 93.25
+12:58:44 [full s304] box 32000 train S1 84.59 hidden 128 concepts 77 tau 0.26 eps 0.009 lr 0.0002 1505s
+12:58:50 [full s300] box 28000 train S1 87.52 hidden 128 concepts 83 tau 0.25 eps 0.008 lr 0.0005 1512s
+12:58:55 [full s302] box 30000 train S1 83.44 hidden 128 concepts 134 tau 0.34 eps 0.015 lr 0.0005 1516s
+12:59:07 CKPT full s304 box 32000 held-out 85.65
+12:59:08 [full s301] box 46000 train S1 93.55 hidden 64 concepts 251 tau 0.25 eps 0.005 lr 0.0004 1529s
+12:59:19 CKPT full s300 box 28000 held-out 87.56
+12:59:37 [full s301] box 48000 train S1 93.69 hidden 64 concepts 252 tau 0.25 eps 0.005 lr 0.0004 1558s
+12:59:50 CKPT full s301 box 48000 held-out 93.92
+12:59:52 [full s304] box 34000 train S1 86.50 hidden 128 concepts 74 tau 0.25 eps 0.008 lr 0.0002 1573s
+12:59:56 [full s305] box 24000 train S1 82.33 hidden 256 concepts 54 tau 0.32 eps 0.014 lr 0.0007 1577s
+12:59:59 [full s302] box 32000 train S1 84.26 hidden 128 concepts 127 tau 0.32 eps 0.014 lr 0.0005 1581s
+13:00:21 [full s300] box 30000 train S1 88.20 hidden 128 concepts 97 tau 0.25 eps 0.006 lr 0.0005 1602s
+13:00:21 [full s301] box 50000 train S1 93.68 hidden 64 concepts 253 tau 0.25 eps 0.005 lr 0.0005 1602s
+13:00:23 [full s303] box 24000 train S1 84.92 hidden 256 concepts 36 tau 0.27 eps 0.012 lr 0.0006 1604s
+13:00:30 CKPT full s302 box 32000 held-out 87.24
+13:00:41 [full s304] box 36000 train S1 87.21 hidden 128 concepts 81 tau 0.25 eps 0.006 lr 0.0002 1622s
+13:00:51 [full s301] box 52000 train S1 93.74 hidden 64 concepts 254 tau 0.25 eps 0.005 lr 0.0004 1632s
+13:00:56 CKPT full s305 box 24000 held-out 84.85
+13:01:00 CKPT full s304 box 36000 held-out 87.50
+13:01:05 CKPT full s301 box 52000 held-out 93.96
+13:01:44 CKPT full s303 box 24000 held-out 87.12
+13:01:48 [full s300] box 32000 train S1 88.54 hidden 128 concepts 115 tau 0.25 eps 0.005 lr 0.0005 1689s
+13:02:09 [full s302] box 34000 train S1 85.59 hidden 128 concepts 141 tau 0.30 eps 0.013 lr 0.0005 1710s
+13:02:22 [full s301] box 54000 train S1 93.70 hidden 64 concepts 256 tau 0.25 eps 0.005 lr 0.0003 1723s
+13:02:58 CKPT full s300 box 32000 held-out 88.92
+13:03:01 [full s304] box 38000 train S1 87.81 hidden 128 concepts 93 tau 0.25 eps 0.005 lr 0.0002 1762s
+13:03:45 [full s301] box 56000 train S1 93.66 hidden 64 concepts 255 tau 0.25 eps 0.005 lr 0.0003 1806s
+13:04:25 CKPT full s301 box 56000 held-out 93.96
+13:04:39 [full s302] box 36000 train S1 87.05 hidden 128 concepts 181 tau 0.25 eps 0.011 lr 0.0005 1860s
+13:05:14 [full s304] box 40000 train S1 88.47 hidden 128 concepts 97 tau 0.25 eps 0.005 lr 0.0002 1895s
+13:05:31 [full s300] box 34000 train S1 89.31 hidden 128 concepts 116 tau 0.25 eps 0.005 lr 0.0005 1912s
+13:05:46 [full s301] box 58000 train S1 93.67 hidden 64 concepts 257 tau 0.25 eps 0.005 lr 0.0002 1927s
+13:05:48 CKPT full s302 box 36000 held-out 88.66
+13:05:53 [full s305] box 26000 train S1 83.69 hidden 256 concepts 61 tau 0.28 eps 0.012 lr 0.0006 1934s
+13:06:12 CKPT full s304 box 40000 held-out 88.66
+13:06:53 [full s303] box 26000 train S1 86.69 hidden 256 concepts 43 tau 0.26 eps 0.011 lr 0.0006 1994s
+13:07:09 [full s301] box 60000 train S1 93.70 hidden 64 concepts 257 tau 0.25 eps 0.005 lr 0.0002 2010s
+13:07:35 CKPT full s301 box 60000 held-out 93.99
+13:07:35 DONE full s301: 2036s held-out@60000 93.99
+13:07:45 [full s300] box 36000 train S1 89.83 hidden 128 concepts 127 tau 0.25 eps 0.005 lr 0.0005 2046s
+13:07:47 [full s304] box 42000 train S1 89.03 hidden 128 concepts 124 tau 0.25 eps 0.005 lr 0.0002 2048s
+13:07:50 [full s302] box 38000 train S1 88.30 hidden 128 concepts 201 tau 0.25 eps 0.009 lr 0.0005 2051s
+13:08:15 CKPT full s300 box 36000 held-out 90.09
+13:08:31 [full s304] box 44000 train S1 89.99 hidden 128 concepts 146 tau 0.25 eps 0.005 lr 0.0002 2092s
+13:08:48 [full s305] box 28000 train S1 85.55 hidden 256 concepts 64 tau 0.25 eps 0.010 lr 0.0006 2109s
+13:08:51 [full s302] box 40000 train S1 88.77 hidden 128 concepts 255 tau 0.25 eps 0.007 lr 0.0005 2113s
+13:08:52 CKPT full s304 box 44000 held-out 90.55
+13:09:12 [full s303] box 28000 train S1 87.54 hidden 256 concepts 52 tau 0.25 eps 0.011 lr 0.0006 2133s
+13:09:12 [full s300] box 38000 train S1 90.07 hidden 128 concepts 142 tau 0.25 eps 0.005 lr 0.0005 2133s
+13:09:21 CKPT full s302 box 40000 held-out 89.44
+13:09:43 CKPT full s305 box 28000 held-out 86.51
+13:09:50 [full s304] box 46000 train S1 90.53 hidden 128 concepts 160 tau 0.25 eps 0.005 lr 0.0002 2171s
+13:10:07 CKPT full s303 box 28000 held-out 87.86
+13:10:09 [full s300] box 40000 train S1 90.27 hidden 128 concepts 147 tau 0.25 eps 0.005 lr 0.0005 2190s
+13:10:24 [full s302] box 42000 train S1 89.49 hidden 128 concepts 255 tau 0.25 eps 0.006 lr 0.0005 2205s
+13:10:29 CKPT full s300 box 40000 held-out 90.56
+13:10:55 [full s304] box 48000 train S1 90.65 hidden 128 concepts 162 tau 0.25 eps 0.005 lr 0.0002 2236s
+13:11:07 [full s300] box 42000 train S1 90.29 hidden 128 concepts 158 tau 0.25 eps 0.005 lr 0.0005 2249s
+13:11:14 CKPT full s304 box 48000 held-out 90.88
+13:11:27 [full s302] box 44000 train S1 89.78 hidden 128 concepts 285 tau 0.25 eps 0.005 lr 0.0005 2268s
+13:11:37 [full s305] box 30000 train S1 87.26 hidden 256 concepts 70 tau 0.25 eps 0.007 lr 0.0006 2278s
+13:11:48 [full s300] box 44000 train S1 90.31 hidden 128 concepts 175 tau 0.25 eps 0.005 lr 0.0005 2289s
+13:11:52 [full s304] box 50000 train S1 90.81 hidden 128 concepts 167 tau 0.25 eps 0.005 lr 0.0002 2293s
+13:11:58 CKPT full s302 box 44000 held-out 90.26
+13:12:06 [full s303] box 30000 train S1 88.41 hidden 256 concepts 72 tau 0.25 eps 0.008 lr 0.0006 2307s
+13:12:07 CKPT full s300 box 44000 held-out 90.54
+13:12:31 [full s304] box 52000 train S1 90.88 hidden 128 concepts 174 tau 0.25 eps 0.005 lr 0.0002 2332s
+13:12:47 [full s300] box 46000 train S1 90.45 hidden 128 concepts 181 tau 0.25 eps 0.005 lr 0.0004 2348s
+13:12:50 CKPT full s304 box 52000 held-out 91.18
+13:13:00 [full s302] box 46000 train S1 90.02 hidden 128 concepts 309 tau 0.25 eps 0.005 lr 0.0005 2361s
+13:13:27 [full s300] box 48000 train S1 90.67 hidden 128 concepts 183 tau 0.25 eps 0.005 lr 0.0003 2388s
+13:13:29 [full s304] box 54000 train S1 91.00 hidden 128 concepts 185 tau 0.25 eps 0.005 lr 0.0002 2390s
+13:13:35 [full s305] box 32000 train S1 88.55 hidden 256 concepts 83 tau 0.25 eps 0.006 lr 0.0006 2396s
+13:13:46 CKPT full s300 box 48000 held-out 90.68
+13:14:03 [full s302] box 48000 train S1 90.20 hidden 128 concepts 328 tau 0.25 eps 0.005 lr 0.0004 2424s
+13:14:05 [full s303] box 32000 train S1 89.33 hidden 256 concepts 84 tau 0.25 eps 0.006 lr 0.0006 2426s
+13:14:08 [full s304] box 56000 train S1 91.02 hidden 128 concepts 197 tau 0.25 eps 0.005 lr 0.0002 2429s
+13:14:25 [full s300] box 50000 train S1 90.56 hidden 128 concepts 196 tau 0.25 eps 0.005 lr 0.0003 2446s
+13:14:27 CKPT full s304 box 56000 held-out 91.44
+13:14:33 CKPT full s305 box 32000 held-out 88.94
+13:14:33 CKPT full s302 box 48000 held-out 90.66
+13:15:01 CKPT full s303 box 32000 held-out 89.57
+13:15:04 [full s300] box 52000 train S1 90.83 hidden 128 concepts 209 tau 0.25 eps 0.005 lr 0.0003 2485s
+13:15:05 [full s304] box 58000 train S1 91.17 hidden 128 concepts 201 tau 0.25 eps 0.005 lr 0.0002 2486s
+13:15:23 CKPT full s300 box 52000 held-out 91.15
+13:15:35 [full s302] box 50000 train S1 90.36 hidden 128 concepts 336 tau 0.25 eps 0.005 lr 0.0004 2516s
+13:15:51 [full s304] box 60000 train S1 91.18 hidden 128 concepts 217 tau 0.25 eps 0.005 lr 0.0002 2532s
+13:16:02 [full s300] box 54000 train S1 90.80 hidden 128 concepts 216 tau 0.25 eps 0.005 lr 0.0002 2544s
+13:16:12 CKPT full s304 box 60000 held-out 91.47
+13:16:12 DONE full s304: 2553s held-out@60000 91.47
+13:16:33 [full s302] box 52000 train S1 90.48 hidden 128 concepts 346 tau 0.25 eps 0.005 lr 0.0004 2574s
+13:16:34 [full s305] box 34000 train S1 90.40 hidden 256 concepts 93 tau 0.25 eps 0.005 lr 0.0006 2575s
+13:16:39 [full s300] box 56000 train S1 90.73 hidden 128 concepts 232 tau 0.25 eps 0.005 lr 0.0002 2580s
+13:16:56 [full s303] box 34000 train S1 90.01 hidden 256 concepts 95 tau 0.25 eps 0.005 lr 0.0006 2597s
+13:16:56 CKPT full s300 box 56000 held-out 91.18
+13:17:00 CKPT full s302 box 52000 held-out 91.06
+13:17:31 [full s300] box 58000 train S1 90.98 hidden 128 concepts 235 tau 0.25 eps 0.005 lr 0.0002 2633s
+13:17:55 [full s302] box 54000 train S1 90.64 hidden 128 concepts 352 tau 0.25 eps 0.005 lr 0.0004 2656s
+13:18:07 [full s300] box 60000 train S1 90.91 hidden 128 concepts 248 tau 0.25 eps 0.005 lr 0.0002 2668s
+13:18:25 CKPT full s300 box 60000 held-out 91.14
+13:18:25 DONE full s300: 2686s held-out@60000 91.14
+13:18:25 [full s305] box 36000 train S1 90.76 hidden 256 concepts 101 tau 0.25 eps 0.005 lr 0.0006 2686s
+13:18:40 [full s302] box 56000 train S1 90.97 hidden 128 concepts 360 tau 0.25 eps 0.005 lr 0.0004 2701s
+13:18:40 [full s303] box 36000 train S1 90.22 hidden 256 concepts 111 tau 0.25 eps 0.005 lr 0.0006 2701s
+13:19:04 CKPT full s302 box 56000 held-out 91.32
+13:19:15 CKPT full s305 box 36000 held-out 91.25
+13:19:29 CKPT full s303 box 36000 held-out 90.62
+13:20:20 [full s302] box 58000 train S1 91.06 hidden 128 concepts 361 tau 0.25 eps 0.005 lr 0.0004 2801s
+13:21:49 [full s302] box 60000 train S1 91.21 hidden 128 concepts 366 tau 0.25 eps 0.005 lr 0.0003 2890s
+13:22:14 [full s305] box 38000 train S1 90.86 hidden 256 concepts 107 tau 0.25 eps 0.005 lr 0.0006 2915s
+13:22:22 CKPT full s302 box 60000 held-out 91.55
+13:22:22 DONE full s302: 2923s held-out@60000 91.55
+13:22:24 [full s303] box 38000 train S1 90.75 hidden 256 concepts 122 tau 0.25 eps 0.005 lr 0.0006 2925s
+13:24:28 [full s305] box 40000 train S1 90.95 hidden 256 concepts 125 tau 0.25 eps 0.005 lr 0.0005 3049s
+13:24:39 [full s303] box 40000 train S1 90.76 hidden 256 concepts 145 tau 0.25 eps 0.005 lr 0.0006 3060s
+13:26:04 CKPT full s305 box 40000 held-out 91.37
+13:26:09 CKPT full s303 box 40000 held-out 91.23
+13:29:28 [full s303] box 42000 train S1 91.04 hidden 256 concepts 173 tau 0.25 eps 0.005 lr 0.0006 3349s
+13:29:29 [full s305] box 42000 train S1 90.95 hidden 256 concepts 130 tau 0.25 eps 0.005 lr 0.0004 3350s
+13:32:46 [full s303] box 44000 train S1 91.09 hidden 256 concepts 197 tau 0.25 eps 0.005 lr 0.0005 3547s
+13:32:51 [full s305] box 44000 train S1 91.02 hidden 256 concepts 143 tau 0.25 eps 0.005 lr 0.0004 3552s
+13:33:46 CKPT full s303 box 44000 held-out 91.42
+13:33:49 CKPT full s305 box 44000 held-out 91.31
+13:35:15 [full s303] box 46000 train S1 91.03 hidden 256 concepts 194 tau 0.25 eps 0.005 lr 0.0004 3696s
+13:35:18 [full s305] box 46000 train S1 90.61 hidden 256 concepts 162 tau 0.25 eps 0.005 lr 0.0003 3699s
+13:38:01 [full s303] box 48000 train S1 91.10 hidden 256 concepts 201 tau 0.25 eps 0.005 lr 0.0003 3862s
+13:38:09 [full s305] box 48000 train S1 90.84 hidden 256 concepts 168 tau 0.25 eps 0.005 lr 0.0002 3870s
+13:39:33 CKPT full s303 box 48000 held-out 91.38
+13:39:42 CKPT full s305 box 48000 held-out 91.05
+13:42:57 [full s303] box 50000 train S1 91.17 hidden 256 concepts 203 tau 0.25 eps 0.005 lr 0.0003 4158s
+13:43:07 [full s305] box 50000 train S1 91.06 hidden 256 concepts 168 tau 0.25 eps 0.005 lr 0.0002 4168s
+13:45:37 [full s303] box 52000 train S1 91.17 hidden 256 concepts 221 tau 0.25 eps 0.005 lr 0.0002 4318s
+13:45:46 [full s305] box 52000 train S1 90.66 hidden 256 concepts 173 tau 0.25 eps 0.005 lr 0.0002 4327s
+13:47:09 CKPT full s303 box 52000 held-out 91.52
+13:47:19 CKPT full s305 box 52000 held-out 91.05
+13:50:20 [full s303] box 54000 train S1 91.26 hidden 256 concepts 225 tau 0.25 eps 0.005 lr 0.0002 4601s
+13:50:24 [full s305] box 54000 train S1 90.92 hidden 256 concepts 186 tau 0.25 eps 0.005 lr 0.0002 4605s
+13:51:50 [full s303] box 56000 train S1 91.24 hidden 256 concepts 220 tau 0.25 eps 0.005 lr 0.0002 4691s
+13:51:53 [full s305] box 56000 train S1 90.81 hidden 256 concepts 193 tau 0.25 eps 0.005 lr 0.0002 4694s
+13:52:34 CKPT full s303 box 56000 held-out 91.33
+13:52:37 CKPT full s305 box 56000 held-out 91.08
+13:54:03 [full s303] box 58000 train S1 91.13 hidden 256 concepts 232 tau 0.25 eps 0.005 lr 0.0002 4824s
+13:54:06 [full s305] box 58000 train S1 90.81 hidden 256 concepts 198 tau 0.25 eps 0.005 lr 0.0002 4827s
+13:55:31 [full s303] box 60000 train S1 91.19 hidden 256 concepts 247 tau 0.25 eps 0.005 lr 0.0002 4912s
+13:55:34 [full s305] box 60000 train S1 90.77 hidden 256 concepts 206 tau 0.25 eps 0.005 lr 0.0002 4915s
+13:56:15 CKPT full s303 box 60000 held-out 91.43
+13:56:15 DONE full s303: 4956s held-out@60000 91.43
+13:56:18 CKPT full s305 box 60000 held-out 90.98
+13:56:18 DONE full s305: 4959s held-out@60000 90.98

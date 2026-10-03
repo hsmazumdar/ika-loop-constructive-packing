@@ -1,0 +1,324 @@
+03:49:55 [full s6] box 2000 train S1 69.26 hidden 64 concepts 2 tau 1.76 eps 0.088 lr 0.0010 308s
+03:50:08 [full s1] box 2000 train S1 69.22 hidden 64 concepts 1 tau 1.94 eps 0.097 lr 0.0010 321s
+03:50:11 [full s0] box 2000 train S1 69.47 hidden 64 concepts 1 tau 1.76 eps 0.088 lr 0.0010 325s
+03:50:15 [full s4] box 2000 train S1 69.08 hidden 64 concepts 0 tau 1.76 eps 0.088 lr 0.0010 329s
+03:50:18 [full s3] box 2000 train S1 69.19 hidden 64 concepts 2 tau 1.76 eps 0.088 lr 0.0010 331s
+03:51:17 [full s5] box 2000 train S1 69.01 hidden 64 concepts 1 tau 1.76 eps 0.088 lr 0.0010 390s
+03:51:20 [full s7] box 2000 train S1 68.99 hidden 64 concepts 2 tau 1.76 eps 0.088 lr 0.0010 394s
+03:51:23 [full s2] box 2000 train S1 69.06 hidden 64 concepts 0 tau 1.76 eps 0.088 lr 0.0010 397s
+03:51:35 [full s9] box 2000 train S1 69.60 hidden 64 concepts 2 tau 1.76 eps 0.088 lr 0.0010 406s
+03:51:43 [full s8] box 2000 train S1 69.37 hidden 64 concepts 4 tau 1.76 eps 0.088 lr 0.0010 416s
+03:53:37 [full s6] box 4000 train S1 70.73 hidden 64 concepts 3 tau 1.36 eps 0.068 lr 0.0010 529s
+03:54:00 [full s0] box 4000 train S1 70.30 hidden 64 concepts 1 tau 1.66 eps 0.083 lr 0.0010 554s
+03:54:04 [full s1] box 4000 train S1 70.14 hidden 64 concepts 0 tau 1.66 eps 0.083 lr 0.0010 557s
+03:54:10 [full s4] box 4000 train S1 70.62 hidden 64 concepts 2 tau 1.36 eps 0.068 lr 0.0010 563s
+03:54:17 [full s3] box 4000 train S1 70.77 hidden 64 concepts 4 tau 1.36 eps 0.068 lr 0.0010 570s
+03:56:01 [full s5] box 4000 train S1 70.94 hidden 64 concepts 0 tau 1.36 eps 0.068 lr 0.0010 674s
+03:56:11 [full s7] box 4000 train S1 70.42 hidden 64 concepts 1 tau 1.36 eps 0.068 lr 0.0010 685s
+03:56:37 [full s2] box 4000 train S1 70.87 hidden 64 concepts 3 tau 1.36 eps 0.068 lr 0.0010 711s
+03:56:39 [full s6] box 6000 train S1 71.78 hidden 64 concepts 11 tau 1.06 eps 0.053 lr 0.0010 711s
+03:56:52 [full s9] box 4000 train S1 70.87 hidden 64 concepts 1 tau 1.36 eps 0.068 lr 0.0010 724s
+03:57:06 [full s0] box 6000 train S1 70.93 hidden 64 concepts 2 tau 1.48 eps 0.072 lr 0.0009 739s
+03:57:08 [full s8] box 4000 train S1 70.89 hidden 64 concepts 1 tau 1.36 eps 0.068 lr 0.0010 740s
+03:57:10 [full s4] box 6000 train S1 71.95 hidden 64 concepts 6 tau 1.06 eps 0.053 lr 0.0010 744s
+03:57:12 [full s1] box 6000 train S1 70.61 hidden 64 concepts 4 tau 1.48 eps 0.072 lr 0.0009 746s
+03:57:20 [full s3] box 6000 train S1 72.34 hidden 64 concepts 4 tau 1.06 eps 0.053 lr 0.0010 753s
+03:59:39 [full s6] box 8000 train S1 74.62 hidden 64 concepts 25 tau 0.82 eps 0.041 lr 0.0010 891s
+04:00:05 [full s0] box 8000 train S1 71.25 hidden 64 concepts 6 tau 1.39 eps 0.068 lr 0.0009 918s
+04:00:05 [full s7] box 6000 train S1 72.11 hidden 64 concepts 9 tau 1.06 eps 0.053 lr 0.0010 918s
+04:00:09 [full s5] box 6000 train S1 72.15 hidden 64 concepts 3 tau 1.06 eps 0.053 lr 0.0010 922s
+04:00:10 [full s3] box 8000 train S1 74.02 hidden 64 concepts 4 tau 0.90 eps 0.045 lr 0.0010 923s
+04:00:12 [full s4] box 8000 train S1 73.56 hidden 64 concepts 13 tau 0.82 eps 0.041 lr 0.0010 926s
+04:00:15 [full s1] box 8000 train S1 71.62 hidden 64 concepts 2 tau 1.25 eps 0.059 lr 0.0007 929s
+04:00:26 [full s2] box 6000 train S1 71.95 hidden 64 concepts 8 tau 1.16 eps 0.058 lr 0.0010 939s
+04:01:11 [full s9] box 6000 train S1 72.20 hidden 64 concepts 5 tau 1.06 eps 0.053 lr 0.0010 983s
+04:01:30 [full s8] box 6000 train S1 72.33 hidden 64 concepts 7 tau 1.06 eps 0.053 lr 0.0010 1002s
+04:01:41 [full s6] box 10000 train S1 76.70 hidden 64 concepts 30 tau 0.63 eps 0.032 lr 0.0010 1013s
+04:02:15 [full s4] box 10000 train S1 75.86 hidden 64 concepts 31 tau 0.66 eps 0.032 lr 0.0009 1048s
+04:02:15 [full s0] box 10000 train S1 72.09 hidden 64 concepts 8 tau 1.31 eps 0.064 lr 0.0009 1049s
+04:02:17 [full s3] box 10000 train S1 75.04 hidden 64 concepts 16 tau 0.77 eps 0.038 lr 0.0010 1050s
+04:02:25 [full s1] box 10000 train S1 72.54 hidden 64 concepts 6 tau 1.18 eps 0.055 lr 0.0007 1059s
+04:03:53 [full s7] box 8000 train S1 74.37 hidden 64 concepts 21 tau 0.82 eps 0.041 lr 0.0010 1146s
+04:04:00 [full s5] box 8000 train S1 73.94 hidden 64 concepts 21 tau 0.90 eps 0.045 lr 0.0010 1153s
+04:04:25 [full s2] box 8000 train S1 72.85 hidden 64 concepts 15 tau 1.09 eps 0.055 lr 0.0010 1178s
+04:04:37 [full s6] box 12000 train S1 78.74 hidden 64 concepts 45 tau 0.60 eps 0.030 lr 0.0011 1189s
+04:05:04 [full s9] box 8000 train S1 73.91 hidden 64 concepts 24 tau 0.82 eps 0.041 lr 0.0010 1216s
+04:05:11 [full s3] box 12000 train S1 76.01 hidden 64 concepts 31 tau 0.72 eps 0.036 lr 0.0010 1224s
+04:05:18 [full s8] box 8000 train S1 73.92 hidden 64 concepts 9 tau 0.82 eps 0.041 lr 0.0010 1230s
+04:05:20 [full s0] box 12000 train S1 71.89 hidden 128 concepts 8 tau 1.11 eps 0.052 lr 0.0007 1234s
+04:05:26 [full s4] box 12000 train S1 76.50 hidden 128 concepts 38 tau 0.59 eps 0.028 lr 0.0008 1239s
+04:05:28 [full s1] box 12000 train S1 72.68 hidden 64 concepts 5 tau 1.05 eps 0.048 lr 0.0007 1241s
+04:06:31 [full s5] box 10000 train S1 74.28 hidden 64 concepts 25 tau 0.85 eps 0.042 lr 0.0010 1304s
+04:06:35 [full s7] box 10000 train S1 75.52 hidden 64 concepts 18 tau 0.63 eps 0.032 lr 0.0010 1309s
+04:06:40 [full s6] box 14000 train S1 79.33 hidden 64 concepts 44 tau 0.53 eps 0.026 lr 0.0010 1312s
+04:07:02 [full s2] box 10000 train S1 73.14 hidden 64 concepts 28 tau 0.93 eps 0.047 lr 0.0010 1335s
+04:07:19 [full s3] box 14000 train S1 77.23 hidden 64 concepts 64 tau 0.68 eps 0.034 lr 0.0010 1352s
+04:07:36 [full s1] box 14000 train S1 73.72 hidden 64 concepts 8 tau 0.94 eps 0.042 lr 0.0006 1369s
+04:07:41 [full s9] box 10000 train S1 75.60 hidden 64 concepts 17 tau 0.70 eps 0.035 lr 0.0011 1373s
+04:08:04 [full s8] box 10000 train S1 76.19 hidden 64 concepts 16 tau 0.70 eps 0.035 lr 0.0010 1396s
+04:08:59 [full s4] box 14000 train S1 78.49 hidden 128 concepts 53 tau 0.53 eps 0.025 lr 0.0007 1452s
+04:09:10 [full s0] box 14000 train S1 72.54 hidden 128 concepts 14 tau 0.99 eps 0.045 lr 0.0007 1463s
+04:09:32 [full s6] box 16000 train S1 80.76 hidden 128 concepts 39 tau 0.45 eps 0.022 lr 0.0010 1485s
+04:09:59 [full s5] box 12000 train S1 75.31 hidden 64 concepts 17 tau 0.76 eps 0.037 lr 0.0009 1512s
+04:10:06 [full s7] box 12000 train S1 78.20 hidden 64 concepts 22 tau 0.49 eps 0.025 lr 0.0010 1519s
+04:10:23 [full s3] box 16000 train S1 77.25 hidden 64 concepts 77 tau 0.61 eps 0.030 lr 0.0009 1536s
+04:10:28 [full s2] box 12000 train S1 74.84 hidden 64 concepts 30 tau 0.80 eps 0.040 lr 0.0010 1541s
+04:10:32 [full s1] box 16000 train S1 74.57 hidden 64 concepts 9 tau 0.80 eps 0.036 lr 0.0006 1546s
+04:11:05 [full s9] box 12000 train S1 76.97 hidden 128 concepts 84 tau 0.66 eps 0.033 lr 0.0011 1576s
+04:11:46 [full s8] box 12000 train S1 76.92 hidden 64 concepts 50 tau 0.66 eps 0.033 lr 0.0010 1619s
+04:12:07 [full s7] box 14000 train S1 80.73 hidden 64 concepts 35 tau 0.46 eps 0.023 lr 0.0010 1640s
+04:12:07 [full s5] box 14000 train S1 76.11 hidden 64 concepts 35 tau 0.68 eps 0.032 lr 0.0008 1640s
+04:12:17 [full s3] box 18000 train S1 78.39 hidden 64 concepts 101 tau 0.57 eps 0.028 lr 0.0010 1650s
+04:12:23 [full s1] box 18000 train S1 75.83 hidden 64 concepts 17 tau 0.62 eps 0.028 lr 0.0006 1656s
+04:12:25 [full s6] box 18000 train S1 84.12 hidden 128 concepts 58 tau 0.35 eps 0.017 lr 0.0010 1658s
+04:12:33 [full s2] box 14000 train S1 75.42 hidden 64 concepts 26 tau 0.71 eps 0.035 lr 0.0009 1667s
+04:13:22 [full s4] box 16000 train S1 79.70 hidden 128 concepts 68 tau 0.45 eps 0.021 lr 0.0007 1715s
+04:13:42 [full s0] box 16000 train S1 73.31 hidden 128 concepts 37 tau 0.84 eps 0.037 lr 0.0005 1736s
+04:14:05 [full s3] box 20000 train S1 78.91 hidden 64 concepts 119 tau 0.51 eps 0.024 lr 0.0010 1758s
+04:14:08 [full s8] box 14000 train S1 78.51 hidden 64 concepts 46 tau 0.62 eps 0.031 lr 0.0010 1761s
+04:14:11 [full s1] box 20000 train S1 77.82 hidden 64 concepts 28 tau 0.52 eps 0.022 lr 0.0005 1765s
+04:14:26 [full s9] box 14000 train S1 77.74 hidden 128 concepts 124 tau 0.51 eps 0.025 lr 0.0011 1778s
+04:14:54 [full s7] box 16000 train S1 82.39 hidden 64 concepts 65 tau 0.43 eps 0.022 lr 0.0010 1807s
+04:15:01 [full s5] box 16000 train S1 76.89 hidden 64 concepts 58 tau 0.60 eps 0.028 lr 0.0007 1814s
+04:15:09 [full s6] box 20000 train S1 86.12 hidden 128 concepts 66 tau 0.27 eps 0.013 lr 0.0010 1821s
+04:15:32 [full s2] box 16000 train S1 76.90 hidden 64 concepts 39 tau 0.64 eps 0.030 lr 0.0008 1846s
+04:16:21 [full s4] box 18000 train S1 79.97 hidden 128 concepts 138 tau 0.40 eps 0.018 lr 0.0007 1894s
+04:16:44 [full s7] box 18000 train S1 82.03 hidden 64 concepts 118 tau 0.41 eps 0.020 lr 0.0010 1917s
+04:16:47 [full s0] box 18000 train S1 74.65 hidden 128 concepts 34 tau 0.71 eps 0.030 lr 0.0004 1920s
+04:17:01 [full s5] box 18000 train S1 77.52 hidden 64 concepts 86 tau 0.57 eps 0.027 lr 0.0007 1934s
+04:17:27 [full s8] box 16000 train S1 77.81 hidden 128 concepts 48 tau 0.55 eps 0.027 lr 0.0009 1959s
+04:17:38 [full s2] box 18000 train S1 77.22 hidden 64 concepts 41 tau 0.57 eps 0.027 lr 0.0007 1971s
+04:17:54 DONE full s3: 1803s held-out@20000 86.11
+04:18:06 DONE full s1: 1811s held-out@20000 85.42
+04:18:28 [full s7] box 20000 train S1 82.39 hidden 64 concepts 168 tau 0.36 eps 0.018 lr 0.0009 2022s
+04:18:52 [full s5] box 20000 train S1 77.68 hidden 64 concepts 115 tau 0.48 eps 0.021 lr 0.0006 2045s
+04:19:03 [full s4] box 20000 train S1 81.73 hidden 128 concepts 186 tau 0.34 eps 0.015 lr 0.0006 2057s
+04:19:15 [full s9] box 16000 train S1 79.06 hidden 128 concepts 124 tau 0.43 eps 0.021 lr 0.0009 2067s
+04:19:38 [full s2] box 20000 train S1 78.50 hidden 64 concepts 46 tau 0.48 eps 0.021 lr 0.0006 2091s
+04:19:50 [full s0] box 20000 train S1 76.17 hidden 128 concepts 25 tau 0.67 eps 0.028 lr 0.0004 2104s
+04:20:38 [full s8] box 18000 train S1 79.40 hidden 128 concepts 67 tau 0.49 eps 0.024 lr 0.0008 2150s
+04:22:21 [full s10] box 2000 train S1 69.58 hidden 64 concepts 3 tau 1.94 eps 0.097 lr 0.0010 266s
+04:22:25 [full s11] box 2000 train S1 69.40 hidden 64 concepts 0 tau 1.76 eps 0.088 lr 0.0010 259s
+04:22:32 [full s9] box 18000 train S1 80.32 hidden 128 concepts 162 tau 0.36 eps 0.017 lr 0.0007 2264s
+04:23:21 DONE full s7: 2069s held-out@20000 86.72
+04:23:25 DONE full s6: 1908s held-out@20000 88.12
+04:23:48 DONE full s5: 2093s held-out@20000 84.47
+04:24:17 [full s8] box 20000 train S1 81.00 hidden 128 concepts 93 tau 0.44 eps 0.021 lr 0.0007 2369s
+04:24:48 DONE full s2: 2145s held-out@20000 85.75
+04:25:59 [full s9] box 20000 train S1 82.47 hidden 128 concepts 189 tau 0.31 eps 0.014 lr 0.0006 2470s
+04:26:14 [full s11] box 4000 train S1 70.84 hidden 64 concepts 2 tau 1.36 eps 0.068 lr 0.0010 489s
+04:26:15 [full s10] box 4000 train S1 70.50 hidden 64 concepts 3 tau 1.83 eps 0.091 lr 0.0010 500s
+04:27:23 DONE full s0: 2182s held-out@20000 83.89
+04:27:38 DONE full s4: 2134s held-out@20000 85.64
+04:28:17 [no_meta s1] box 2000 train S1 69.39 hidden 64 concepts 2 tau 1.78 eps 0.088 lr 0.0010 293s
+04:28:29 [no_meta s0] box 2000 train S1 69.57 hidden 64 concepts 1 tau 1.78 eps 0.088 lr 0.0010 308s
+04:28:48 [no_meta s2] box 2000 train S1 69.43 hidden 64 concepts 0 tau 1.78 eps 0.088 lr 0.0010 300s
+04:29:09 [full s11] box 6000 train S1 71.80 hidden 64 concepts 3 tau 1.06 eps 0.053 lr 0.0010 663s
+04:29:12 [full s10] box 6000 train S1 70.61 hidden 64 concepts 1 tau 1.41 eps 0.071 lr 0.0010 678s
+04:29:43 [no_meta s3] box 2000 train S1 69.45 hidden 64 concepts 4 tau 1.78 eps 0.088 lr 0.0010 295s
+04:31:49 [no_sleep s0] box 2000 train S1 69.20 hidden 64 concepts 0 tau 1.76 eps 0.088 lr 0.0010 266s
+04:31:54 [no_sleep s1] box 2000 train S1 69.02 hidden 64 concepts 0 tau 1.76 eps 0.088 lr 0.0010 257s
+04:32:00 [full s11] box 8000 train S1 73.23 hidden 64 concepts 10 tau 0.89 eps 0.043 lr 0.0008 834s
+04:32:01 [no_meta s1] box 4000 train S1 70.83 hidden 64 concepts 1 tau 1.56 eps 0.076 lr 0.0010 516s
+04:32:07 [full s10] box 8000 train S1 72.06 hidden 64 concepts 4 tau 1.09 eps 0.055 lr 0.0010 853s
+04:32:17 [no_meta s0] box 4000 train S1 70.71 hidden 64 concepts 2 tau 1.56 eps 0.076 lr 0.0010 536s
+04:32:24 DONE full s8: 2460s held-out@20000 86.21
+04:32:35 [no_meta s2] box 4000 train S1 70.82 hidden 64 concepts 2 tau 1.56 eps 0.076 lr 0.0010 528s
+04:33:36 [no_meta s3] box 4000 train S1 70.84 hidden 64 concepts 2 tau 1.56 eps 0.076 lr 0.0010 528s
+04:34:00 [full s11] box 10000 train S1 74.62 hidden 64 concepts 22 tau 0.84 eps 0.040 lr 0.0008 955s
+04:34:09 [full s10] box 10000 train S1 73.61 hidden 64 concepts 9 tau 0.93 eps 0.047 lr 0.0010 974s
+04:34:12 DONE full s9: 2565s held-out@20000 85.40
+04:34:55 [no_meta s1] box 6000 train S1 71.26 hidden 64 concepts 1 tau 1.34 eps 0.064 lr 0.0010 690s
+04:35:11 [no_sleep s0] box 4000 train S1 70.17 hidden 64 concepts 0 tau 1.66 eps 0.083 lr 0.0010 468s
+04:35:13 [no_sleep s1] box 4000 train S1 70.57 hidden 64 concepts 0 tau 1.36 eps 0.068 lr 0.0010 455s
+04:35:14 [no_meta s0] box 6000 train S1 71.47 hidden 64 concepts 2 tau 1.34 eps 0.064 lr 0.0010 713s
+04:35:36 [no_meta s2] box 6000 train S1 71.34 hidden 64 concepts 3 tau 1.34 eps 0.064 lr 0.0010 709s
+04:36:42 [no_meta s3] box 6000 train S1 71.51 hidden 64 concepts 3 tau 1.34 eps 0.064 lr 0.0010 714s
+04:36:48 [no_sleep s2] box 2000 train S1 68.66 hidden 64 concepts 0 tau 1.76 eps 0.088 lr 0.0010 263s
+04:36:52 [full s11] box 12000 train S1 74.66 hidden 64 concepts 21 tau 0.75 eps 0.035 lr 0.0007 1126s
+04:36:59 [full s10] box 12000 train S1 74.75 hidden 128 concepts 21 tau 0.88 eps 0.044 lr 0.0010 1144s
+04:37:47 [no_sleep s0] box 6000 train S1 70.78 hidden 64 concepts 0 tau 1.48 eps 0.072 lr 0.0009 625s
+04:37:49 [no_sleep s1] box 6000 train S1 71.60 hidden 64 concepts 0 tau 1.15 eps 0.055 lr 0.0008 611s
+04:37:55 [no_meta s1] box 8000 train S1 72.36 hidden 64 concepts 6 tau 1.12 eps 0.052 lr 0.0010 870s
+04:38:13 [no_meta s0] box 8000 train S1 72.73 hidden 64 concepts 4 tau 1.12 eps 0.052 lr 0.0010 893s
+04:38:41 [no_meta s2] box 8000 train S1 72.45 hidden 64 concepts 5 tau 1.12 eps 0.052 lr 0.0010 894s
+04:38:43 [no_sleep s3] box 2000 train S1 68.97 hidden 64 concepts 0 tau 1.76 eps 0.088 lr 0.0010 270s
+04:38:57 [full s11] box 14000 train S1 75.69 hidden 64 concepts 25 tau 0.67 eps 0.031 lr 0.0007 1251s
+04:39:54 [no_meta s3] box 8000 train S1 72.54 hidden 64 concepts 4 tau 1.12 eps 0.052 lr 0.0010 906s
+04:40:04 [no_meta s1] box 10000 train S1 73.65 hidden 64 concepts 4 tau 0.90 eps 0.040 lr 0.0010 999s
+04:40:13 [no_sleep s2] box 4000 train S1 70.50 hidden 64 concepts 0 tau 1.57 eps 0.077 lr 0.0009 469s
+04:40:19 [full s10] box 14000 train S1 74.50 hidden 128 concepts 22 tau 0.83 eps 0.041 lr 0.0011 1344s
+04:40:21 [no_meta s0] box 10000 train S1 73.81 hidden 64 concepts 8 tau 0.90 eps 0.040 lr 0.0010 1020s
+04:40:25 [no_sleep s1] box 8000 train S1 72.96 hidden 64 concepts 0 tau 1.03 eps 0.048 lr 0.0007 768s
+04:40:26 [no_sleep s0] box 8000 train S1 70.94 hidden 64 concepts 0 tau 1.39 eps 0.068 lr 0.0009 783s
+04:40:51 [no_meta s2] box 10000 train S1 73.65 hidden 64 concepts 6 tau 0.90 eps 0.040 lr 0.0010 1023s
+04:41:53 [full s11] box 16000 train S1 76.52 hidden 64 concepts 40 tau 0.57 eps 0.025 lr 0.0005 1427s
+04:42:01 [no_meta s3] box 10000 train S1 74.00 hidden 64 concepts 6 tau 0.90 eps 0.040 lr 0.0010 1033s
+04:42:07 [no_sleep s3] box 4000 train S1 70.21 hidden 64 concepts 0 tau 1.50 eps 0.075 lr 0.0010 474s
+04:42:07 [no_sleep s1] box 10000 train S1 73.09 hidden 64 concepts 0 tau 0.97 eps 0.045 lr 0.0007 869s
+04:42:11 [no_sleep s0] box 10000 train S1 71.74 hidden 64 concepts 0 tau 1.24 eps 0.059 lr 0.0008 888s
+04:42:46 [no_sleep s2] box 6000 train S1 70.53 hidden 64 concepts 0 tau 1.48 eps 0.072 lr 0.0009 621s
+04:42:53 DONE no_sleep s1: 916s held-out@10000 84.18
+04:42:59 DONE no_sleep s0: 936s held-out@10000 83.09
+04:43:51 [full s11] box 18000 train S1 78.06 hidden 64 concepts 55 tau 0.48 eps 0.020 lr 0.0004 1545s
+04:44:26 DONE no_meta s1: 1049s held-out@10000 84.37
+04:44:47 [no_sleep s3] box 6000 train S1 70.87 hidden 64 concepts 0 tau 1.41 eps 0.071 lr 0.0010 634s
+04:44:49 DONE no_meta s0: 1071s held-out@10000 84.11
+04:45:08 [full s10] box 16000 train S1 74.91 hidden 128 concepts 36 tau 0.70 eps 0.034 lr 0.0009 1633s
+04:45:34 [no_sleep s2] box 8000 train S1 71.19 hidden 64 concepts 0 tau 1.32 eps 0.063 lr 0.0008 790s
+04:45:49 DONE no_meta s2: 1077s held-out@10000 85.25
+04:45:53 [full s11] box 20000 train S1 80.48 hidden 64 concepts 71 tau 0.45 eps 0.019 lr 0.0004 1667s
+04:46:50 DONE no_meta s3: 1085s held-out@10000 85.33
+04:47:51 [no_sleep s3] box 8000 train S1 71.33 hidden 64 concepts 0 tau 1.33 eps 0.067 lr 0.0010 818s
+04:47:52 [no_sleep s2] box 10000 train S1 71.85 hidden 64 concepts 0 tau 1.18 eps 0.055 lr 0.0007 927s
+04:48:09 [no_dream s0] box 2000 train S1 69.35 hidden 64 concepts 2 tau 1.76 eps 0.088 lr 0.0010 315s
+04:48:16 [no_dream s1] box 2000 train S1 69.16 hidden 64 concepts 2 tau 1.76 eps 0.088 lr 0.0010 317s
+04:48:55 DONE no_sleep s2: 990s held-out@10000 83.98
+04:49:31 [full s10] box 18000 train S1 75.92 hidden 128 concepts 25 tau 0.59 eps 0.027 lr 0.0007 1897s
+04:49:59 [no_sleep s3] box 10000 train S1 71.47 hidden 64 concepts 0 tau 1.25 eps 0.063 lr 0.0010 946s
+04:50:03 [no_dream s3] box 2000 train S1 69.33 hidden 64 concepts 2 tau 1.76 eps 0.088 lr 0.0010 313s
+04:50:06 [no_dream s2] box 2000 train S1 69.12 hidden 64 concepts 0 tau 1.76 eps 0.088 lr 0.0010 340s
+04:50:52 DONE no_sleep s3: 1000s held-out@10000 84.22
+04:51:04 DONE full s11: 1746s held-out@20000 85.01
+04:51:36 [no_concepts s0] box 2000 train S1 69.45 hidden 64 concepts 0 tau 1.76 eps 0.088 lr 0.0010 347s
+04:52:16 [no_dream s1] box 4000 train S1 70.83 hidden 64 concepts 2 tau 1.36 eps 0.068 lr 0.0010 556s
+04:52:25 [no_dream s0] box 4000 train S1 70.66 hidden 64 concepts 1 tau 1.36 eps 0.068 lr 0.0010 571s
+04:52:42 [no_concepts s1] box 2000 train S1 69.36 hidden 64 concepts 0 tau 1.76 eps 0.088 lr 0.0010 352s
+04:53:47 [full s10] box 20000 train S1 77.01 hidden 128 concepts 55 tau 0.50 eps 0.022 lr 0.0006 2152s
+04:53:58 [no_dream s3] box 4000 train S1 70.75 hidden 64 concepts 7 tau 1.36 eps 0.068 lr 0.0010 549s
+04:54:12 [no_concepts s2] box 2000 train S1 69.06 hidden 64 concepts 0 tau 1.76 eps 0.088 lr 0.0010 317s
+04:54:16 [no_dream s2] box 4000 train S1 70.67 hidden 64 concepts 2 tau 1.36 eps 0.068 lr 0.0010 589s
+04:55:16 [no_dream s0] box 6000 train S1 72.08 hidden 64 concepts 3 tau 1.28 eps 0.064 lr 0.0010 742s
+04:55:48 [no_dream s1] box 6000 train S1 72.11 hidden 64 concepts 1 tau 1.16 eps 0.058 lr 0.0010 768s
+04:56:10 [no_concepts s0] box 4000 train S1 70.87 hidden 64 concepts 0 tau 1.66 eps 0.083 lr 0.0010 621s
+04:57:01 [no_dream s3] box 6000 train S1 72.19 hidden 64 concepts 5 tau 1.06 eps 0.053 lr 0.0010 732s
+04:57:04 [td095 s0] box 2000 train S1 68.79 hidden 64 concepts 4 tau 1.76 eps 0.088 lr 0.0010 360s
+04:57:05 [no_concepts s3] box 2000 train S1 69.26 hidden 64 concepts 0 tau 1.76 eps 0.088 lr 0.0010 372s
+04:57:16 [no_concepts s1] box 4000 train S1 70.54 hidden 64 concepts 0 tau 1.66 eps 0.083 lr 0.0010 626s
+04:57:39 [no_dream s2] box 6000 train S1 71.50 hidden 64 concepts 3 tau 1.28 eps 0.064 lr 0.0010 792s
+04:58:37 [no_dream s0] box 8000 train S1 72.29 hidden 128 concepts 2 tau 1.21 eps 0.060 lr 0.0010 944s
+04:58:40 [no_concepts s2] box 4000 train S1 70.96 hidden 64 concepts 0 tau 1.36 eps 0.068 lr 0.0010 585s
+04:58:56 [no_dream s1] box 8000 train S1 72.69 hidden 64 concepts 7 tau 0.99 eps 0.050 lr 0.0010 957s
+04:59:27 [no_concepts s0] box 6000 train S1 70.94 hidden 64 concepts 0 tau 1.56 eps 0.078 lr 0.0010 818s
+04:59:58 [no_dream s3] box 8000 train S1 73.56 hidden 64 concepts 8 tau 0.82 eps 0.041 lr 0.0010 908s
+05:00:50 [no_dream s2] box 8000 train S1 72.60 hidden 64 concepts 11 tau 0.99 eps 0.050 lr 0.0010 984s
+05:00:58 [no_concepts s1] box 6000 train S1 70.88 hidden 64 concepts 0 tau 1.40 eps 0.067 lr 0.0008 849s
+05:01:00 [no_dream s1] box 10000 train S1 74.44 hidden 64 concepts 15 tau 0.85 eps 0.042 lr 0.0010 1080s
+05:01:34 [td095 s0] box 4000 train S1 69.80 hidden 64 concepts 1 tau 1.36 eps 0.068 lr 0.0010 630s
+05:01:39 [no_concepts s3] box 4000 train S1 70.89 hidden 64 concepts 0 tau 1.36 eps 0.068 lr 0.0010 647s
+05:01:53 [no_dream s3] box 10000 train S1 76.35 hidden 64 concepts 8 tau 0.63 eps 0.032 lr 0.0010 1023s
+05:02:07 [no_concepts s2] box 6000 train S1 71.95 hidden 64 concepts 0 tau 1.06 eps 0.053 lr 0.0010 792s
+05:02:10 DONE no_dream s1: 1150s held-out@10000 84.60
+05:02:52 [no_dream s0] box 10000 train S1 72.43 hidden 128 concepts 4 tau 1.02 eps 0.049 lr 0.0008 1199s
+05:02:53 [no_concepts s0] box 8000 train S1 71.08 hidden 64 concepts 0 tau 1.47 eps 0.073 lr 0.0010 1024s
+05:02:53 [no_dream s2] box 10000 train S1 73.88 hidden 64 concepts 16 tau 0.93 eps 0.047 lr 0.0010 1107s
+05:02:56 DONE no_dream s3: 1087s held-out@10000 85.83
+05:03:42 DONE full s10: 2251s held-out@20000 84.26
+05:03:51 DONE no_dream s2: 1165s held-out@10000 84.23
+05:04:27 [no_concepts s1] box 8000 train S1 71.71 hidden 64 concepts 0 tau 1.19 eps 0.054 lr 0.0007 1057s
+05:04:55 DONE no_dream s0: 1322s held-out@10000 83.46
+05:05:20 [td095 s0] box 6000 train S1 70.71 hidden 64 concepts 2 tau 1.16 eps 0.058 lr 0.0010 856s
+05:05:27 [no_concepts s0] box 10000 train S1 71.23 hidden 64 concepts 0 tau 1.31 eps 0.064 lr 0.0009 1178s
+05:05:42 [no_concepts s2] box 8000 train S1 74.16 hidden 64 concepts 0 tau 0.90 eps 0.045 lr 0.0010 1008s
+05:05:45 [no_concepts s3] box 6000 train S1 72.43 hidden 64 concepts 0 tau 1.06 eps 0.053 lr 0.0010 892s
+05:06:33 DONE no_concepts s0: 1243s held-out@10000 83.69
+05:06:52 [no_concepts s1] box 10000 train S1 72.61 hidden 64 concepts 0 tau 1.00 eps 0.044 lr 0.0005 1202s
+05:07:47 DONE no_concepts s1: 1257s held-out@10000 83.81
+05:07:56 [no_concepts s2] box 10000 train S1 74.25 hidden 64 concepts 0 tau 0.85 eps 0.042 lr 0.0010 1141s
+05:08:00 [td095 s1] box 2000 train S1 68.75 hidden 64 concepts 1 tau 1.76 eps 0.088 lr 0.0010 351s
+05:08:44 [td095 s2] box 2000 train S1 68.59 hidden 64 concepts 1 tau 1.76 eps 0.088 lr 0.0010 348s
+05:08:50 DONE no_concepts s2: 1195s held-out@10000 84.40
+05:08:59 [td095 s0] box 8000 train S1 71.16 hidden 64 concepts 3 tau 1.04 eps 0.051 lr 0.0009 1075s
+05:09:20 [td095 s3] box 2000 train S1 68.69 hidden 64 concepts 3 tau 1.76 eps 0.088 lr 0.0010 337s
+05:09:40 [badinit_meta s0] box 2000 train S1 68.65 hidden 64 concepts 0 tau 0.29 eps 0.005 lr 0.0080 348s
+05:09:55 [no_concepts s3] box 8000 train S1 73.90 hidden 64 concepts 0 tau 0.82 eps 0.041 lr 0.0010 1143s
+05:10:12 [badinit_meta s1] box 2000 train S1 68.68 hidden 64 concepts 0 tau 0.26 eps 0.005 lr 0.0040 317s
+05:11:37 [td095 s0] box 10000 train S1 72.77 hidden 64 concepts 6 tau 0.88 eps 0.041 lr 0.0007 1234s
+05:12:14 [badinit_meta s2] box 2000 train S1 68.69 hidden 64 concepts 0 tau 0.26 eps 0.005 lr 0.0080 342s
+05:12:17 [td095 s1] box 4000 train S1 69.81 hidden 64 concepts 6 tau 1.36 eps 0.068 lr 0.0010 608s
+05:12:30 DONE td095 s0: 1287s held-out@10000 83.27
+05:12:46 [no_concepts s3] box 10000 train S1 75.82 hidden 64 concepts 0 tau 0.77 eps 0.038 lr 0.0010 1314s
+05:13:13 [badinit_meta s3] box 2000 train S1 69.00 hidden 64 concepts 0 tau 0.26 eps 0.005 lr 0.0080 327s
+05:13:28 [td095 s2] box 4000 train S1 69.62 hidden 64 concepts 1 tau 1.36 eps 0.068 lr 0.0010 632s
+05:14:04 DONE no_concepts s3: 1392s held-out@10000 85.30
+05:14:08 [td095 s3] box 4000 train S1 69.66 hidden 64 concepts 3 tau 1.36 eps 0.068 lr 0.0010 626s
+05:14:08 [badinit_meta s0] box 4000 train S1 68.84 hidden 64 concepts 0 tau 0.32 eps 0.006 lr 0.0040 617s
+05:14:36 [badinit_fixed s0] box 2000 train S1 68.65 hidden 64 concepts 0 tau 0.30 eps 0.000 lr 0.0080 346s
+05:14:38 [badinit_meta s1] box 4000 train S1 69.66 hidden 64 concepts 0 tau 0.25 eps 0.005 lr 0.0040 582s
+05:15:48 [td095 s1] box 6000 train S1 70.43 hidden 64 concepts 3 tau 1.16 eps 0.058 lr 0.0010 819s
+05:16:49 [badinit_meta s2] box 4000 train S1 68.81 hidden 64 concepts 0 tau 0.25 eps 0.005 lr 0.0080 617s
+05:16:57 [td095 s2] box 6000 train S1 70.50 hidden 64 concepts 4 tau 1.06 eps 0.053 lr 0.0010 841s
+05:17:23 [badinit_fixed s1] box 2000 train S1 68.68 hidden 64 concepts 0 tau 0.30 eps 0.000 lr 0.0080 293s
+05:17:28 [td095 s3] box 6000 train S1 70.52 hidden 64 concepts 3 tau 1.06 eps 0.053 lr 0.0010 826s
+05:17:32 [badinit_meta s3] box 4000 train S1 69.63 hidden 64 concepts 0 tau 0.25 eps 0.005 lr 0.0080 586s
+05:17:44 [badinit_meta s0] box 6000 train S1 68.98 hidden 64 concepts 0 tau 0.30 eps 0.005 lr 0.0040 832s
+05:17:47 [badinit_meta s1] box 6000 train S1 69.50 hidden 64 concepts 0 tau 0.25 eps 0.005 lr 0.0040 772s
+05:19:01 [badinit_fixed s0] box 4000 train S1 68.96 hidden 64 concepts 0 tau 0.30 eps 0.000 lr 0.0080 611s
+05:19:22 [td095 s1] box 8000 train S1 71.77 hidden 64 concepts 11 tau 0.98 eps 0.047 lr 0.0008 1033s
+05:19:36 [badinit_fixed s2] box 2000 train S1 68.69 hidden 64 concepts 0 tau 0.30 eps 0.000 lr 0.0080 332s
+05:20:18 [badinit_meta s2] box 6000 train S1 69.34 hidden 64 concepts 0 tau 0.25 eps 0.005 lr 0.0040 826s
+05:20:35 [td095 s2] box 8000 train S1 71.63 hidden 64 concepts 4 tau 0.90 eps 0.045 lr 0.0010 1059s
+05:20:43 [td095 s3] box 8000 train S1 71.60 hidden 64 concepts 8 tau 0.90 eps 0.045 lr 0.0010 1021s
+05:20:48 [badinit_meta s3] box 6000 train S1 69.74 hidden 64 concepts 0 tau 0.25 eps 0.005 lr 0.0080 782s
+05:21:03 [badinit_meta s0] box 8000 train S1 69.23 hidden 64 concepts 0 tau 0.32 eps 0.006 lr 0.0034 1031s
+05:21:07 [badinit_meta s1] box 8000 train S1 69.49 hidden 64 concepts 0 tau 0.27 eps 0.006 lr 0.0034 972s
+05:21:24 [badinit_fixed s1] box 4000 train S1 69.34 hidden 64 concepts 0 tau 0.30 eps 0.000 lr 0.0080 533s
+05:21:50 [td095 s1] box 10000 train S1 73.43 hidden 64 concepts 8 tau 0.84 eps 0.040 lr 0.0008 1180s
+05:22:13 [badinit_fixed s0] box 6000 train S1 69.23 hidden 64 concepts 0 tau 0.30 eps 0.000 lr 0.0080 803s
+05:22:34 DONE td095 s1: 1224s held-out@10000 84.00
+05:22:48 [badinit_meta s1] box 10000 train S1 69.61 hidden 64 concepts 0 tau 0.30 eps 0.007 lr 0.0029 1072s
+05:22:53 [td095 s2] box 10000 train S1 72.27 hidden 64 concepts 7 tau 0.80 eps 0.039 lr 0.0009 1196s
+05:23:12 [td095 s3] box 10000 train S1 73.00 hidden 64 concepts 12 tau 0.76 eps 0.036 lr 0.0008 1169s
+05:23:26 [badinit_meta s0] box 10000 train S1 69.26 hidden 64 concepts 0 tau 0.35 eps 0.007 lr 0.0029 1174s
+05:23:41 DONE badinit_meta s1: 1125s held-out@10000 69.84
+05:23:43 [badinit_meta s2] box 8000 train S1 69.93 hidden 64 concepts 0 tau 0.25 eps 0.005 lr 0.0040 1030s
+05:23:58 DONE td095 s2: 1261s held-out@10000 83.14
+05:24:02 DONE td095 s3: 1220s held-out@10000 83.77
+05:24:07 [badinit_meta s3] box 8000 train S1 69.75 hidden 64 concepts 0 tau 0.28 eps 0.006 lr 0.0040 980s
+05:24:20 [badinit_fixed s2] box 4000 train S1 68.92 hidden 64 concepts 0 tau 0.30 eps 0.000 lr 0.0080 616s
+05:24:31 DONE badinit_meta s0: 1239s held-out@10000 69.99
+05:24:54 [badinit_fixed s1] box 6000 train S1 69.26 hidden 64 concepts 0 tau 0.30 eps 0.000 lr 0.0080 744s
+05:25:45 [badinit_fixed s0] box 8000 train S1 69.58 hidden 64 concepts 0 tau 0.30 eps 0.000 lr 0.0080 1014s
+05:25:54 [badinit_meta s2] box 10000 train S1 69.70 hidden 64 concepts 0 tau 0.25 eps 0.005 lr 0.0040 1162s
+05:26:34 [badinit_meta s3] box 10000 train S1 69.43 hidden 64 concepts 0 tau 0.30 eps 0.007 lr 0.0034 1127s
+05:27:02 DONE badinit_meta s2: 1229s held-out@10000 70.00
+05:27:35 DONE badinit_meta s3: 1189s held-out@10000 69.76
+05:27:39 [badinit_fixed s2] box 6000 train S1 69.36 hidden 64 concepts 0 tau 0.30 eps 0.000 lr 0.0080 815s
+05:27:49 [badinit_fixed s3] box 2000 train S1 69.00 hidden 64 concepts 0 tau 0.30 eps 0.000 lr 0.0080 316s
+05:27:56 [badinit_fixed s0] box 10000 train S1 69.41 hidden 64 concepts 0 tau 0.30 eps 0.000 lr 0.0080 1146s
+05:28:31 [badinit_fixed s1] box 8000 train S1 69.25 hidden 64 concepts 0 tau 0.30 eps 0.000 lr 0.0080 961s
+05:28:37 DONE badinit_fixed s0: 1186s held-out@10000 70.32
+05:29:03 [frozen s1] box 2000 train S1 67.31 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 306s
+05:29:06 [frozen s2] box 2000 train S1 67.17 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 304s
+05:29:18 [frozen s0] box 2000 train S1 67.57 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 337s
+05:29:44 [frozen s3] box 2000 train S1 67.41 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 313s
+05:30:25 [badinit_fixed s1] box 10000 train S1 69.39 hidden 64 concepts 0 tau 0.30 eps 0.000 lr 0.0080 1075s
+05:30:31 [badinit_fixed s2] box 8000 train S1 69.54 hidden 64 concepts 0 tau 0.30 eps 0.000 lr 0.0080 987s
+05:31:33 DONE badinit_fixed s1: 1143s held-out@10000 69.62
+05:31:40 [badinit_fixed s3] box 4000 train S1 69.32 hidden 64 concepts 0 tau 0.30 eps 0.000 lr 0.0080 546s
+05:32:20 [badinit_fixed s2] box 10000 train S1 69.41 hidden 64 concepts 0 tau 0.30 eps 0.000 lr 0.0080 1097s
+05:32:29 [frozen s1] box 4000 train S1 67.38 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 511s
+05:32:47 [frozen s2] box 4000 train S1 67.15 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 525s
+05:33:03 [frozen s0] box 4000 train S1 67.51 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 563s
+05:33:12 DONE badinit_fixed s2: 1148s held-out@10000 70.37
+05:33:14 [frozen s3] box 4000 train S1 67.51 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 523s
+05:34:04 [badinit_fixed s3] box 6000 train S1 69.33 hidden 64 concepts 0 tau 0.30 eps 0.000 lr 0.0080 690s
+05:34:57 [frozen s1] box 6000 train S1 67.33 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 660s
+05:35:05 [frozen s2] box 6000 train S1 67.12 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 663s
+05:35:31 [frozen s3] box 6000 train S1 67.40 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 660s
+05:35:37 [frozen s0] box 6000 train S1 67.57 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 716s
+05:36:39 [badinit_fixed s3] box 8000 train S1 69.27 hidden 64 concepts 0 tau 0.30 eps 0.000 lr 0.0080 845s
+05:37:11 [frozen s1] box 8000 train S1 67.42 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 793s
+05:37:28 [frozen s2] box 8000 train S1 67.07 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 806s
+05:37:44 [frozen s3] box 8000 train S1 67.40 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 793s
+05:38:00 [frozen s0] box 8000 train S1 67.54 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 860s
+05:38:15 [badinit_fixed s3] box 10000 train S1 69.39 hidden 64 concepts 0 tau 0.30 eps 0.000 lr 0.0080 941s
+05:38:35 [frozen s1] box 10000 train S1 67.26 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 877s
+05:38:57 [frozen s2] box 10000 train S1 67.13 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 895s
+05:39:03 DONE badinit_fixed s3: 990s held-out@10000 69.83
+05:39:09 [frozen s3] box 10000 train S1 67.40 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 878s
+05:39:30 [frozen s0] box 10000 train S1 67.51 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 949s
+05:42:15 DONE frozen s1: 926s held-out@10000 67.20
+05:42:37 DONE frozen s2: 944s held-out@10000 66.13
+05:42:40 DONE frozen s3: 925s held-out@10000 68.11
+05:43:01 DONE frozen s0: 997s held-out@10000 68.58

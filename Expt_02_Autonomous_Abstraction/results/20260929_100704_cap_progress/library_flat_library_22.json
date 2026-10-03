@@ -1,0 +1,2056 @@
+{
+  "byte_cap": 262144,
+  "confirm_uses": 3,
+  "confirm_tasks": 2,
+  "expiry_boxes": 20,
+  "frozen": false,
+  "evictions": 1,
+  "rejected_positive": 0,
+  "selector": {
+    "ltm": {
+      "n": 34,
+      "sum": 4.248000000000001
+    }
+  },
+  "ops": {
+    "op_b20ab824933bfa86": {
+      "op_id": "op_b20ab824933bfa86",
+      "parents": [],
+      "ast": {
+        "kind": "SEQ",
+        "children": [
+          {
+            "kind": "PLACE_REL",
+            "type": "C",
+            "rotation": 2,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "kind": "PLACE_REL",
+            "type": "D",
+            "rotation": 1,
+            "dx": -7,
+            "dy": 2
+          }
+        ]
+      },
+      "source": "mine",
+      "provenance": "real",
+      "created_episode": 0,
+      "primitive_sequence": [
+        {
+          "type": "C",
+          "rotation": 2,
+          "dx": 0,
+          "dy": 0,
+          "cells": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ]
+        },
+        {
+          "type": "D",
+          "rotation": 1,
+          "dx": -7,
+          "dy": 2,
+          "cells": [
+            [
+              -7,
+              3
+            ],
+            [
+              -6,
+              3
+            ],
+            [
+              -5,
+              2
+            ],
+            [
+              -5,
+              3
+            ],
+            [
+              -4,
+              2
+            ]
+          ]
+        }
+      ],
+      "inventory_counts": {
+        "C": 1,
+        "D": 1
+      },
+      "footprint": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          -7,
+          3
+        ],
+        [
+          -6,
+          3
+        ],
+        [
+          -5,
+          2
+        ],
+        [
+          -5,
+          3
+        ],
+        [
+          -4,
+          2
+        ]
+      ],
+      "guards": {
+        "inventory": {
+          "C": 1,
+          "D": 1
+        },
+        "footprint": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            -7,
+            3
+          ],
+          [
+            -6,
+            3
+          ],
+          [
+            -5,
+            2
+          ],
+          [
+            -5,
+            3
+          ],
+          [
+            -4,
+            2
+          ]
+        ],
+        "connected": false
+      },
+      "stats": {
+        "support": 13,
+        "successes": 13,
+        "failures": 0,
+        "real_uses": 13,
+        "sim_uses": 1,
+        "real_task_ids": [
+          "inv_846c32759cc2",
+          "inv_e5a7016014b8",
+          "inv_e705d8722fa9",
+          "inv_1f2dbf0588dc"
+        ],
+        "origins": [
+          [
+            7,
+            2,
+            0
+          ],
+          [
+            8,
+            0,
+            0
+          ],
+          [
+            7,
+            5,
+            0
+          ],
+          [
+            7,
+            1,
+            0
+          ],
+          [
+            8,
+            4,
+            0
+          ],
+          [
+            7,
+            0,
+            0
+          ],
+          [
+            8,
+            2,
+            0
+          ],
+          [
+            8,
+            5,
+            0
+          ]
+        ],
+        "utility_sum": 1.248,
+        "utility_sq_sum": 0.11980800000000001,
+        "paired_utility_sum": 0.1237,
+        "physical_cost_sum": 0,
+        "model_cost_sum": 0,
+        "use_count": 13,
+        "boxes_since_benefit": 0,
+        "last_utility": 0.096,
+        "eviction_reason": null
+      },
+      "status": "confirmed",
+      "confirmation_scope": "cross_task",
+      "depth": 1,
+      "structural_hash": "b20ab824933bfa86"
+    },
+    "op_b492d039e6b635d6": {
+      "op_id": "op_b492d039e6b635d6",
+      "parents": [],
+      "ast": {
+        "kind": "SEQ",
+        "children": [
+          {
+            "kind": "PLACE_REL",
+            "type": "K",
+            "rotation": 3,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "kind": "PLACE_REL",
+            "type": "H",
+            "rotation": 0,
+            "dx": -4,
+            "dy": 3
+          },
+          {
+            "kind": "PLACE_REL",
+            "type": "K",
+            "rotation": 3,
+            "dx": -2,
+            "dy": 1
+          }
+        ]
+      },
+      "source": "mine",
+      "provenance": "real",
+      "created_episode": 3,
+      "primitive_sequence": [
+        {
+          "type": "K",
+          "rotation": 3,
+          "dx": 0,
+          "dy": 0,
+          "cells": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "type": "H",
+          "rotation": 0,
+          "dx": -4,
+          "dy": 3,
+          "cells": [
+            [
+              -4,
+              3
+            ],
+            [
+              -4,
+              4
+            ],
+            [
+              -4,
+              5
+            ],
+            [
+              -3,
+              5
+            ],
+            [
+              -2,
+              5
+            ]
+          ]
+        },
+        {
+          "type": "K",
+          "rotation": 3,
+          "dx": -2,
+          "dy": 1,
+          "cells": [
+            [
+              -2,
+              2
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        }
+      ],
+      "inventory_counts": {
+        "K": 2,
+        "H": 1
+      },
+      "footprint": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          -4,
+          3
+        ],
+        [
+          -4,
+          4
+        ],
+        [
+          -4,
+          5
+        ],
+        [
+          -3,
+          5
+        ],
+        [
+          -2,
+          5
+        ],
+        [
+          -2,
+          2
+        ],
+        [
+          -1,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "guards": {
+        "inventory": {
+          "K": 2,
+          "H": 1
+        },
+        "footprint": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            -4,
+            3
+          ],
+          [
+            -4,
+            4
+          ],
+          [
+            -4,
+            5
+          ],
+          [
+            -3,
+            5
+          ],
+          [
+            -2,
+            5
+          ],
+          [
+            -2,
+            2
+          ],
+          [
+            -1,
+            1
+          ],
+          [
+            -1,
+            2
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "connected": false
+      },
+      "stats": {
+        "support": 7,
+        "successes": 7,
+        "failures": 0,
+        "real_uses": 7,
+        "sim_uses": 1,
+        "real_task_ids": [
+          "inv_0b96b3917fa7",
+          "inv_b9faefb3c8ff",
+          "inv_e5a7016014b8",
+          "inv_44b82f447c59"
+        ],
+        "origins": [
+          [
+            4,
+            0,
+            0
+          ],
+          [
+            5,
+            3,
+            0
+          ],
+          [
+            4,
+            3,
+            0
+          ],
+          [
+            6,
+            4,
+            0
+          ],
+          [
+            4,
+            4,
+            0
+          ],
+          [
+            5,
+            1,
+            0
+          ]
+        ],
+        "utility_sum": 1.008,
+        "utility_sq_sum": 0.145152,
+        "paired_utility_sum": 0.18159999999999998,
+        "physical_cost_sum": 0,
+        "model_cost_sum": 0,
+        "use_count": 7,
+        "boxes_since_benefit": 0,
+        "last_utility": 0.144,
+        "eviction_reason": null
+      },
+      "status": "confirmed",
+      "confirmation_scope": "cross_task",
+      "depth": 1,
+      "structural_hash": "b492d039e6b635d6"
+    },
+    "op_f61ebbc2e12d46c6": {
+      "op_id": "op_f61ebbc2e12d46c6",
+      "parents": [],
+      "ast": {
+        "kind": "SEQ",
+        "children": [
+          {
+            "kind": "PLACE_REL",
+            "type": "F",
+            "rotation": 2,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "kind": "PLACE_REL",
+            "type": "H",
+            "rotation": 3,
+            "dx": 0,
+            "dy": -4
+          },
+          {
+            "kind": "PLACE_REL",
+            "type": "C",
+            "rotation": 3,
+            "dx": -2,
+            "dy": 3
+          },
+          {
+            "kind": "PLACE_REL",
+            "type": "H",
+            "rotation": 0,
+            "dx": -2,
+            "dy": -3
+          }
+        ]
+      },
+      "source": "mine",
+      "provenance": "real",
+      "created_episode": 5,
+      "primitive_sequence": [
+        {
+          "type": "F",
+          "rotation": 2,
+          "dx": 0,
+          "dy": 0,
+          "cells": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ]
+        },
+        {
+          "type": "H",
+          "rotation": 3,
+          "dx": 0,
+          "dy": -4,
+          "cells": [
+            [
+              0,
+              -2
+            ],
+            [
+              1,
+              -2
+            ],
+            [
+              2,
+              -4
+            ],
+            [
+              2,
+              -3
+            ],
+            [
+              2,
+              -2
+            ]
+          ]
+        },
+        {
+          "type": "C",
+          "rotation": 3,
+          "dx": -2,
+          "dy": 3,
+          "cells": [
+            [
+              -2,
+              4
+            ],
+            [
+              -1,
+              4
+            ],
+            [
+              0,
+              4
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ]
+          ]
+        },
+        {
+          "type": "H",
+          "rotation": 0,
+          "dx": -2,
+          "dy": -3,
+          "cells": [
+            [
+              -2,
+              -3
+            ],
+            [
+              -2,
+              -2
+            ],
+            [
+              -2,
+              -1
+            ],
+            [
+              -1,
+              -1
+            ],
+            [
+              0,
+              -1
+            ]
+          ]
+        }
+      ],
+      "inventory_counts": {
+        "F": 1,
+        "H": 2,
+        "C": 1
+      },
+      "footprint": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          -2
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          2,
+          -4
+        ],
+        [
+          2,
+          -3
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          -2,
+          4
+        ],
+        [
+          -1,
+          4
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          -2,
+          -3
+        ],
+        [
+          -2,
+          -2
+        ],
+        [
+          -2,
+          -1
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "guards": {
+        "inventory": {
+          "F": 1,
+          "H": 2,
+          "C": 1
+        },
+        "footprint": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            0,
+            -2
+          ],
+          [
+            1,
+            -2
+          ],
+          [
+            2,
+            -4
+          ],
+          [
+            2,
+            -3
+          ],
+          [
+            2,
+            -2
+          ],
+          [
+            -2,
+            4
+          ],
+          [
+            -1,
+            4
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            -2,
+            -3
+          ],
+          [
+            -2,
+            -2
+          ],
+          [
+            -2,
+            -1
+          ],
+          [
+            -1,
+            -1
+          ],
+          [
+            0,
+            -1
+          ]
+        ],
+        "connected": false
+      },
+      "stats": {
+        "support": 5,
+        "successes": 5,
+        "failures": 0,
+        "real_uses": 5,
+        "sim_uses": 1,
+        "real_task_ids": [
+          "inv_fb74b6e5ee17",
+          "inv_5a447efe53b2",
+          "inv_bfd90425f5bd"
+        ],
+        "origins": [
+          [
+            3,
+            4,
+            0
+          ],
+          [
+            2,
+            5,
+            0
+          ],
+          [
+            7,
+            4,
+            0
+          ],
+          [
+            2,
+            4,
+            0
+          ],
+          [
+            7,
+            5,
+            0
+          ]
+        ],
+        "utility_sum": 0.96,
+        "utility_sq_sum": 0.18432,
+        "paired_utility_sum": 0.1537,
+        "physical_cost_sum": 0,
+        "model_cost_sum": 0,
+        "use_count": 5,
+        "boxes_since_benefit": 0,
+        "last_utility": 0.192,
+        "eviction_reason": null
+      },
+      "status": "confirmed",
+      "confirmation_scope": "cross_task",
+      "depth": 1,
+      "structural_hash": "f61ebbc2e12d46c6"
+    },
+    "op_31621b89c7a79dd6": {
+      "op_id": "op_31621b89c7a79dd6",
+      "parents": [],
+      "ast": {
+        "kind": "SEQ",
+        "children": [
+          {
+            "kind": "PLACE_REL",
+            "type": "K",
+            "rotation": 3,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "kind": "PLACE_REL",
+            "type": "H",
+            "rotation": 0,
+            "dx": -4,
+            "dy": 3
+          }
+        ]
+      },
+      "source": "mine",
+      "provenance": "real",
+      "created_episode": 8,
+      "primitive_sequence": [
+        {
+          "type": "K",
+          "rotation": 3,
+          "dx": 0,
+          "dy": 0,
+          "cells": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "type": "H",
+          "rotation": 0,
+          "dx": -4,
+          "dy": 3,
+          "cells": [
+            [
+              -4,
+              3
+            ],
+            [
+              -4,
+              4
+            ],
+            [
+              -4,
+              5
+            ],
+            [
+              -3,
+              5
+            ],
+            [
+              -2,
+              5
+            ]
+          ]
+        }
+      ],
+      "inventory_counts": {
+        "K": 1,
+        "H": 1
+      },
+      "footprint": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          -4,
+          3
+        ],
+        [
+          -4,
+          4
+        ],
+        [
+          -4,
+          5
+        ],
+        [
+          -3,
+          5
+        ],
+        [
+          -2,
+          5
+        ]
+      ],
+      "guards": {
+        "inventory": {
+          "K": 1,
+          "H": 1
+        },
+        "footprint": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            -4,
+            3
+          ],
+          [
+            -4,
+            4
+          ],
+          [
+            -4,
+            5
+          ],
+          [
+            -3,
+            5
+          ],
+          [
+            -2,
+            5
+          ]
+        ],
+        "connected": false
+      },
+      "stats": {
+        "support": 3,
+        "successes": 3,
+        "failures": 0,
+        "real_uses": 3,
+        "sim_uses": 1,
+        "real_task_ids": [
+          "inv_e5a7016014b8",
+          "inv_0b96b3917fa7",
+          "inv_b9faefb3c8ff"
+        ],
+        "origins": [
+          [
+            5,
+            1,
+            0
+          ],
+          [
+            4,
+            0,
+            0
+          ],
+          [
+            4,
+            4,
+            0
+          ]
+        ],
+        "utility_sum": 0.28800000000000003,
+        "utility_sq_sum": 0.027648,
+        "paired_utility_sum": 0.15369999999999998,
+        "physical_cost_sum": 0,
+        "model_cost_sum": 0,
+        "use_count": 3,
+        "boxes_since_benefit": 0,
+        "last_utility": 0.096,
+        "eviction_reason": null
+      },
+      "status": "confirmed",
+      "confirmation_scope": "cross_task",
+      "depth": 1,
+      "structural_hash": "31621b89c7a79dd6"
+    },
+    "op_2b4af7279660c86c": {
+      "op_id": "op_2b4af7279660c86c",
+      "parents": [],
+      "ast": {
+        "kind": "SEQ",
+        "children": [
+          {
+            "kind": "PLACE_REL",
+            "type": "E",
+            "rotation": 2,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "kind": "PLACE_REL",
+            "type": "O",
+            "rotation": 1,
+            "dx": 1,
+            "dy": -4
+          },
+          {
+            "kind": "PLACE_REL",
+            "type": "O",
+            "rotation": 2,
+            "dx": 5,
+            "dy": 1
+          }
+        ]
+      },
+      "source": "mine",
+      "provenance": "real",
+      "created_episode": 20,
+      "primitive_sequence": [
+        {
+          "type": "E",
+          "rotation": 2,
+          "dx": 0,
+          "dy": 0,
+          "cells": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "type": "O",
+          "rotation": 1,
+          "dx": 1,
+          "dy": -4,
+          "cells": [
+            [
+              1,
+              -3
+            ],
+            [
+              2,
+              -4
+            ],
+            [
+              2,
+              -3
+            ],
+            [
+              2,
+              -2
+            ]
+          ]
+        },
+        {
+          "type": "O",
+          "rotation": 2,
+          "dx": 5,
+          "dy": 1,
+          "cells": [
+            [
+              5,
+              2
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              7,
+              2
+            ]
+          ]
+        }
+      ],
+      "inventory_counts": {
+        "E": 1,
+        "O": 2
+      },
+      "footprint": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          -3
+        ],
+        [
+          2,
+          -4
+        ],
+        [
+          2,
+          -3
+        ],
+        [
+          2,
+          -2
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          2
+        ]
+      ],
+      "guards": {
+        "inventory": {
+          "E": 1,
+          "O": 2
+        },
+        "footprint": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            -3
+          ],
+          [
+            2,
+            -4
+          ],
+          [
+            2,
+            -3
+          ],
+          [
+            2,
+            -2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            7,
+            2
+          ]
+        ],
+        "connected": false
+      },
+      "stats": {
+        "support": 6,
+        "successes": 6,
+        "failures": 0,
+        "real_uses": 6,
+        "sim_uses": 1,
+        "real_task_ids": [
+          "inv_dddce847bbe5",
+          "inv_588da8b253d7",
+          "inv_b9faefb3c8ff",
+          "inv_a5b815783152",
+          "inv_1e4f1d082f5d"
+        ],
+        "origins": [
+          [
+            1,
+            4,
+            0
+          ],
+          [
+            2,
+            4,
+            0
+          ],
+          [
+            0,
+            5,
+            0
+          ],
+          [
+            2,
+            5,
+            0
+          ]
+        ],
+        "utility_sum": 0.744,
+        "utility_sq_sum": 0.09225599999999999,
+        "paired_utility_sum": 0.17159999999999997,
+        "physical_cost_sum": 0,
+        "model_cost_sum": 0,
+        "use_count": 6,
+        "boxes_since_benefit": 0,
+        "last_utility": 0.124,
+        "eviction_reason": null
+      },
+      "status": "confirmed",
+      "confirmation_scope": "cross_task",
+      "depth": 1,
+      "structural_hash": "2b4af7279660c86c"
+    },
+    "op_bdd796bc55c5bdb1": {
+      "op_id": "op_bdd796bc55c5bdb1",
+      "parents": [],
+      "ast": {
+        "kind": "SEQ",
+        "children": [
+          {
+            "kind": "PLACE_REL",
+            "type": "D",
+            "rotation": 1,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "kind": "PLACE_REL",
+            "type": "O",
+            "rotation": 1,
+            "dx": 4,
+            "dy": -2
+          },
+          {
+            "kind": "PLACE_REL",
+            "type": "N",
+            "rotation": 1,
+            "dx": 0,
+            "dy": -5
+          }
+        ]
+      },
+      "source": "mine",
+      "provenance": "real",
+      "created_episode": 26,
+      "primitive_sequence": [
+        {
+          "type": "D",
+          "rotation": 1,
+          "dx": 0,
+          "dy": 0,
+          "cells": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              0
+            ]
+          ]
+        },
+        {
+          "type": "O",
+          "rotation": 1,
+          "dx": 4,
+          "dy": -2,
+          "cells": [
+            [
+              4,
+              -1
+            ],
+            [
+              5,
+              -2
+            ],
+            [
+              5,
+              -1
+            ],
+            [
+              5,
+              0
+            ]
+          ]
+        },
+        {
+          "type": "N",
+          "rotation": 1,
+          "dx": 0,
+          "dy": -5,
+          "cells": [
+            [
+              0,
+              -5
+            ],
+            [
+              0,
+              -4
+            ],
+            [
+              1,
+              -5
+            ],
+            [
+              2,
+              -5
+            ]
+          ]
+        }
+      ],
+      "inventory_counts": {
+        "D": 1,
+        "O": 1,
+        "N": 1
+      },
+      "footprint": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          -1
+        ],
+        [
+          5,
+          -2
+        ],
+        [
+          5,
+          -1
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          0,
+          -5
+        ],
+        [
+          0,
+          -4
+        ],
+        [
+          1,
+          -5
+        ],
+        [
+          2,
+          -5
+        ]
+      ],
+      "guards": {
+        "inventory": {
+          "D": 1,
+          "O": 1,
+          "N": 1
+        },
+        "footprint": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            -1
+          ],
+          [
+            5,
+            -2
+          ],
+          [
+            5,
+            -1
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            0,
+            -5
+          ],
+          [
+            0,
+            -4
+          ],
+          [
+            1,
+            -5
+          ],
+          [
+            2,
+            -5
+          ]
+        ],
+        "connected": false
+      },
+      "stats": {
+        "support": 0,
+        "successes": 0,
+        "failures": 0,
+        "real_uses": 0,
+        "sim_uses": 1,
+        "real_task_ids": [],
+        "origins": [],
+        "utility_sum": 0.0,
+        "utility_sq_sum": 0.0,
+        "paired_utility_sum": 0.07579999999999992,
+        "physical_cost_sum": 0,
+        "model_cost_sum": 0,
+        "use_count": 0,
+        "boxes_since_benefit": 14,
+        "last_utility": 0.07579999999999992,
+        "eviction_reason": null
+      },
+      "status": "provisional",
+      "confirmation_scope": "",
+      "depth": 1,
+      "structural_hash": "bdd796bc55c5bdb1"
+    },
+    "op_351983b48d2c426e": {
+      "op_id": "op_351983b48d2c426e",
+      "parents": [],
+      "ast": {
+        "kind": "SEQ",
+        "children": [
+          {
+            "kind": "PLACE_REL",
+            "type": "N",
+            "rotation": 0,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "kind": "PLACE_REL",
+            "type": "G",
+            "rotation": 2,
+            "dx": 1,
+            "dy": 0
+          },
+          {
+            "kind": "PLACE_REL",
+            "type": "F",
+            "rotation": 1,
+            "dx": -1,
+            "dy": -3
+          },
+          {
+            "kind": "PLACE_REL",
+            "type": "D",
+            "rotation": 2,
+            "dx": 4,
+            "dy": -1
+          }
+        ]
+      },
+      "source": "mine",
+      "provenance": "real",
+      "created_episode": 31,
+      "primitive_sequence": [
+        {
+          "type": "N",
+          "rotation": 0,
+          "dx": 0,
+          "dy": 0,
+          "cells": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "type": "G",
+          "rotation": 2,
+          "dx": 1,
+          "dy": 0,
+          "cells": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        {
+          "type": "F",
+          "rotation": 1,
+          "dx": -1,
+          "dy": -3,
+          "cells": [
+            [
+              -1,
+              -2
+            ],
+            [
+              0,
+              -2
+            ],
+            [
+              1,
+              -3
+            ],
+            [
+              1,
+              -2
+            ],
+            [
+              1,
+              -1
+            ]
+          ]
+        },
+        {
+          "type": "D",
+          "rotation": 2,
+          "dx": 4,
+          "dy": -1,
+          "cells": [
+            [
+              4,
+              -1
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              5,
+              2
+            ]
+          ]
+        }
+      ],
+      "inventory_counts": {
+        "N": 1,
+        "G": 1,
+        "F": 1,
+        "D": 1
+      },
+      "footprint": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          0,
+          -2
+        ],
+        [
+          1,
+          -3
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          4,
+          -1
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "guards": {
+        "inventory": {
+          "N": 1,
+          "G": 1,
+          "F": 1,
+          "D": 1
+        },
+        "footprint": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            -1,
+            -2
+          ],
+          [
+            0,
+            -2
+          ],
+          [
+            1,
+            -3
+          ],
+          [
+            1,
+            -2
+          ],
+          [
+            1,
+            -1
+          ],
+          [
+            4,
+            -1
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            2
+          ]
+        ],
+        "connected": true
+      },
+      "stats": {
+        "support": 0,
+        "successes": 0,
+        "failures": 0,
+        "real_uses": 0,
+        "sim_uses": 1,
+        "real_task_ids": [],
+        "origins": [],
+        "utility_sum": 0.0,
+        "utility_sq_sum": 0.0,
+        "paired_utility_sum": 0.12369999999999995,
+        "physical_cost_sum": 0,
+        "model_cost_sum": 0,
+        "use_count": 0,
+        "boxes_since_benefit": 9,
+        "last_utility": 0.12369999999999995,
+        "eviction_reason": null
+      },
+      "status": "provisional",
+      "confirmation_scope": "",
+      "depth": 1,
+      "structural_hash": "351983b48d2c426e"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "solution_id": "sol_30a56596c7c47e5b",
+    "task_id": "inv_0b96b3917fa7",
+    "Q": 100,
+    "solver": "teacher_exact_cover"
+  },
+  {
+    "solution_id": "sol_09af970c8bff4b94",
+    "task_id": "inv_02c8738d8d04",
+    "Q": 100,
+    "solver": "teacher_exact_cover"
+  }
+]

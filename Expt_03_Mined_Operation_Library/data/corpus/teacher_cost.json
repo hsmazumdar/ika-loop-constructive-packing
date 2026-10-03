@@ -1,0 +1,13 @@
+{
+  "exact_nodes": 1291729,
+  "exact_seconds": 28.891385100054322,
+  "gpu_seconds": 5.028851000068244,
+  "gpu_ops": 505,
+  "tasks": 24,
+  "exact_solutions": 24,
+  "gpu_solutions": 24,
+  "rejected_replay": 0,
+  "solutions": 48,
+  "quality_min": 90,
+  "quality_max": 100
+}

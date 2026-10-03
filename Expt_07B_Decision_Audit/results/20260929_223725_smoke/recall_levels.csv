@@ -1,0 +1,5 @@
+seed,task_id,n_oracle_useful_states,op_recall_hits,action_recall_hits,n_states_with_first_legal_site,diagnosis_only,note
+11,inv_6f03f411bbe2,5,5,0,0,True,"170/170 in Expt-7 was operation recall on primitive snapshots, not action recall and not the deployed trajectory."
+11,inv_c896259f1365,4,4,0,0,True,"170/170 in Expt-7 was operation recall on primitive snapshots, not action recall and not the deployed trajectory."
+11,inv_b908dba97c65,7,7,0,0,True,"170/170 in Expt-7 was operation recall on primitive snapshots, not action recall and not the deployed trajectory."
+11,inv_8170bb64bf7e,5,5,0,0,True,"170/170 in Expt-7 was operation recall on primitive snapshots, not action recall and not the deployed trajectory."

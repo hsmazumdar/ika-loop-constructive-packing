@@ -1,0 +1,97 @@
+{
+  "sample": {
+    "pattern_indices": [
+      0,
+      1
+    ],
+    "high_support_indices": [
+      0,
+      1
+    ],
+    "boxes": {
+      "independent_fresh": [
+        0
+      ],
+      "recurring_family": [
+        0
+      ]
+    },
+    "stages": [
+      "early"
+    ]
+  },
+  "candidates": {
+    "independent_fresh": {
+      "n_rows": 0,
+      "n_invalid": 0,
+      "n_replay_failed": 0,
+      "valid_replayed": {
+        "n": 0
+      },
+      "quality_preserving": {
+        "n": 0
+      },
+      "note": "Candidate-level averages. Do not add them across prefixes of the same box."
+    },
+    "recurring_family": {
+      "n_rows": 0,
+      "n_invalid": 0,
+      "n_replay_failed": 0,
+      "valid_replayed": {
+        "n": 0
+      },
+      "quality_preserving": {
+        "n": 0
+      },
+      "note": "Candidate-level averages. Do not add them across prefixes of the same box."
+    }
+  },
+  "diagnostic_cost": {
+    "discovery_checks": 26,
+    "counterfactual_A": 0,
+    "seconds": 0.039268100000299455,
+    "role": "diagnostic only; not a deployable matcher and not a relaxation of the Expt-17 cost gate"
+  },
+  "decision": {
+    "row": "stop_pattern_reuse",
+    "text": "Even the best quality-preserving candidate in each sampled box stays under the declared saving floor. Stop this pattern-reuse branch. The Expt-17 cost gate is unchanged, and this is not a claim that every unsampled placement is useless.",
+    "n_fresh_benefit_boxes": 0,
+    "n_family_benefit_boxes": 0,
+    "fresh_patterns": [],
+    "fresh_stages": [],
+    "commitment": "diagnostic counterfactuals only; no pattern was admitted to a policy",
+    "cost_gate": "not relaxed"
+  },
+  "box_rows": [
+    {
+      "workload": "independent_fresh",
+      "index": 0,
+      "task_id": "inv_1dec36052a8a",
+      "n_candidates": 0,
+      "n_quality_preserving": 0,
+      "ideal_saving": 0,
+      "ideal_pattern": null,
+      "ideal_stage": null,
+      "ideal_quality_delta": null,
+      "counts_as_benefit": false,
+      "largest_valid_saving": null,
+      "largest_valid_quality_delta": null,
+      "largest_valid_lost_quality": null
+    },
+    {
+      "workload": "recurring_family",
+      "index": 0,
+      "task_id": "inv_a8956340ad37",
+      "n_candidates": 0,
+      "n_quality_preserving": 0,
+      "ideal_saving": 0,
+      "ideal_pattern": null,
+      "ideal_stage": null,
+      "ideal_quality_delta": null,
+      "counts_as_benefit": false,
+      "largest_valid_saving": null,
+      "largest_valid_quality_delta": null,
+      "largest_valid_lost_quality": null
+    }
+  ]
+}

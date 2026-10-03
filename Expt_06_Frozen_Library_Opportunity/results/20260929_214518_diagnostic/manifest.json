@@ -1,0 +1,35 @@
+{
+  "preset": "diagnostic",
+  "task_ids": [
+    "inv_01dcb410da3d",
+    "inv_28f717865766",
+    "inv_4b9eb8f15eaf",
+    "inv_ca731e3c4c13",
+    "inv_6b8058ed8650",
+    "inv_a50ff1cb12a5",
+    "inv_b8ca10ec1d55",
+    "inv_7334cb152bb1",
+    "inv_7f78315a08cd",
+    "inv_3a6415ba14bb",
+    "inv_a25252ed98bb",
+    "inv_2bcf2bd11f08",
+    "inv_e2258e487b41",
+    "inv_cd1593616a9d",
+    "inv_f37c190fae44",
+    "inv_f38e4acaef91",
+    "inv_99ae609def69",
+    "inv_18db09080c0d",
+    "inv_ede60bd9d08e",
+    "inv_8b9cdaf23e25",
+    "inv_436a74b58bb1",
+    "inv_c0cfc0835886",
+    "inv_965fc9524c0a",
+    "inv_465ab2834adf"
+  ],
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "n_boxes": 24
+}

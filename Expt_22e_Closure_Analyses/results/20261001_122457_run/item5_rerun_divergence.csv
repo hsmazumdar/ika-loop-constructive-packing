@@ -1,0 +1,14 @@
+variant,seed,run1_boxes_reached,run1_last_ckpt,first_training_S1_divergence_box,train_S1_identical_over_run1_boxes,frac_train_S1_equal
+full,300,28000,28000,,True,1.0
+full,301,36000,36000,,True,1.0
+full,302,32000,32000,,True,1.0
+full,303,20000,20000,18906,False,0.951
+full,304,28000,28000,,True,1.0
+full,305,20000,20000,,True,1.0
+no_concepts,200,15000,15000,,True,1.0
+no_concepts,201,28000,28000,,True,1.0
+no_concepts,202,28000,28000,,True,1.0
+no_dream,200,28000,28000,,True,1.0
+no_dream,201,28000,28000,,True,1.0
+no_meta,203,32000,32000,,True,1.0
+no_meta_matched_floor,200,32000,32000,,True,1.0

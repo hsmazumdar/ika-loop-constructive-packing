@@ -1,0 +1,7 @@
+workload,index,task_id,stream_id,inventory_in_store,Q,A,acceptable,seconds,regions,detection,lookup,availability,geometry_matches,compatible_matches
+independent_fresh,0,inv_1dec36052a8a,0,False,77.0,5327,True,0.04994920000899583,2,676,2,0,0,0
+independent_fresh,1,inv_983a9f0c8a3a,0,False,76.0,912,True,0.025811600004089996,6,414,6,0,0,0
+independent_fresh,2,inv_c6eeacbf4cc3,0,False,73.0,8266,False,0.062275400006910786,3,525,3,0,0,0
+recurring_family,0,inv_a8956340ad37,0,False,78.0,768,True,0.021207099984167144,3,473,3,0,0,0
+recurring_family,1,inv_ff8902d1aa04,0,False,77.0,816,True,0.02273649998824112,3,428,3,0,0,0
+recurring_family,2,inv_6b564fda6b31,0,False,76.0,864,True,0.019492999999783933,4,703,4,0,0,0

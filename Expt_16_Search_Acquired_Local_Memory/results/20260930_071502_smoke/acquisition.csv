@@ -1,0 +1,9 @@
+seed,task_id,store_index,snapshot,t,placements_left,size,status,search_evals,remaining_pieces,valid,validation_cost,insertion,insertion_cost,uses_only_end_unused,multiset
+11,inv_2b222cbab0cf,0,0,6,9,13,impossible,549,14,,0,,0,,
+11,inv_2b222cbab0cf,0,1,10,5,15,impossible,1,10,,0,,0,,
+11,inv_2b222cbab0cf,0,2,10,5,15,impossible,1,10,,0,,0,,
+11,inv_2b222cbab0cf,0,3,11,4,9,found,325,9,True,2,written,2,True,"{""H"": 1, ""N"": 1}"
+11,inv_2b222cbab0cf,0,4,12,3,11,impossible,1,8,,0,,0,,
+11,inv_b36eb250af14,1,0,11,4,8,impossible,141,10,,0,,0,,
+11,inv_b36eb250af14,1,1,14,1,14,impossible,103,7,,0,,0,,
+11,inv_b36eb250af14,1,2,15,0,8,impossible,103,6,,0,,0,,

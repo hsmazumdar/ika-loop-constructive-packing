@@ -1,0 +1,88 @@
+{
+  "schema": "expt20_manifest_v1",
+  "created": "2026-09-30T13:14:34+05:30",
+  "seed": 20260930,
+  "trials": 10000,
+  "per_trial_seed_rule": "seed*1_000_000 + trial_id; random.Random(that)",
+  "top_fraction": 0.25,
+  "n_top": 2500,
+  "default_ranking": "S2",
+  "ranking_definitions": {
+    "S1": "SECONDARY: sort by S1 desc, tie-break S2 desc, then trial_id asc",
+    "S2": "DEFAULT/PRIMARY: sort by S2 desc, tie-break S1 desc, then trial_id asc"
+  },
+  "score_definitions": {
+    "S1": "100 - empty cells (asserted equal to env.occupied every trial)",
+    "S2": "S1 / attempts; attempts = env.placements_count (accepted placements; every attempt is legal)"
+  },
+  "definitions": {
+    "piece": "piece type id A..P; oriented variant = (type, canonical rotation)",
+    "combination": "unordered multiset of piece types among one trial's placements",
+    "connected_combination": "same, but the pieces form an edge-connected group (4-neighbour contact); oriented variant is translation-normalised ((type,rotation,dx,dy)...) as in Expt-17",
+    "counting": "each key counted once per trial",
+    "frequency": "n_top / n_top_trials",
+    "lift_vs_bottom": "frac_top / frac_bottom (bottom = other 75%)",
+    "lift_vs_all": "frac_top / frac_all",
+    "winning_flag": "n_top >= 25 and lift_vs_bottom > 1.0 and two-proportion z >= 1.96 (or absent from bottom with n_top >= 25)",
+    "kinds": [
+      "single_type",
+      "single_oriented",
+      "pair_type",
+      "triple_type",
+      "pair_conn_type",
+      "triple_conn_type",
+      "pair_conn_oriented",
+      "triple_conn_oriented"
+    ]
+  },
+  "config": {
+    "seed": 20260930,
+    "trials": 10000,
+    "top_fraction": 0.25,
+    "default_ranking": "S2",
+    "win_min_top_count": 25,
+    "win_min_lift": 1.0,
+    "win_min_z": 1.96,
+    "ltm_pattern_limit": 500
+  },
+  "catalogue_hash": "3f727dd211eccd639da03bb8e724ddfd00a6e556df043c8a71b91da111952e14",
+  "piece_types": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P"
+  ],
+  "code_hash": {
+    "combined_sha256": "5983f05a37dbf3f66968c99fd3675f7a4b17ca171fc88552c78b7d8df3d90e34",
+    "files": {
+      "run_expt20.py": "28c5cde2bc40e7eedec5cc96a4001c3b557c9f682432e8a25afbc0dceb8e948e",
+      "config.py": "7e72e46a748b80ed5eeb41643fcfd9b20a5bc28f6bebf931e74ec41e3116c06d",
+      "extract.py": "39b97b63be6ef3483ac7ed8f9bf3b8d5c0f1dfc5c0ff5ceeb68446125e48ec5e",
+      "ltm.py": "e85e43395c0dddd52fbffa29a98e5dd1ad62e8bca99353b48065bb756c53add9",
+      "trials.py": "f544e00b08fe63c409864347b0d61dd5ba79794ce33e09135e54a186eba9b9f7"
+    }
+  },
+  "git_commit": "unavailable (not a git repository)",
+  "python": "3.13.1",
+  "numpy": "2.2.0",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "python_executable": "C:\\Users\\Mazumdar\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "unit_tests_before_run": "passed",
+  "runtime_seconds": {
+    "trials": 20.31,
+    "key_extraction": 13.21,
+    "total": 40.39
+  }
+}

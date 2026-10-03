@@ -1,0 +1,150 @@
+{
+  "task_id": "inv_43da236c7b0b",
+  "inventory": {
+    "B": 5,
+    "C": 2,
+    "E": 1,
+    "M": 8,
+    "O": 7
+  },
+  "placements": [
+    {
+      "type": "O",
+      "rotation": 0,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "B",
+      "rotation": 0,
+      "x": 0,
+      "y": 1
+    },
+    {
+      "type": "C",
+      "rotation": 2,
+      "x": 8,
+      "y": 0
+    },
+    {
+      "type": "O",
+      "rotation": 0,
+      "x": 3,
+      "y": 0
+    },
+    {
+      "type": "O",
+      "rotation": 3,
+      "x": 7,
+      "y": 0
+    },
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 6,
+      "y": 0
+    },
+    {
+      "type": "B",
+      "rotation": 0,
+      "x": 5,
+      "y": 1
+    },
+    {
+      "type": "O",
+      "rotation": 1,
+      "x": 7,
+      "y": 2
+    },
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 3,
+      "y": 1
+    },
+    {
+      "type": "B",
+      "rotation": 0,
+      "x": 4,
+      "y": 2
+    },
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 2,
+      "y": 1
+    },
+    {
+      "type": "C",
+      "rotation": 0,
+      "x": 1,
+      "y": 2
+    },
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 9,
+      "y": 4
+    },
+    {
+      "type": "B",
+      "rotation": 0,
+      "x": 3,
+      "y": 5
+    },
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 2,
+      "y": 6
+    },
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 0,
+      "y": 6
+    },
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 1,
+      "y": 6
+    },
+    {
+      "type": "E",
+      "rotation": 3,
+      "x": 6,
+      "y": 4
+    },
+    {
+      "type": "M",
+      "rotation": 1,
+      "x": 5,
+      "y": 6
+    },
+    {
+      "type": "O",
+      "rotation": 3,
+      "x": 4,
+      "y": 7
+    },
+    {
+      "type": "O",
+      "rotation": 0,
+      "x": 5,
+      "y": 7
+    },
+    {
+      "type": "B",
+      "rotation": 1,
+      "x": 5,
+      "y": 9
+    },
+    {
+      "type": "O",
+      "rotation": 2,
+      "x": 7,
+      "y": 7
+    }
+  ]
+}

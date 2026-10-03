@@ -1,0 +1,21 @@
+03:22:41 [full s11] box 1000 train S1 68.41 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 134s
+03:24:13 [full s11] box 2000 train S1 69.15 hidden 64 concepts 0 tau 1.76 eps 0.088 lr 0.0010 226s
+03:25:43 [full s11] box 3000 train S1 69.42 hidden 64 concepts 1 tau 1.55 eps 0.077 lr 0.0010 316s
+03:26:47 [full s11] box 4000 train S1 69.79 hidden 64 concepts 0 tau 1.36 eps 0.068 lr 0.0010 380s
+03:27:51 [full s11] box 5000 train S1 70.33 hidden 64 concepts 0 tau 1.20 eps 0.060 lr 0.0010 444s
+03:29:21 [full s11] box 6000 train S1 70.94 hidden 64 concepts 0 tau 1.06 eps 0.053 lr 0.0010 534s
+03:30:25 [full s11] box 7000 train S1 71.33 hidden 64 concepts 4 tau 1.02 eps 0.051 lr 0.0010 598s
+03:31:29 [full s11] box 8000 train S1 71.56 hidden 64 concepts 7 tau 0.94 eps 0.046 lr 0.0009 662s
+03:32:35 [full s11] box 9000 train S1 72.50 hidden 64 concepts 7 tau 0.91 eps 0.045 lr 0.0009 728s
+03:33:38 [full s11] box 10000 train S1 72.46 hidden 64 concepts 2 tau 0.89 eps 0.043 lr 0.0009 791s
+03:35:20 [full s11] box 11000 train S1 72.86 hidden 64 concepts 2 tau 0.86 eps 0.042 lr 0.0009 893s
+03:36:31 [full s11] box 12000 train S1 73.23 hidden 128 concepts 6 tau 0.83 eps 0.041 lr 0.0009 964s
+03:38:27 [full s11] box 13000 train S1 73.59 hidden 128 concepts 6 tau 0.77 eps 0.037 lr 0.0008 1080s
+03:40:12 [full s11] box 14000 train S1 74.35 hidden 128 concepts 10 tau 0.74 eps 0.036 lr 0.0008 1185s
+03:41:55 [full s11] box 15000 train S1 75.08 hidden 128 concepts 10 tau 0.72 eps 0.035 lr 0.0008 1288s
+03:44:17 [full s11] box 16000 train S1 74.86 hidden 128 concepts 17 tau 0.66 eps 0.031 lr 0.0007 1430s
+03:46:03 [full s11] box 17000 train S1 75.73 hidden 128 concepts 17 tau 0.61 eps 0.028 lr 0.0007 1536s
+03:47:42 [full s11] box 18000 train S1 76.68 hidden 128 concepts 15 tau 0.56 eps 0.025 lr 0.0006 1635s
+03:49:23 [full s11] box 19000 train S1 77.17 hidden 128 concepts 15 tau 0.52 eps 0.023 lr 0.0005 1736s
+03:51:01 [full s11] box 20000 train S1 78.64 hidden 128 concepts 20 tau 0.50 eps 0.022 lr 0.0005 1834s
+03:51:42 DONE full s11: 20000 boxes, 1875s, heldout@20000=84.20

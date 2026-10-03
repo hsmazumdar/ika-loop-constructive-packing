@@ -1,0 +1,10 @@
+[full s1] box 2000 train S1 68.40 hidden 64 concepts 1 tau 1.76 eps 0.088 lr 0.0010 134s
+[full s1] box 4000 train S1 69.14 hidden 64 concepts 1 tau 1.36 eps 0.068 lr 0.0010 257s
+[full s1] box 6000 train S1 69.49 hidden 64 concepts 3 tau 1.06 eps 0.053 lr 0.0010 380s
+[full s1] box 8000 train S1 70.03 hidden 64 concepts 6 tau 1.28 eps 0.077 lr 0.0008 500s
+[full s1] box 10000 train S1 69.39 hidden 64 concepts 6 tau 1.55 eps 0.112 lr 0.0006 620s
+[full s1] box 12000 train S1 68.94 hidden 64 concepts 11 tau 1.88 eps 0.163 lr 0.0004 742s
+750.7768037319183 {0: 67.11, 1000: 76.31, 2000: 81.35, 4000: 82.6, 6000: 82.3, 8000: 82.42, 10000: 81.87, 12000: 81.75}
+events 44
+{'box': 8000, 'epoch': 8, 'kind': 'capacity_test', 'tested': True, 'val_ctrl': 0.023037141459220208, 'val_wide': 0.023249975552060324, 'ratio': 1.0092387370723435, 'from': 64, 'to': 128, 'grow': False, 'probe_at_change': 82.1625, 'reason': 'capacity NOT the bottleneck (widening does not beat control)'}
+{'box': 12000, 'epoch': 12, 'kind': 'capacity_test', 'tested': True, 'val_ctrl': 0.021714531676688912, 'val_wide': 0.021389202078366643, 'ratio': 0.9850178855723829, 'from': 64, 'to': 128, 'grow': False, 'probe_at_change': 81.5, 'reason': 'capacity NOT the bottleneck (widening does not beat control)'}

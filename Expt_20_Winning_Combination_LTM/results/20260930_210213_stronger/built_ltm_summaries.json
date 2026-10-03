@@ -1,0 +1,302 @@
+{
+ "S1_top25": {
+  "manifest": {
+   "trials": 10000,
+   "label": "S1_top25 (fresh builder run, top 25% by S1, tie-break S2)",
+   "ranking": "S1",
+   "top_fraction": 0.25,
+   "seed": 20261004
+  },
+  "cutoffs": {
+   "S1": {
+    "n_top": 2500,
+    "cutoff_S1": 83,
+    "cutoff_S2": 4.611111111111111
+   }
+  },
+  "top_singles": [
+   [
+    "N",
+    1.046,
+    true
+   ],
+   [
+    "O",
+    1.032,
+    true
+   ],
+   [
+    "M",
+    1.09,
+    true
+   ],
+   [
+    "E",
+    1.08,
+    true
+   ],
+   [
+    "G",
+    1.012,
+    false
+   ],
+   [
+    "C",
+    1.034,
+    true
+   ],
+   [
+    "H",
+    1.036,
+    true
+   ],
+   [
+    "D",
+    1.047,
+    true
+   ],
+   [
+    "K",
+    1.016,
+    false
+   ],
+   [
+    "I",
+    1.015,
+    false
+   ],
+   [
+    "B",
+    1.212,
+    true
+   ],
+   [
+    "A",
+    0.965,
+    false
+   ],
+   [
+    "F",
+    0.938,
+    false
+   ],
+   [
+    "P",
+    1.115,
+    true
+   ],
+   [
+    "L",
+    0.992,
+    false
+   ],
+   [
+    "J",
+    0.993,
+    false
+   ]
+  ],
+  "n_winning_pairs": 73,
+  "n_winning_triples": 351
+ },
+ "S1_top10": {
+  "manifest": {
+   "trials": 10000,
+   "label": "S1_top10 (fresh builder run, top 10% by S1)",
+   "ranking": "S1",
+   "top_fraction": 0.1,
+   "seed": 20261004
+  },
+  "cutoffs": {
+   "S1": {
+    "n_top": 1000,
+    "cutoff_S1": 85,
+    "cutoff_S2": 4.722222222222222
+   }
+  },
+  "top_singles": [
+   [
+    "N",
+    1.045,
+    true
+   ],
+   [
+    "O",
+    1.031,
+    true
+   ],
+   [
+    "M",
+    1.094,
+    true
+   ],
+   [
+    "E",
+    1.089,
+    true
+   ],
+   [
+    "G",
+    1.006,
+    false
+   ],
+   [
+    "C",
+    1.061,
+    true
+   ],
+   [
+    "H",
+    1.025,
+    false
+   ],
+   [
+    "D",
+    1.057,
+    true
+   ],
+   [
+    "I",
+    1.062,
+    true
+   ],
+   [
+    "B",
+    1.224,
+    true
+   ],
+   [
+    "K",
+    0.97,
+    false
+   ],
+   [
+    "F",
+    0.938,
+    false
+   ],
+   [
+    "A",
+    0.946,
+    false
+   ],
+   [
+    "P",
+    1.181,
+    true
+   ],
+   [
+    "L",
+    0.972,
+    false
+   ],
+   [
+    "J",
+    1.121,
+    false
+   ]
+  ],
+  "n_winning_pairs": 72,
+  "n_winning_triples": 327
+ },
+ "S2_fresh": {
+  "manifest": {
+   "trials": 10000,
+   "label": "S2_fresh (fresh builder run, top 25% by S2)",
+   "ranking": "S2",
+   "top_fraction": 0.25,
+   "seed": 20261004
+  },
+  "cutoffs": {
+   "S2": {
+    "n_top": 2500,
+    "cutoff_S1": 77,
+    "cutoff_S2": 4.8125
+   }
+  },
+  "top_singles": [
+   [
+    "P",
+    2.728,
+    true
+   ],
+   [
+    "N",
+    0.86,
+    false
+   ],
+   [
+    "E",
+    1.049,
+    true
+   ],
+   [
+    "O",
+    0.84,
+    false
+   ],
+   [
+    "G",
+    1.03,
+    true
+   ],
+   [
+    "H",
+    1.081,
+    true
+   ],
+   [
+    "M",
+    0.802,
+    false
+   ],
+   [
+    "C",
+    1.055,
+    true
+   ],
+   [
+    "K",
+    1.051,
+    true
+   ],
+   [
+    "D",
+    1.029,
+    false
+   ],
+   [
+    "A",
+    1.046,
+    true
+   ],
+   [
+    "I",
+    0.985,
+    false
+   ],
+   [
+    "F",
+    0.994,
+    false
+   ],
+   [
+    "B",
+    1.082,
+    true
+   ],
+   [
+    "L",
+    1.036,
+    false
+   ],
+   [
+    "J",
+    1.041,
+    false
+   ]
+  ],
+  "n_winning_pairs": 67,
+  "n_winning_triples": 247
+ }
+}

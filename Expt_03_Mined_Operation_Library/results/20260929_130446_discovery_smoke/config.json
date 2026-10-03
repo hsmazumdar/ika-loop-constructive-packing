@@ -1,0 +1,60 @@
+{
+  "quality_target": 80,
+  "sensitivity_targets": [
+    70,
+    90
+  ],
+  "byte_cap": 262144,
+  "window": 10,
+  "min_support_tasks": 2,
+  "match_seed": 20260929,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "snapshots": [
+    0,
+    10,
+    20,
+    40
+  ],
+  "arms": [
+    "primitive",
+    "rect_mined",
+    "neutral_mined",
+    "matched_control",
+    "rect_mined_no_retrieval"
+  ],
+  "budgets": {
+    "physical": 80,
+    "eval_cap": 8000,
+    "cheap_reserve": 400,
+    "scan_per_decision": 48,
+    "macros_considered": 6,
+    "anchors_per_macro": 8,
+    "max_consecutive_retrieval": 4,
+    "think_allowance": 0,
+    "undo_budget": 8,
+    "continuation_steps": 2,
+    "continuation_scan": 8
+  },
+  "teacher": {
+    "seeds": [
+      11,
+      22,
+      33,
+      44,
+      55
+    ],
+    "node_cap": 40000,
+    "max_solutions_per_task": 2,
+    "gpu_trajectories": 512
+  },
+  "device": "cuda",
+  "notes": "Undo budget, continuation scoring, and the order window of 10 are shared by every arm. They were added after the first smoke, where every held-out box stopped with no_legal after about 16 placements. The rectangle filter is unchanged. Development still does not choose an arm.",
+  "preset": "discovery_smoke",
+  "train_limit": null,
+  "heldout_limit": null,
+  "dev_limit": null
+}

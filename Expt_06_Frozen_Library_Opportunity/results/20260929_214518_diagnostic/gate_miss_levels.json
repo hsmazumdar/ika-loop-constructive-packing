@@ -1,0 +1,14 @@
+{
+  "n_states_with_beneficial": 242,
+  "n_states_any_beneficial_admitted": 65,
+  "n_states_every_beneficial_rejected": 177,
+  "frac_states_every_beneficial_rejected": 0.731404958677686,
+  "n_states_consult_would_not_look": 116,
+  "n_states_consult_open_but_commit_rejects_all": 61,
+  "n_boxes_with_beneficial": 44,
+  "n_boxes_any_beneficial_admitted": 21,
+  "n_boxes_every_beneficial_rejected": 23,
+  "frac_boxes_every_beneficial_rejected": 0.5227272727272727,
+  "n_state_op_with_beneficial": 354,
+  "n_state_op_every_placement_rejected": 256
+}

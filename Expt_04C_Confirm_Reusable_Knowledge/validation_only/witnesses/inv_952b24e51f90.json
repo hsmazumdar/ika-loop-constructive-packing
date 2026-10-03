@@ -1,0 +1,149 @@
+{
+  "task_id": "inv_952b24e51f90",
+  "inventory": {
+    "I": 6,
+    "L": 2,
+    "M": 9,
+    "N": 6
+  },
+  "placements": [
+    {
+      "type": "L",
+      "rotation": 0,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "I",
+      "rotation": 0,
+      "x": 2,
+      "y": 0
+    },
+    {
+      "type": "I",
+      "rotation": 2,
+      "x": 3,
+      "y": 0
+    },
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 0,
+      "y": 1
+    },
+    {
+      "type": "I",
+      "rotation": 2,
+      "x": 5,
+      "y": 0
+    },
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 9,
+      "y": 0
+    },
+    {
+      "type": "N",
+      "rotation": 2,
+      "x": 7,
+      "y": 0
+    },
+    {
+      "type": "L",
+      "rotation": 1,
+      "x": 4,
+      "y": 2
+    },
+    {
+      "type": "N",
+      "rotation": 2,
+      "x": 1,
+      "y": 3
+    },
+    {
+      "type": "N",
+      "rotation": 0,
+      "x": 3,
+      "y": 3
+    },
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 1,
+      "y": 4
+    },
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 0,
+      "y": 5
+    },
+    {
+      "type": "I",
+      "rotation": 2,
+      "x": 7,
+      "y": 3
+    },
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 5,
+      "y": 4
+    },
+    {
+      "type": "N",
+      "rotation": 0,
+      "x": 6,
+      "y": 4
+    },
+    {
+      "type": "I",
+      "rotation": 0,
+      "x": 7,
+      "y": 4
+    },
+    {
+      "type": "N",
+      "rotation": 2,
+      "x": 2,
+      "y": 6
+    },
+    {
+      "type": "I",
+      "rotation": 3,
+      "x": 0,
+      "y": 7
+    },
+    {
+      "type": "N",
+      "rotation": 0,
+      "x": 4,
+      "y": 6
+    },
+    {
+      "type": "M",
+      "rotation": 1,
+      "x": 6,
+      "y": 7
+    },
+    {
+      "type": "M",
+      "rotation": 1,
+      "x": 2,
+      "y": 9
+    },
+    {
+      "type": "M",
+      "rotation": 1,
+      "x": 6,
+      "y": 8
+    },
+    {
+      "type": "M",
+      "rotation": 1,
+      "x": 6,
+      "y": 9
+    }
+  ]
+}

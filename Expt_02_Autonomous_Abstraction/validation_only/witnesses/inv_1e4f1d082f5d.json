@@ -1,0 +1,146 @@
+{
+  "task_id": "inv_1e4f1d082f5d",
+  "inventory": {
+    "E": 1,
+    "G": 3,
+    "H": 4,
+    "I": 3,
+    "L": 1,
+    "N": 5,
+    "O": 5
+  },
+  "placements": [
+    {
+      "type": "H",
+      "rotation": 0,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "E",
+      "rotation": 3,
+      "x": 1,
+      "y": 0
+    },
+    {
+      "type": "G",
+      "rotation": 3,
+      "x": 3,
+      "y": 0
+    },
+    {
+      "type": "L",
+      "rotation": 0,
+      "x": 5,
+      "y": 0
+    },
+    {
+      "type": "H",
+      "rotation": 3,
+      "x": 3,
+      "y": 1
+    },
+    {
+      "type": "G",
+      "rotation": 2,
+      "x": 7,
+      "y": 0
+    },
+    {
+      "type": "O",
+      "rotation": 3,
+      "x": 8,
+      "y": 1
+    },
+    {
+      "type": "N",
+      "rotation": 3,
+      "x": 7,
+      "y": 3
+    },
+    {
+      "type": "I",
+      "rotation": 1,
+      "x": 5,
+      "y": 3
+    },
+    {
+      "type": "H",
+      "rotation": 1,
+      "x": 0,
+      "y": 3
+    },
+    {
+      "type": "I",
+      "rotation": 0,
+      "x": 1,
+      "y": 4
+    },
+    {
+      "type": "O",
+      "rotation": 0,
+      "x": 2,
+      "y": 4
+    },
+    {
+      "type": "G",
+      "rotation": 0,
+      "x": 4,
+      "y": 5
+    },
+    {
+      "type": "I",
+      "rotation": 2,
+      "x": 0,
+      "y": 6
+    },
+    {
+      "type": "O",
+      "rotation": 3,
+      "x": 0,
+      "y": 7
+    },
+    {
+      "type": "N",
+      "rotation": 2,
+      "x": 8,
+      "y": 5
+    },
+    {
+      "type": "O",
+      "rotation": 3,
+      "x": 7,
+      "y": 5
+    },
+    {
+      "type": "N",
+      "rotation": 3,
+      "x": 6,
+      "y": 7
+    },
+    {
+      "type": "N",
+      "rotation": 3,
+      "x": 7,
+      "y": 8
+    },
+    {
+      "type": "H",
+      "rotation": 3,
+      "x": 1,
+      "y": 7
+    },
+    {
+      "type": "N",
+      "rotation": 1,
+      "x": 4,
+      "y": 7
+    },
+    {
+      "type": "O",
+      "rotation": 2,
+      "x": 4,
+      "y": 8
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+Learned operations at the end of this run. Names are neutral.
+
+M0003 depth=1 children=O_O_1,O_O_1 created=45 support_successes=88 failures=583 attempts=669 average_Q=20.19 attempts_saved=87.0 bytes=134 utility=7157.616
+M0001 depth=1 children=O_H_1,O_H_3 created=13 support_successes=54 failures=986 attempts=1038 average_Q=14.59 attempts_saved=53.0 bytes=146 utility=1925.154
+M0005 depth=1 children=O_N_0,O_M_1 created=82 support_successes=26 failures=182 attempts=206 average_Q=35.96 attempts_saved=25.0 bytes=134 utility=492.266
+M0006 depth=1 children=O_M_1,O_M_1 created=82 support_successes=13 failures=175 attempts=186 average_Q=46.00 attempts_saved=12.0 bytes=134 utility=-7.734
+M0007 depth=1 children=O_N_1,O_N_3 created=93 support_successes=5 failures=67 attempts=70 average_Q=56.20 attempts_saved=4.0 bytes=134 utility=-43.284
+M0002 depth=1 children=O_I_3,O_O_0 created=45 support_successes=22 failures=642 attempts=662 average_Q=31.55 attempts_saved=21.0 bytes=140 utility=-161.390
+M0004 depth=1 children=O_F_0,O_F_3 created=47 support_successes=15 failures=630 attempts=643 average_Q=26.67 attempts_saved=14.0 bytes=146 utility=-408.296

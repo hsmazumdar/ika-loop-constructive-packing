@@ -1,0 +1,16 @@
+task_id,Q,A,acceptable,efficiency,primitive_evals,learned_evals,retrieval_cost,failed_attempts,successful_placements,decisions,internal_execution,fallbacks,depth0,depth1,depth2,depth3plus,elapsed_s,termination,library_size,agent,seed,experience,split,distribution
+inv_37a9c4ede811,65.0,336,False,0.19345238095238096,336,0,0,179,13,13,0,0,13,0,0,0,0.008275600033812225,no_progress,0,hierarchical,11,12,transfer,A
+inv_a6d3d5d34585,50.0,264,False,0.1893939393939394,264,0,0,154,10,10,0,0,10,0,0,0,0.006829000019934028,no_progress,0,hierarchical,11,12,transfer,A
+inv_20195ae42790,59.0,312,False,0.1891025641025641,312,0,0,181,12,12,0,0,12,0,0,0,0.00831619999371469,no_progress,0,hierarchical,11,12,transfer,A
+inv_37a9c4ede811,50.0,264,False,0.1893939393939394,264,0,0,137,10,10,0,0,10,0,0,0,0.0064774000202305615,no_progress,0,hierarchical,11,12,knockout_all,A
+inv_a6d3d5d34585,50.0,264,False,0.1893939393939394,264,0,0,138,10,10,0,0,10,0,0,0,0.006543600000441074,no_progress,0,hierarchical,11,12,knockout_all,A
+inv_20195ae42790,60.0,312,False,0.19230769230769232,312,0,0,153,12,12,0,0,12,0,0,0,0.008520399976987392,no_progress,0,hierarchical,11,12,knockout_all,A
+inv_37a9c4ede811,69.0,360,False,0.19166666666666668,360,0,0,223,14,14,0,0,14,0,0,0,0.007808699971064925,no_progress,0,hierarchical,11,12,knockout_highest,A
+inv_a6d3d5d34585,70.0,360,False,0.19444444444444445,360,0,0,221,14,14,0,0,14,0,0,0,0.009083100012503564,no_progress,0,hierarchical,11,12,knockout_highest,A
+inv_20195ae42790,55.0,288,False,0.1909722222222222,288,0,0,154,11,11,0,0,11,0,0,0,0.00738580001052469,no_progress,0,hierarchical,11,12,knockout_highest,A
+inv_37a9c4ede811,64.0,336,False,0.19047619047619047,336,0,0,187,13,13,0,0,13,0,0,0,0.0077386999619193375,no_progress,0,hierarchical,11,12,knockout_frequent,A
+inv_a6d3d5d34585,55.0,288,False,0.1909722222222222,288,0,0,169,11,11,0,0,11,0,0,0,0.006733100046403706,no_progress,0,hierarchical,11,12,knockout_frequent,A
+inv_20195ae42790,64.0,336,False,0.19047619047619047,336,0,0,194,13,13,0,0,13,0,0,0,0.008616100007202476,no_progress,0,hierarchical,11,12,knockout_frequent,A
+inv_37a9c4ede811,70.0,360,False,0.19444444444444445,360,0,0,224,14,14,0,0,14,0,0,0,0.00825100002111867,no_progress,0,hierarchical,11,12,knockout_random,A
+inv_a6d3d5d34585,55.0,288,False,0.1909722222222222,288,0,0,166,11,11,0,0,11,0,0,0,0.008264200005214661,no_progress,0,hierarchical,11,12,knockout_random,A
+inv_20195ae42790,55.0,288,False,0.1909722222222222,288,0,0,144,11,11,0,0,11,0,0,0,0.007531199953518808,no_progress,0,hierarchical,11,12,knockout_random,A

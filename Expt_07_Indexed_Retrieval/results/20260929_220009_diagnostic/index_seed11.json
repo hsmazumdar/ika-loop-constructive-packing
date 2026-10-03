@@ -1,0 +1,43 @@
+{
+  "n_entries": 3,
+  "build_s": 0.00016739999409765005,
+  "n_bytes": 1080,
+  "entries": [
+    {
+      "op_id": "M0002",
+      "definition_hash": "4001b5b936715b9cb46f5b52abcce0eed1fa61695cf10470ad3a942d082dd534",
+      "demand": {
+        "H": 2
+      },
+      "bbox_w": 4,
+      "bbox_h": 4,
+      "area": 10,
+      "n_steps": 2,
+      "depth": 1
+    },
+    {
+      "op_id": "M0009",
+      "definition_hash": "a1e83eaf8859798f08131297e17a09900ecd25aa1728909618a45b3179918a8a",
+      "demand": {
+        "M": 2
+      },
+      "bbox_w": 1,
+      "bbox_h": 8,
+      "area": 8,
+      "n_steps": 2,
+      "depth": 1
+    },
+    {
+      "op_id": "M0011",
+      "definition_hash": "f6e2252f6e5491c10a7ea831c3d456578eb946578897ac4bdb60565885602a5f",
+      "demand": {
+        "E": 2
+      },
+      "bbox_w": 2,
+      "bbox_h": 6,
+      "area": 10,
+      "n_steps": 2,
+      "depth": 1
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "preset": "smoke",
+  "python": "3.13.1",
+  "git": "unavailable",
+  "catalogue_hash": "3f727dd211eccd639da03bb8e724ddfd00a6e556df043c8a71b91da111952e14",
+  "n_test": 8
+}

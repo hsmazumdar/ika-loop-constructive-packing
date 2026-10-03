@@ -1,0 +1,15 @@
+name,group,anchor,piece,place,note
+FF_largest_first_legal,baseline,True,largest,first,"first-fit: anchor, largest piece, first legal orientation/position"
+FF_largest_random_tie,baseline,True,largest,random,
+FF_largest_contact_tie,baseline,True,largest,contact_random,
+FF_smallest_first_legal,baseline,True,smallest,first,
+FF_smallest_random_tie,baseline,True,smallest,random,
+FF_random_type_random_orient,baseline,True,random_type,random,"anchor, random piece type, random orientation/position"
+FF_first_legal_any_orientation,baseline,True,any,first,"anchor, first legal placement in catalogue order (A rot0 ...)"
+FF_contact_first_tie,baseline,True,any,contact_first,
+G_area_any_random_tie,baseline,False,largest,random,"greedy by area, no anchor"
+G_area_any_rowmajor_tie,baseline,False,largest,rowmajor_first,"greedy by area, ties -> first row-major"
+G_contact_any_random_tie,baseline,False,any,contact_random,"greedy by contact only, no anchor"
+G_contact_any_first_tie,baseline,False,any,contact_first,
+G_E16score_any_random_tie,baseline,False,any,score_random,Expt-16 primitive score over all legal placements
+FF_E16score_random_tie,baseline,True,any,score_random,

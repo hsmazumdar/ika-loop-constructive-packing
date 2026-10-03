@@ -1,0 +1,18 @@
+{
+  "paths": {
+    "repo": "D:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly",
+    "expt1": "D:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_01_10x10_Packing",
+    "expt2": "D:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_02_Autonomous_Abstraction",
+    "expt3": "D:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_03_Mined_Operation_Library"
+  },
+  "catalogue_hash": "3f727dd211eccd639da03bb8e724ddfd00a6e556df043c8a71b91da111952e14",
+  "dataset_hash": "668304e744f0d0ef22b164fb0e6a63a2fb065f835e170e9073a8fe3be7af53ce",
+  "source_hash": "68f2dcad507ba9b5e54482db74591f687e2b1a64b9840c991a7422c044364d5e",
+  "expt2_pieces_hash": "824dff7e59af39ea9a71c4800d08fae2ad14d59962201d197a3204b4a428297a",
+  "expt2_diagnosis_hash": "c0b5f7222e6f14acd2f2c850f56a99d5ba56b95ac4a970cdd3d746e90b4335f6",
+  "expt2_failure": "hierarchical boxes spend the 50000 candidate-eval cap inside paired THINK and can place nothing",
+  "diagnosis_mentions_50000": true,
+  "witnesses_copied_into_expt3": false,
+  "device": "NVIDIA GeForce RTX 5060 Ti",
+  "cuda_bytes": 2968064
+}

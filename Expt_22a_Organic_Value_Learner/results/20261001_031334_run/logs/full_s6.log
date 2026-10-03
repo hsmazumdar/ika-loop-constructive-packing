@@ -1,0 +1,2 @@
+03:17:19 [full s6] box 2000 train S1 68.73 hidden 64 concepts 1 tau 1.76 eps 0.088 lr 0.0010 225s
+03:19:51 [full s6] box 4000 train S1 69.67 hidden 64 concepts 2 tau 1.36 eps 0.068 lr 0.0010 377s

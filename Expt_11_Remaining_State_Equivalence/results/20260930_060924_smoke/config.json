@@ -1,0 +1,30 @@
+{
+  "q_min": 75.0,
+  "quality_loss_margin": 1.0,
+  "scan": 48,
+  "physical": 80,
+  "undo_budget": 4,
+  "eval_cap": 8000,
+  "seeds": [
+    11
+  ],
+  "score_area": 1.0,
+  "score_contact": 0.2,
+  "score_boundary": 0.05,
+  "n_store": 2,
+  "n_fresh": 2,
+  "n_boxes": 4,
+  "generate_seed": 2026093013,
+  "max_prefix_cells": 22,
+  "min_prefix_cells": 4,
+  "min_prefix_placements": 1,
+  "max_transforms_per_donor": 2,
+  "train_frac": 0.6666666666666666,
+  "no_library_retrain": true,
+  "memory": "exact continuation plus declared D4 isometries",
+  "exact_reuse_is": "memorization",
+  "equivalence_is": "declared isometries; learned selects among them",
+  "does_not_invent_transforms": true,
+  "memory_sharing": "one shared table across seeds; frozen before eval; first write wins",
+  "A_identity": "primitive_evals + lookup + matching + transformation + validation + learning"
+}

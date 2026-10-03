@@ -1,0 +1,97 @@
+{
+  "schema": "expt20_phases_manifest_v1",
+  "created": "2026-09-30T20:39:22+05:30",
+  "phase1": {
+    "seed": 20261001,
+    "trials": 10000,
+    "selection": "uniform random legal placement"
+  },
+  "phase2": {
+    "seed": 20261002,
+    "trials": 10000,
+    "selection": "LTM-guided",
+    "ltm_path": "E:\\PaperSubmissions2026\\Assembly_Skill_Learning\\Expt_20_Winning_Combination_LTM\\results\\20260930_131353_run_S2default\\ltm\\ltm.pkl",
+    "ltm_sha256": "a38af782b878a89172b06e76fae4fe76331d5ca77f57246b460f9b38627c5e01"
+  },
+  "policy": {
+    "name": "ltm_S2",
+    "epsilon": 0.1,
+    "use_single": true,
+    "use_boost": true,
+    "single_weights": {
+      "A": 1.0504408675157109,
+      "B": 1.1439320293627961,
+      "C": 1.0376947054324461,
+      "D": 1.0096454162771178,
+      "E": 1.0466067704042032,
+      "F": 1.023558930633271,
+      "G": 1.023460301526221,
+      "H": 1.0421775547617755,
+      "I": 1.0247445731865714,
+      "J": 0.9621735447462925,
+      "K": 1.0648285183027246,
+      "L": 0.9878016261689444,
+      "M": 0.8196453290329409,
+      "N": 0.8561398012099035,
+      "O": 0.8426148480154336,
+      "P": 2.724095597046815
+    },
+    "n_pair_rules": 115,
+    "n_triple_rules": 715
+  },
+  "ranking": "S2 desc, tie-break S1 desc, then trial_id asc",
+  "stm_snapshot_every": 1000,
+  "stm_files": {
+    "stm_after_phase1": {
+      "pkl": "E:\\PaperSubmissions2026\\Assembly_Skill_Learning\\Expt_20_Winning_Combination_LTM\\results\\20260930_203509_phases\\stm\\stm_after_phase1.pkl",
+      "json": "E:\\PaperSubmissions2026\\Assembly_Skill_Learning\\Expt_20_Winning_Combination_LTM\\results\\20260930_203509_phases\\stm\\stm_after_phase1.json",
+      "pkl_sha256": "8fb3a2c6400405cb1b5468b214e9122c4b4efa514d1e57bbb42d9c268c69322f",
+      "json_sha256": "99f304d614a74f5c473d41a28751a791e5ab685733f811d8f8c5f2374bbb536b"
+    },
+    "stm_after_phase2_guided": {
+      "pkl": "E:\\PaperSubmissions2026\\Assembly_Skill_Learning\\Expt_20_Winning_Combination_LTM\\results\\20260930_203509_phases\\stm\\stm_after_phase2_guided.pkl",
+      "json": "E:\\PaperSubmissions2026\\Assembly_Skill_Learning\\Expt_20_Winning_Combination_LTM\\results\\20260930_203509_phases\\stm\\stm_after_phase2_guided.json",
+      "pkl_sha256": "ac7a901a5fd7edf99fdd2ff2614c3c0d531e123d1ffd3b6564b04b82bbc3156f",
+      "json_sha256": "14b941cdb8c8e948d5311053404347b595f484a078ba97d57eb8a342868ec924"
+    },
+    "stm_cumulative_phase1_plus_phase2": {
+      "pkl": "E:\\PaperSubmissions2026\\Assembly_Skill_Learning\\Expt_20_Winning_Combination_LTM\\results\\20260930_203509_phases\\stm\\stm_cumulative_phase1_plus_phase2.pkl",
+      "json": "E:\\PaperSubmissions2026\\Assembly_Skill_Learning\\Expt_20_Winning_Combination_LTM\\results\\20260930_203509_phases\\stm\\stm_cumulative_phase1_plus_phase2.json",
+      "pkl_sha256": "9e4ccb400dae12a69c6e1bac6df2a7914a96292bb47c3b1b5a18c60a5b90ee16",
+      "json_sha256": "e40560382b8ed80801856e1d65e1fcc0d853aaf36bd9087988aae084e4c26659"
+    }
+  },
+  "control": "same phase-2 seed and trial ids, uniform random picking (Phase 1 style)",
+  "code_hash": {
+    "combined_sha256": "5983f05a37dbf3f66968c99fd3675f7a4b17ca171fc88552c78b7d8df3d90e34",
+    "files": {
+      "run_expt20.py": "28c5cde2bc40e7eedec5cc96a4001c3b557c9f682432e8a25afbc0dceb8e948e",
+      "config.py": "7e72e46a748b80ed5eeb41643fcfd9b20a5bc28f6bebf931e74ec41e3116c06d",
+      "extract.py": "39b97b63be6ef3483ac7ed8f9bf3b8d5c0f1dfc5c0ff5ceeb68446125e48ec5e",
+      "ltm.py": "e85e43395c0dddd52fbffa29a98e5dd1ad62e8bca99353b48065bb756c53add9",
+      "trials.py": "f544e00b08fe63c409864347b0d61dd5ba79794ce33e09135e54a186eba9b9f7"
+    },
+    "phases": {
+      "__init__.py": "e110282b5de6c137638172a07dcaa9200024b04357d82276c3d6e28d66065951",
+      "compare.py": "006533079e5638ae2d2298f38cff4823240e2f83ccc39c339851176e57a0726e",
+      "policy.py": "d51f8e4c82d12cb08549d84f26292638af25793e7c53b4cfdd2fa645b07334e5",
+      "stm.py": "9b668c496e192f7143f094a3ca34c72952eb92bf1394017bb33a949fac7e73d1"
+    },
+    "run_expt20_phases.py": "14f26c487b3433fca10f989356e2b386984c9947779d56315b10eff6b6442493"
+  },
+  "catalogue_hash": "3f727dd211eccd639da03bb8e724ddfd00a6e556df043c8a71b91da111952e14",
+  "python": "3.13.1",
+  "numpy": "2.5.2",
+  "python_executable": "C:\\Users\\hsmazumdar\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "runtime_seconds": {
+    "phase1_trials": 25.67,
+    "phase1_stm": 19.47,
+    "phase2_guided": 46.32,
+    "phase2_ablation_single_only": 33.6,
+    "phase2_ablation_boost_only": 46.87,
+    "phase2_control": 32.2,
+    "phase2_stm": 32.6,
+    "total": 252.48
+  }
+}

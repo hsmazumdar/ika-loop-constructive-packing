@@ -1,0 +1,259 @@
+{
+  "tasks": [
+    {
+      "task_id": "inv_105f77a65402",
+      "family": "inventory_tasks",
+      "inventory": {
+        "D": 4,
+        "E": 4,
+        "I": 1,
+        "L": 3,
+        "M": 2,
+        "N": 4,
+        "O": 4
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 7,
+        "pieces": 22,
+        "max_type_cells": 20
+      }
+    },
+    {
+      "task_id": "inv_e7eace639d2a",
+      "family": "inventory_tasks",
+      "inventory": {
+        "H": 2,
+        "I": 6,
+        "M": 7,
+        "N": 8
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 4,
+        "pieces": 23,
+        "max_type_cells": 32
+      }
+    },
+    {
+      "task_id": "inv_e5821d4f18c1",
+      "family": "inventory_tasks",
+      "inventory": {
+        "A": 7,
+        "G": 7,
+        "J": 1,
+        "K": 5
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 4,
+        "pieces": 20,
+        "max_type_cells": 35
+      }
+    },
+    {
+      "task_id": "inv_7b923531a753",
+      "family": "inventory_tasks",
+      "inventory": {
+        "D": 4,
+        "E": 8,
+        "F": 3,
+        "H": 5
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 4,
+        "pieces": 20,
+        "max_type_cells": 40
+      }
+    },
+    {
+      "task_id": "inv_5d87c9a1dba6",
+      "family": "inventory_tasks",
+      "inventory": {
+        "B": 2,
+        "E": 4,
+        "F": 3,
+        "G": 2,
+        "H": 3,
+        "K": 2,
+        "M": 5
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 7,
+        "pieces": 21,
+        "max_type_cells": 20
+      }
+    },
+    {
+      "task_id": "inv_32e51025b0e7",
+      "family": "inventory_tasks",
+      "inventory": {
+        "E": 8,
+        "F": 4,
+        "K": 4,
+        "M": 5
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 4,
+        "pieces": 21,
+        "max_type_cells": 40
+      }
+    },
+    {
+      "task_id": "inv_87b29d6bdd6a",
+      "family": "inventory_tasks",
+      "inventory": {
+        "G": 7,
+        "K": 8,
+        "L": 1,
+        "O": 5
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 4,
+        "pieces": 21,
+        "max_type_cells": 40
+      }
+    },
+    {
+      "task_id": "inv_a9b50107fc72",
+      "family": "inventory_tasks",
+      "inventory": {
+        "B": 3,
+        "C": 1,
+        "E": 7,
+        "F": 2,
+        "I": 3,
+        "O": 5
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 6,
+        "pieces": 21,
+        "max_type_cells": 35
+      }
+    },
+    {
+      "task_id": "inv_2d14fec93151",
+      "family": "inventory_tasks",
+      "inventory": {
+        "A": 3,
+        "G": 4,
+        "K": 5,
+        "L": 4,
+        "N": 5
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 5,
+        "pieces": 21,
+        "max_type_cells": 25
+      }
+    },
+    {
+      "task_id": "inv_84593d559cb6",
+      "family": "inventory_tasks",
+      "inventory": {
+        "B": 4,
+        "E": 7,
+        "H": 8,
+        "K": 1
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 4,
+        "pieces": 20,
+        "max_type_cells": 40
+      }
+    },
+    {
+      "task_id": "inv_0399e1e5908a",
+      "family": "inventory_tasks",
+      "inventory": {
+        "D": 3,
+        "E": 5,
+        "I": 1,
+        "K": 4,
+        "N": 7,
+        "P": 1
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 6,
+        "pieces": 21,
+        "max_type_cells": 28
+      }
+    },
+    {
+      "task_id": "inv_2eefcce229c1",
+      "family": "inventory_tasks",
+      "inventory": {
+        "G": 6,
+        "I": 5,
+        "J": 2,
+        "K": 7
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 4,
+        "pieces": 20,
+        "max_type_cells": 35
+      }
+    },
+    {
+      "task_id": "inv_8c31598514d9",
+      "family": "inventory_tasks",
+      "inventory": {
+        "A": 2,
+        "B": 7,
+        "C": 5,
+        "G": 4,
+        "K": 2
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 5,
+        "pieces": 20,
+        "max_type_cells": 35
+      }
+    },
+    {
+      "task_id": "inv_ea9baabc46ab",
+      "family": "inventory_tasks",
+      "inventory": {
+        "C": 5,
+        "F": 2,
+        "H": 2,
+        "I": 4,
+        "M": 3,
+        "O": 4,
+        "P": 1
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 7,
+        "pieces": 21,
+        "max_type_cells": 25
+      }
+    },
+    {
+      "task_id": "inv_e51bb35708cd",
+      "family": "inventory_tasks",
+      "inventory": {
+        "B": 2,
+        "L": 3,
+        "N": 10,
+        "P": 5
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 4,
+        "pieces": 20,
+        "max_type_cells": 40
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "experiment": "Expt_01_10x10_Packing",
+  "board_size": 10,
+  "action_budget": 100,
+  "epsilon": 0.15,
+  "stm_capacity": 64,
+  "ltm_capacity": 4096,
+  "ltm_coefficient": 0.4,
+  "ltm_shrinkage_k": 5,
+  "ltm_neighborhood": 7,
+  "min_piece_area": 4,
+  "max_piece_area": 7,
+  "avoid_new_holes_if_possible": true,
+  "heuristic_weights": {
+    "fill": 1.0,
+    "contact": 0.45,
+    "small_component_penalty": 1.0
+  },
+  "heuristic_normalization": {
+    "fill_divisor": 7.0,
+    "contact_divisor": 28.0,
+    "small_component_divisor": 8.0
+  },
+  "ltm_return_formula": "(terminal_occupied - occupied_before_action)/100 - 0.001 * remaining_actions_from_t",
+  "remaining_actions_from_t": "terminal_action_count - place_action_index",
+  "place_action_index": "1-based action number at which the PLACE was executed",
+  "dead_end_rule": "If no unique legal placements remain (after STM exclusions when enabled), UNDO when the stack is nonempty; otherwise SUBMIT. Shared by all modes: after a dead-end UNDO, the immediately restored board will not replay that same placement (one-step tabu, not STM). If any legal placement creates no unfillable empty component (size 1,2,3,6), all modes ignore hole-creating alternatives for both greedy and epsilon-greedy choice.",
+  "modes": [
+    "none",
+    "stm",
+    "ltm",
+    "both"
+  ],
+  "presets": {
+    "tiny": {
+      "seeds": [
+        11
+      ],
+      "train_boxes": 5,
+      "eval_boxes": 0,
+      "modes": [
+        "none",
+        "stm",
+        "ltm",
+        "both"
+      ]
+    },
+    "smoke": {
+      "seeds": [
+        11,
+        22,
+        33
+      ],
+      "train_boxes": 100,
+      "eval_boxes": 30,
+      "modes": [
+        "none",
+        "stm",
+        "ltm",
+        "both"
+      ]
+    }
+  },
+  "eval_seed_offset": 10007,
+  "viz_seed_offset": 20011,
+  "smoothing_window": 10,
+  "validator_timeout_seconds": 60,
+  "validator_n_witnesses": 2
+}

@@ -1,0 +1,36 @@
+{"mode": "search_only", "model": 2, "phase": "train", "repetition": 0, "seed": 1, "task_id": "legacy", "type": "think"}
+{"mode": "search_only", "model": 2, "phase": "train", "repetition": 1, "seed": 1, "task_id": "legacy", "type": "think"}
+{"mode": "search_only", "model": 2, "phase": "train", "repetition": 1, "seed": 1, "task_id": "legacy", "type": "think"}
+{"mode": "search_only", "model": 2, "phase": "train", "repetition": 1, "seed": 1, "task_id": "legacy", "type": "think"}
+{"mode": "search_only", "model": 2, "phase": "train", "repetition": 1, "seed": 1, "task_id": "legacy", "type": "think"}
+{"mode": "search_only", "model": 2, "phase": "train", "repetition": 1, "seed": 1, "task_id": "legacy", "type": "think"}
+{"mode": "search_only", "model": 2, "phase": "train", "repetition": 2, "seed": 1, "task_id": "legacy", "type": "think"}
+{"mode": "search_only", "model": 2, "phase": "train", "repetition": 2, "seed": 1, "task_id": "legacy", "type": "think"}
+{"mode": "search_only", "model": 2, "phase": "train", "repetition": 2, "seed": 1, "task_id": "legacy", "type": "think"}
+{"depth": 1, "mode": "flat_library", "op_id": "op_fd711169b6050db7", "phase": "train", "reject_reason": "", "repetition": 0, "seed": 1, "source": "mine", "task_id": "legacy", "type": "proposal"}
+{"U": 0.0, "delta_filled": 0, "legal": false, "mode": "flat_library", "model_transitions": 10, "op_id": "op_fd711169b6050db7", "phase": "train", "physical_actions": 10, "promoted": false, "repetition": 0, "seed": 1, "source": "mine", "task_id": "legacy", "type": "validation"}
+{"depth": 1, "mode": "flat_library", "op_id": "op_d283a78044edecc8", "phase": "train", "reject_reason": "", "repetition": 0, "seed": 1, "source": "mine", "task_id": "legacy", "type": "proposal"}
+{"mode": "flat_library", "op_id": "op_d283a78044edecc8", "phase": "train", "reject_reason": "compute_budget", "repetition": 0, "seed": 1, "source": "mine", "task_id": "legacy", "type": "proposal"}
+{"depth": 1, "mode": "flat_library", "op_id": "op_8dfc757e972b0260", "phase": "train", "reject_reason": "", "repetition": 1, "seed": 1, "source": "mine", "task_id": "legacy", "type": "proposal"}
+{"U": 0.0958, "delta_filled": 10, "legal": true, "mode": "flat_library", "model_transitions": 12, "op_id": "op_8dfc757e972b0260", "phase": "train", "physical_actions": 12, "promoted": true, "repetition": 1, "seed": 1, "source": "mine", "task_id": "legacy", "type": "validation"}
+{"depth": 1, "mode": "flat_library", "op_id": "op_101c11e5d88dba4a", "phase": "train", "reject_reason": "", "repetition": 1, "seed": 1, "source": "mine", "task_id": "legacy", "type": "proposal"}
+{"mode": "flat_library", "op_id": "op_101c11e5d88dba4a", "phase": "train", "reject_reason": "compute_budget", "repetition": 1, "seed": 1, "source": "mine", "task_id": "legacy", "type": "proposal"}
+{"mode": "flat_library", "op_id": "op_8dfc757e972b0260", "origin": [2, 1, 0], "phase": "train", "reason": "ok", "repetition": 2, "seed": 1, "source": "ltm", "success": true, "task_id": "legacy", "type": "reuse", "utility": 0.096}
+{"mode": "flat_library", "op_id": "op_8dfc757e972b0260", "origin": [7, 2, 0], "phase": "train", "reason": "ok", "repetition": 2, "seed": 1, "source": "ltm", "success": true, "task_id": "legacy", "type": "reuse", "utility": 0.096}
+{"mode": "flat_library", "op_id": "op_8dfc757e972b0260", "origin": [5, 4, 0], "phase": "train", "reason": "ok", "repetition": 2, "seed": 1, "source": "ltm", "success": true, "task_id": "legacy", "type": "reuse", "utility": 0.096}
+{"mode": "flat_library", "op_id": "op_8dfc757e972b0260", "origin": [0, 1, 0], "phase": "train", "reason": "ok", "repetition": 2, "seed": 1, "source": "ltm", "success": true, "task_id": "legacy", "type": "reuse", "utility": 0.096}
+{"depth": 1, "mode": "flat_library", "op_id": "op_427030167d4602ce", "phase": "train", "reject_reason": "", "repetition": 2, "seed": 1, "source": "mine", "task_id": "legacy", "type": "proposal"}
+{"U": 0.0, "delta_filled": 0, "legal": false, "mode": "flat_library", "model_transitions": 14, "op_id": "op_427030167d4602ce", "phase": "train", "physical_actions": 14, "promoted": false, "repetition": 2, "seed": 1, "source": "mine", "task_id": "legacy", "type": "validation"}
+{"depth": 1, "mode": "flat_library", "op_id": "op_8dfc757e972b0260", "phase": "train", "reject_reason": "duplicate", "repetition": 2, "seed": 1, "source": "mine", "task_id": "legacy", "type": "proposal"}
+{"depth": 1, "mode": "flat_library", "op_id": "op_760e7364ef5b2ec5", "phase": "train", "reject_reason": "", "repetition": 2, "seed": 1, "source": "mine", "task_id": "legacy", "type": "proposal"}
+{"mode": "flat_library", "op_id": "op_760e7364ef5b2ec5", "phase": "train", "reject_reason": "compute_budget", "repetition": 2, "seed": 1, "source": "mine", "task_id": "legacy", "type": "proposal"}
+{"depth": 1, "mode": "hierarchical_library", "op_id": "op_84ebca72d7c61408", "phase": "train", "reject_reason": "", "repetition": 0, "seed": 1, "source": "mine", "task_id": "legacy", "type": "proposal"}
+{"U": 0.09579999999999994, "delta_filled": 10, "legal": true, "mode": "hierarchical_library", "model_transitions": 14, "op_id": "op_84ebca72d7c61408", "phase": "train", "physical_actions": 14, "promoted": true, "repetition": 0, "seed": 1, "source": "mine", "task_id": "legacy", "type": "validation"}
+{"mode": "hierarchical_library", "op_id": "op_84ebca72d7c61408", "origin": [1, 2, 0], "phase": "train", "reason": "ok", "repetition": 1, "seed": 1, "source": "ltm", "success": true, "task_id": "legacy", "type": "reuse", "utility": 0.096}
+{"mode": "hierarchical_library", "op_id": "op_84ebca72d7c61408", "origin": [0, 0, 0], "phase": "train", "reason": "ok", "repetition": 1, "seed": 1, "source": "ltm", "success": true, "task_id": "legacy", "type": "reuse", "utility": 0.096}
+{"depth": 1, "mode": "hierarchical_library", "op_id": "op_b5a2b00941f449a8", "phase": "train", "reject_reason": "", "repetition": 1, "seed": 1, "source": "mine", "task_id": "legacy", "type": "proposal"}
+{"U": 0.0, "delta_filled": 0, "legal": false, "mode": "hierarchical_library", "model_transitions": 6, "op_id": "op_b5a2b00941f449a8", "phase": "train", "physical_actions": 6, "promoted": false, "repetition": 1, "seed": 1, "source": "mine", "task_id": "legacy", "type": "validation"}
+{"depth": 1, "mode": "hierarchical_library", "op_id": "op_a5ffad239fce4e98", "phase": "train", "reject_reason": "", "repetition": 1, "seed": 1, "source": "mine", "task_id": "legacy", "type": "proposal"}
+{"mode": "hierarchical_library", "op_id": "op_a5ffad239fce4e98", "phase": "train", "reject_reason": "compute_budget", "repetition": 1, "seed": 1, "source": "mine", "task_id": "legacy", "type": "proposal"}
+{"depth": 1, "mode": "hierarchical_library", "op_id": "op_b533df6b7ecac4b1", "phase": "train", "reject_reason": "", "repetition": 2, "seed": 1, "source": "mutate", "task_id": "legacy", "type": "proposal"}
+{"U": 0.04789999999999994, "delta_filled": 5, "legal": true, "mode": "hierarchical_library", "model_transitions": 15, "op_id": "op_b533df6b7ecac4b1", "phase": "train", "physical_actions": 15, "promoted": true, "repetition": 2, "seed": 1, "source": "mutate", "task_id": "legacy", "type": "validation"}

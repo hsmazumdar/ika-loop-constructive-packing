@@ -1,0 +1,49 @@
+..................                                                       [100%]
+18 passed in 26.08s
+output: E:\PaperSubmissions2026\Assembly_Skill_Learning\Expt_21_Continuous_Learning_Memory\results\20260930_233539_run
+42 streams on 14 workers
+[   1779s] finished no_sleep s1
+[   1807s] finished no_sleep s0
+[   1968s] finished full s4
+[   1981s] finished full s3
+[   2283s] finished full s2
+[   2283s] finished full s11
+[   2417s] finished full s0
+[   2454s] finished full s1
+[   2478s] finished full s6
+[   3088s] finished full s10
+[   3374s] finished full s5
+[   3937s] finished no_sleep s2
+[   3992s] finished no_sleep s3
+[   4002s] finished full s9
+[   4058s] finished full s8
+[   4096s] finished no_sleep s4
+[   4100s] finished full s7
+[   4135s] finished no_sleep s5
+[   4451s] finished sleep_no_dream s1
+[   4499s] finished sleep_no_dream s0
+[   4571s] finished sleep_no_dream s2
+[   4673s] finished sleep_no_dream s3
+[   4684s] finished sleep_no_dream s4
+[   5259s] finished sleep_no_dream s5
+[   5522s] finished no_growth s0
+[   6096s] finished no_growth s1
+[   6128s] finished no_growth s2
+[   6132s] finished no_growth s3
+[   6203s] finished no_growth s4
+[   6205s] finished no_growth s5
+[   6220s] finished frozen s0
+[   6753s] finished frozen s1
+[   7063s] finished frozen s2
+[   7566s] finished frozen s3
+[   7582s] finished frozen s5
+[   7593s] finished frozen s4
+[   7883s] finished all_upfront s0
+[   7925s] finished all_upfront s1
+[   8161s] finished all_upfront s2
+[   8208s] finished all_upfront s3
+[   8242s] finished all_upfront s4
+[   8246s] finished all_upfront s5
+C:\Users\hsmazumdar\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+report written to E:\PaperSubmissions2026\Assembly_Skill_Learning\Expt_21_Continuous_Learning_Memory\results\20260930_233539_run\summary.md

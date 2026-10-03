@@ -1,0 +1,21 @@
+03:22:54 [full s0] box 1000 train S1 68.58 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 147s
+03:24:39 [full s0] box 2000 train S1 69.00 hidden 64 concepts 4 tau 1.76 eps 0.088 lr 0.0010 252s
+03:26:12 [full s0] box 3000 train S1 69.63 hidden 64 concepts 5 tau 1.55 eps 0.077 lr 0.0010 345s
+03:27:19 [full s0] box 4000 train S1 69.96 hidden 64 concepts 1 tau 1.36 eps 0.068 lr 0.0010 412s
+03:28:25 [full s0] box 5000 train S1 70.62 hidden 64 concepts 2 tau 1.20 eps 0.060 lr 0.0010 478s
+03:29:58 [full s0] box 6000 train S1 70.80 hidden 64 concepts 2 tau 1.16 eps 0.058 lr 0.0010 571s
+03:31:03 [full s0] box 7000 train S1 71.03 hidden 64 concepts 1 tau 1.13 eps 0.056 lr 0.0010 636s
+03:32:13 [full s0] box 8000 train S1 71.28 hidden 64 concepts 3 tau 1.04 eps 0.051 lr 0.0009 705s
+03:33:19 [full s0] box 9000 train S1 71.92 hidden 64 concepts 3 tau 0.96 eps 0.046 lr 0.0008 771s
+03:34:23 [full s0] box 10000 train S1 73.62 hidden 64 concepts 6 tau 0.88 eps 0.041 lr 0.0007 836s
+03:36:09 [full s0] box 11000 train S1 74.25 hidden 64 concepts 6 tau 0.85 eps 0.040 lr 0.0007 941s
+03:37:21 [full s0] box 12000 train S1 74.86 hidden 64 concepts 13 tau 0.83 eps 0.039 lr 0.0007 1014s
+03:38:39 [full s0] box 13000 train S1 74.87 hidden 64 concepts 13 tau 0.73 eps 0.034 lr 0.0007 1092s
+03:39:46 [full s0] box 14000 train S1 76.15 hidden 64 concepts 5 tau 0.64 eps 0.030 lr 0.0007 1159s
+03:40:50 [full s0] box 15000 train S1 77.32 hidden 64 concepts 5 tau 0.62 eps 0.029 lr 0.0007 1223s
+03:42:27 [full s0] box 16000 train S1 77.43 hidden 64 concepts 10 tau 0.60 eps 0.028 lr 0.0008 1320s
+03:43:31 [full s0] box 17000 train S1 78.17 hidden 64 concepts 10 tau 0.58 eps 0.027 lr 0.0008 1384s
+03:44:31 [full s0] box 18000 train S1 77.66 hidden 64 concepts 24 tau 0.54 eps 0.025 lr 0.0007 1444s
+03:45:38 [full s0] box 19000 train S1 78.51 hidden 64 concepts 24 tau 0.49 eps 0.022 lr 0.0007 1510s
+03:46:38 [full s0] box 20000 train S1 79.85 hidden 64 concepts 24 tau 0.46 eps 0.020 lr 0.0006 1571s
+03:47:08 DONE full s0: 20000 boxes, 1601s, heldout@20000=84.80

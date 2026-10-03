@@ -1,0 +1,53 @@
+{
+  "q_min": 75.0,
+  "quality_loss_margin": 1.0,
+  "scan": 48,
+  "physical": 80,
+  "undo_budget": 4,
+  "eval_cap": 8000,
+  "score_area": 1.0,
+  "score_contact": 0.2,
+  "score_boundary": 0.05,
+  "region_min_cells": 8,
+  "region_max_cells": 20,
+  "region_node_cap": 20000,
+  "t1_seeds": [
+    11
+  ],
+  "t1_n_library": 2,
+  "t1_k_min": 2,
+  "t1_k_max": 4,
+  "t1_n_embed_per_region": 1,
+  "t1_n_control": 1,
+  "store_seeds": [
+    11
+  ],
+  "stream_seeds": [
+    11
+  ],
+  "n_store_independent": 2,
+  "n_families": 1,
+  "n_store_per_family": 1,
+  "n_per_stream": 3,
+  "generate_seed": 2026093020,
+  "n_streams": 1,
+  "t1_conditions": [
+    "primitive_whole",
+    "exact_whole",
+    "primitive_decomposed",
+    "local_decomposed"
+  ],
+  "t2_conditions": [
+    "primitive",
+    "exact_whole",
+    "local"
+  ],
+  "region_supplied_in_test1": "experimental aid, not learned decomposition",
+  "region_detector_in_test2": "engineered flood fill next to the last placement; billed per free cell visited",
+  "local_match_rule": "identical translation-normalised geometry and multiset available; first stored available entry",
+  "transformations": false,
+  "hierarchy": false,
+  "learned_gate": false,
+  "local_memory_frozen_during_eval": true,
+  "A_identity": "primitive_evals (incl. region search) + detection + lookup + availability + validation + insertion"
+}

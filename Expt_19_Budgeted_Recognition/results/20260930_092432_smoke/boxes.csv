@@ -1,0 +1,3 @@
+workload,index,task_id,primitive_A,recognition,recognition_ratio,under_gate,budget_exhausted,n_consults,n_reference_actions,n_useful,n_useful_exposed,oracle_saving,oracle_pattern,oracle_support,oracle_stage,retained_saving,retention,unlabeled_exposures,cost_inventory,cost_anchor,cost_geometry,cost_cache_create,cost_cache_invalidate,cost_lookup,diagnostic_checks,diagnostic_A
+validation_fresh,0,inv_f9c0694f2616,816,85,0.10416666666666667,False,False,2,0,0,0,0,,,,0,,2,58,1,22,2,2,0,8,0
+validation_family,0,inv_6030e6af70f2,768,95,0.12369791666666667,False,False,1,1,0,0,0,,,,0,,2,58,1,33,3,0,0,19,9201

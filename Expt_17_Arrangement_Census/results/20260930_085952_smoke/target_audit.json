@@ -1,0 +1,11 @@
+{
+  "catalogue_hash": "3f727dd211eccd639da03bb8e724ddfd00a6e556df043c8a71b91da111952e14",
+  "manifests": {
+    "acquisition_store.json": "2b776ab145b906641435244a72b88310508c7956a02c9358de329fff43acc163",
+    "applicability_fresh.json": "bdcb0cda4ba5b655a49ccce084cb8d7c91056a2b7e3b8a4b99049085ab150926",
+    "applicability_family.json": "ab864df1caee65fef734c894b432dbfcfd756857d3d317ee3b41b73233a71f13",
+    "validation_fresh.json": "8ad3a559f7a90863b56ed70aaf3150a97936873637aeeb1244196102c04d541a",
+    "validation_family.json": "121c7c27b35e386e7aba5439c9905574768b48d0f822a04c9071f5c39ebcac62"
+  },
+  "commitment": false
+}

@@ -1,0 +1,13 @@
+{
+  "rejections": [],
+  "mismatches": [
+    {
+      "reason": "empty_rectangle_library"
+    }
+  ],
+  "bytes": {
+    "rect_mined": 0,
+    "neutral_mined": 0,
+    "matched_control": 0
+  }
+}

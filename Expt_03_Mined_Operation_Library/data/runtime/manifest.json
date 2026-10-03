@@ -1,0 +1,64 @@
+{
+  "splits": {
+    "train": [
+      "inv_0b96b3917fa7",
+      "inv_02c8738d8d04",
+      "inv_1e4f1d082f5d",
+      "inv_b9faefb3c8ff",
+      "inv_ac2c19d4f316",
+      "inv_588da8b253d7",
+      "inv_dddce847bbe5",
+      "inv_44b82f447c59",
+      "inv_521aa3f4db2c",
+      "inv_05bc74f7cd7c",
+      "inv_04d049b72da2",
+      "inv_3853d99a7890",
+      "inv_b70847430efc",
+      "inv_846c32759cc2",
+      "inv_e5a7016014b8",
+      "inv_1f2dbf0588dc",
+      "inv_bfd90425f5bd",
+      "inv_e705d8722fa9",
+      "inv_fb74b6e5ee17",
+      "inv_64567200de91",
+      "inv_5a447efe53b2",
+      "inv_a5b815783152",
+      "inv_0a58649f313c",
+      "inv_ad0404a64b5b"
+    ],
+    "development": [
+      "inv_22521942205c",
+      "inv_791d780fc6e4",
+      "inv_115b41c2392a",
+      "inv_5fc1ecabd17f",
+      "inv_8b533a843808",
+      "inv_bce49701ff81",
+      "inv_ffe570c70457",
+      "inv_1696d00e5191"
+    ],
+    "test": [
+      "inv_37a9c4ede811",
+      "inv_a6d3d5d34585",
+      "inv_20195ae42790",
+      "inv_b63976b88948",
+      "inv_abe234abc0cc",
+      "inv_738c43f2151d",
+      "inv_57ddd8d6a331",
+      "inv_9a7b025d9cc6",
+      "inv_8973daaab2e7",
+      "inv_5d6cf472e1d9",
+      "inv_3751b4def2d7",
+      "inv_2ff4fed0f2c8"
+    ]
+  },
+  "attempts": 45,
+  "unique": 44,
+  "targets": {
+    "train": 24,
+    "development": 8,
+    "test": 12
+  },
+  "partial": false,
+  "dataset_hash": "668304e744f0d0ef22b164fb0e6a63a2fb065f835e170e9073a8fe3be7af53ce",
+  "status": "OK"
+}

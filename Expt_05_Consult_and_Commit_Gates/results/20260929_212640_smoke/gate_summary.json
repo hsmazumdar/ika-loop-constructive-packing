@@ -1,0 +1,15 @@
+{
+  "n_commit_labels": 0,
+  "n_consult_states": 0,
+  "n_unchosen": 0,
+  "n_selected": 0,
+  "consult_threshold": [
+    1.0
+  ],
+  "commit_threshold": [
+    1.0
+  ],
+  "commit_op_bias": {
+    "11": {}
+  }
+}

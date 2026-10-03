@@ -1,0 +1,13 @@
+{
+  "retrain": false,
+  "threshold_retune": false,
+  "seeds": [
+    {
+      "seed": 11,
+      "library_hash": "d0d970996e690a73db70a75608858811d0cad24b991a0bc4905dab1ea9c32a8c",
+      "n_active": 3
+    }
+  ],
+  "labels_fit_sha256": "6a18c0cdff39172422046adaead86119970819dd29952808dbb66866237cd487",
+  "model_payload_sha256": "f2b78e90a808a038b6ab6599360f52ff5b1be216977f88c90c76579788dec087"
+}

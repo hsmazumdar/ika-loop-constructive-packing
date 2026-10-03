@@ -1,0 +1,279 @@
+{
+  "status": "SOLVED",
+  "n_requested": 2,
+  "n_found": 4,
+  "timeout_seconds": 60.0,
+  "elapsed_seconds": 0.0455,
+  "catalogue_hash": "3f727dd211eccd639da03bb8e724ddfd00a6e556df043c8a71b91da111952e14",
+  "search_status": "SOLVED",
+  "methods": [
+    "constructive_replay_validated",
+    "constructive_replay_validated",
+    "exact_cover",
+    "exact_cover"
+  ],
+  "witnesses": [
+    {
+      "index": 0,
+      "n_placements": 20,
+      "types_used": [
+        "B"
+      ],
+      "canonical": "(('B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B'), ('B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B'), ('B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B'), ('B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B'), ('B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B'), ('B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B'), ('B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B'), ('B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B'), ('B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B'), ('B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B'))",
+      "placements": [
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 0,
+          "y": 5
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 1,
+          "y": 0
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 1,
+          "y": 5
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 2,
+          "y": 0
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 2,
+          "y": 5
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 3,
+          "y": 0
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 3,
+          "y": 5
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 4,
+          "y": 0
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 4,
+          "y": 5
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 5,
+          "y": 0
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 5,
+          "y": 5
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 6,
+          "y": 0
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 6,
+          "y": 5
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 7,
+          "y": 0
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 7,
+          "y": 5
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 8,
+          "y": 0
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 8,
+          "y": 5
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 9,
+          "y": 0
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 9,
+          "y": 5
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "n_placements": 20,
+      "types_used": [
+        "B",
+        "E"
+      ],
+      "canonical": "(('B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B'), ('B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B'), ('B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B'), ('B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B'), ('B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B'), ('B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B'), ('B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B'), ('B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B', 'B'), ('E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E'), ('E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E', 'E'))",
+      "placements": [
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 0,
+          "y": 0
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 0,
+          "y": 5
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 1,
+          "y": 0
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 1,
+          "y": 5
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 2,
+          "y": 0
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 2,
+          "y": 5
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 3,
+          "y": 0
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 3,
+          "y": 5
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 4,
+          "y": 0
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 4,
+          "y": 5
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 5,
+          "y": 0
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 5,
+          "y": 5
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 6,
+          "y": 0
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 6,
+          "y": 5
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 7,
+          "y": 0
+        },
+        {
+          "type": "B",
+          "rotation": 0,
+          "x": 7,
+          "y": 5
+        },
+        {
+          "type": "E",
+          "rotation": 0,
+          "x": 8,
+          "y": 0
+        },
+        {
+          "type": "E",
+          "rotation": 2,
+          "x": 8,
+          "y": 2
+        },
+        {
+          "type": "E",
+          "rotation": 0,
+          "x": 8,
+          "y": 5
+        },
+        {
+          "type": "E",
+          "rotation": 2,
+          "x": 8,
+          "y": 7
+        }
+      ]
+    }
+  ],
+  "note": "Witnesses are feasibility proofs for the catalogue. They are not shown to the packing agent and are not a learning result."
+}

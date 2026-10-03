@@ -1,0 +1,459 @@
+{
+  "store_ids": [
+    "inv_a0fc2242608a",
+    "inv_3fce6425e7c8"
+  ],
+  "fresh_ids": [
+    "inv_2f4940dd8206",
+    "inv_82c6d6f9ea01"
+  ],
+  "train_families": [
+    "inv_3fce6425e7c8"
+  ],
+  "test_families": [
+    "inv_a0fc2242608a"
+  ],
+  "n_exact_pool": 2,
+  "n_transform_pool": 4,
+  "n_nomatch_pool": 6,
+  "n_fresh_pool": 2,
+  "transform_coverage_in_pool": {
+    "rot90": 2,
+    "rot180": 1,
+    "rot270": 1,
+    "refl_x": 0,
+    "refl_y": 0,
+    "refl_d": 0,
+    "refl_ad": 0
+  },
+  "n_keys": 32,
+  "n_overwrites": 0,
+  "storage_bytes": 4680,
+  "selector": {
+    "candidates": [
+      "rot90",
+      "rot180",
+      "rot270",
+      "refl_x",
+      "refl_y",
+      "refl_d",
+      "refl_ad"
+    ],
+    "coverage": {
+      "rot90": {
+        "attempts": 3,
+        "compatible": 1,
+        "valid_replays": 1,
+        "successes": 1,
+        "fails": 0,
+        "insufficient_coverage": false
+      },
+      "rot180": {
+        "attempts": 3,
+        "compatible": 1,
+        "valid_replays": 1,
+        "successes": 1,
+        "fails": 0,
+        "insufficient_coverage": false
+      },
+      "rot270": {
+        "attempts": 3,
+        "compatible": 1,
+        "valid_replays": 1,
+        "successes": 1,
+        "fails": 0,
+        "insufficient_coverage": false
+      },
+      "refl_x": {
+        "attempts": 3,
+        "compatible": 0,
+        "valid_replays": 0,
+        "successes": 0,
+        "fails": 0,
+        "insufficient_coverage": true
+      },
+      "refl_y": {
+        "attempts": 3,
+        "compatible": 0,
+        "valid_replays": 0,
+        "successes": 0,
+        "fails": 0,
+        "insufficient_coverage": true
+      },
+      "refl_d": {
+        "attempts": 3,
+        "compatible": 0,
+        "valid_replays": 0,
+        "successes": 0,
+        "fails": 0,
+        "insufficient_coverage": true
+      },
+      "refl_ad": {
+        "attempts": 3,
+        "compatible": 0,
+        "valid_replays": 0,
+        "successes": 0,
+        "fails": 0,
+        "insufficient_coverage": true
+      }
+    },
+    "success": {
+      "rot90": 1,
+      "rot180": 1,
+      "rot270": 1,
+      "refl_x": 0,
+      "refl_y": 0,
+      "refl_d": 0,
+      "refl_ad": 0
+    },
+    "fail": {
+      "rot90": 0,
+      "rot180": 0,
+      "rot270": 0,
+      "refl_x": 0,
+      "refl_y": 0,
+      "refl_d": 0,
+      "refl_ad": 0
+    },
+    "selected": [
+      "rot90",
+      "rot180",
+      "rot270"
+    ],
+    "rule": "select T if train successes >= 1 and train validation/transform failures == 0",
+    "does_not_invent_transforms": true,
+    "zero_success_without_compatible_is_not_useless": true
+  },
+  "stream_meta": [
+    {
+      "rate": 0.0,
+      "realized_rate": 0.0,
+      "seed": 11,
+      "n": 6,
+      "counts": {
+        "exact_recurrence": 0,
+        "valid_transform": 0,
+        "no_match": 3,
+        "fresh": 3
+      }
+    },
+    {
+      "rate": 1.0,
+      "realized_rate": 1.0,
+      "seed": 11,
+      "n": 6,
+      "counts": {
+        "exact_recurrence": 3,
+        "valid_transform": 3,
+        "no_match": 0,
+        "fresh": 0
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "n": 6,
+      "split": "mix_p000",
+      "condition": "primitive",
+      "n_tasks": 4,
+      "n_seeds": 1,
+      "mean_A": 1004.6666666666666,
+      "mean_Q": 77.0,
+      "mean_effort_saving": 0.0,
+      "quality_loss_rate": 0.0,
+      "n_quality_loss": 0,
+      "acceptable_rate": 1.0,
+      "n_hits": 0,
+      "n_exact_hits": 0,
+      "n_equiv_hits": 0,
+      "mean_lookup": 0.0,
+      "mean_matching": 0.0,
+      "mean_transformation": 0.0,
+      "mean_validation": 0.0,
+      "mean_primitive_evals": 1004.6666666666666,
+      "by_hidden_kind": {
+        "fresh": {
+          "n": 3,
+          "mean_A": 752.0,
+          "mean_effort_saving": 0.0,
+          "n_hits": 0
+        },
+        "no_match": {
+          "n": 3,
+          "mean_A": 1257.3333333333333,
+          "mean_effort_saving": 0.0,
+          "n_hits": 0
+        }
+      }
+    },
+    {
+      "n": 6,
+      "split": "mix_p000",
+      "condition": "exact",
+      "n_tasks": 4,
+      "n_seeds": 1,
+      "mean_A": 1019.0,
+      "mean_Q": 77.0,
+      "mean_effort_saving": -14.333333333333334,
+      "quality_loss_rate": 0.0,
+      "n_quality_loss": 0,
+      "acceptable_rate": 1.0,
+      "n_hits": 0,
+      "n_exact_hits": 0,
+      "n_equiv_hits": 0,
+      "mean_lookup": 14.333333333333334,
+      "mean_matching": 0.0,
+      "mean_transformation": 0.0,
+      "mean_validation": 0.0,
+      "mean_primitive_evals": 1004.6666666666666,
+      "by_hidden_kind": {
+        "fresh": {
+          "n": 3,
+          "mean_A": 767.0,
+          "mean_effort_saving": -15.0,
+          "n_hits": 0
+        },
+        "no_match": {
+          "n": 3,
+          "mean_A": 1271.0,
+          "mean_effort_saving": -13.666666666666666,
+          "n_hits": 0
+        }
+      }
+    },
+    {
+      "n": 6,
+      "split": "mix_p000",
+      "condition": "supplied",
+      "n_tasks": 4,
+      "n_seeds": 1,
+      "mean_A": 1119.3333333333333,
+      "mean_Q": 77.0,
+      "mean_effort_saving": -114.66666666666667,
+      "quality_loss_rate": 0.0,
+      "n_quality_loss": 0,
+      "acceptable_rate": 1.0,
+      "n_hits": 0,
+      "n_exact_hits": 0,
+      "n_equiv_hits": 0,
+      "mean_lookup": 14.333333333333334,
+      "mean_matching": 100.33333333333333,
+      "mean_transformation": 0.0,
+      "mean_validation": 0.0,
+      "mean_primitive_evals": 1004.6666666666666,
+      "by_hidden_kind": {
+        "fresh": {
+          "n": 3,
+          "mean_A": 872.0,
+          "mean_effort_saving": -120.0,
+          "n_hits": 0
+        },
+        "no_match": {
+          "n": 3,
+          "mean_A": 1366.6666666666667,
+          "mean_effort_saving": -109.33333333333333,
+          "n_hits": 0
+        }
+      }
+    },
+    {
+      "n": 6,
+      "split": "mix_p000",
+      "condition": "learned",
+      "n_tasks": 4,
+      "n_seeds": 1,
+      "mean_A": 1062.0,
+      "mean_Q": 77.0,
+      "mean_effort_saving": -57.333333333333336,
+      "quality_loss_rate": 0.0,
+      "n_quality_loss": 0,
+      "acceptable_rate": 1.0,
+      "n_hits": 0,
+      "n_exact_hits": 0,
+      "n_equiv_hits": 0,
+      "mean_lookup": 14.333333333333334,
+      "mean_matching": 43.0,
+      "mean_transformation": 0.0,
+      "mean_validation": 0.0,
+      "mean_primitive_evals": 1004.6666666666666,
+      "by_hidden_kind": {
+        "fresh": {
+          "n": 3,
+          "mean_A": 812.0,
+          "mean_effort_saving": -60.0,
+          "n_hits": 0
+        },
+        "no_match": {
+          "n": 3,
+          "mean_A": 1312.0,
+          "mean_effort_saving": -54.666666666666664,
+          "n_hits": 0
+        }
+      }
+    },
+    {
+      "n": 6,
+      "split": "mix_p100",
+      "condition": "primitive",
+      "n_tasks": 4,
+      "n_seeds": 1,
+      "mean_A": 1029.3333333333333,
+      "mean_Q": 76.16666666666667,
+      "mean_effort_saving": 0.0,
+      "quality_loss_rate": 0.0,
+      "n_quality_loss": 0,
+      "acceptable_rate": 1.0,
+      "n_hits": 0,
+      "n_exact_hits": 0,
+      "n_equiv_hits": 0,
+      "mean_lookup": 0.0,
+      "mean_matching": 0.0,
+      "mean_transformation": 0.0,
+      "mean_validation": 0.0,
+      "mean_primitive_evals": 1029.3333333333333,
+      "by_hidden_kind": {
+        "exact_recurrence": {
+          "n": 3,
+          "mean_A": 768.0,
+          "mean_effort_saving": 0.0,
+          "n_hits": 0
+        },
+        "valid_transform": {
+          "n": 3,
+          "mean_A": 1290.6666666666667,
+          "mean_effort_saving": 0.0,
+          "n_hits": 0
+        }
+      }
+    },
+    {
+      "n": 6,
+      "split": "mix_p100",
+      "condition": "exact",
+      "n_tasks": 4,
+      "n_seeds": 1,
+      "mean_A": 661.0,
+      "mean_Q": 76.16666666666667,
+      "mean_effort_saving": 368.3333333333333,
+      "quality_loss_rate": 0.0,
+      "n_quality_loss": 0,
+      "acceptable_rate": 1.0,
+      "n_hits": 3,
+      "n_exact_hits": 3,
+      "n_equiv_hits": 0,
+      "mean_lookup": 7.666666666666667,
+      "mean_matching": 0.0,
+      "mean_transformation": 0.0,
+      "mean_validation": 8.0,
+      "mean_primitive_evals": 645.3333333333334,
+      "by_hidden_kind": {
+        "exact_recurrence": {
+          "n": 3,
+          "mean_A": 17.0,
+          "mean_effort_saving": 751.0,
+          "n_hits": 3
+        },
+        "valid_transform": {
+          "n": 3,
+          "mean_A": 1305.0,
+          "mean_effort_saving": -14.333333333333334,
+          "n_hits": 0
+        }
+      }
+    },
+    {
+      "n": 6,
+      "split": "mix_p100",
+      "condition": "supplied",
+      "n_tasks": 4,
+      "n_seeds": 1,
+      "mean_A": 56.333333333333336,
+      "mean_Q": 76.33333333333333,
+      "mean_effort_saving": 973.0,
+      "quality_loss_rate": 0.0,
+      "n_quality_loss": 0,
+      "acceptable_rate": 1.0,
+      "n_hits": 6,
+      "n_exact_hits": 3,
+      "n_equiv_hits": 3,
+      "mean_lookup": 1.0,
+      "mean_matching": 0.6666666666666666,
+      "mean_transformation": 7.333333333333333,
+      "mean_validation": 15.333333333333334,
+      "mean_primitive_evals": 32.0,
+      "by_hidden_kind": {
+        "exact_recurrence": {
+          "n": 3,
+          "mean_A": 17.0,
+          "mean_effort_saving": 751.0,
+          "n_hits": 3
+        },
+        "valid_transform": {
+          "n": 3,
+          "mean_A": 95.66666666666667,
+          "mean_effort_saving": 1195.0,
+          "n_hits": 3
+        }
+      }
+    },
+    {
+      "n": 6,
+      "split": "mix_p100",
+      "condition": "learned",
+      "n_tasks": 4,
+      "n_seeds": 1,
+      "mean_A": 56.333333333333336,
+      "mean_Q": 76.33333333333333,
+      "mean_effort_saving": 973.0,
+      "quality_loss_rate": 0.0,
+      "n_quality_loss": 0,
+      "acceptable_rate": 1.0,
+      "n_hits": 6,
+      "n_exact_hits": 3,
+      "n_equiv_hits": 3,
+      "mean_lookup": 1.0,
+      "mean_matching": 0.6666666666666666,
+      "mean_transformation": 7.333333333333333,
+      "mean_validation": 15.333333333333334,
+      "mean_primitive_evals": 32.0,
+      "by_hidden_kind": {
+        "exact_recurrence": {
+          "n": 3,
+          "mean_A": 17.0,
+          "mean_effort_saving": 751.0,
+          "n_hits": 3
+        },
+        "valid_transform": {
+          "n": 3,
+          "mean_A": 95.66666666666667,
+          "mean_effort_saving": 1195.0,
+          "n_hits": 3
+        }
+      }
+    }
+  ],
+  "learned_by_rate": [
+    {
+      "rate": 0.0,
+      "mean_A": 1062.0,
+      "mean_effort_saving": -57.333333333333336,
+      "quality_loss_rate": 0.0,
+      "n": 6,
+      "n_tasks": 4,
+      "n_seeds": 1,
+      "net_save_quality_ok": false
+    },
+    {
+      "rate": 1.0,
+      "mean_A": 56.333333333333336,
+      "mean_effort_saving": 973.0,
+      "quality_loss_rate": 0.0,
+      "n": 6,
+      "n_tasks": 4,
+      "n_seeds": 1,
+      "net_save_quality_ok": true
+    }
+  ],
+  "smallest_rate_learned_netsaves": 1.0,
+  "note": "Useful recurrence rate is the hidden share of exact plus valid-transform tasks. No-match tasks were checked against the entire frozen table under every permitted T. A match to another stored intermediate is valid retrieval and was excluded from no-match. Evaluations at a rate are stream slots crossed with seeds, not independent learning tests. Natural unforced encounter frequency is not measured here."
+}

@@ -1,0 +1,38 @@
+{
+  "q_min": 75.0,
+  "scan": 48,
+  "physical": 80,
+  "undo_budget": 4,
+  "eval_cap": 8000,
+  "score_area": 1.0,
+  "score_contact": 0.2,
+  "score_boundary": 0.05,
+  "store_seeds": [
+    11
+  ],
+  "store_phase": "expt15-t2-store",
+  "applicability_seed": 11,
+  "applicability_phase": "expt16-applicability",
+  "min_pieces": 2,
+  "max_pieces": 3,
+  "max_checks_per_box": 4000,
+  "min_inventories": 2,
+  "early_below": 34,
+  "middle_below": 67,
+  "cheap_fraction": 0.1,
+  "min_fit_boxes": 3,
+  "manifest_set": "smoke",
+  "store_limit": 2,
+  "fresh_limit": 2,
+  "representation": "translation-normalised relative anchors and piece counts; engineered, not discovered",
+  "rotations_or_reflections": false,
+  "rectangular_outline_required": false,
+  "large_pieces_first": false,
+  "commitment": false,
+  "stage_bins": {
+    "early": "occupied cells < 34",
+    "middle": "34 <= occupied cells < 67",
+    "late": "occupied cells >= 67"
+  },
+  "question": "Do successful packing trajectories contain small arrangements that recur across different problems and can be recognized cheaply enough to justify testing their reuse?"
+}

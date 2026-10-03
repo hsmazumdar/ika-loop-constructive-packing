@@ -1,0 +1,17 @@
+resume: rerunning ['full_s300', 'full_s301', 'full_s302', 'full_s303', 'full_s304', 'full_s305', 'no_meta_s203', 'no_meta_matched_floor_s200', 'no_dream_s200', 'no_dream_s201', 'no_concepts_s200', 'no_concepts_s201', 'no_concepts_s202']
+output: K:\PaperSubmissions2026\Assembly_Skill_Learning\Expt_22d_Long_Ablations_Saturation\results\20261001_060654_main
+13 streams on 13 workers (pid 18292)
+[   2666s] finished no_meta s203
+[   2863s] finished no_dream s201
+[   2865s] finished no_meta_matched_floor s200
+[   2930s] finished no_concepts s201
+[   2941s] finished no_concepts s202
+[   3010s] finished no_dream s200
+[   3390s] finished full s301
+[   3968s] finished no_concepts s200
+[   4135s] finished full s302
+[   4202s] finished full s304
+[   4232s] finished full s300
+[   6460s] finished full s303
+[   6522s] finished full s305
+report written to K:\PaperSubmissions2026\Assembly_Skill_Learning\Expt_22d_Long_Ablations_Saturation\results\20261001_060654_main\summary.md

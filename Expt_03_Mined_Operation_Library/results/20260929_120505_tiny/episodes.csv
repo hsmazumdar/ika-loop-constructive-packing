@@ -1,0 +1,13 @@
+phase,snapshot,arm,seed,task_id,Q,best_Q,P,E,target_met,attempts_to_target,censored,undos,physical,invalid_places,termination,candidate_evals,guard_evals,library_lookups,feature_evals,model_transitions,sim_expansions,gpu_ops,macros_invoked,macros_completed,macros_interrupted,cheap_actions,library_ops,library_bytes
+development,2,primitive,11,inv_22521942205c,76,76,16,4.75,False,16,True,0,17,0,no_legal,1100,0,0,960,0,0,20,0,0,0,0,0,0
+development,2,rect_mined,11,inv_22521942205c,76,76,16,4.75,False,16,True,0,17,0,no_legal,1100,0,0,960,0,0,20,0,0,0,0,0,0
+heldout,0,primitive,11,inv_37a9c4ede811,74,74,15,4.933333,False,15,True,0,16,0,no_legal,1484,0,0,1056,0,0,22,0,0,0,0,0,0
+heldout,0,rect_mined,11,inv_37a9c4ede811,74,74,15,4.933333,False,15,True,0,16,0,no_legal,1484,0,0,1056,0,0,22,0,0,0,0,0,0
+heldout,0,neutral_mined,11,inv_37a9c4ede811,74,74,15,4.933333,False,15,True,0,16,0,no_legal,1484,0,0,1056,0,0,22,0,0,0,0,0,0
+heldout,0,matched_control,11,inv_37a9c4ede811,74,74,15,4.933333,False,15,True,0,16,0,no_legal,1484,0,0,1056,0,0,22,0,0,0,0,0,0
+heldout,0,rect_mined_no_retrieval,11,inv_37a9c4ede811,74,74,15,4.933333,False,15,True,0,16,0,no_legal,1484,0,0,1056,0,0,22,0,0,0,0,0,0
+heldout,2,primitive,11,inv_37a9c4ede811,74,74,15,4.933333,False,15,True,0,16,0,no_legal,1484,0,0,1056,0,0,22,0,0,0,0,0,0
+heldout,2,rect_mined,11,inv_37a9c4ede811,74,74,15,4.933333,False,15,True,0,16,0,no_legal,1484,0,0,1056,0,0,22,0,0,0,0,0,0
+heldout,2,neutral_mined,11,inv_37a9c4ede811,74,74,15,4.933333,False,15,True,0,16,0,no_legal,1484,0,0,1056,0,0,22,0,0,0,0,0,0
+heldout,2,matched_control,11,inv_37a9c4ede811,74,74,15,4.933333,False,15,True,0,16,0,no_legal,1484,0,0,1056,0,0,22,0,0,0,0,0,0
+heldout,2,rect_mined_no_retrieval,11,inv_37a9c4ede811,74,74,15,4.933333,False,15,True,0,16,0,no_legal,1484,0,0,1056,0,0,22,0,0,0,0,0,0

@@ -1,0 +1,13 @@
+{
+  "hypothesis": "frozen exact and learned-transform memory save effort at preserved quality when ordinary search reaches reusable states without constructed prefixes",
+  "mechanism": "frozen Expt-11/12",
+  "constructed_prefix_on_eval": false,
+  "scheduled_matches": false,
+  "online_memory_growth": false,
+  "category_hidden": true,
+  "family_generator_consults_table": false,
+  "seeds_are_paired_not_independent_memories": true,
+  "does_not_invent_transforms": true,
+  "does_not_expand_abstraction": true,
+  "A_identity": "primitive_evals + lookup + matching + transformation + validation + learning"
+}

@@ -1,0 +1,18 @@
+{
+  "k": 2,
+  "consult_budget": 50,
+  "dev_recall": [
+    {
+      "k": 2,
+      "n_states_with_oracle_useful": 8,
+      "n_shortlist_contains_useful": 8,
+      "recall": 1.0
+    }
+  ],
+  "budget_table": [
+    {
+      "consult_budget": 50,
+      "note": "smoke: frozen without sweep"
+    }
+  ]
+}

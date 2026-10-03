@@ -1,0 +1,133 @@
+{
+  "task_id": "inv_3aef008cf35a",
+  "inventory": {
+    "A": 1,
+    "E": 4,
+    "K": 3,
+    "M": 4,
+    "O": 4,
+    "P": 4
+  },
+  "placements": [
+    {
+      "type": "P",
+      "rotation": 1,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "P",
+      "rotation": 3,
+      "x": 2,
+      "y": 1
+    },
+    {
+      "type": "M",
+      "rotation": 1,
+      "x": 4,
+      "y": 0
+    },
+    {
+      "type": "P",
+      "rotation": 2,
+      "x": 8,
+      "y": 0
+    },
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 0,
+      "y": 2
+    },
+    {
+      "type": "K",
+      "rotation": 0,
+      "x": 1,
+      "y": 2
+    },
+    {
+      "type": "E",
+      "rotation": 3,
+      "x": 6,
+      "y": 1
+    },
+    {
+      "type": "P",
+      "rotation": 1,
+      "x": 3,
+      "y": 3
+    },
+    {
+      "type": "A",
+      "rotation": 2,
+      "x": 6,
+      "y": 3
+    },
+    {
+      "type": "E",
+      "rotation": 2,
+      "x": 4,
+      "y": 4
+    },
+    {
+      "type": "E",
+      "rotation": 2,
+      "x": 8,
+      "y": 4
+    },
+    {
+      "type": "K",
+      "rotation": 2,
+      "x": 1,
+      "y": 4
+    },
+    {
+      "type": "M",
+      "rotation": 0,
+      "x": 3,
+      "y": 5
+    },
+    {
+      "type": "K",
+      "rotation": 0,
+      "x": 0,
+      "y": 6
+    },
+    {
+      "type": "O",
+      "rotation": 3,
+      "x": 4,
+      "y": 7
+    },
+    {
+      "type": "E",
+      "rotation": 3,
+      "x": 1,
+      "y": 8
+    },
+    {
+      "type": "O",
+      "rotation": 1,
+      "x": 5,
+      "y": 6
+    },
+    {
+      "type": "M",
+      "rotation": 1,
+      "x": 5,
+      "y": 9
+    },
+    {
+      "type": "O",
+      "rotation": 3,
+      "x": 7,
+      "y": 6
+    },
+    {
+      "type": "O",
+      "rotation": 1,
+      "x": 8,
+      "y": 7
+    }
+  ]
+}

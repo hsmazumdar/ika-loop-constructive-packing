@@ -1,0 +1,409 @@
+{
+  "tasks": [
+    {
+      "task_id": "inv_2b222cbab0cf",
+      "family": "inventory_tasks",
+      "inventory": {
+        "H": 6,
+        "K": 2,
+        "N": 8,
+        "P": 4
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 4,
+        "pieces": 20,
+        "max_type_cells": 32
+      },
+      "workload": "store_independent"
+    },
+    {
+      "task_id": "inv_b36eb250af14",
+      "family": "inventory_tasks",
+      "inventory": {
+        "E": 7,
+        "F": 3,
+        "H": 1,
+        "I": 3,
+        "K": 2,
+        "N": 5
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 6,
+        "pieces": 21,
+        "max_type_cells": 35
+      },
+      "workload": "store_independent"
+    },
+    {
+      "task_id": "inv_f57c85d9b880",
+      "family": "inventory_tasks",
+      "inventory": {
+        "B": 8,
+        "D": 3,
+        "F": 5,
+        "O": 5
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 4,
+        "pieces": 21,
+        "max_type_cells": 40
+      },
+      "workload": "store_independent"
+    },
+    {
+      "task_id": "inv_774878042db5",
+      "family": "inventory_tasks",
+      "inventory": {
+        "A": 2,
+        "E": 7,
+        "F": 4,
+        "H": 3,
+        "N": 5
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 5,
+        "pieces": 21,
+        "max_type_cells": 35
+      },
+      "workload": "store_independent"
+    },
+    {
+      "task_id": "inv_a15302f8cf81",
+      "family": "inventory_tasks",
+      "inventory": {
+        "E": 5,
+        "G": 2,
+        "H": 5,
+        "M": 10
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 4,
+        "pieces": 22,
+        "max_type_cells": 40
+      },
+      "workload": "store_independent"
+    },
+    {
+      "task_id": "inv_031513c9ab9c",
+      "family": "inventory_tasks",
+      "inventory": {
+        "A": 1,
+        "C": 4,
+        "H": 6,
+        "N": 6,
+        "P": 3
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 5,
+        "pieces": 20,
+        "max_type_cells": 30
+      },
+      "workload": "store_independent"
+    },
+    {
+      "task_id": "inv_f7c81219d4c4",
+      "family": "inventory_tasks",
+      "inventory": {
+        "A": 3,
+        "B": 6,
+        "E": 6,
+        "H": 5
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 4,
+        "pieces": 20,
+        "max_type_cells": 30
+      },
+      "workload": "store_independent"
+    },
+    {
+      "task_id": "inv_484671fe857e",
+      "family": "inventory_tasks",
+      "inventory": {
+        "C": 2,
+        "G": 4,
+        "J": 2,
+        "K": 4,
+        "M": 10
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 5,
+        "pieces": 22,
+        "max_type_cells": 40
+      },
+      "workload": "store_independent"
+    },
+    {
+      "task_id": "inv_06523960cf2e",
+      "family": "fam_401a1ef987d4",
+      "inventory": {
+        "A": 6,
+        "B": 6,
+        "I": 4,
+        "N": 5
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 4,
+        "pieces": 21,
+        "max_type_cells": 30
+      },
+      "family_id": "fam_401a1ef987d4",
+      "type_set": [
+        "A",
+        "B",
+        "I",
+        "N"
+      ],
+      "workload": "recurring_family"
+    },
+    {
+      "task_id": "inv_93570f3560be",
+      "family": "fam_401a1ef987d4",
+      "inventory": {
+        "A": 1,
+        "B": 4,
+        "I": 7,
+        "N": 10
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 4,
+        "pieces": 22,
+        "max_type_cells": 40
+      },
+      "family_id": "fam_401a1ef987d4",
+      "type_set": [
+        "A",
+        "B",
+        "I",
+        "N"
+      ],
+      "workload": "recurring_family"
+    },
+    {
+      "task_id": "inv_7a8761d3439c",
+      "family": "fam_e7976a22a19a",
+      "inventory": {
+        "A": 4,
+        "D": 7,
+        "G": 2,
+        "P": 5
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 4,
+        "pieces": 18,
+        "max_type_cells": 35
+      },
+      "family_id": "fam_e7976a22a19a",
+      "type_set": [
+        "A",
+        "D",
+        "G",
+        "P"
+      ],
+      "workload": "recurring_family"
+    },
+    {
+      "task_id": "inv_1e199d9ac5ae",
+      "family": "fam_e7976a22a19a",
+      "inventory": {
+        "A": 7,
+        "D": 2,
+        "G": 4,
+        "P": 5
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 4,
+        "pieces": 18,
+        "max_type_cells": 35
+      },
+      "family_id": "fam_e7976a22a19a",
+      "type_set": [
+        "A",
+        "D",
+        "G",
+        "P"
+      ],
+      "workload": "recurring_family"
+    },
+    {
+      "task_id": "inv_a248a0d1605d",
+      "family": "fam_8c7628f04bfa",
+      "inventory": {
+        "B": 6,
+        "C": 4,
+        "D": 2,
+        "M": 4,
+        "O": 6
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 5,
+        "pieces": 22,
+        "max_type_cells": 30
+      },
+      "family_id": "fam_8c7628f04bfa",
+      "type_set": [
+        "B",
+        "C",
+        "D",
+        "M",
+        "O"
+      ],
+      "workload": "recurring_family"
+    },
+    {
+      "task_id": "inv_46017a13e7a6",
+      "family": "fam_8c7628f04bfa",
+      "inventory": {
+        "B": 4,
+        "C": 6,
+        "D": 2,
+        "M": 10
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 4,
+        "pieces": 22,
+        "max_type_cells": 40
+      },
+      "family_id": "fam_8c7628f04bfa",
+      "type_set": [
+        "B",
+        "C",
+        "D",
+        "M",
+        "O"
+      ],
+      "workload": "recurring_family"
+    },
+    {
+      "task_id": "inv_167b223e71b1",
+      "family": "fam_26a74e92e1e9",
+      "inventory": {
+        "C": 2,
+        "E": 2,
+        "G": 2,
+        "H": 4,
+        "M": 2,
+        "O": 7,
+        "P": 2
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 7,
+        "pieces": 21,
+        "max_type_cells": 28
+      },
+      "family_id": "fam_26a74e92e1e9",
+      "type_set": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "M",
+        "O",
+        "P"
+      ],
+      "workload": "recurring_family"
+    },
+    {
+      "task_id": "inv_06795daf7f6a",
+      "family": "fam_26a74e92e1e9",
+      "inventory": {
+        "C": 1,
+        "E": 4,
+        "G": 2,
+        "H": 2,
+        "M": 7,
+        "O": 5,
+        "P": 1
+      },
+      "constructed_prefix": null,
+      "descriptors": {
+        "types": 7,
+        "pieces": 22,
+        "max_type_cells": 28
+      },
+      "family_id": "fam_26a74e92e1e9",
+      "type_set": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "M",
+        "O",
+        "P"
+      ],
+      "workload": "recurring_family"
+    }
+  ],
+  "specs": [
+    {
+      "family_id": "fam_401a1ef987d4",
+      "type_set": [
+        "A",
+        "B",
+        "I",
+        "N"
+      ],
+      "rule": "independent catalogue packings restricted to a frozen type-set; inventory counts may differ; the memory table is not consulted",
+      "consults_memory_table": false
+    },
+    {
+      "family_id": "fam_e7976a22a19a",
+      "type_set": [
+        "A",
+        "D",
+        "G",
+        "P"
+      ],
+      "rule": "independent catalogue packings restricted to a frozen type-set; inventory counts may differ; the memory table is not consulted",
+      "consults_memory_table": false
+    },
+    {
+      "family_id": "fam_8c7628f04bfa",
+      "type_set": [
+        "B",
+        "C",
+        "D",
+        "M",
+        "O"
+      ],
+      "rule": "independent catalogue packings restricted to a frozen type-set; inventory counts may differ; the memory table is not consulted",
+      "consults_memory_table": false
+    },
+    {
+      "family_id": "fam_26a74e92e1e9",
+      "type_set": [
+        "C",
+        "E",
+        "G",
+        "H",
+        "M",
+        "O",
+        "P"
+      ],
+      "rule": "independent catalogue packings restricted to a frozen type-set; inventory counts may differ; the memory table is not consulted",
+      "consults_memory_table": false
+    }
+  ],
+  "source": {
+    "store": "Expt_15_Local_Subproblem_Memory/data/store.json",
+    "store_sha256": "c625d67d9ce43fe4b313124b4937748e817afba1c483b11211f8a95581347ab6",
+    "family_store": "Expt_15_Local_Subproblem_Memory/data/family_store.json",
+    "family_store_sha256": "947dceaff1d9d8451ea3b963d5c54276408b85b30c54a052b8a4ab2108696a15",
+    "n_store_independent": 8
+  }
+}

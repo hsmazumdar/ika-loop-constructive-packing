@@ -1,0 +1,11 @@
+seed,task_id,split,condition,Q,A,acceptable,termination,primitive_evals,lookup_cost,validation_cost,learning_cost,reuse_cost,lookups,hits,replays,validation_fails,A_identity_ok,n_place,prefix_primitive_evals,prefix_n_place,remaining_primitive_evals,first_hit_occupied,first_hit_n_place,initial_state_hit,natural_opportunities,first_natural_opportunity_n_place,lookups_before_first_hit,constructed_prefix_ok,donor_task_id,cut,prefix_occupied,suffix_len,A_primitive,Q_primitive,effort_saving,quality_loss,remaining_search_avoided,n_keys_added
+11,inv_03fd2ad4b58d,store,primitive,76.0,832,True,quality,816,0,0,16,16,0,0,0,0,True,16,816,16,0,,,False,0,,0,,,,,,816,76.0,0,False,0,16
+11,inv_3254a8f18876,store,primitive,78.0,880,True,quality,864,0,0,16,16,0,0,0,0,True,16,864,16,0,,,False,0,,0,,,,,,864,78.0,0,False,0,16
+11,inv_03fd2ad4b58d,recurring,exact,76.0,17,True,quality,0,1,16,0,17,1,1,1,0,True,16,0,0,0,0,0,True,0,,1,,,,,,816,76.0,799,False,816,
+11,inv_3254a8f18876,recurring,exact,78.0,17,True,quality,0,1,16,0,17,1,1,1,0,True,16,0,0,0,0,0,True,0,,1,,,,,,864,78.0,847,False,864,
+11,cstr_8b461c7489a8,constructed,memory_off,76.0,816,True,quality,816,0,0,0,0,0,0,0,0,True,16,96,2,720,,,False,0,,0,True,inv_03fd2ad4b58d,2,10,14,816,76.0,0,False,0,
+11,cstr_8b461c7489a8,constructed,memory_on,76.0,111,True,quality,96,1,14,0,15,1,1,1,0,True,16,96,2,0,10,2,False,0,,1,True,inv_03fd2ad4b58d,2,10,14,816,76.0,705,False,720,
+11,inv_6416ed2616d2,fresh,primitive,76.0,816,True,quality,816,0,0,0,0,0,0,0,0,True,16,816,16,0,,,False,0,,0,,,,,,816,76.0,0,False,0,
+11,inv_6416ed2616d2,fresh,exact,76.0,832,True,quality,816,16,0,0,16,16,0,0,0,True,16,816,16,0,,,False,0,,16,,,,,,816,76.0,-16,False,0,
+11,inv_03be0c5a020a,fresh,primitive,75.0,720,True,quality,720,0,0,0,0,0,0,0,0,True,15,720,15,0,,,False,0,,0,,,,,,720,75.0,0,False,0,
+11,inv_03be0c5a020a,fresh,exact,75.0,735,True,quality,720,15,0,0,15,15,0,0,0,True,15,720,15,0,,,False,0,,15,,,,,,720,75.0,-15,False,0,

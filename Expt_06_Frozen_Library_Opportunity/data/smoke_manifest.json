@@ -1,0 +1,14 @@
+{
+  "unique": 4,
+  "target": 4,
+  "attempts": 4,
+  "status": "OK",
+  "seed": 2026092961,
+  "out_name": "smoke",
+  "task_ids": [
+    "inv_ea882a84a82d",
+    "inv_4a2a37fc1d41",
+    "inv_070fc576d093",
+    "inv_fde43750cad6"
+  ]
+}

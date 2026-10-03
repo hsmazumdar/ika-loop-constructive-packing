@@ -1,0 +1,10 @@
+{
+  "skip_A": 698289,
+  "commit_A": 752297,
+  "skip_rollouts": 541,
+  "commit_rollouts": 541,
+  "cache_hits": 0,
+  "feature_checks": 17167,
+  "index_probes": 1050,
+  "compat_checks": 869
+}

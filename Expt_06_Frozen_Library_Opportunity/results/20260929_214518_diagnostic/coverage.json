@@ -1,0 +1,22 @@
+{
+  "n_states": 504,
+  "frac_states_inventory_compatible": 0.5158730158730159,
+  "frac_states_legal_placement": 0.4880952380952381,
+  "frac_states_beneficial": 0.4801587301587302,
+  "frac_legal_states_beneficial": 0.983739837398374,
+  "n_boxes": 72,
+  "n_boxes_with_opportunity": 44,
+  "n_boxes_complete_no_opportunity": 28,
+  "n_boxes_incomplete_unknown": 0,
+  "frac_boxes_with_opportunity_lower_bound": 0.6111111111111112,
+  "frac_complete_boxes_with_opportunity": 0.0,
+  "n_complete_pairs": 28,
+  "n_distinct_beneficial_ops": 10,
+  "beneficial_depths": [
+    1
+  ],
+  "n_flat_candidates": 7808,
+  "n_composed_candidates": 0,
+  "n_composed_beneficial": 0,
+  "n_active_composed_ops": 0
+}

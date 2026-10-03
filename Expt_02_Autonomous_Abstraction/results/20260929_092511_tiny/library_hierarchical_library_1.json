@@ -1,0 +1,434 @@
+{
+  "byte_cap": 262144,
+  "confirm_uses": 3,
+  "confirm_tasks": 2,
+  "expiry_boxes": 20,
+  "frozen": false,
+  "evictions": 0,
+  "rejected_positive": 0,
+  "selector": {
+    "ltm": {
+      "n": 2,
+      "sum": 0.192
+    }
+  },
+  "ops": {
+    "op_84ebca72d7c61408": {
+      "op_id": "op_84ebca72d7c61408",
+      "parents": [],
+      "ast": {
+        "kind": "SEQ",
+        "children": [
+          {
+            "kind": "PLACE_REL",
+            "type": "B",
+            "rotation": 1,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "kind": "PLACE_REL",
+            "type": "E",
+            "rotation": 2,
+            "dx": 6,
+            "dy": 3
+          }
+        ]
+      },
+      "source": "mine",
+      "provenance": "real",
+      "created_episode": 0,
+      "primitive_sequence": [
+        {
+          "type": "B",
+          "rotation": 1,
+          "dx": 0,
+          "dy": 0,
+          "cells": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              4,
+              0
+            ]
+          ]
+        },
+        {
+          "type": "E",
+          "rotation": 2,
+          "dx": 6,
+          "dy": 3,
+          "cells": [
+            [
+              6,
+              4
+            ],
+            [
+              6,
+              5
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              7,
+              5
+            ]
+          ]
+        }
+      ],
+      "inventory_counts": {
+        "B": 1,
+        "E": 1
+      },
+      "footprint": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          7,
+          5
+        ]
+      ],
+      "guards": {
+        "inventory": {
+          "B": 1,
+          "E": 1
+        },
+        "footprint": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            5
+          ]
+        ],
+        "connected": false
+      },
+      "stats": {
+        "support": 2,
+        "successes": 2,
+        "failures": 0,
+        "real_uses": 2,
+        "sim_uses": 1,
+        "real_task_ids": [
+          "legacy"
+        ],
+        "origins": [
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "utility_sum": 0.192,
+        "utility_sq_sum": 0.018432,
+        "paired_utility_sum": 0.09579999999999994,
+        "physical_cost_sum": 0,
+        "model_cost_sum": 0,
+        "use_count": 2,
+        "boxes_since_benefit": 1,
+        "last_utility": 0.096,
+        "eviction_reason": null
+      },
+      "status": "provisional",
+      "confirmation_scope": "",
+      "depth": 1,
+      "structural_hash": "84ebca72d7c61408"
+    },
+    "op_b533df6b7ecac4b1": {
+      "op_id": "op_b533df6b7ecac4b1",
+      "parents": [
+        "op_84ebca72d7c61408"
+      ],
+      "ast": {
+        "kind": "SEQ",
+        "children": [
+          {
+            "kind": "PLACE_REL",
+            "type": "B",
+            "rotation": 0,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "kind": "PLACE_REL",
+            "type": "E",
+            "rotation": 2,
+            "dx": 6,
+            "dy": 3
+          }
+        ]
+      },
+      "source": "mutate",
+      "provenance": "simulated",
+      "created_episode": 2,
+      "primitive_sequence": [
+        {
+          "type": "B",
+          "rotation": 0,
+          "dx": 0,
+          "dy": 0,
+          "cells": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              0,
+              4
+            ]
+          ]
+        },
+        {
+          "type": "E",
+          "rotation": 2,
+          "dx": 6,
+          "dy": 3,
+          "cells": [
+            [
+              6,
+              4
+            ],
+            [
+              6,
+              5
+            ],
+            [
+              7,
+              3
+            ],
+            [
+              7,
+              4
+            ],
+            [
+              7,
+              5
+            ]
+          ]
+        }
+      ],
+      "inventory_counts": {
+        "B": 1,
+        "E": 1
+      },
+      "footprint": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          7,
+          5
+        ]
+      ],
+      "guards": {
+        "inventory": {
+          "B": 1,
+          "E": 1
+        },
+        "footprint": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            7,
+            4
+          ],
+          [
+            7,
+            5
+          ]
+        ],
+        "connected": false
+      },
+      "stats": {
+        "support": 0,
+        "successes": 0,
+        "failures": 0,
+        "real_uses": 0,
+        "sim_uses": 1,
+        "real_task_ids": [],
+        "origins": [],
+        "utility_sum": 0.0,
+        "utility_sq_sum": 0.0,
+        "paired_utility_sum": 0.04789999999999994,
+        "physical_cost_sum": 0,
+        "model_cost_sum": 0,
+        "use_count": 0,
+        "boxes_since_benefit": 1,
+        "last_utility": 0.04789999999999994,
+        "eviction_reason": null
+      },
+      "status": "provisional",
+      "confirmation_scope": "",
+      "depth": 1,
+      "structural_hash": "b533df6b7ecac4b1"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+03:22:42 [full s9] box 1000 train S1 68.52 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 135s
+03:24:15 [full s9] box 2000 train S1 69.16 hidden 64 concepts 0 tau 1.76 eps 0.088 lr 0.0010 228s
+03:25:47 [full s9] box 3000 train S1 69.32 hidden 64 concepts 2 tau 1.55 eps 0.077 lr 0.0010 319s
+03:26:53 [full s9] box 4000 train S1 69.64 hidden 64 concepts 1 tau 1.36 eps 0.068 lr 0.0010 385s
+03:27:58 [full s9] box 5000 train S1 70.19 hidden 64 concepts 3 tau 1.20 eps 0.060 lr 0.0010 451s
+03:29:31 [full s9] box 6000 train S1 70.70 hidden 64 concepts 3 tau 1.06 eps 0.053 lr 0.0010 544s
+03:30:35 [full s9] box 7000 train S1 72.05 hidden 64 concepts 3 tau 0.93 eps 0.046 lr 0.0010 607s
+03:31:45 [full s9] box 8000 train S1 72.16 hidden 64 concepts 6 tau 0.82 eps 0.041 lr 0.0010 678s
+03:33:10 [full s9] box 9000 train S1 73.13 hidden 64 concepts 6 tau 0.79 eps 0.040 lr 0.0010 763s
+03:34:27 [full s9] box 10000 train S1 73.22 hidden 64 concepts 10 tau 0.73 eps 0.036 lr 0.0009 840s
+03:36:14 [full s9] box 11000 train S1 74.29 hidden 64 concepts 10 tau 0.67 eps 0.032 lr 0.0008 947s
+03:37:35 [full s9] box 12000 train S1 76.37 hidden 64 concepts 14 tau 0.59 eps 0.028 lr 0.0008 1028s
+03:38:57 [full s9] box 13000 train S1 77.27 hidden 64 concepts 14 tau 0.52 eps 0.025 lr 0.0008 1110s
+03:40:08 [full s9] box 14000 train S1 80.61 hidden 64 concepts 89 tau 0.46 eps 0.022 lr 0.0009 1181s
+03:41:22 [full s9] box 15000 train S1 79.91 hidden 64 concepts 89 tau 0.40 eps 0.019 lr 0.0009 1255s
+03:43:21 [full s9] box 16000 train S1 80.90 hidden 64 concepts 102 tau 0.39 eps 0.019 lr 0.0009 1374s
+03:44:33 [full s9] box 17000 train S1 81.31 hidden 64 concepts 102 tau 0.36 eps 0.017 lr 0.0008 1445s
+03:45:40 [full s9] box 18000 train S1 83.25 hidden 64 concepts 161 tau 0.35 eps 0.016 lr 0.0008 1512s
+03:46:44 [full s9] box 19000 train S1 83.87 hidden 64 concepts 161 tau 0.31 eps 0.014 lr 0.0008 1577s
+03:47:50 [full s9] box 20000 train S1 85.81 hidden 64 concepts 140 tau 0.27 eps 0.013 lr 0.0008 1643s
+03:48:27 DONE full s9: 20000 boxes, 1680s, heldout@20000=86.84

@@ -1,0 +1,37 @@
+{
+  "Expt-1 smoke (results/episodes.csv), mode none, eval boxes": {
+    "n_boxes": 90,
+    "mean_terminal_occupied": 88.28888888888889,
+    "max": 98.0,
+    "mean_candidate_evaluations": 19660.277777777777,
+    "mean_actions": 100.0,
+    "mean_undos": 42.9,
+    "task": "empty 10x10 box, unlimited pieces, 100-action budget (same task as Expt-20)",
+    "note": "run folder pointed to by LATEST_RUN.txt is not the same as this summary file's; this is the repo-root episodes.csv as saved"
+  },
+  "Expt-2 primitive (authoritative run 20260929_092518_discovery_smoke)": {
+    "n_boxes": 104,
+    "mean_final_occupied": 65.57692307692308,
+    "max": 74.0,
+    "mean_candidate_evals": 50000.0,
+    "task": "inventory tasks (limited pieces per box), compute budget 50,000 evals, about 14 placements; different boxes"
+  },
+  "Expt-16 primitive (authoritative 20260930_071552), independent_fresh": {
+    "n_boxes": 60,
+    "mean_Q_occupied": 75.66666666666667,
+    "min": 68.0,
+    "max": 79.0,
+    "mean_A_candidates": 1597.7166666666667,
+    "median_A": 888.0,
+    "task": "inventory tasks; the policy stops once occupied >= 75 (q_min) or at eval_cap 8000, so its Q is a floor-stop, not a best effort"
+  },
+  "Expt-16 primitive (authoritative 20260930_071552), recurring_family": {
+    "n_boxes": 60,
+    "mean_Q_occupied": 75.76666666666667,
+    "min": 68.0,
+    "max": 78.0,
+    "mean_A_candidates": 1138.1666666666667,
+    "median_A": 816.0,
+    "task": "inventory tasks; the policy stops once occupied >= 75 (q_min) or at eval_cap 8000, so its Q is a floor-stop, not a best effort"
+  }
+}

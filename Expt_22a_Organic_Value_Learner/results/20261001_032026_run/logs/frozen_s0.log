@@ -1,0 +1,16 @@
+04:08:02 [frozen s0] box 1000 train S1 67.60 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 119s
+04:09:24 [frozen s0] box 2000 train S1 67.53 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 201s
+04:10:36 [frozen s0] box 3000 train S1 67.54 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 273s
+04:11:21 [frozen s0] box 4000 train S1 67.47 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 317s
+04:12:04 [frozen s0] box 5000 train S1 67.66 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 361s
+04:13:12 [frozen s0] box 6000 train S1 67.48 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 429s
+04:13:58 [frozen s0] box 7000 train S1 67.49 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 475s
+04:14:43 [frozen s0] box 8000 train S1 67.58 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 520s
+04:15:28 [frozen s0] box 9000 train S1 67.58 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 565s
+04:16:13 [frozen s0] box 10000 train S1 67.45 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 610s
+04:17:21 [frozen s0] box 11000 train S1 67.51 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 678s
+04:18:04 [frozen s0] box 12000 train S1 67.50 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 721s
+04:18:45 [frozen s0] box 13000 train S1 67.62 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 762s
+04:19:28 [frozen s0] box 14000 train S1 67.44 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 805s
+04:20:10 [frozen s0] box 15000 train S1 67.55 hidden 64 concepts 0 tau 2.00 eps 0.100 lr 0.0010 847s
+04:20:36 DONE frozen s0: 15000 boxes, 873s, heldout@15000=68.49

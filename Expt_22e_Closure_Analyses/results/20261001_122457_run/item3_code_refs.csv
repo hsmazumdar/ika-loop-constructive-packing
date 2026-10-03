@@ -1,0 +1,43 @@
+file,line,code,why
+Expt_22d/src/engine.py,117,def legal(self) -> np.ndarray:,legality + 14-piece cap (cap = no legal move once n>=budget)
+Expt_22d/src/engine.py,118,if self.n >= self.budget:,legality + 14-piece cap (cap = no legal move once n>=budget)
+Expt_22d/src/engine.py,121,return idx[self.allowed[PTYPE[idx]]],legality + 14-piece cap (cap = no legal move once n>=budget)
+Expt_22d/src/engine.py,172,"def natural_candidates(box: Box, level: int = 2):","natural restriction used by uniform, hand rule, V21"
+Expt_22d/src/engine.py,183,"nat = f[""contact""] > 0","natural restriction used by uniform, hand rule, V21"
+Expt_22d/src/engine.py,110,"self.allowed = np.ones(N_TYPES, dtype=bool) if allowed is None else allowed",all 16 piece types always allowed (no inventory/blocked cells in any experiment)
+Expt_22d/src/feat.py,15,"def step_features(box: E.Box, budget: int):",learner's own natural filter (same definition: contact>0)
+Expt_22d/src/feat.py,27,return None,learner's own natural filter (same definition: contact>0)
+Expt_22d/src/feat.py,33,nat = (occ_c + wall) > 0,learner's own natural filter (same definition: contact>0)
+Expt_22d/src/feat.py,37,return None,learner's own natural filter (same definition: contact>0)
+Expt_22d/src/agent.py,98,box = E.Box(budget=budget),learner episode loop and softmax sampling
+Expt_22d/src/agent.py,107,"r = F.step_features(box, budget)",learner episode loop and softmax sampling
+Expt_22d/src/agent.py,115,if n == 1:,learner episode loop and softmax sampling
+Expt_22d/src/agent.py,117,elif tau <= 0.05:,learner episode loop and softmax sampling
+Expt_22d/src/agent.py,125,"j = int(np.searchsorted(np.cumsum(p), rng.random() * 0.999999999))",learner episode loop and softmax sampling
+Expt_22d/src/stream.py,15,"def evaluate(agent: Agent, cfg: Cfg, n: int, budget: int, net=None, seed0: int | None = None) -> dict:",held-out evaluation seeds (eval_seed + j); meta probe seeds eval_seed+500000+j
+Expt_22d/src/stream.py,22,"b, _ = agent.play(np.random.default_rng(sd + j), cfg.tau_eval, 0.0, budget, net=net, record=False)",held-out evaluation seeds (eval_seed + j); meta probe seeds eval_seed+500000+j
+Expt_22d/src/stream.py,45,probe_ids = cfg.eval_seed + 500_000,held-out evaluation seeds (eval_seed + j); meta probe seeds eval_seed+500000+j
+Expt_22d/src/stream.py,74,"probe = evaluate(ag, cfg, cfg.probe_boxes, cfg.budget, seed0=probe_ids)[""S1""].mean()",held-out evaluation seeds (eval_seed + j); meta probe seeds eval_seed+500000+j
+Expt_22d/src/config.py,12,budget: int = 14,"evaluation parameters (tau_eval 0.25, 22d eval_boxes overridden to 1200)"
+Expt_22d/src/config.py,19,tau_eval: float = 0.25,"evaluation parameters (tau_eval 0.25, 22d eval_boxes overridden to 1200)"
+Expt_22d/src/config.py,42,eval_boxes: int = 2000,"evaluation parameters (tau_eval 0.25, 22d eval_boxes overridden to 1200)"
+Expt_22d/src/config.py,43,eval_seed: int = 7_700_000,"evaluation parameters (tau_eval 0.25, 22d eval_boxes overridden to 1200)"
+Expt_22d/src/learner_ref.py,6,"def uniform_ref(cfg, budget: int, n: int) -> dict:",uniform natural and hand rule (22b/c/d)
+Expt_22d/src/learner_ref.py,17,b.place(int(c[rng.integers(c.size)])),uniform natural and hand rule (22b/c/d)
+Expt_22d/src/learner_ref.py,22,"def hand_ref(cfg, budget: int, n: int) -> np.ndarray:",uniform natural and hand rule (22b/c/d)
+Expt_22d/src/learner_ref.py,32,"sc = f[""contact""] - 3.0 * f[""p1""] - f[""n3""] + 2.0 * E.AREA[c] + rng.random(c.size) * 0.5",uniform natural and hand rule (22b/c/d)
+Expt_21/src/learner.py,266,"def choose(s: np.ndarray, tau: float, eps: float, rng: np.random.Generator) -> int:","V21 policy loop, choose(), hand rule"
+Expt_21/src/learner.py,281,"def play_box(mem: Memory | None, rng: np.random.Generator, tau: float, eps: float, prefix: list | None = None,","V21 policy loop, choose(), hand rule"
+Expt_21/src/learner.py,289,"cand, f = E.natural_candidates(box, lvl)","V21 policy loop, choose(), hand rule"
+Expt_21/src/learner.py,296,"def hand_box(rng: np.random.Generator, budget: int, w_area: float = 2.0) -> E.Box:","V21 policy loop, choose(), hand rule"
+Expt_21/src/learner.py,303,"sc = f[""contact""] - 3.0 * f[""p1""] - f[""n3""] + w_area * E.AREA[cand] + rng.random(cand.size) * 0.5","V21 policy loop, choose(), hand rule"
+Expt_21/src/stream.py,20,"def evaluate(mem: Memory, cfg: Cfg, n: int | None = None) -> dict:",V21 held-out evaluation
+Expt_21/src/stream.py,26,"b = play_box(mem, np.random.default_rng(cfg.eval_seed + j), cfg.tau_eval, 0.0)",V21 held-out evaluation
+Expt_21/src/config.py,7,BUDGET = 14  # difficulty handicap: at most 14 pieces per box (calibrated so uniform natural placing scores S1 ~ 67),"V21: budget 14, tau_eval 0.3, 2000 eval boxes"
+Expt_21/src/config.py,19,"tau_eval: float = 0.3  # held-out evaluation: near-greedy softmax, no epsilon","V21: budget 14, tau_eval 0.3, 2000 eval boxes"
+Expt_21/src/config.py,56,eval_boxes: int = 2000,"V21: budget 14, tau_eval 0.3, 2000 eval boxes"
+Expt_21/src/config.py,57,eval_seed: int = 7_700_000,"V21: budget 14, tau_eval 0.3, 2000 eval boxes"
+Expt_21/src/report.py,81,"hand = np.array([hand_box(np.random.default_rng(cfg.eval_seed + j), man[""cfg""][""budget""]).s1",V21 hand-rule reference computed on the first 1000 eval seeds
+Expt_21/src/report.py,82,"for j in range(min(cfg.eval_boxes, 1000))])",V21 hand-rule reference computed on the first 1000 eval seeds
+Expt_22b/src/report.py,82,"hand14 = float(hand_ref(cfg, cfg.budget, min(cfg.eval_boxes, 1000)).mean())","22b/c report: hand rule on min(eval_boxes,1000); 'uniform' = mean of untrained-net checkpoint-0 evals"
+Expt_22b/src/report.py,83,"unif14 = float(np.mean([r[""evals""][0][""S1""].mean() for r in full]))","22b/c report: hand rule on min(eval_boxes,1000); 'uniform' = mean of untrained-net checkpoint-0 evals"

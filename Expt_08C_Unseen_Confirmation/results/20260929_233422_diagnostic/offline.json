@@ -1,0 +1,1033 @@
+{
+  "unseen_ids": [
+    "inv_dc3325f3c616",
+    "inv_084f2c25ca3c",
+    "inv_62d7afc8ca88",
+    "inv_4b2473c6219a",
+    "inv_456b94ae0f13",
+    "inv_674657a8852e",
+    "inv_dabf123a3b0f",
+    "inv_6a9bba280138",
+    "inv_644723d65d0a",
+    "inv_8fb1b9d9af82",
+    "inv_d504b5a3fa5e",
+    "inv_35d63b1e1e60",
+    "inv_6c73e7b59327",
+    "inv_8cddbe1fd185",
+    "inv_38d97369daf6",
+    "inv_41f5b4065991",
+    "inv_7893b535de81",
+    "inv_5ffe7e3c21ce",
+    "inv_1f630c402535",
+    "inv_129dc24ddcd4",
+    "inv_d1cc869bdf0c",
+    "inv_a655fb0ee04b",
+    "inv_663e5b962493",
+    "inv_cb60c01efbe2",
+    "inv_b21f70de1ba4",
+    "inv_521ca502014b",
+    "inv_53a6adb46f26",
+    "inv_598ae18f142c",
+    "inv_722bd6592329",
+    "inv_8fe395831830",
+    "inv_59dde4cb3a17",
+    "inv_b50dc054cb2b",
+    "inv_5ac79be2484f",
+    "inv_b55b2e3c28a7",
+    "inv_87f5247026d1",
+    "inv_3026d42b3fbd",
+    "inv_573519390d2f",
+    "inv_4e76918c54df",
+    "inv_3b961c784c0e",
+    "inv_385ab4ab3835",
+    "inv_81ac190e5253",
+    "inv_5ed6035c9f29",
+    "inv_b7b8d91c40ff",
+    "inv_4d85817b5faf",
+    "inv_ef8f50584fbe",
+    "inv_67c35147142d",
+    "inv_fea51a4ab201",
+    "inv_e5e97de9ed6f",
+    "inv_cdcb182e4d92",
+    "inv_402a4ff3fd9e"
+  ],
+  "pooled": [
+    {
+      "predictor": "per_seed_mean",
+      "historical_comparator": false,
+      "errors_first_legal": {
+        "n": 541,
+        "mae": 1152.6065799046735,
+        "rmse": 2103.940536836236,
+        "pearson_pooled": 0.11393324831081253,
+        "pearson_within_seed": {
+          "pooled": 0.11393324831081253,
+          "within_seed": {
+            "11": null,
+            "22": null,
+            "33": null
+          }
+        },
+        "auc_beneficial": 0.5409047423807571,
+        "pred_mean": -128.7922972629636,
+        "y_mean": -99.82994454713493,
+        "pred_min": -350.1390134529148,
+        "pred_max": 31.041484716157207
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 45,
+        "n_seed_box_pairs": 98,
+        "n_states": 419,
+        "n_actions": 541,
+        "n_accepted": 231,
+        "n_accepted_unique_boxes": 40,
+        "n_accepted_seed_box_pairs": 40,
+        "n_accepted_states": 191,
+        "coverage_actions": 0.4269870609981516,
+        "mean_remaining_saving": 203.83982683982683,
+        "mean_net_after_check": 201.45454545454547,
+        "mean_examined_billed": 2.3852813852813854,
+        "admission_bound": 8,
+        "quality_loss_rate": 0.10822510822510822,
+        "severe_loss_n": 62,
+        "severe_loss_rate": 0.2683982683982684,
+        "mean_pred": 31.041484716157207,
+        "mean_observed": 203.83982683982683,
+        "zero_coverage": false
+      },
+      "decision_costs": {
+        "n_accepted": 231,
+        "n_accepted_seeds": 1,
+        "sum_remaining_saving": 47087.0,
+        "mean_net_after_site_checks": 201.45454545454547,
+        "sum_action_decision_cost": 7797.0,
+        "consult_cost_all_states": 1608.0,
+        "consult_cost_accepted_states": 692.0,
+        "net_after_decision_costs": 37682.0,
+        "largest_box": {
+          "task_id": "inv_b7b8d91c40ff",
+          "n_accepted": 10,
+          "seeds": [
+            33
+          ],
+          "remaining_saving": 44790.0,
+          "share_of_accepted_saving": 0.9512179582474993,
+          "examined": 19.0,
+          "feature_checks": 227.0
+        },
+        "saving_without_largest_box": 2297.0,
+        "by_box": [
+          {
+            "task_id": "inv_b7b8d91c40ff",
+            "n_accepted": 10,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": 44790.0,
+            "share_of_accepted_saving": 0.9512179582474993,
+            "examined": 19.0,
+            "feature_checks": 227.0
+          },
+          {
+            "task_id": "inv_129dc24ddcd4",
+            "n_accepted": 7,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": 36297.0,
+            "share_of_accepted_saving": 0.7708497037398857,
+            "examined": 12.0,
+            "feature_checks": 210.0
+          },
+          {
+            "task_id": "inv_4e76918c54df",
+            "n_accepted": 7,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": 24319.0,
+            "share_of_accepted_saving": 0.5164695138785652,
+            "examined": 23.0,
+            "feature_checks": 318.0
+          },
+          {
+            "task_id": "inv_cb60c01efbe2",
+            "n_accepted": 4,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": 24017.0,
+            "share_of_accepted_saving": 0.5100558540573832,
+            "examined": 7.0,
+            "feature_checks": 163.0
+          },
+          {
+            "task_id": "inv_a655fb0ee04b",
+            "n_accepted": 4,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": 14722.0,
+            "share_of_accepted_saving": 0.31265529764053773,
+            "examined": 5.0,
+            "feature_checks": 165.0
+          },
+          {
+            "task_id": "inv_663e5b962493",
+            "n_accepted": 7,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": 3648.0,
+            "share_of_accepted_saving": 0.07747361267441119,
+            "examined": 15.0,
+            "feature_checks": 234.0
+          },
+          {
+            "task_id": "inv_67c35147142d",
+            "n_accepted": 7,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": 2901.0,
+            "share_of_accepted_saving": 0.06160936139486482,
+            "examined": 18.0,
+            "feature_checks": 183.0
+          },
+          {
+            "task_id": "inv_456b94ae0f13",
+            "n_accepted": 8,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": 632.0,
+            "share_of_accepted_saving": 0.013421963599294923,
+            "examined": 20.0,
+            "feature_checks": 261.0
+          },
+          {
+            "task_id": "inv_dabf123a3b0f",
+            "n_accepted": 9,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": 576.0,
+            "share_of_accepted_saving": 0.012232675685433347,
+            "examined": 22.0,
+            "feature_checks": 219.0
+          },
+          {
+            "task_id": "inv_084f2c25ca3c",
+            "n_accepted": 7,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": 484.0,
+            "share_of_accepted_saving": 0.010278845541232188,
+            "examined": 13.0,
+            "feature_checks": 198.0
+          },
+          {
+            "task_id": "inv_59dde4cb3a17",
+            "n_accepted": 6,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": 280.0,
+            "share_of_accepted_saving": 0.005946439569307877,
+            "examined": 15.0,
+            "feature_checks": 126.0
+          },
+          {
+            "task_id": "inv_4d85817b5faf",
+            "n_accepted": 5,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": 240.0,
+            "share_of_accepted_saving": 0.0050969482022638945,
+            "examined": 10.0,
+            "feature_checks": 124.0
+          },
+          {
+            "task_id": "inv_598ae18f142c",
+            "n_accepted": 6,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": 196.0,
+            "share_of_accepted_saving": 0.004162507698515514,
+            "examined": 16.0,
+            "feature_checks": 138.0
+          },
+          {
+            "task_id": "inv_62d7afc8ca88",
+            "n_accepted": 5,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": 192.0,
+            "share_of_accepted_saving": 0.004077558561811115,
+            "examined": 10.0,
+            "feature_checks": 172.0
+          },
+          {
+            "task_id": "inv_385ab4ab3835",
+            "n_accepted": 4,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": 131.0,
+            "share_of_accepted_saving": 0.0027820842270690426,
+            "examined": 7.0,
+            "feature_checks": 152.0
+          },
+          {
+            "task_id": "inv_d504b5a3fa5e",
+            "n_accepted": 5,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": 0.0,
+            "share_of_accepted_saving": 0.0,
+            "examined": 15.0,
+            "feature_checks": 197.0
+          },
+          {
+            "task_id": "inv_b21f70de1ba4",
+            "n_accepted": 5,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": -236.0,
+            "share_of_accepted_saving": -0.005011999065559496,
+            "examined": 8.0,
+            "feature_checks": 134.0
+          },
+          {
+            "task_id": "inv_35d63b1e1e60",
+            "n_accepted": 4,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": -444.0,
+            "share_of_accepted_saving": -0.009429354174188205,
+            "examined": 11.0,
+            "feature_checks": 107.0
+          },
+          {
+            "task_id": "inv_5ac79be2484f",
+            "n_accepted": 5,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": -624.0,
+            "share_of_accepted_saving": -0.013252065325886126,
+            "examined": 6.0,
+            "feature_checks": 143.0
+          },
+          {
+            "task_id": "inv_5ed6035c9f29",
+            "n_accepted": 5,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": -636.0,
+            "share_of_accepted_saving": -0.01350691273599932,
+            "examined": 9.0,
+            "feature_checks": 141.0
+          },
+          {
+            "task_id": "inv_dc3325f3c616",
+            "n_accepted": 4,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": -664.0,
+            "share_of_accepted_saving": -0.014101556692930109,
+            "examined": 10.0,
+            "feature_checks": 175.0
+          },
+          {
+            "task_id": "inv_3026d42b3fbd",
+            "n_accepted": 4,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": -684.0,
+            "share_of_accepted_saving": -0.0145263023764521,
+            "examined": 11.0,
+            "feature_checks": 148.0
+          },
+          {
+            "task_id": "inv_644723d65d0a",
+            "n_accepted": 5,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": -712.0,
+            "share_of_accepted_saving": -0.015120946333382887,
+            "examined": 13.0,
+            "feature_checks": 196.0
+          },
+          {
+            "task_id": "inv_573519390d2f",
+            "n_accepted": 6,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": -728.0,
+            "share_of_accepted_saving": -0.01546074288020048,
+            "examined": 10.0,
+            "feature_checks": 162.0
+          },
+          {
+            "task_id": "inv_6c73e7b59327",
+            "n_accepted": 3,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": -748.0,
+            "share_of_accepted_saving": -0.01588548856372247,
+            "examined": 4.0,
+            "feature_checks": 93.0
+          },
+          {
+            "task_id": "inv_b50dc054cb2b",
+            "n_accepted": 9,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": -1540.0,
+            "share_of_accepted_saving": -0.03270541763119332,
+            "examined": 16.0,
+            "feature_checks": 320.0
+          },
+          {
+            "task_id": "inv_521ca502014b",
+            "n_accepted": 5,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": -1852.0,
+            "share_of_accepted_saving": -0.039331450294136386,
+            "examined": 12.0,
+            "feature_checks": 118.0
+          },
+          {
+            "task_id": "inv_41f5b4065991",
+            "n_accepted": 3,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": -1956.0,
+            "share_of_accepted_saving": -0.04154012784845074,
+            "examined": 4.0,
+            "feature_checks": 108.0
+          },
+          {
+            "task_id": "inv_81ac190e5253",
+            "n_accepted": 8,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": -2928.0,
+            "share_of_accepted_saving": -0.062182768067619514,
+            "examined": 22.0,
+            "feature_checks": 269.0
+          },
+          {
+            "task_id": "inv_d1cc869bdf0c",
+            "n_accepted": 6,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": -3276.0,
+            "share_of_accepted_saving": -0.06957334296090216,
+            "examined": 6.0,
+            "feature_checks": 171.0
+          },
+          {
+            "task_id": "inv_8fb1b9d9af82",
+            "n_accepted": 4,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": -4138.0,
+            "share_of_accepted_saving": -0.08787988192069998,
+            "examined": 15.0,
+            "feature_checks": 172.0
+          },
+          {
+            "task_id": "inv_402a4ff3fd9e",
+            "n_accepted": 8,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": -4596.0,
+            "share_of_accepted_saving": -0.09760655807335358,
+            "examined": 26.0,
+            "feature_checks": 201.0
+          },
+          {
+            "task_id": "inv_8cddbe1fd185",
+            "n_accepted": 4,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": -4647.0,
+            "share_of_accepted_saving": -0.09868965956633466,
+            "examined": 12.0,
+            "feature_checks": 160.0
+          },
+          {
+            "task_id": "inv_722bd6592329",
+            "n_accepted": 10,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": -4650.0,
+            "share_of_accepted_saving": -0.09875337141886295,
+            "examined": 31.0,
+            "feature_checks": 260.0
+          },
+          {
+            "task_id": "inv_3b961c784c0e",
+            "n_accepted": 3,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": -7958.0,
+            "share_of_accepted_saving": -0.1690063074734003,
+            "examined": 15.0,
+            "feature_checks": 129.0
+          },
+          {
+            "task_id": "inv_ef8f50584fbe",
+            "n_accepted": 11,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": -9304.0,
+            "share_of_accepted_saving": -0.1975916919744303,
+            "examined": 29.0,
+            "feature_checks": 332.0
+          },
+          {
+            "task_id": "inv_1f630c402535",
+            "n_accepted": 4,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": -9949.0,
+            "share_of_accepted_saving": -0.21128974026801453,
+            "examined": 9.0,
+            "feature_checks": 196.0
+          },
+          {
+            "task_id": "inv_674657a8852e",
+            "n_accepted": 4,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": -11994.0,
+            "share_of_accepted_saving": -0.25471998640813814,
+            "examined": 17.0,
+            "feature_checks": 161.0
+          },
+          {
+            "task_id": "inv_8fe395831830",
+            "n_accepted": 5,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": -15198.0,
+            "share_of_accepted_saving": -0.32276424490836114,
+            "examined": 13.0,
+            "feature_checks": 123.0
+          },
+          {
+            "task_id": "inv_cdcb182e4d92",
+            "n_accepted": 5,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": -16876.0,
+            "share_of_accepted_saving": -0.3584004077558562,
+            "examined": 15.0,
+            "feature_checks": 140.0
+          }
+        ],
+        "by_seed": {
+          "33": {
+            "n_accepted": 231,
+            "n_boxes": 40,
+            "remaining_saving": 47087.0
+          }
+        },
+        "note": "net_after_decision_costs subtracts accepted site checks and feature checks plus index/ranking on every consulted state, including rejected consultations. It is still not whole-box policy savings."
+      }
+    },
+    {
+      "predictor": "frozen",
+      "historical_comparator": true,
+      "errors_first_legal": {
+        "n": 541,
+        "mae": 1357.4925274416992,
+        "rmse": 2188.615035290369,
+        "pearson_pooled": -0.06909234490694537,
+        "pearson_within_seed": {
+          "pooled": -0.06909234490694537,
+          "within_seed": {
+            "11": -0.010798295559782732,
+            "22": 0.09895383886617924,
+            "33": 0.10489945928971366
+          }
+        },
+        "auc_beneficial": 0.48466584665846657,
+        "pred_mean": -556.1527266439663,
+        "y_mean": -99.82994454713493,
+        "pred_min": -791.9102514742392,
+        "pred_max": -164.27641963419472
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 45,
+        "n_seed_box_pairs": 98,
+        "n_states": 419,
+        "n_actions": 541,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "decision_costs": {
+        "n_accepted": 0,
+        "n_accepted_seeds": 0,
+        "sum_remaining_saving": null,
+        "mean_net_after_site_checks": null,
+        "sum_action_decision_cost": null,
+        "consult_cost_all_states": 1608.0,
+        "consult_cost_accepted_states": 0.0,
+        "net_after_decision_costs": null,
+        "largest_box": null,
+        "saving_without_largest_box": null,
+        "by_box": [],
+        "by_seed": {},
+        "note": "net_after_decision_costs subtracts accepted site checks and feature checks plus index/ranking on every consulted state, including rejected consultations. It is still not whole-box policy savings."
+      }
+    },
+    {
+      "predictor": "context_unweighted",
+      "historical_comparator": false,
+      "errors_first_legal": {
+        "n": 541,
+        "mae": 1151.442195684618,
+        "rmse": 2105.3849998003816,
+        "pearson_pooled": 0.10187237995933746,
+        "pearson_within_seed": {
+          "pooled": 0.10187237995933746,
+          "within_seed": {
+            "11": 0.060305176059746474,
+            "22": 0.0502089317181377,
+            "33": 0.039641993042125914
+          }
+        },
+        "auc_beneficial": 0.5525078584119174,
+        "pred_mean": -124.97322917975576,
+        "y_mean": -99.82994454713493,
+        "pred_min": -448.5115061305342,
+        "pred_max": 218.93518041402854
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 45,
+        "n_seed_box_pairs": 98,
+        "n_states": 419,
+        "n_actions": 541,
+        "n_accepted": 4,
+        "n_accepted_unique_boxes": 3,
+        "n_accepted_seed_box_pairs": 3,
+        "n_accepted_states": 4,
+        "coverage_actions": 0.0073937153419593345,
+        "mean_remaining_saving": -415.0,
+        "mean_net_after_check": -418.25,
+        "mean_examined_billed": 3.25,
+        "admission_bound": 8,
+        "quality_loss_rate": 0.25,
+        "severe_loss_n": 1,
+        "severe_loss_rate": 0.25,
+        "mean_pred": 144.08014470546772,
+        "mean_observed": -415.0,
+        "zero_coverage": false
+      },
+      "decision_costs": {
+        "n_accepted": 4,
+        "n_accepted_seeds": 1,
+        "sum_remaining_saving": -1660.0,
+        "mean_net_after_site_checks": -418.25,
+        "sum_action_decision_cost": 94.0,
+        "consult_cost_all_states": 1608.0,
+        "consult_cost_accepted_states": 12.0,
+        "net_after_decision_costs": -3362.0,
+        "largest_box": {
+          "task_id": "inv_4d85817b5faf",
+          "n_accepted": 2,
+          "seeds": [
+            33
+          ],
+          "remaining_saving": 144.0,
+          "share_of_accepted_saving": -0.08674698795180723,
+          "examined": 4.0,
+          "feature_checks": 46.0
+        },
+        "saving_without_largest_box": -1804.0,
+        "by_box": [
+          {
+            "task_id": "inv_4d85817b5faf",
+            "n_accepted": 2,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": 144.0,
+            "share_of_accepted_saving": -0.08674698795180723,
+            "examined": 4.0,
+            "feature_checks": 46.0
+          },
+          {
+            "task_id": "inv_598ae18f142c",
+            "n_accepted": 1,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": 96.0,
+            "share_of_accepted_saving": -0.05783132530120482,
+            "examined": 2.0,
+            "feature_checks": 13.0
+          },
+          {
+            "task_id": "inv_521ca502014b",
+            "n_accepted": 1,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": -1900.0,
+            "share_of_accepted_saving": 1.144578313253012,
+            "examined": 7.0,
+            "feature_checks": 22.0
+          }
+        ],
+        "by_seed": {
+          "33": {
+            "n_accepted": 4,
+            "n_boxes": 3,
+            "remaining_saving": -1660.0
+          }
+        },
+        "note": "net_after_decision_costs subtracts accepted site checks and feature checks plus index/ranking on every consulted state, including rejected consultations. It is still not whole-box policy savings."
+      }
+    },
+    {
+      "predictor": "action_unweighted",
+      "historical_comparator": false,
+      "errors_first_legal": {
+        "n": 541,
+        "mae": 1188.53841235991,
+        "rmse": 2110.799541403923,
+        "pearson_pooled": 0.0944174027236296,
+        "pearson_within_seed": {
+          "pooled": 0.0944174027236296,
+          "within_seed": {
+            "11": 0.03877910197801631,
+            "22": 0.04862229349173983,
+            "33": -0.0772662856162743
+          }
+        },
+        "auc_beneficial": 0.5395107284406178,
+        "pred_mean": -234.10726787602894,
+        "y_mean": -99.82994454713493,
+        "pred_min": -891.6321088349085,
+        "pred_max": 229.81075043533923
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 45,
+        "n_seed_box_pairs": 98,
+        "n_states": 419,
+        "n_actions": 541,
+        "n_accepted": 8,
+        "n_accepted_unique_boxes": 7,
+        "n_accepted_seed_box_pairs": 7,
+        "n_accepted_states": 8,
+        "coverage_actions": 0.014787430683918669,
+        "mean_remaining_saving": 24.5,
+        "mean_net_after_check": 21.25,
+        "mean_examined_billed": 3.25,
+        "admission_bound": 8,
+        "quality_loss_rate": 0.0,
+        "severe_loss_n": 1,
+        "severe_loss_rate": 0.125,
+        "mean_pred": 65.22574624729354,
+        "mean_observed": 24.5,
+        "zero_coverage": false
+      },
+      "decision_costs": {
+        "n_accepted": 8,
+        "n_accepted_seeds": 1,
+        "sum_remaining_saving": 196.0,
+        "mean_net_after_site_checks": 21.25,
+        "sum_action_decision_cost": 209.0,
+        "consult_cost_all_states": 1608.0,
+        "consult_cost_accepted_states": 29.0,
+        "net_after_decision_costs": -1621.0,
+        "largest_box": {
+          "task_id": "inv_b21f70de1ba4",
+          "n_accepted": 1,
+          "seeds": [
+            33
+          ],
+          "remaining_saving": 96.0,
+          "share_of_accepted_saving": 0.4897959183673469,
+          "examined": 2.0,
+          "feature_checks": 28.0
+        },
+        "saving_without_largest_box": 100.0,
+        "by_box": [
+          {
+            "task_id": "inv_b21f70de1ba4",
+            "n_accepted": 1,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": 96.0,
+            "share_of_accepted_saving": 0.4897959183673469,
+            "examined": 2.0,
+            "feature_checks": 28.0
+          },
+          {
+            "task_id": "inv_598ae18f142c",
+            "n_accepted": 1,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": 96.0,
+            "share_of_accepted_saving": 0.4897959183673469,
+            "examined": 2.0,
+            "feature_checks": 13.0
+          },
+          {
+            "task_id": "inv_4d85817b5faf",
+            "n_accepted": 1,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": 96.0,
+            "share_of_accepted_saving": 0.4897959183673469,
+            "examined": 1.0,
+            "feature_checks": 28.0
+          },
+          {
+            "task_id": "inv_ef8f50584fbe",
+            "n_accepted": 1,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": 96.0,
+            "share_of_accepted_saving": 0.4897959183673469,
+            "examined": 7.0,
+            "feature_checks": 22.0
+          },
+          {
+            "task_id": "inv_402a4ff3fd9e",
+            "n_accepted": 1,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": 96.0,
+            "share_of_accepted_saving": 0.4897959183673469,
+            "examined": 7.0,
+            "feature_checks": 18.0
+          },
+          {
+            "task_id": "inv_dabf123a3b0f",
+            "n_accepted": 2,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": 48.0,
+            "share_of_accepted_saving": 0.24489795918367346,
+            "examined": 6.0,
+            "feature_checks": 56.0
+          },
+          {
+            "task_id": "inv_722bd6592329",
+            "n_accepted": 1,
+            "seeds": [
+              33
+            ],
+            "remaining_saving": -332.0,
+            "share_of_accepted_saving": -1.6938775510204083,
+            "examined": 1.0,
+            "feature_checks": 18.0
+          }
+        ],
+        "by_seed": {
+          "33": {
+            "n_accepted": 8,
+            "n_boxes": 7,
+            "remaining_saving": 196.0
+          }
+        },
+        "note": "net_after_decision_costs subtracts accepted site checks and feature checks plus index/ranking on every consulted state, including rejected consultations. It is still not whole-box policy savings."
+      }
+    },
+    {
+      "predictor": "context_weighted",
+      "historical_comparator": true,
+      "errors_first_legal": {
+        "n": 541,
+        "mae": 2688.323178881439,
+        "rmse": 3142.0118331268714,
+        "pearson_pooled": 0.031007024862082174,
+        "pearson_within_seed": {
+          "pooled": 0.031007024862082174,
+          "within_seed": {
+            "11": 0.037257596235394375,
+            "22": 0.17216094034126772,
+            "33": -0.007870937641041712
+          }
+        },
+        "auc_beneficial": 0.5318709853765204,
+        "pred_mean": -2351.802691984355,
+        "y_mean": -99.82994454713493,
+        "pred_min": -3683.0559499532983,
+        "pred_max": -1269.7291510899522
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 45,
+        "n_seed_box_pairs": 98,
+        "n_states": 419,
+        "n_actions": 541,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "decision_costs": {
+        "n_accepted": 0,
+        "n_accepted_seeds": 0,
+        "sum_remaining_saving": null,
+        "mean_net_after_site_checks": null,
+        "sum_action_decision_cost": null,
+        "consult_cost_all_states": 1608.0,
+        "consult_cost_accepted_states": 0.0,
+        "net_after_decision_costs": null,
+        "largest_box": null,
+        "saving_without_largest_box": null,
+        "by_box": [],
+        "by_seed": {},
+        "note": "net_after_decision_costs subtracts accepted site checks and feature checks plus index/ranking on every consulted state, including rejected consultations. It is still not whole-box policy savings."
+      }
+    },
+    {
+      "predictor": "action_weighted",
+      "historical_comparator": true,
+      "errors_first_legal": {
+        "n": 541,
+        "mae": 2848.936958890218,
+        "rmse": 3328.9701735201597,
+        "pearson_pooled": 0.036183622775754716,
+        "pearson_within_seed": {
+          "pooled": 0.036183622775754716,
+          "within_seed": {
+            "11": 0.0406817628472895,
+            "22": 0.09427771267068917,
+            "33": -0.013913455468191012
+          }
+        },
+        "auc_beneficial": 0.5380483804838049,
+        "pred_mean": -2551.0076678851988,
+        "y_mean": -99.82994454713493,
+        "pred_min": -4967.758696969142,
+        "pred_max": -1113.8840671335324
+      },
+      "selection_first_legal": {
+        "n_unique_boxes": 45,
+        "n_seed_box_pairs": 98,
+        "n_states": 419,
+        "n_actions": 541,
+        "n_accepted": 0,
+        "n_accepted_unique_boxes": 0,
+        "n_accepted_seed_box_pairs": 0,
+        "n_accepted_states": 0,
+        "coverage_actions": 0.0,
+        "mean_remaining_saving": null,
+        "mean_net_after_check": null,
+        "mean_examined_billed": null,
+        "admission_bound": 8,
+        "quality_loss_rate": null,
+        "severe_loss_n": 0,
+        "severe_loss_rate": null,
+        "mean_pred": null,
+        "mean_observed": null,
+        "zero_coverage": true
+      },
+      "decision_costs": {
+        "n_accepted": 0,
+        "n_accepted_seeds": 0,
+        "sum_remaining_saving": null,
+        "mean_net_after_site_checks": null,
+        "sum_action_decision_cost": null,
+        "consult_cost_all_states": 1608.0,
+        "consult_cost_accepted_states": 0.0,
+        "net_after_decision_costs": null,
+        "largest_box": null,
+        "saving_without_largest_box": null,
+        "by_box": [],
+        "by_seed": {},
+        "note": "net_after_decision_costs subtracts accepted site checks and feature checks plus index/ranking on every consulted state, including rejected consultations. It is still not whole-box policy savings."
+      }
+    }
+  ],
+  "beats_constant": false,
+  "remaining_check": 8,
+  "ledger": {
+    "skip_A": 698289,
+    "commit_A": 752297,
+    "skip_rollouts": 541,
+    "commit_rollouts": 541,
+    "cache_hits": 0,
+    "feature_checks": 17167,
+    "index_probes": 1050,
+    "compat_checks": 869
+  },
+  "proceed_wholebox": false,
+  "convincing_offline": false,
+  "holdout_status": "Expt-8B eight-box set is development/reused evaluation, not this confirmation set",
+  "frozen_identity": {
+    "labels_fit_sha256": "6a18c0cdff39172422046adaead86119970819dd29952808dbb66866237cd487",
+    "model_payload_sha256": "f2b78e90a808a038b6ab6599360f52ff5b1be216977f88c90c76579788dec087",
+    "frozen_file_sha256": "e14c795908ac987f14267cdaf8659ecccd65754407f67fc2b71fd8b2f15348cf",
+    "label_remaining_budget": "eval_cap - prefix_primitive_A",
+    "cache_key": "(state_fingerprint, action_key, remaining_cap)"
+  }
+}

@@ -1,0 +1,6 @@
+* -text
+*.pkl binary
+*.npz binary
+*.png binary
+*.pdf binary
+*.docx binary

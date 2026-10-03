@@ -1,0 +1,22 @@
+{
+ "training_generator_seed_collisions": {
+  "22b": 0,
+  "22c": 0,
+  "22d_full": 0,
+  "22d_abl": 0
+ },
+ "max_seed_values": {
+  "22b": 1152026,
+  "22c": 11624926,
+  "22d_full": 31942352,
+  "22d_abl": 21259994
+ },
+ "ev_range": [
+  7700000,
+  7701199
+ ],
+ "probe_range": [
+  8200000,
+  8200079
+ ]
+}

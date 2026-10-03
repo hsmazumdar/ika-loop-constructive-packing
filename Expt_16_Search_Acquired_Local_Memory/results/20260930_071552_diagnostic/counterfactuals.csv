@@ -1,0 +1,3 @@
+workload,index,task_id,match,first_match,entry_rank,first_entry,n_compatible,region_size,occupied_at_match,prefix_A,multiset,entry_sources,Q_primitive,A_rest_primitive,acceptable_primitive,Q_commit,A_rest_commit,acceptable_commit,valid,effort_saving,quality_delta,quality_loss,quality_gain,acceptability_lost,primitive_branch_reproduces_trajectory
+independent_fresh,14,inv_09f4d3398327,0,True,0,True,1,8,60,576,"{""M"": 2}",1,76.0,192,True,76.0,98,True,True,94,0.0,False,False,False,True
+recurring_family,26,inv_3c58e971670e,0,True,0,True,1,8,44,384,"{""M"": 2}",1,76.0,384,True,75.0,962,True,True,-578,-1.0,False,False,False,True

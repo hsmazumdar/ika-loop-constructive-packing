@@ -1,0 +1,98 @@
+[
+  {
+    "policy": "library_lookup",
+    "meets": false,
+    "seeds": [
+      {
+        "seed": 11,
+        "score": 66.16666666666667,
+        "primitive_score": 66.58333333333333,
+        "evals": 47661.0,
+        "primitive_evals": 50000.0,
+        "macros": 0.9166666666666666,
+        "physical": 14.0,
+        "think_batches": 0.0,
+        "higher_score": false,
+        "fewer_evals_at_same_or_better_score": false,
+        "meets_seed": false
+      },
+      {
+        "seed": 22,
+        "score": 67.25,
+        "primitive_score": 66.91666666666667,
+        "evals": 48309.666666666664,
+        "primitive_evals": 50000.0,
+        "macros": 1.0,
+        "physical": 14.333333333333334,
+        "think_batches": 0.0,
+        "higher_score": true,
+        "fewer_evals_at_same_or_better_score": true,
+        "meets_seed": true
+      }
+    ]
+  },
+  {
+    "policy": "fixed_think",
+    "meets": false,
+    "seeds": [
+      {
+        "seed": 11,
+        "score": 63.416666666666664,
+        "primitive_score": 66.58333333333333,
+        "evals": 48570.0,
+        "primitive_evals": 50000.0,
+        "macros": 0.9166666666666666,
+        "physical": 13.416666666666666,
+        "think_batches": 1.0,
+        "higher_score": false,
+        "fewer_evals_at_same_or_better_score": false,
+        "meets_seed": false
+      },
+      {
+        "seed": 22,
+        "score": 65.83333333333333,
+        "primitive_score": 66.91666666666667,
+        "evals": 49153.0,
+        "primitive_evals": 50000.0,
+        "macros": 1.0833333333333333,
+        "physical": 13.916666666666666,
+        "think_batches": 1.0,
+        "higher_score": false,
+        "fewer_evals_at_same_or_better_score": false,
+        "meets_seed": false
+      }
+    ]
+  },
+  {
+    "policy": "adaptive_think",
+    "meets": false,
+    "seeds": [
+      {
+        "seed": 11,
+        "score": 22.916666666666668,
+        "primitive_score": 66.58333333333333,
+        "evals": 50000.0,
+        "primitive_evals": 50000.0,
+        "macros": 0.75,
+        "physical": 4.75,
+        "think_batches": 1.0,
+        "higher_score": false,
+        "fewer_evals_at_same_or_better_score": false,
+        "meets_seed": false
+      },
+      {
+        "seed": 22,
+        "score": 23.916666666666668,
+        "primitive_score": 66.91666666666667,
+        "evals": 50000.0,
+        "primitive_evals": 50000.0,
+        "macros": 0.9166666666666666,
+        "physical": 5.0,
+        "think_batches": 1.0,
+        "higher_score": false,
+        "fewer_evals_at_same_or_better_score": false,
+        "meets_seed": false
+      }
+    ]
+  }
+]

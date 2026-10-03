@@ -1,0 +1,9 @@
+{
+  "source": "D:\\PaperSubmissions2026\\MGA_Memory_Guided_Assembly\\Expt_01_10x10_Packing\\results\\20260928_180809_smoke\\action_trace.jsonl",
+  "episodes_scanned": 4,
+  "boards_q_at_least_80": 4,
+  "connected_groups": 203,
+  "groups_whose_multiset_fits_some_training_inventory": 105,
+  "fit_rate": 0.5172413793103449,
+  "note": "Unlimited-piece Expt-1 traces. Not used for the held-out comparison."
+}

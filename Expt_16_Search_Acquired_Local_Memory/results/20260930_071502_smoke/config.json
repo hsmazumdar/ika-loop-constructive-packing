@@ -1,0 +1,47 @@
+{
+  "q_min": 75.0,
+  "quality_loss_margin": 1.0,
+  "scan": 48,
+  "physical": 80,
+  "undo_budget": 4,
+  "eval_cap": 8000,
+  "score_area": 1.0,
+  "score_contact": 0.2,
+  "score_boundary": 0.05,
+  "region_min_cells": 8,
+  "region_max_cells": 20,
+  "search_budget": 5000,
+  "store_seeds": [
+    11
+  ],
+  "store_phase": "expt15-t2-store",
+  "store_acceptable_only": true,
+  "applicability_seed": 11,
+  "applicability_phase": "expt16-applicability",
+  "max_entries_per_match": 4,
+  "few_fill_rate": 0.1,
+  "min_recur_boxes": 3,
+  "harm_quality_loss_rate": 0.1,
+  "harm_mean_quality_delta": -0.25,
+  "manifest_set": "smoke",
+  "search_outcomes": [
+    "found",
+    "impossible (exhaustive search, no filling)",
+    "budget_exhausted (feasibility unknown)"
+  ],
+  "search_pruning": "first uncovered cell; area feasibility of remaining region against remaining piece sizes (sound)",
+  "detector": "Expt-15 flood fill next to each new placement, billed per free cell visited; unchanged",
+  "entry_key": "(translation-normalised geometry, consumed multiset); alternative placements for the same key recorded, not merged away",
+  "match_rule": "identical geometry and multiset available in the remaining inventory; read-only",
+  "counterfactual": "same saved state (board, inventory, RNG state, tabu); commit filling then primitive vs primitive only; remaining cap = eval_cap - prefix A",
+  "decision_rows": {
+    "few_fillings": "exact fill rate < few_fill_rate, or no entries",
+    "no_recurrence": "entries exist but compatible matches in fewer than min_recur_boxes fresh boxes (stop before counterfactuals if 0)",
+    "commitment_harms": "quality-loss rate > harm_quality_loss_rate, or mean quality delta < harm_mean_quality_delta, or mean or median remaining-effort saving <= 0",
+    "saves_and_preserves": "otherwise; next test a deployable commitment rule and acquisition payback on the validation manifests"
+  },
+  "transformations": false,
+  "hierarchy": false,
+  "learned_gate": false,
+  "partial_fillings": false
+}

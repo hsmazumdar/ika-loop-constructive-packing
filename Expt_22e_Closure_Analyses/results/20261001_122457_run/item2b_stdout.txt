@@ -1,0 +1,3 @@
+P_only_uniform_natural 82.34 9.33
+P_only_contact_greedy 88.92 12.0
+P_only_hand_score 88.32 10.99

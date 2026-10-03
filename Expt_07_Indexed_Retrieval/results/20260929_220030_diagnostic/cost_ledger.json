@@ -1,0 +1,11 @@
+{
+  "skip_A": 388770,
+  "commit_A": 6117130,
+  "skip_rollouts": 336,
+  "commit_rollouts": 4788,
+  "learning_A": 435332,
+  "primitive_boxes": 48,
+  "gate_probes": 336,
+  "C_box_sum": 68104,
+  "incomplete_pairs": 30
+}

@@ -1,0 +1,78 @@
+{
+  "bandit": {
+    "exploration_c": 0.5,
+    "stm_explore_prob": 0.2,
+    "unseen_count": 1.0,
+    "unseen_mean": 0.0
+  },
+  "board_size": 10,
+  "budgets": {
+    "allow_think": true,
+    "candidate_evals": 50000,
+    "cheap_scan_reserve": 0,
+    "model_transitions": 10000,
+    "physical_actions": 100,
+    "planning_bytes": 131072
+  },
+  "diagnostic_box": {
+    "policy": "adaptive_think",
+    "repetition": 0,
+    "seed": 11
+  },
+  "discovery": {
+    "flat_think_interval": 5,
+    "max_candidates": 8,
+    "max_consecutive_think": 2,
+    "max_origin_trials": 64,
+    "max_paired_trials": 2,
+    "search_think_probability": 0.25
+  },
+  "exam_limit": 0,
+  "language": {
+    "default_lookahead_depth": 1,
+    "default_lookahead_width": 2,
+    "lookahead_depth": [
+      1,
+      3
+    ],
+    "lookahead_width": [
+      1,
+      4
+    ],
+    "max_call_depth": 4,
+    "max_expanded": 12,
+    "max_nodes": 24,
+    "repeat_range": [
+      1,
+      4
+    ]
+  },
+  "library_mode": "flat_library",
+  "library_run": "results/20260929_092518_discovery_smoke",
+  "lifecycle": {
+    "confirm_tasks": 2,
+    "confirm_uses": 3,
+    "expiry_boxes": 20
+  },
+  "memory": {
+    "ltm_bytes": 262144,
+    "stm_bytes": 65536
+  },
+  "policies": [
+    "primitive_only",
+    "library_lookup",
+    "fixed_think",
+    "adaptive_think"
+  ],
+  "seeds": [
+    11,
+    22
+  ],
+  "think_eval_allowance": 3636,
+  "utility": {
+    "fill_scale": 100,
+    "horizon": 8,
+    "physical_weight": 0.002,
+    "transition_weight": 0.0001
+  }
+}

@@ -1,0 +1,16 @@
+rank,decision_id,seed,task_id,op_id,composed,depth,op_size,occupied_at_choice,empty_components,largest_empty_region,border_empty_frac,remaining_mix,check_cost,A_remaining_primitive,A_remaining_after_commit,effort_saving_remaining,Q_remaining_primitive,Q_remaining_after_commit,quality_difference,quality_ok,effort_ok,acceptable_success,source
+1,33:inv_ffe570c70457:13:occ0:M0003,33,inv_ffe570c70457,M0003,False,1,2,0,1,100,1.0,"B:0.30,C:0.25,H:0.20,O:0.10,I:0.05,L:0.05",10.0,720.0,7481.0,-6761.0,75.0,65.0,-10.0,False,False,False,expt4d_existing
+2,33:inv_22521942205c:2:occ16:M0004,33,inv_22521942205c,M0004,False,1,2,16,1,84,0.8055555555555556,"M:0.28,B:0.22,K:0.22,J:0.11,F:0.06,L:0.06",9.0,2104.0,3959.0,-1855.0,78.0,72.0,-6.0,False,False,False,expt4d_existing
+3,33:inv_8b533a843808:11:occ8:M0004,33,inv_8b533a843808,M0004,False,1,2,8,1,92,0.8888888888888888,"M:0.40,B:0.25,H:0.15,K:0.10,L:0.10",10.0,672.0,2191.0,-1519.0,76.0,75.0,-1.0,True,False,False,expt4d_existing
+4,33:inv_22521942205c:1:occ8:M0004,33,inv_22521942205c,M0004,False,1,2,8,1,92,0.9444444444444444,"M:0.35,B:0.20,K:0.20,J:0.10,F:0.05,L:0.05",9.0,720.0,2104.0,-1384.0,75.0,78.0,3.0,True,False,False,expt4d_existing
+5,33:inv_5fc1ecabd17f:9:occ10:M0003,33,inv_5fc1ecabd17f,M0003,False,1,2,10,1,90,0.9444444444444444,"H:0.33,B:0.22,C:0.22,I:0.22",9.0,672.0,1652.0,-980.0,75.0,75.0,0.0,True,False,False,expt4d_existing
+6,33:inv_115b41c2392a:7:occ10:M0004,33,inv_115b41c2392a,M0004,False,1,2,10,1,90,1.0,"M:0.26,B:0.21,H:0.21,E:0.16,C:0.11,I:0.05",9.0,672.0,1332.0,-660.0,75.0,76.0,1.0,True,False,False,expt4d_existing
+7,33:inv_22521942205c:0:occ0:M0004,33,inv_22521942205c,M0004,False,1,2,0,1,100,1.0,"M:0.41,B:0.18,K:0.18,J:0.09,F:0.05,L:0.05",9.0,816.0,720.0,96.0,76.0,75.0,-1.0,True,True,True,expt4d_existing
+8,33:inv_791d780fc6e4:3:occ0:M0004,33,inv_791d780fc6e4,M0004,False,1,2,0,1,100,1.0,"M:0.45,B:0.18,F:0.09,G:0.09,H:0.09,I:0.05",9.0,816.0,720.0,96.0,76.0,75.0,-1.0,True,True,True,expt4d_existing
+9,33:inv_791d780fc6e4:4:occ8:M0004,33,inv_791d780fc6e4,M0004,False,1,2,8,1,92,0.9444444444444444,"M:0.40,B:0.20,F:0.10,G:0.10,H:0.10,I:0.05",9.0,720.0,624.0,96.0,75.0,75.0,0.0,True,True,True,expt4d_existing
+10,33:inv_791d780fc6e4:5:occ16:M0004,33,inv_791d780fc6e4,M0004,False,1,2,16,1,84,0.8888888888888888,"M:0.33,B:0.22,F:0.11,G:0.11,H:0.11,I:0.06",10.0,624.0,528.0,96.0,75.0,78.0,3.0,True,True,True,expt4d_existing
+11,33:inv_115b41c2392a:6:occ0:M0003,33,inv_115b41c2392a,M0003,False,1,2,0,1,100,1.0,"M:0.24,B:0.19,C:0.19,H:0.19,E:0.14,I:0.05",10.0,768.0,672.0,96.0,78.0,75.0,-3.0,False,True,False,expt4d_existing
+12,33:inv_5fc1ecabd17f:8:occ0:M0003,33,inv_5fc1ecabd17f,M0003,False,1,2,0,1,100,1.0,"C:0.30,H:0.30,B:0.20,I:0.20",9.0,768.0,672.0,96.0,75.0,75.0,0.0,True,True,True,expt4d_existing
+13,33:inv_8b533a843808:10:occ0:M0004,33,inv_8b533a843808,M0004,False,1,2,0,1,100,1.0,"M:0.45,B:0.23,H:0.14,K:0.09,L:0.09",9.0,768.0,672.0,96.0,76.0,76.0,0.0,True,True,True,expt4d_existing
+14,33:inv_1696d00e5191:14:occ0:M0003,33,inv_1696d00e5191,M0003,False,1,2,0,1,100,1.0,"B:0.33,K:0.24,N:0.24,C:0.19",10.0,864.0,672.0,192.0,77.0,76.0,-1.0,True,True,True,expt4d_existing
+15,33:inv_8b533a843808:12:occ16:M0004,33,inv_8b533a843808,M0004,False,1,2,16,1,84,0.8888888888888888,"M:0.33,B:0.28,H:0.17,K:0.11,L:0.11",11.0,2191.0,528.0,1663.0,75.0,79.0,4.0,True,True,True,expt4d_existing

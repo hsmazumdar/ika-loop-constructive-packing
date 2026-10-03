@@ -1,0 +1,11 @@
+seed,task_id,state_index,n_beneficial_ops,shortlist_hit,diagnosis_only
+11,inv_247f34998463,0,1,True,True
+11,inv_247f34998463,1,1,True,True
+11,inv_247f34998463,2,2,True,True
+11,inv_247f34998463,3,2,True,True
+11,inv_f63fad293657,0,1,True,True
+11,inv_f63fad293657,1,1,True,True
+11,inv_f63fad293657,2,1,True,True
+11,inv_dd91fca8432b,0,1,True,True
+11,inv_dd91fca8432b,1,1,True,True
+11,inv_dd91fca8432b,2,1,True,True

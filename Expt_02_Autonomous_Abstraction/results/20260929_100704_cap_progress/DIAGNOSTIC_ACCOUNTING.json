@@ -1,0 +1,137 @@
+{
+  "cheap_scan_reserve": 3636,
+  "note": "part_* is an innermost partition of candidate_evals. span_think and span_paired are inclusive and overlap that partition.",
+  "by_mode": {
+    "primitive": {
+      "boxes": 104,
+      "part_think": 0.0,
+      "part_paired": 0.0,
+      "part_guard": 0.0,
+      "part_selection": 5200000.0,
+      "part_other": 0.0,
+      "span_think": 0.0,
+      "span_paired": 0.0,
+      "candidate_evals": 5200000.0,
+      "cheap_actions": 94.0,
+      "macro_invocations": 0.0,
+      "physical_actions": 1446.0,
+      "final_score": 6829.0,
+      "means": {
+        "part_think": 0.0,
+        "part_paired": 0.0,
+        "part_guard": 0.0,
+        "part_selection": 50000.0,
+        "part_other": 0.0,
+        "span_think": 0.0,
+        "span_paired": 0.0,
+        "candidate_evals": 50000.0,
+        "cheap_actions": 0.9038461538461539,
+        "macro_invocations": 0.0,
+        "physical_actions": 13.903846153846153,
+        "final_score": 65.66346153846153
+      }
+    },
+    "search_only": {
+      "boxes": 104,
+      "part_think": 0.0,
+      "part_paired": 0.0,
+      "part_guard": 0.0,
+      "part_selection": 5200000.0,
+      "part_other": 0.0,
+      "span_think": 1063640.0,
+      "span_paired": 0.0,
+      "candidate_evals": 5200000.0,
+      "cheap_actions": 102.0,
+      "macro_invocations": 0.0,
+      "physical_actions": 1453.0,
+      "final_score": 6691.0,
+      "means": {
+        "part_think": 0.0,
+        "part_paired": 0.0,
+        "part_guard": 0.0,
+        "part_selection": 50000.0,
+        "part_other": 0.0,
+        "span_think": 10227.307692307691,
+        "span_paired": 0.0,
+        "candidate_evals": 50000.0,
+        "cheap_actions": 0.9807692307692307,
+        "macro_invocations": 0.0,
+        "physical_actions": 13.971153846153847,
+        "final_score": 64.33653846153847
+      }
+    },
+    "flat_library": {
+      "boxes": 104,
+      "part_think": 0.0,
+      "part_paired": 3563296.0,
+      "part_guard": 95040.0,
+      "part_selection": 1541664.0,
+      "part_other": 0.0,
+      "span_think": 3569952.0,
+      "span_paired": 3569952.0,
+      "candidate_evals": 5200000.0,
+      "cheap_actions": 104.0,
+      "macro_invocations": 96.0,
+      "physical_actions": 654.0,
+      "final_score": 3161.0,
+      "means": {
+        "part_think": 0.0,
+        "part_paired": 34262.46153846154,
+        "part_guard": 913.8461538461538,
+        "part_selection": 14823.692307692309,
+        "part_other": 0.0,
+        "span_think": 34326.46153846154,
+        "span_paired": 34326.46153846154,
+        "candidate_evals": 50000.0,
+        "cheap_actions": 1.0,
+        "macro_invocations": 0.9230769230769231,
+        "physical_actions": 6.288461538461538,
+        "final_score": 30.39423076923077
+      }
+    },
+    "hierarchical_library": {
+      "boxes": 104,
+      "part_think": 0.0,
+      "part_paired": 3972760.0,
+      "part_guard": 11648.0,
+      "part_selection": 1215592.0,
+      "part_other": 0.0,
+      "span_think": 3979288.0,
+      "span_paired": 3979288.0,
+      "candidate_evals": 5200000.0,
+      "cheap_actions": 104.0,
+      "macro_invocations": 4.0,
+      "physical_actions": 343.0,
+      "final_score": 1641.0,
+      "means": {
+        "part_think": 0.0,
+        "part_paired": 38199.61538461538,
+        "part_guard": 112.0,
+        "part_selection": 11688.384615384615,
+        "part_other": 0.0,
+        "span_think": 38262.38461538462,
+        "span_paired": 38262.38461538462,
+        "candidate_evals": 50000.0,
+        "cheap_actions": 1.0,
+        "macro_invocations": 0.038461538461538464,
+        "physical_actions": 3.298076923076923,
+        "final_score": 15.778846153846153
+      }
+    }
+  },
+  "arm_choices": {
+    "hierarchical_library": {
+      "primitive": 96,
+      "stm": 95,
+      "think": 108,
+      "ltm": 45
+    }
+  },
+  "arm_choice_events": 344,
+  "think_batches": {
+    "count": 212,
+    "evals_sum": 7549240.0,
+    "evals_mean": 35609.622641509435,
+    "evals_max": 46364.0
+  }
+}

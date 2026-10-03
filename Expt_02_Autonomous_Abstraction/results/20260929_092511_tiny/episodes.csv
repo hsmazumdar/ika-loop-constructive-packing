@@ -1,0 +1,13 @@
+mode,seed,phase,repetition,task_id,family,final_score,best_score,blanks,physical_actions,primitive_decisions,macro_invocations,model_transitions,candidate_evals,planning_peak,think_batches,stm_entries,stm_trace_len,stm_peak_bytes,stm_avg_bytes,ltm_entries,ltm_bytes,ltm_confirmed,termination,wall_seconds,invalid_attempts,undos,placements,logging_events
+primitive,1,train,0,legacy,legacy_unlimited,63,63,37,14,14,0,0,50000,0,0,0,0,72,72.0,0,24,0,compute_budget,0.014371599999776663,0,0,14,0
+primitive,1,train,1,legacy,legacy_unlimited,67,67,33,14,14,0,0,50000,0,0,0,0,72,72.0,0,24,0,compute_budget,0.013247700000192708,0,0,14,0
+primitive,1,train,2,legacy,legacy_unlimited,66,66,34,14,14,0,0,50000,0,0,0,0,72,72.0,0,24,0,compute_budget,0.013563999999860243,0,0,14,0
+search_only,1,train,0,legacy,legacy_unlimited,67,67,33,14,14,0,2,50000,0,1,0,0,72,72.0,0,24,0,compute_budget,0.014918800000032206,0,0,14,0
+search_only,1,train,1,legacy,legacy_unlimited,69,69,31,14,14,0,10,50000,0,5,0,0,72,72.0,0,24,0,compute_budget,0.030842000000120606,0,0,14,0
+search_only,1,train,2,legacy,legacy_unlimited,68,68,32,14,14,0,6,50000,0,3,0,0,72,72.0,0,24,0,compute_budget,0.02207810000027166,0,0,14,0
+flat_library,1,train,0,legacy,legacy_unlimited,21,21,79,4,4,0,10,50000,1496,1,0,4,276,168.66666666666666,0,24,0,compute_budget,0.01696719999972629,0,0,4,0
+flat_library,1,train,1,legacy,legacy_unlimited,20,20,80,4,4,0,12,50000,1051,1,1,4,1296,411.6923076923077,1,1097,0,compute_budget,0.0164798000000701,0,0,4,0
+flat_library,1,train,2,legacy,legacy_unlimited,40,40,60,8,0,4,14,50000,1311,1,0,8,453,280.5,1,1180,0,compute_budget,0.019857299999785027,0,0,8,0
+hierarchical_library,1,train,0,legacy,legacy_unlimited,10,10,90,2,2,0,14,50000,1090,1,1,2,1259,488.77777777777777,1,1136,0,compute_budget,0.017377199999828008,0,0,2,0
+hierarchical_library,1,train,1,legacy,legacy_unlimited,63,63,37,13,9,2,6,50000,1073,1,0,13,643,382.7692307692308,1,1177,0,compute_budget,0.016685200000210898,0,0,13,0
+hierarchical_library,1,train,2,legacy,legacy_unlimited,4,4,96,1,1,0,15,50000,1118,1,1,1,1249,897.2857142857143,2,2318,0,compute_budget,0.01720419999992373,0,0,1,0

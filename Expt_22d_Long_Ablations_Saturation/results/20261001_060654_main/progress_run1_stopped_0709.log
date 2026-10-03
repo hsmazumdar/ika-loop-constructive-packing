@@ -1,0 +1,727 @@
+06:08:06 CKPT no_sleep s202 box 0 held-out 66.69
+06:08:07 CKPT no_meta_matched_floor s201 box 0 held-out 66.42
+06:08:09 CKPT no_sleep s200 box 0 held-out 68.52
+06:08:10 CKPT full s305 box 0 held-out 67.23
+06:08:11 CKPT full s301 box 0 held-out 68.86
+06:08:12 CKPT no_concepts s203 box 0 held-out 67.11
+06:08:12 CKPT no_meta_matched_floor s202 box 0 held-out 66.69
+06:08:12 CKPT no_concepts s201 box 0 held-out 66.42
+06:08:12 CKPT no_meta_matched_floor s200 box 0 held-out 68.52
+06:08:16 CKPT no_dream s202 box 0 held-out 66.69
+06:08:17 CKPT full s303 box 0 held-out 66.33
+06:08:18 CKPT full s302 box 0 held-out 67.27
+06:08:20 CKPT no_meta s203 box 0 held-out 67.11
+06:08:20 CKPT no_dream s203 box 0 held-out 67.11
+06:08:21 CKPT full s304 box 0 held-out 68.45
+06:08:21 CKPT no_sleep s201 box 0 held-out 66.42
+06:08:22 CKPT full s300 box 0 held-out 66.94
+06:08:22 CKPT no_meta s200 box 0 held-out 68.52
+06:08:22 CKPT no_dream s200 box 0 held-out 68.52
+06:08:23 CKPT no_dream s201 box 0 held-out 66.42
+06:08:24 CKPT no_meta_matched_floor s203 box 0 held-out 67.11
+06:08:24 CKPT no_concepts s202 box 0 held-out 66.69
+06:08:25 CKPT no_sleep s203 box 0 held-out 67.11
+06:08:28 CKPT no_concepts s200 box 0 held-out 68.52
+06:08:28 CKPT no_meta s201 box 0 held-out 66.42
+06:08:34 CKPT no_meta s202 box 0 held-out 66.69
+06:09:55 CKPT no_sleep s200 box 500 held-out 76.93
+06:09:59 CKPT full s305 box 500 held-out 71.12
+06:10:03 CKPT no_sleep s202 box 500 held-out 75.32
+06:10:06 CKPT no_meta_matched_floor s201 box 500 held-out 71.95
+06:10:10 CKPT no_concepts s201 box 500 held-out 72.53
+06:10:10 CKPT no_sleep s201 box 500 held-out 79.98
+06:10:10 CKPT no_dream s203 box 500 held-out 72.40
+06:10:13 CKPT full s301 box 500 held-out 72.10
+06:10:15 CKPT no_dream s200 box 500 held-out 72.04
+06:10:17 CKPT no_meta s201 box 500 held-out 71.49
+06:10:18 CKPT full s303 box 500 held-out 68.46
+06:10:19 CKPT no_meta_matched_floor s200 box 500 held-out 72.28
+06:10:19 CKPT full s300 box 500 held-out 70.31
+06:10:21 CKPT no_dream s202 box 500 held-out 68.21
+06:10:21 CKPT no_dream s201 box 500 held-out 72.12
+06:10:24 CKPT full s302 box 500 held-out 72.10
+06:10:24 CKPT no_meta s200 box 500 held-out 72.24
+06:10:26 CKPT no_concepts s203 box 500 held-out 72.29
+06:10:27 CKPT no_meta_matched_floor s202 box 500 held-out 68.41
+06:10:27 CKPT full s304 box 500 held-out 74.29
+06:10:28 CKPT no_meta s203 box 500 held-out 72.67
+06:10:30 CKPT no_meta_matched_floor s203 box 500 held-out 72.06
+06:10:31 CKPT no_meta s202 box 500 held-out 68.08
+06:10:37 CKPT no_concepts s200 box 500 held-out 71.74
+06:10:38 CKPT no_concepts s202 box 500 held-out 68.07
+06:10:49 CKPT no_sleep s203 box 500 held-out 80.79
+06:11:37 CKPT no_sleep s200 box 1000 held-out 79.40
+06:11:45 CKPT no_dream s201 box 1000 held-out 81.31
+06:11:50 CKPT no_sleep s202 box 1000 held-out 83.54
+06:11:56 CKPT no_meta s201 box 1000 held-out 81.88
+06:12:03 CKPT full s305 box 1000 held-out 80.63
+06:12:03 CKPT full s301 box 1000 held-out 82.14
+06:12:04 CKPT no_concepts s201 box 1000 held-out 82.38
+06:12:08 CKPT no_meta_matched_floor s201 box 1000 held-out 82.27
+06:12:12 CKPT no_dream s203 box 1000 held-out 82.04
+06:12:13 CKPT full s303 box 1000 held-out 79.74
+06:12:17 CKPT no_meta s203 box 1000 held-out 81.97
+06:12:18 CKPT no_dream s200 box 1000 held-out 79.89
+06:12:20 CKPT no_dream s202 box 1000 held-out 80.73
+06:12:24 CKPT no_meta_matched_floor s200 box 1000 held-out 80.83
+06:12:24 CKPT no_sleep s201 box 1000 held-out 83.06
+06:12:28 CKPT no_concepts s203 box 1000 held-out 81.48
+06:12:30 CKPT no_meta_matched_floor s203 box 1000 held-out 82.22
+06:12:39 CKPT full s302 box 1000 held-out 82.22
+06:12:44 [no_sleep s200] box 2000 train S1 68.72 hidden 64 concepts 0 tau 1.76 eps 0.088 lr 0.0010 348s
+06:12:49 CKPT full s300 box 1000 held-out 82.39
+06:12:50 CKPT full s304 box 1000 held-out 83.23
+06:12:51 CKPT no_meta s202 box 1000 held-out 79.27
+06:12:54 CKPT no_meta s200 box 1000 held-out 79.82
+06:12:56 CKPT no_concepts s202 box 1000 held-out 80.06
+06:12:58 [no_sleep s202] box 2000 train S1 68.83 hidden 64 concepts 0 tau 1.94 eps 0.097 lr 0.0010 363s
+06:13:02 [no_dream s201] box 2000 train S1 69.44 hidden 64 concepts 1 tau 1.76 eps 0.088 lr 0.0010 367s
+06:13:08 CKPT no_sleep s203 box 1000 held-out 82.16
+06:13:11 [no_meta s201] box 2000 train S1 69.55 hidden 64 concepts 1 tau 1.78 eps 0.088 lr 0.0010 376s
+06:13:15 CKPT no_concepts s200 box 1000 held-out 79.93
+06:13:18 CKPT no_meta_matched_floor s202 box 1000 held-out 79.14
+06:13:19 [full s305] box 2000 train S1 69.16 hidden 64 concepts 1 tau 1.76 eps 0.088 lr 0.0010 383s
+06:13:23 [full s301] box 2000 train S1 69.37 hidden 64 concepts 4 tau 1.76 eps 0.088 lr 0.0010 389s
+06:13:24 [no_concepts s201] box 2000 train S1 69.40 hidden 64 concepts 0 tau 1.94 eps 0.097 lr 0.0010 388s
+06:13:31 [no_meta_matched_floor s201] box 2000 train S1 69.40 hidden 64 concepts 3 tau 1.89 eps 0.094 lr 0.0010 397s
+06:13:33 [no_dream s203] box 2000 train S1 69.52 hidden 64 concepts 0 tau 1.94 eps 0.097 lr 0.0010 398s
+06:13:40 [full s303] box 2000 train S1 69.20 hidden 64 concepts 1 tau 1.76 eps 0.088 lr 0.0010 405s
+06:13:43 [no_dream s202] box 2000 train S1 69.03 hidden 64 concepts 5 tau 1.76 eps 0.088 lr 0.0010 409s
+06:13:46 CKPT no_sleep s200 box 2000 held-out 82.35
+06:13:46 [no_concepts s203] box 2000 train S1 69.53 hidden 64 concepts 0 tau 1.76 eps 0.088 lr 0.0010 410s
+06:13:46 [no_meta s203] box 2000 train S1 69.71 hidden 64 concepts 0 tau 1.78 eps 0.088 lr 0.0010 412s
+06:13:47 [no_dream s200] box 2000 train S1 69.24 hidden 64 concepts 1 tau 1.76 eps 0.088 lr 0.0010 413s
+06:13:50 CKPT no_sleep s202 box 2000 held-out 83.58
+06:13:55 [no_sleep s201] box 2000 train S1 69.06 hidden 64 concepts 0 tau 1.94 eps 0.097 lr 0.0010 420s
+06:14:01 CKPT no_dream s201 box 2000 held-out 83.17
+06:14:02 [no_meta_matched_floor s200] box 2000 train S1 69.30 hidden 64 concepts 1 tau 1.89 eps 0.094 lr 0.0010 428s
+06:14:07 [no_meta_matched_floor s203] box 2000 train S1 69.44 hidden 64 concepts 1 tau 1.89 eps 0.094 lr 0.0010 433s
+06:14:11 [full s302] box 2000 train S1 69.40 hidden 64 concepts 1 tau 1.76 eps 0.088 lr 0.0010 436s
+06:14:24 CKPT no_meta s201 box 2000 held-out 83.29
+06:14:24 [no_meta s202] box 2000 train S1 69.19 hidden 64 concepts 3 tau 1.78 eps 0.088 lr 0.0010 449s
+06:14:27 CKPT full s305 box 2000 held-out 82.59
+06:14:28 [no_concepts s202] box 2000 train S1 69.19 hidden 64 concepts 0 tau 1.76 eps 0.088 lr 0.0010 452s
+06:14:29 CKPT no_concepts s201 box 2000 held-out 83.32
+06:14:32 [no_sleep s203] box 2000 train S1 69.19 hidden 64 concepts 0 tau 1.94 eps 0.097 lr 0.0010 457s
+06:14:35 CKPT full s301 box 2000 held-out 83.41
+06:14:38 [full s304] box 2000 train S1 69.51 hidden 64 concepts 4 tau 1.94 eps 0.097 lr 0.0010 463s
+06:14:42 [full s300] box 2000 train S1 69.53 hidden 64 concepts 0 tau 1.76 eps 0.088 lr 0.0010 467s
+06:14:46 CKPT no_meta_matched_floor s201 box 2000 held-out 83.60
+06:14:46 [no_meta s200] box 2000 train S1 69.28 hidden 64 concepts 2 tau 1.78 eps 0.088 lr 0.0010 472s
+06:14:48 CKPT no_dream s202 box 2000 held-out 83.56
+06:14:49 CKPT no_dream s203 box 2000 held-out 82.50
+06:14:51 CKPT full s303 box 2000 held-out 83.01
+06:14:58 CKPT no_meta s203 box 2000 held-out 82.71
+06:15:02 [no_meta_matched_floor s202] box 2000 train S1 69.15 hidden 64 concepts 0 tau 1.89 eps 0.094 lr 0.0010 487s
+06:15:03 [no_concepts s200] box 2000 train S1 69.25 hidden 64 concepts 0 tau 1.76 eps 0.088 lr 0.0010 488s
+06:15:03 CKPT no_sleep s201 box 2000 held-out 83.15
+06:15:05 CKPT no_dream s200 box 2000 held-out 82.92
+06:15:05 CKPT no_concepts s203 box 2000 held-out 82.64
+06:15:21 CKPT no_meta_matched_floor s200 box 2000 held-out 83.14
+06:15:38 CKPT no_concepts s202 box 2000 held-out 84.01
+06:15:41 CKPT full s302 box 2000 held-out 83.44
+06:15:43 CKPT no_meta_matched_floor s203 box 2000 held-out 82.54
+06:15:51 CKPT full s304 box 2000 held-out 83.38
+06:15:54 CKPT no_meta s202 box 2000 held-out 83.56
+06:15:56 CKPT no_sleep s203 box 2000 held-out 82.31
+06:16:07 CKPT full s300 box 2000 held-out 83.00
+06:16:09 CKPT no_sleep s200 box 3000 held-out 83.57
+06:16:17 CKPT no_meta s200 box 2000 held-out 83.17
+06:16:22 CKPT no_dream s201 box 3000 held-out 83.69
+06:16:25 CKPT no_meta_matched_floor s202 box 2000 held-out 83.99
+06:16:26 CKPT no_sleep s202 box 3000 held-out 84.05
+06:16:35 CKPT full s305 box 3000 held-out 83.07
+06:16:52 CKPT no_concepts s200 box 2000 held-out 83.42
+06:16:58 CKPT no_meta s201 box 3000 held-out 83.27
+06:16:59 CKPT full s301 box 3000 held-out 83.59
+06:17:02 CKPT no_concepts s201 box 3000 held-out 83.74
+06:17:04 CKPT no_meta_matched_floor s201 box 3000 held-out 83.77
+06:17:10 [no_sleep s200] box 4000 train S1 70.47 hidden 64 concepts 0 tau 1.36 eps 0.068 lr 0.0010 613s
+06:17:22 CKPT full s303 box 3000 held-out 83.67
+06:17:31 CKPT no_dream s202 box 3000 held-out 83.86
+06:17:34 [no_sleep s202] box 4000 train S1 70.18 hidden 64 concepts 0 tau 1.73 eps 0.085 lr 0.0009 638s
+06:17:35 [no_dream s201] box 4000 train S1 70.92 hidden 64 concepts 5 tau 1.36 eps 0.068 lr 0.0010 640s
+06:17:38 CKPT no_concepts s203 box 3000 held-out 82.90
+06:17:38 CKPT no_dream s203 box 3000 held-out 82.42
+06:17:46 CKPT no_meta s203 box 3000 held-out 82.78
+06:17:51 CKPT no_sleep s201 box 3000 held-out 83.07
+06:17:59 [full s305] box 4000 train S1 70.99 hidden 64 concepts 1 tau 1.36 eps 0.068 lr 0.0010 663s
+06:18:04 CKPT no_meta_matched_floor s200 box 3000 held-out 83.30
+06:18:04 CKPT no_dream s200 box 3000 held-out 83.32
+06:18:22 CKPT no_meta_matched_floor s203 box 3000 held-out 82.99
+06:18:24 [no_meta_matched_floor s201] box 4000 train S1 70.32 hidden 64 concepts 2 tau 1.78 eps 0.088 lr 0.0010 689s
+06:18:29 [no_meta s201] box 4000 train S1 70.91 hidden 64 concepts 2 tau 1.56 eps 0.076 lr 0.0010 694s
+06:18:30 [full s301] box 4000 train S1 70.83 hidden 64 concepts 3 tau 1.36 eps 0.068 lr 0.0010 696s
+06:18:34 [no_concepts s201] box 4000 train S1 70.11 hidden 64 concepts 0 tau 1.83 eps 0.091 lr 0.0010 699s
+06:18:42 CKPT no_meta s202 box 3000 held-out 83.89
+06:18:45 CKPT full s300 box 3000 held-out 83.41
+06:18:48 CKPT no_concepts s202 box 3000 held-out 84.12
+06:18:50 [full s303] box 4000 train S1 70.89 hidden 64 concepts 0 tau 1.36 eps 0.068 lr 0.0010 715s
+06:18:52 [no_dream s202] box 4000 train S1 70.99 hidden 64 concepts 2 tau 1.36 eps 0.068 lr 0.0010 717s
+06:18:52 CKPT full s302 box 3000 held-out 83.38
+06:18:55 CKPT no_sleep s203 box 3000 held-out 82.72
+06:18:58 [no_concepts s203] box 4000 train S1 70.77 hidden 64 concepts 0 tau 1.36 eps 0.068 lr 0.0010 722s
+06:19:02 CKPT full s304 box 3000 held-out 83.47
+06:19:08 CKPT no_meta_matched_floor s202 box 3000 held-out 83.77
+06:19:13 [no_dream s203] box 4000 train S1 70.25 hidden 64 concepts 6 tau 1.73 eps 0.085 lr 0.0009 738s
+06:19:22 [no_sleep s201] box 4000 train S1 69.72 hidden 64 concepts 0 tau 1.83 eps 0.091 lr 0.0010 747s
+06:19:23 CKPT no_sleep s200 box 5000 held-out 84.17
+06:19:24 [no_meta s203] box 4000 train S1 70.79 hidden 64 concepts 1 tau 1.56 eps 0.076 lr 0.0010 749s
+06:19:27 CKPT no_meta s200 box 3000 held-out 83.48
+06:19:43 [no_dream s200] box 4000 train S1 71.18 hidden 64 concepts 5 tau 1.36 eps 0.068 lr 0.0010 768s
+06:19:54 [no_meta s202] box 4000 train S1 70.75 hidden 64 concepts 8 tau 1.56 eps 0.076 lr 0.0010 779s
+06:19:55 [no_concepts s202] box 4000 train S1 70.91 hidden 64 concepts 0 tau 1.36 eps 0.068 lr 0.0010 780s
+06:19:56 CKPT no_dream s201 box 5000 held-out 84.02
+06:19:57 [no_meta_matched_floor s203] box 4000 train S1 70.65 hidden 64 concepts 3 tau 1.78 eps 0.088 lr 0.0010 783s
+06:19:57 [no_meta_matched_floor s200] box 4000 train S1 70.26 hidden 64 concepts 1 tau 1.78 eps 0.088 lr 0.0010 782s
+06:19:58 CKPT no_sleep s202 box 5000 held-out 83.94
+06:20:05 CKPT no_concepts s200 box 3000 held-out 83.81
+06:20:23 [full s300] box 4000 train S1 70.96 hidden 64 concepts 1 tau 1.36 eps 0.068 lr 0.0010 808s
+06:20:28 [no_sleep s200] box 6000 train S1 71.81 hidden 64 concepts 0 tau 1.06 eps 0.053 lr 0.0010 811s
+06:20:29 [no_sleep s203] box 4000 train S1 70.15 hidden 64 concepts 0 tau 1.73 eps 0.085 lr 0.0009 815s
+06:20:30 [full s302] box 4000 train S1 70.54 hidden 64 concepts 4 tau 1.50 eps 0.075 lr 0.0010 815s
+06:20:36 CKPT full s305 box 5000 held-out 83.25
+06:20:41 [full s304] box 4000 train S1 70.42 hidden 64 concepts 2 tau 1.64 eps 0.079 lr 0.0008 826s
+06:20:45 [no_meta_matched_floor s202] box 4000 train S1 70.28 hidden 64 concepts 4 tau 1.78 eps 0.088 lr 0.0010 830s
+06:20:57 CKPT no_meta s201 box 5000 held-out 84.10
+06:21:00 CKPT full s301 box 5000 held-out 83.68
+06:21:04 [no_sleep s202] box 6000 train S1 70.41 hidden 64 concepts 0 tau 1.63 eps 0.080 lr 0.0009 849s
+06:21:09 CKPT no_meta_matched_floor s201 box 5000 held-out 84.21
+06:21:09 [no_meta s200] box 4000 train S1 70.75 hidden 64 concepts 4 tau 1.56 eps 0.076 lr 0.0010 855s
+06:21:15 CKPT no_concepts s201 box 5000 held-out 84.22
+06:21:17 [no_dream s201] box 6000 train S1 72.33 hidden 64 concepts 3 tau 1.06 eps 0.053 lr 0.0010 862s
+06:21:28 CKPT full s303 box 5000 held-out 83.75
+06:21:39 CKPT no_sleep s201 box 5000 held-out 83.56
+06:21:41 CKPT no_dream s202 box 5000 held-out 84.46
+06:21:42 CKPT no_concepts s203 box 5000 held-out 82.91
+06:21:47 CKPT no_dream s203 box 5000 held-out 82.57
+06:21:48 [no_concepts s200] box 4000 train S1 70.61 hidden 64 concepts 0 tau 1.36 eps 0.068 lr 0.0010 893s
+06:22:07 CKPT no_dream s200 box 5000 held-out 83.85
+06:22:09 [full s305] box 6000 train S1 72.07 hidden 64 concepts 0 tau 1.06 eps 0.053 lr 0.0010 913s
+06:22:13 CKPT no_meta s203 box 5000 held-out 83.73
+06:22:21 CKPT no_meta s202 box 5000 held-out 84.51
+06:22:27 CKPT no_concepts s202 box 5000 held-out 84.53
+06:22:28 [no_meta s201] box 6000 train S1 71.78 hidden 64 concepts 2 tau 1.34 eps 0.064 lr 0.0010 934s
+06:22:32 [full s301] box 6000 train S1 72.51 hidden 64 concepts 2 tau 1.16 eps 0.058 lr 0.0010 937s
+06:22:33 CKPT no_meta_matched_floor s203 box 5000 held-out 83.69
+06:22:36 CKPT no_sleep s203 box 5000 held-out 83.09
+06:22:36 CKPT full s300 box 5000 held-out 83.92
+06:22:39 [no_sleep s201] box 6000 train S1 70.29 hidden 64 concepts 0 tau 1.72 eps 0.086 lr 0.0010 944s
+06:22:40 [no_meta_matched_floor s201] box 6000 train S1 70.64 hidden 64 concepts 3 tau 1.67 eps 0.083 lr 0.0010 945s
+06:22:42 CKPT full s302 box 5000 held-out 83.74
+06:22:44 [no_concepts s201] box 6000 train S1 70.24 hidden 64 concepts 0 tau 1.56 eps 0.078 lr 0.0010 948s
+06:22:44 [no_dream s203] box 6000 train S1 70.62 hidden 64 concepts 1 tau 1.54 eps 0.074 lr 0.0008 949s
+06:22:46 [full s303] box 6000 train S1 72.06 hidden 64 concepts 2 tau 1.06 eps 0.053 lr 0.0010 951s
+06:22:54 CKPT no_meta_matched_floor s202 box 5000 held-out 84.20
+06:22:54 CKPT no_meta_matched_floor s200 box 5000 held-out 83.31
+06:22:58 [no_dream s202] box 6000 train S1 72.24 hidden 64 concepts 3 tau 1.06 eps 0.053 lr 0.0010 964s
+06:23:01 CKPT full s304 box 5000 held-out 83.98
+06:23:03 [no_dream s200] box 6000 train S1 72.08 hidden 64 concepts 1 tau 1.06 eps 0.053 lr 0.0010 968s
+06:23:03 [no_concepts s203] box 6000 train S1 71.78 hidden 64 concepts 0 tau 1.28 eps 0.064 lr 0.0010 968s
+06:23:21 CKPT no_sleep s200 box 7500 held-out 83.77
+06:23:25 [no_meta s202] box 6000 train S1 71.38 hidden 64 concepts 3 tau 1.34 eps 0.064 lr 0.0010 990s
+06:23:27 CKPT no_meta s200 box 5000 held-out 83.71
+06:23:27 [no_concepts s202] box 6000 train S1 72.33 hidden 64 concepts 0 tau 1.06 eps 0.053 lr 0.0010 992s
+06:23:31 [no_sleep s203] box 6000 train S1 70.43 hidden 64 concepts 0 tau 1.40 eps 0.067 lr 0.0008 997s
+06:23:36 [no_meta_matched_floor s203] box 6000 train S1 70.63 hidden 64 concepts 9 tau 1.67 eps 0.083 lr 0.0010 1001s
+06:23:36 [full s300] box 6000 train S1 72.38 hidden 64 concepts 5 tau 1.06 eps 0.053 lr 0.0010 1002s
+06:23:38 [no_meta s203] box 6000 train S1 71.64 hidden 64 concepts 5 tau 1.34 eps 0.064 lr 0.0010 1003s
+06:23:43 [full s302] box 6000 train S1 71.33 hidden 64 concepts 5 tau 1.41 eps 0.071 lr 0.0010 1008s
+06:23:54 [no_meta_matched_floor s202] box 6000 train S1 70.53 hidden 64 concepts 2 tau 1.67 eps 0.083 lr 0.0010 1019s
+06:23:56 CKPT no_concepts s200 box 5000 held-out 83.89
+06:23:57 [no_sleep s200] box 8000 train S1 73.75 hidden 64 concepts 0 tau 0.85 eps 0.042 lr 0.0009 1021s
+06:23:59 CKPT no_sleep s202 box 7500 held-out 84.33
+06:24:01 [full s304] box 6000 train S1 71.49 hidden 64 concepts 4 tau 1.40 eps 0.067 lr 0.0008 1027s
+06:24:18 CKPT no_dream s201 box 7500 held-out 84.63
+06:24:23 [no_meta_matched_floor s200] box 6000 train S1 70.47 hidden 64 concepts 5 tau 1.67 eps 0.083 lr 0.0010 1048s
+06:24:32 [no_meta s200] box 6000 train S1 71.63 hidden 64 concepts 2 tau 1.34 eps 0.064 lr 0.0010 1057s
+06:24:36 [no_sleep s202] box 8000 train S1 70.88 hidden 64 concepts 0 tau 1.53 eps 0.075 lr 0.0009 1060s
+06:24:44 CKPT no_sleep s201 box 7500 held-out 83.78
+06:24:49 CKPT no_dream s203 box 7500 held-out 83.48
+06:24:55 [no_dream s201] box 8000 train S1 73.46 hidden 64 concepts 8 tau 0.82 eps 0.041 lr 0.0010 1080s
+06:24:56 [no_concepts s200] box 6000 train S1 72.12 hidden 64 concepts 0 tau 1.16 eps 0.058 lr 0.0010 1082s
+06:24:58 CKPT full s305 box 7500 held-out 84.32
+06:25:07 CKPT no_dream s200 box 7500 held-out 83.55
+06:25:13 [no_sleep s201] box 8000 train S1 70.29 hidden 64 concepts 0 tau 1.62 eps 0.081 lr 0.0010 1098s
+06:25:18 [no_dream s203] box 8000 train S1 71.18 hidden 64 concepts 3 tau 1.32 eps 0.063 lr 0.0008 1103s
+06:25:22 CKPT no_meta s201 box 7500 held-out 85.07
+06:25:24 CKPT full s301 box 7500 held-out 83.96
+06:25:33 CKPT no_concepts s201 box 7500 held-out 84.34
+06:25:36 [full s305] box 8000 train S1 73.81 hidden 64 concepts 3 tau 0.82 eps 0.041 lr 0.0010 1121s
+06:25:37 [no_dream s200] box 8000 train S1 72.87 hidden 128 concepts 13 tau 0.99 eps 0.050 lr 0.0010 1123s
+06:25:38 CKPT no_sleep s203 box 7500 held-out 83.49
+06:25:42 CKPT full s303 box 7500 held-out 84.65
+06:25:43 CKPT no_meta_matched_floor s201 box 7500 held-out 84.50
+06:25:44 CKPT no_meta s202 box 7500 held-out 85.01
+06:25:45 CKPT no_concepts s202 box 7500 held-out 85.22
+06:25:48 CKPT no_concepts s203 box 7500 held-out 83.47
+06:25:48 CKPT no_dream s202 box 7500 held-out 84.83
+06:25:53 CKPT full s300 box 7500 held-out 85.30
+06:25:54 CKPT no_meta_matched_floor s203 box 7500 held-out 84.42
+06:26:01 CKPT full s302 box 7500 held-out 84.32
+06:26:04 [no_sleep s200] box 10000 train S1 74.51 hidden 64 concepts 0 tau 0.80 eps 0.039 lr 0.0009 1148s
+06:26:05 [full s301] box 8000 train S1 73.27 hidden 64 concepts 7 tau 0.98 eps 0.047 lr 0.0008 1150s
+06:26:05 [no_meta s201] box 8000 train S1 72.58 hidden 64 concepts 10 tau 1.12 eps 0.052 lr 0.0010 1151s
+06:26:08 [no_sleep s203] box 8000 train S1 71.63 hidden 64 concepts 0 tau 1.19 eps 0.054 lr 0.0007 1153s
+06:26:12 [no_concepts s201] box 8000 train S1 71.08 hidden 64 concepts 0 tau 1.47 eps 0.073 lr 0.0010 1157s
+06:26:12 [no_concepts s202] box 8000 train S1 74.00 hidden 64 concepts 0 tau 0.82 eps 0.041 lr 0.0010 1157s
+06:26:16 [no_meta s202] box 8000 train S1 72.51 hidden 64 concepts 14 tau 1.12 eps 0.052 lr 0.0010 1161s
+06:26:17 CKPT no_meta_matched_floor s202 box 7500 held-out 85.03
+06:26:21 [full s303] box 8000 train S1 73.55 hidden 64 concepts 3 tau 0.99 eps 0.050 lr 0.0010 1166s
+06:26:23 [full s300] box 8000 train S1 73.95 hidden 64 concepts 7 tau 0.82 eps 0.041 lr 0.0011 1168s
+06:26:25 [no_dream s202] box 8000 train S1 74.01 hidden 64 concepts 9 tau 0.82 eps 0.041 lr 0.0010 1170s
+06:26:26 [no_concepts s203] box 8000 train S1 72.18 hidden 64 concepts 0 tau 1.09 eps 0.055 lr 0.0010 1170s
+06:26:26 CKPT no_meta s203 box 7500 held-out 84.49
+06:26:26 [no_meta_matched_floor s201] box 8000 train S1 70.92 hidden 64 concepts 5 tau 1.56 eps 0.077 lr 0.0010 1172s
+06:26:26 CKPT full s304 box 7500 held-out 84.47
+06:26:27 [no_meta_matched_floor s203] box 8000 train S1 71.11 hidden 64 concepts 11 tau 1.56 eps 0.077 lr 0.0010 1172s
+06:26:31 [full s302] box 8000 train S1 71.85 hidden 64 concepts 7 tau 1.09 eps 0.055 lr 0.0010 1176s
+06:26:48 [no_sleep s202] box 10000 train S1 71.02 hidden 64 concepts 0 tau 1.37 eps 0.065 lr 0.0008 1192s
+06:26:51 [no_meta_matched_floor s202] box 8000 train S1 71.18 hidden 64 concepts 7 tau 1.56 eps 0.077 lr 0.0010 1196s
+06:26:57 CKPT no_meta s200 box 7500 held-out 83.95
+06:26:58 [no_sleep s201] box 10000 train S1 70.94 hidden 64 concepts 0 tau 1.37 eps 0.065 lr 0.0008 1203s
+06:27:00 [full s304] box 8000 train S1 71.94 hidden 64 concepts 6 tau 1.20 eps 0.057 lr 0.0008 1205s
+06:27:01 CKPT no_sleep s200 box 10000 held-out 84.11
+06:27:02 [no_dream s203] box 10000 train S1 72.51 hidden 64 concepts 2 tau 1.02 eps 0.049 lr 0.0008 1207s
+06:27:08 [no_dream s201] box 10000 train S1 75.58 hidden 64 concepts 19 tau 0.77 eps 0.038 lr 0.0010 1213s
+06:27:10 [no_meta s203] box 8000 train S1 72.61 hidden 64 concepts 7 tau 1.12 eps 0.052 lr 0.0010 1215s
+06:27:26 CKPT no_concepts s200 box 7500 held-out 83.92
+06:27:33 [no_meta s200] box 8000 train S1 72.16 hidden 64 concepts 3 tau 1.12 eps 0.052 lr 0.0010 1239s
+06:27:45 CKPT no_meta_matched_floor s200 box 7500 held-out 83.42
+06:27:48 CKPT no_sleep s202 box 10000 held-out 84.91
+06:27:50 CKPT no_sleep s201 box 10000 held-out 83.98
+06:27:55 CKPT no_dream s203 box 10000 held-out 83.91
+06:27:56 [no_sleep s203] box 10000 train S1 73.46 hidden 64 concepts 0 tau 0.92 eps 0.042 lr 0.0007 1261s
+06:28:05 [no_concepts s200] box 8000 train S1 72.65 hidden 128 concepts 0 tau 1.04 eps 0.051 lr 0.0009 1270s
+06:28:10 [full s305] box 10000 train S1 75.94 hidden 64 concepts 12 tau 0.63 eps 0.032 lr 0.0010 1274s
+06:28:11 CKPT no_dream s201 box 10000 held-out 85.02
+06:28:15 [no_concepts s202] box 10000 train S1 76.30 hidden 64 concepts 0 tau 0.77 eps 0.038 lr 0.0010 1279s
+06:28:28 [no_meta s202] box 10000 train S1 74.12 hidden 64 concepts 26 tau 0.90 eps 0.040 lr 0.0010 1293s
+06:28:30 [full s300] box 10000 train S1 76.15 hidden 64 concepts 13 tau 0.63 eps 0.032 lr 0.0013 1295s
+06:28:33 [full s301] box 10000 train S1 74.22 hidden 64 concepts 7 tau 0.84 eps 0.040 lr 0.0008 1298s
+06:28:33 [no_meta_matched_floor s200] box 8000 train S1 70.84 hidden 64 concepts 8 tau 1.56 eps 0.077 lr 0.0010 1298s
+06:28:37 [no_meta_matched_floor s203] box 10000 train S1 71.32 hidden 64 concepts 12 tau 1.45 eps 0.071 lr 0.0010 1302s
+06:28:37 [full s302] box 10000 train S1 73.92 hidden 64 concepts 18 tau 0.93 eps 0.047 lr 0.0010 1302s
+06:28:42 [no_concepts s201] box 10000 train S1 71.27 hidden 64 concepts 0 tau 1.31 eps 0.064 lr 0.0009 1307s
+06:28:46 CKPT no_sleep s203 box 10000 held-out 84.07
+06:28:46 [no_meta s201] box 10000 train S1 73.98 hidden 64 concepts 12 tau 0.90 eps 0.040 lr 0.0010 1311s
+06:28:47 [no_dream s202] box 10000 train S1 76.74 hidden 64 concepts 64 tau 0.69 eps 0.033 lr 0.0008 1312s
+06:28:54 [full s303] box 10000 train S1 74.48 hidden 64 concepts 8 tau 0.85 eps 0.042 lr 0.0010 1320s
+06:28:57 [no_concepts s203] box 10000 train S1 73.78 hidden 64 concepts 0 tau 0.85 eps 0.042 lr 0.0010 1321s
+06:28:57 [no_dream s200] box 10000 train S1 73.72 hidden 128 concepts 18 tau 0.84 eps 0.040 lr 0.0008 1322s
+06:29:07 [no_meta_matched_floor s202] box 10000 train S1 71.22 hidden 64 concepts 8 tau 1.45 eps 0.071 lr 0.0010 1332s
+06:29:10 CKPT no_concepts s202 box 10000 held-out 85.65
+06:29:13 [full s304] box 10000 train S1 72.72 hidden 64 concepts 12 tau 1.07 eps 0.050 lr 0.0007 1339s
+06:29:16 CKPT full s305 box 10000 held-out 84.89
+06:29:20 [no_sleep s200] box 12000 train S1 75.09 hidden 64 concepts 0 tau 0.76 eps 0.037 lr 0.0009 1344s
+06:29:21 CKPT no_meta s202 box 10000 held-out 85.09
+06:29:23 [no_meta_matched_floor s201] box 10000 train S1 71.29 hidden 64 concepts 6 tau 1.45 eps 0.071 lr 0.0010 1348s
+06:29:27 CKPT full s300 box 10000 held-out 85.54
+06:29:32 CKPT full s302 box 10000 held-out 84.68
+06:29:32 CKPT no_meta_matched_floor s203 box 10000 held-out 84.30
+06:29:38 CKPT full s301 box 10000 held-out 84.36
+06:29:46 CKPT no_concepts s201 box 10000 held-out 84.29
+06:29:46 [no_sleep s201] box 12000 train S1 72.03 hidden 64 concepts 0 tau 1.16 eps 0.053 lr 0.0007 1372s
+06:29:47 [no_dream s203] box 12000 train S1 73.78 hidden 64 concepts 17 tau 0.86 eps 0.040 lr 0.0007 1372s
+06:29:48 CKPT no_meta s201 box 10000 held-out 85.34
+06:29:52 [no_meta s200] box 10000 train S1 73.38 hidden 64 concepts 6 tau 0.90 eps 0.040 lr 0.0010 1377s
+06:29:57 CKPT no_dream s202 box 10000 held-out 85.38
+06:29:57 CKPT full s303 box 10000 held-out 84.85
+06:29:58 CKPT no_concepts s203 box 10000 held-out 84.33
+06:30:01 [no_meta s203] box 10000 train S1 73.51 hidden 64 concepts 11 tau 0.90 eps 0.040 lr 0.0010 1386s
+06:30:04 CKPT no_meta_matched_floor s202 box 10000 held-out 85.08
+06:30:08 CKPT full s304 box 10000 held-out 84.86
+06:30:11 [no_sleep s202] box 12000 train S1 72.08 hidden 64 concepts 0 tau 1.29 eps 0.062 lr 0.0008 1395s
+06:30:30 CKPT no_meta_matched_floor s201 box 10000 held-out 84.80
+06:30:32 CKPT no_dream s200 box 10000 held-out 83.65
+06:30:32 [no_sleep s203] box 12000 train S1 74.55 hidden 64 concepts 0 tau 0.86 eps 0.040 lr 0.0007 1418s
+06:30:35 [no_dream s201] box 12000 train S1 75.99 hidden 64 concepts 12 tau 0.72 eps 0.036 lr 0.0010 1420s
+06:30:42 CKPT no_meta s200 box 10000 held-out 84.38
+06:31:03 CKPT no_meta s203 box 10000 held-out 85.00
+06:31:06 [no_concepts s202] box 12000 train S1 76.75 hidden 128 concepts 0 tau 0.69 eps 0.034 lr 0.0009 1450s
+06:31:19 [no_meta_matched_floor s200] box 10000 train S1 71.39 hidden 64 concepts 13 tau 1.45 eps 0.071 lr 0.0010 1465s
+06:31:24 [no_meta s202] box 12000 train S1 77.00 hidden 64 concepts 67 tau 0.68 eps 0.028 lr 0.0010 1469s
+06:31:24 [full s300] box 12000 train S1 78.32 hidden 128 concepts 14 tau 0.60 eps 0.030 lr 0.0013 1469s
+06:31:30 [no_sleep s200] box 14000 train S1 75.76 hidden 64 concepts 0 tau 0.64 eps 0.030 lr 0.0007 1474s
+06:31:30 [no_dream s203] box 14000 train S1 74.86 hidden 64 concepts 30 tau 0.77 eps 0.035 lr 0.0006 1475s
+06:31:31 [full s302] box 12000 train S1 74.35 hidden 64 concepts 28 tau 0.88 eps 0.044 lr 0.0010 1477s
+06:31:31 [no_sleep s201] box 14000 train S1 72.48 hidden 64 concepts 0 tau 0.99 eps 0.045 lr 0.0007 1477s
+06:31:39 [no_concepts s200] box 10000 train S1 73.24 hidden 128 concepts 0 tau 0.98 eps 0.048 lr 0.0009 1485s
+06:31:40 [no_meta_matched_floor s203] box 12000 train S1 71.78 hidden 64 concepts 20 tau 1.34 eps 0.065 lr 0.0010 1486s
+06:31:40 [full s305] box 12000 train S1 77.83 hidden 128 concepts 26 tau 0.60 eps 0.030 lr 0.0010 1485s
+06:32:05 [full s301] box 12000 train S1 75.80 hidden 64 concepts 22 tau 0.72 eps 0.034 lr 0.0008 1511s
+06:32:09 [no_dream s202] box 12000 train S1 77.80 hidden 64 concepts 58 tau 0.62 eps 0.029 lr 0.0007 1515s
+06:32:10 [no_meta_matched_floor s202] box 12000 train S1 71.78 hidden 64 concepts 13 tau 1.34 eps 0.065 lr 0.0010 1516s
+06:32:11 [full s304] box 12000 train S1 73.56 hidden 128 concepts 15 tau 0.90 eps 0.040 lr 0.0006 1516s
+06:32:13 [no_concepts s201] box 12000 train S1 71.92 hidden 64 concepts 0 tau 1.17 eps 0.056 lr 0.0008 1518s
+06:32:18 [no_sleep s203] box 14000 train S1 75.42 hidden 64 concepts 0 tau 0.77 eps 0.035 lr 0.0006 1523s
+06:32:19 [full s303] box 12000 train S1 75.00 hidden 128 concepts 17 tau 0.76 eps 0.037 lr 0.0009 1524s
+06:32:19 [no_concepts s203] box 12000 train S1 75.08 hidden 64 concepts 0 tau 0.80 eps 0.040 lr 0.0010 1523s
+06:32:20 [no_meta s201] box 12000 train S1 76.58 hidden 64 concepts 32 tau 0.68 eps 0.028 lr 0.0010 1525s
+06:32:20 CKPT no_meta_matched_floor s200 box 10000 held-out 84.05
+06:32:20 [no_sleep s202] box 14000 train S1 72.14 hidden 64 concepts 0 tau 1.09 eps 0.050 lr 0.0007 1525s
+06:32:54 [no_meta s200] box 12000 train S1 76.98 hidden 64 concepts 57 tau 0.68 eps 0.028 lr 0.0010 1559s
+06:32:57 [no_dream s201] box 14000 train S1 77.10 hidden 64 concepts 23 tau 0.62 eps 0.031 lr 0.0010 1562s
+06:33:14 CKPT no_concepts s200 box 10000 held-out 84.12
+06:33:17 [no_meta_matched_floor s201] box 12000 train S1 71.64 hidden 64 concepts 11 tau 1.34 eps 0.065 lr 0.0010 1583s
+06:33:18 CKPT no_dream s203 box 15000 held-out 84.67
+06:33:21 CKPT no_sleep s201 box 15000 held-out 84.81
+06:33:33 [no_meta s202] box 14000 train S1 80.07 hidden 64 concepts 113 tau 0.46 eps 0.016 lr 0.0010 1598s
+06:33:36 [full s302] box 14000 train S1 75.53 hidden 64 concepts 45 tau 0.75 eps 0.038 lr 0.0010 1602s
+06:33:41 CKPT no_sleep s200 box 15000 held-out 83.96
+06:33:48 [no_meta s203] box 12000 train S1 75.82 hidden 64 concepts 35 tau 0.68 eps 0.028 lr 0.0010 1614s
+06:33:49 [no_dream s200] box 12000 train S1 74.85 hidden 128 concepts 18 tau 0.79 eps 0.038 lr 0.0008 1615s
+06:33:54 [no_meta_matched_floor s203] box 14000 train S1 71.86 hidden 64 concepts 20 tau 1.23 eps 0.060 lr 0.0010 1619s
+06:34:08 CKPT no_sleep s203 box 15000 held-out 84.87
+06:34:12 [no_dream s203] box 16000 train S1 75.65 hidden 64 concepts 39 tau 0.60 eps 0.027 lr 0.0007 1637s
+06:34:17 [no_sleep s201] box 16000 train S1 73.63 hidden 64 concepts 0 tau 0.93 eps 0.043 lr 0.0007 1642s
+06:34:27 [no_meta_matched_floor s202] box 14000 train S1 71.94 hidden 64 concepts 10 tau 1.23 eps 0.060 lr 0.0010 1652s
+06:34:27 [no_dream s202] box 14000 train S1 79.33 hidden 64 concepts 58 tau 0.53 eps 0.025 lr 0.0007 1653s
+06:34:30 [no_concepts s202] box 14000 train S1 77.34 hidden 128 concepts 0 tau 0.59 eps 0.029 lr 0.0009 1655s
+06:34:40 [full s301] box 14000 train S1 76.73 hidden 64 concepts 18 tau 0.61 eps 0.028 lr 0.0007 1665s
+06:34:40 CKPT no_sleep s202 box 15000 held-out 85.44
+06:34:47 [no_concepts s201] box 14000 train S1 72.47 hidden 64 concepts 0 tau 1.04 eps 0.049 lr 0.0007 1671s
+06:34:47 [no_sleep s200] box 16000 train S1 77.34 hidden 64 concepts 0 tau 0.54 eps 0.024 lr 0.0006 1671s
+06:34:51 [no_concepts s203] box 14000 train S1 74.86 hidden 64 concepts 0 tau 0.75 eps 0.038 lr 0.0010 1676s
+06:34:54 [no_meta s201] box 14000 train S1 79.86 hidden 64 concepts 63 tau 0.46 eps 0.016 lr 0.0010 1679s
+06:34:55 [no_meta s200] box 14000 train S1 79.41 hidden 64 concepts 117 tau 0.46 eps 0.016 lr 0.0010 1680s
+06:35:02 [full s300] box 14000 train S1 77.77 hidden 128 concepts 13 tau 0.50 eps 0.024 lr 0.0010 1687s
+06:35:03 [no_meta_matched_floor s200] box 12000 train S1 71.45 hidden 64 concepts 21 tau 1.34 eps 0.065 lr 0.0010 1688s
+06:35:03 [no_sleep s203] box 16000 train S1 75.44 hidden 64 concepts 0 tau 0.69 eps 0.030 lr 0.0005 1689s
+06:35:16 CKPT no_dream s201 box 15000 held-out 85.84
+06:35:22 [full s305] box 14000 train S1 78.48 hidden 128 concepts 30 tau 0.56 eps 0.028 lr 0.0010 1706s
+06:35:27 CKPT no_meta s202 box 15000 held-out 86.84
+06:35:34 CKPT full s302 box 15000 held-out 85.75
+06:35:41 [full s304] box 14000 train S1 74.80 hidden 128 concepts 24 tau 0.81 eps 0.035 lr 0.0005 1726s
+06:35:50 [no_sleep s202] box 16000 train S1 73.61 hidden 64 concepts 0 tau 1.02 eps 0.047 lr 0.0007 1734s
+06:35:51 CKPT no_meta_matched_floor s203 box 15000 held-out 83.24
+06:35:56 [no_dream s203] box 18000 train S1 77.83 hidden 64 concepts 63 tau 0.56 eps 0.025 lr 0.0007 1741s
+06:36:04 [no_meta_matched_floor s201] box 14000 train S1 72.01 hidden 64 concepts 21 tau 1.23 eps 0.060 lr 0.0010 1750s
+06:36:05 [no_sleep s201] box 18000 train S1 74.09 hidden 64 concepts 0 tau 0.83 eps 0.037 lr 0.0006 1750s
+06:36:27 [no_dream s201] box 16000 train S1 77.48 hidden 128 concepts 16 tau 0.55 eps 0.027 lr 0.0009 1772s
+06:36:27 CKPT no_meta_matched_floor s202 box 15000 held-out 85.34
+06:36:28 [no_meta s202] box 16000 train S1 84.89 hidden 64 concepts 132 tau 0.35 eps 0.010 lr 0.0010 1773s
+06:36:33 [no_meta s203] box 14000 train S1 78.24 hidden 64 concepts 50 tau 0.46 eps 0.016 lr 0.0010 1778s
+06:36:36 [full s302] box 16000 train S1 76.48 hidden 128 concepts 81 tau 0.67 eps 0.033 lr 0.0009 1781s
+06:36:44 CKPT no_meta s200 box 15000 held-out 85.49
+06:36:45 [full s303] box 14000 train S1 76.71 hidden 128 concepts 8 tau 0.65 eps 0.032 lr 0.0010 1790s
+06:36:47 CKPT no_dream s202 box 15000 held-out 86.06
+06:36:49 [no_concepts s200] box 12000 train S1 73.77 hidden 256 concepts 0 tau 0.83 eps 0.039 lr 0.0007 1794s
+06:36:56 [no_sleep s203] box 18000 train S1 76.94 hidden 64 concepts 0 tau 0.65 eps 0.028 lr 0.0005 1801s
+06:36:57 [no_meta_matched_floor s203] box 16000 train S1 71.94 hidden 64 concepts 33 tau 1.13 eps 0.054 lr 0.0010 1802s
+06:36:59 CKPT full s301 box 15000 held-out 84.03
+06:37:00 [no_sleep s200] box 18000 train S1 78.73 hidden 64 concepts 0 tau 0.46 eps 0.020 lr 0.0005 1804s
+06:37:05 [no_dream s200] box 14000 train S1 75.49 hidden 128 concepts 45 tau 0.74 eps 0.036 lr 0.0009 1810s
+06:37:09 CKPT no_concepts s203 box 15000 held-out 84.44
+06:37:12 CKPT no_concepts s201 box 15000 held-out 85.00
+06:37:13 CKPT no_meta s201 box 15000 held-out 86.25
+06:37:36 [no_meta_matched_floor s202] box 16000 train S1 72.69 hidden 64 concepts 14 tau 1.13 eps 0.054 lr 0.0010 1842s
+06:37:41 CKPT no_concepts s202 box 15000 held-out 86.71
+06:37:44 [no_meta s200] box 16000 train S1 82.60 hidden 64 concepts 182 tau 0.35 eps 0.010 lr 0.0010 1849s
+06:37:49 [no_dream s203] box 20000 train S1 76.93 hidden 64 concepts 74 tau 0.48 eps 0.020 lr 0.0005 1854s
+06:37:50 [no_meta_matched_floor s200] box 14000 train S1 71.85 hidden 64 concepts 20 tau 1.23 eps 0.060 lr 0.0010 1855s
+06:37:54 [no_sleep s201] box 20000 train S1 75.30 hidden 64 concepts 0 tau 0.70 eps 0.030 lr 0.0005 1859s
+06:37:57 [no_dream s202] box 16000 train S1 80.45 hidden 64 concepts 52 tau 0.47 eps 0.022 lr 0.0007 1862s
+06:38:10 [no_sleep s202] box 18000 train S1 73.79 hidden 64 concepts 0 tau 0.96 eps 0.044 lr 0.0007 1874s
+06:38:10 [full s301] box 16000 train S1 77.96 hidden 64 concepts 51 tau 0.51 eps 0.023 lr 0.0005 1875s
+06:38:25 [no_concepts s203] box 16000 train S1 75.26 hidden 64 concepts 0 tau 0.64 eps 0.030 lr 0.0008 1890s
+06:38:26 [no_meta s201] box 16000 train S1 83.65 hidden 64 concepts 57 tau 0.35 eps 0.010 lr 0.0010 1892s
+06:38:28 [no_concepts s201] box 16000 train S1 73.56 hidden 64 concepts 0 tau 0.88 eps 0.040 lr 0.0006 1893s
+06:38:30 CKPT full s300 box 15000 held-out 84.97
+06:38:30 CKPT no_meta_matched_floor s201 box 15000 held-out 84.24
+06:38:31 [no_meta s202] box 18000 train S1 85.46 hidden 64 concepts 163 tau 0.35 eps 0.010 lr 0.0010 1896s
+06:38:39 CKPT no_dream s203 box 20000 held-out 83.41
+06:38:43 CKPT no_sleep s201 box 20000 held-out 84.88
+06:38:48 CKPT full s304 box 15000 held-out 84.79
+06:38:56 [no_sleep s203] box 20000 train S1 76.93 hidden 64 concepts 0 tau 0.58 eps 0.025 lr 0.0005 1921s
+06:38:58 CKPT full s305 box 15000 held-out 85.33
+06:39:03 CKPT no_meta s203 box 15000 held-out 85.73
+06:39:04 [no_meta_matched_floor s203] box 18000 train S1 72.53 hidden 64 concepts 28 tau 1.02 eps 0.048 lr 0.0010 1930s
+06:39:08 [no_sleep s200] box 20000 train S1 80.61 hidden 64 concepts 0 tau 0.43 eps 0.019 lr 0.0005 1932s
+06:39:14 [no_concepts s202] box 16000 train S1 80.16 hidden 128 concepts 0 tau 0.50 eps 0.024 lr 0.0009 1938s
+06:39:32 [no_dream s201] box 18000 train S1 79.79 hidden 128 concepts 19 tau 0.52 eps 0.025 lr 0.0011 1957s
+06:39:39 [full s302] box 18000 train S1 77.19 hidden 128 concepts 92 tau 0.57 eps 0.027 lr 0.0007 1965s
+06:39:40 [no_meta s200] box 18000 train S1 83.05 hidden 64 concepts 207 tau 0.35 eps 0.010 lr 0.0010 1966s
+06:39:44 [no_meta_matched_floor s202] box 18000 train S1 73.19 hidden 64 concepts 17 tau 1.02 eps 0.048 lr 0.0010 1969s
+06:39:48 [no_meta_matched_floor s201] box 16000 train S1 72.21 hidden 64 concepts 23 tau 1.13 eps 0.054 lr 0.0010 1974s
+06:39:50 CKPT no_sleep s203 box 20000 held-out 85.14
+06:40:07 [no_dream s202] box 18000 train S1 82.00 hidden 64 concepts 97 tau 0.44 eps 0.020 lr 0.0007 1992s
+06:40:07 CKPT no_meta_matched_floor s200 box 15000 held-out 84.08
+06:40:08 CKPT no_sleep s200 box 20000 held-out 84.84
+06:40:15 [full s300] box 16000 train S1 78.76 hidden 128 concepts 21 tau 0.43 eps 0.020 lr 0.0008 2000s
+06:40:18 [no_dream s203] box 22000 train S1 78.63 hidden 64 concepts 105 tau 0.40 eps 0.017 lr 0.0004 2003s
+06:40:18 CKPT no_dream s200 box 15000 held-out 84.61
+06:40:21 [no_sleep s202] box 20000 train S1 74.07 hidden 64 concepts 0 tau 0.86 eps 0.039 lr 0.0006 2005s
+06:40:22 [full s301] box 18000 train S1 79.50 hidden 64 concepts 102 tau 0.46 eps 0.020 lr 0.0005 2007s
+06:40:22 [no_meta s203] box 16000 train S1 83.03 hidden 64 concepts 32 tau 0.35 eps 0.010 lr 0.0010 2007s
+06:40:24 [no_meta s202] box 20000 train S1 85.62 hidden 64 concepts 174 tau 0.35 eps 0.010 lr 0.0010 2009s
+06:40:26 [no_sleep s201] box 22000 train S1 75.94 hidden 64 concepts 0 tau 0.66 eps 0.028 lr 0.0005 2011s
+06:40:29 [full s304] box 16000 train S1 75.89 hidden 128 concepts 21 tau 0.68 eps 0.029 lr 0.0004 2014s
+06:40:41 [no_concepts s203] box 18000 train S1 76.39 hidden 64 concepts 0 tau 0.54 eps 0.025 lr 0.0007 2025s
+06:40:43 [full s305] box 16000 train S1 78.32 hidden 256 concepts 26 tau 0.53 eps 0.026 lr 0.0011 2027s
+06:40:48 CKPT full s303 box 15000 held-out 85.53
+06:40:50 [no_concepts s201] box 18000 train S1 75.34 hidden 64 concepts 0 tau 0.79 eps 0.034 lr 0.0005 2034s
+06:40:50 [no_meta s201] box 18000 train S1 84.56 hidden 64 concepts 71 tau 0.35 eps 0.010 lr 0.0010 2036s
+06:41:05 [no_meta_matched_floor s203] box 20000 train S1 73.18 hidden 64 concepts 35 tau 0.91 eps 0.042 lr 0.0010 2051s
+06:41:12 CKPT no_meta s202 box 20000 held-out 87.81
+06:41:25 CKPT no_sleep s202 box 20000 held-out 85.22
+06:41:26 [no_meta_matched_floor s200] box 16000 train S1 72.42 hidden 64 concepts 22 tau 1.13 eps 0.054 lr 0.0010 2072s
+06:41:34 [no_meta s200] box 20000 train S1 83.34 hidden 64 concepts 187 tau 0.35 eps 0.010 lr 0.0010 2080s
+06:41:38 [no_sleep s203] box 22000 train S1 78.76 hidden 64 concepts 0 tau 0.52 eps 0.022 lr 0.0004 2083s
+06:41:46 [no_meta_matched_floor s202] box 20000 train S1 73.52 hidden 64 concepts 28 tau 0.91 eps 0.042 lr 0.0010 2091s
+06:41:55 CKPT no_meta_matched_floor s203 box 20000 held-out 83.52
+06:41:57 [no_dream s200] box 16000 train S1 74.82 hidden 128 concepts 31 tau 0.70 eps 0.034 lr 0.0010 2102s
+06:41:57 [no_dream s203] box 24000 train S1 79.71 hidden 64 concepts 82 tau 0.34 eps 0.013 lr 0.0004 2102s
+06:42:12 [no_sleep s201] box 24000 train S1 76.78 hidden 64 concepts 0 tau 0.62 eps 0.027 lr 0.0005 2117s
+06:42:16 [no_dream s202] box 20000 train S1 82.77 hidden 64 concepts 99 tau 0.42 eps 0.019 lr 0.0007 2121s
+06:42:18 [no_sleep s200] box 22000 train S1 81.07 hidden 64 concepts 0 tau 0.41 eps 0.017 lr 0.0005 2122s
+06:42:19 [no_concepts s202] box 18000 train S1 81.23 hidden 128 concepts 0 tau 0.47 eps 0.023 lr 0.0009 2123s
+06:42:20 [no_meta_matched_floor s201] box 18000 train S1 73.04 hidden 64 concepts 18 tau 1.02 eps 0.048 lr 0.0010 2125s
+06:42:27 CKPT no_meta s200 box 20000 held-out 86.62
+06:42:36 [full s302] box 20000 train S1 78.87 hidden 128 concepts 144 tau 0.53 eps 0.025 lr 0.0007 2141s
+06:42:39 [full s301] box 20000 train S1 81.08 hidden 64 concepts 134 tau 0.43 eps 0.019 lr 0.0005 2144s
+06:42:41 CKPT no_meta_matched_floor s202 box 20000 held-out 84.11
+06:42:46 [no_dream s201] box 20000 train S1 79.53 hidden 128 concepts 34 tau 0.46 eps 0.022 lr 0.0010 2151s
+06:42:46 CKPT no_dream s203 box 24000 held-out 83.68
+06:42:55 [full s303] box 16000 train S1 78.36 hidden 256 concepts 12 tau 0.58 eps 0.028 lr 0.0009 2160s
+06:43:00 CKPT no_sleep s201 box 24000 held-out 85.44
+06:43:00 [no_meta s203] box 18000 train S1 84.13 hidden 64 concepts 38 tau 0.35 eps 0.010 lr 0.0010 2165s
+06:43:05 [no_concepts s203] box 20000 train S1 77.21 hidden 64 concepts 0 tau 0.46 eps 0.020 lr 0.0005 2170s
+06:43:07 [no_meta s202] box 22000 train S1 85.97 hidden 64 concepts 169 tau 0.35 eps 0.010 lr 0.0010 2172s
+06:43:14 [no_concepts s201] box 20000 train S1 76.40 hidden 128 concepts 0 tau 0.67 eps 0.028 lr 0.0004 2179s
+06:43:16 [no_meta s201] box 20000 train S1 84.64 hidden 64 concepts 88 tau 0.35 eps 0.010 lr 0.0010 2181s
+06:43:18 CKPT no_dream s202 box 20000 held-out 86.98
+06:43:23 [no_sleep s203] box 24000 train S1 79.97 hidden 64 concepts 0 tau 0.49 eps 0.020 lr 0.0004 2188s
+06:43:24 [full s300] box 18000 train S1 80.90 hidden 128 concepts 27 tau 0.38 eps 0.017 lr 0.0007 2190s
+06:43:37 [no_sleep s202] box 22000 train S1 75.49 hidden 64 concepts 0 tau 0.73 eps 0.031 lr 0.0005 2201s
+06:43:43 CKPT full s301 box 20000 held-out 85.43
+06:43:57 CKPT full s302 box 20000 held-out 85.82
+06:43:58 [full s304] box 18000 train S1 77.88 hidden 128 concepts 55 tau 0.58 eps 0.023 lr 0.0003 2223s
+06:44:01 [no_meta_matched_floor s203] box 22000 train S1 74.05 hidden 64 concepts 41 tau 0.80 eps 0.037 lr 0.0010 2226s
+06:44:09 [no_meta_matched_floor s200] box 18000 train S1 72.83 hidden 64 concepts 18 tau 1.02 eps 0.048 lr 0.0010 2234s
+06:44:17 CKPT no_concepts s203 box 20000 held-out 82.77
+06:44:19 CKPT no_sleep s203 box 24000 held-out 85.46
+06:44:22 [no_meta s200] box 22000 train S1 84.46 hidden 64 concepts 196 tau 0.35 eps 0.010 lr 0.0010 2247s
+06:44:27 [no_dream s203] box 26000 train S1 81.25 hidden 64 concepts 90 tau 0.29 eps 0.011 lr 0.0003 2252s
+06:44:28 CKPT no_meta s201 box 20000 held-out 87.41
+06:44:29 [no_sleep s200] box 24000 train S1 81.91 hidden 64 concepts 0 tau 0.35 eps 0.015 lr 0.0005 2252s
+06:44:30 CKPT no_dream s201 box 20000 held-out 85.83
+06:44:32 [no_concepts s200] box 14000 train S1 74.55 hidden 256 concepts 0 tau 0.78 eps 0.036 lr 0.0008 2257s
+06:44:47 [no_sleep s201] box 26000 train S1 77.77 hidden 64 concepts 0 tau 0.55 eps 0.023 lr 0.0004 2272s
+06:44:48 [no_meta_matched_floor s202] box 22000 train S1 74.31 hidden 64 concepts 34 tau 0.80 eps 0.037 lr 0.0010 2274s
+06:45:04 [no_meta_matched_floor s201] box 20000 train S1 73.51 hidden 64 concepts 30 tau 0.91 eps 0.042 lr 0.0010 2290s
+06:45:08 [no_meta s202] box 24000 train S1 86.28 hidden 64 concepts 199 tau 0.35 eps 0.010 lr 0.0010 2293s
+06:45:13 [no_dream s200] box 18000 train S1 76.08 hidden 128 concepts 43 tau 0.59 eps 0.027 lr 0.0008 2298s
+06:45:13 CKPT no_concepts s201 box 20000 held-out 85.42
+06:45:21 [no_concepts s202] box 20000 train S1 82.85 hidden 128 concepts 0 tau 0.40 eps 0.020 lr 0.0010 2305s
+06:45:35 CKPT no_sleep s200 box 24000 held-out 85.57
+06:45:44 [no_dream s202] box 22000 train S1 83.16 hidden 64 concepts 116 tau 0.39 eps 0.018 lr 0.0007 2329s
+06:45:57 CKPT no_meta s202 box 24000 held-out 87.92
+06:45:57 [no_meta s203] box 20000 train S1 84.70 hidden 64 concepts 59 tau 0.35 eps 0.010 lr 0.0010 2343s
+06:46:02 [no_sleep s202] box 24000 train S1 76.86 hidden 64 concepts 0 tau 0.69 eps 0.029 lr 0.0005 2347s
+06:46:03 [no_sleep s203] box 26000 train S1 80.32 hidden 64 concepts 0 tau 0.46 eps 0.019 lr 0.0004 2349s
+06:46:04 [full s301] box 22000 train S1 82.52 hidden 64 concepts 143 tau 0.37 eps 0.016 lr 0.0005 2350s
+06:46:05 [no_meta_matched_floor s203] box 24000 train S1 75.38 hidden 64 concepts 44 tau 0.69 eps 0.031 lr 0.0010 2350s
+06:46:06 [no_dream s203] box 28000 train S1 83.86 hidden 64 concepts 104 tau 0.25 eps 0.009 lr 0.0003 2351s
+06:46:14 CKPT no_meta_matched_floor s201 box 20000 held-out 83.25
+06:46:23 [no_meta s200] box 24000 train S1 84.43 hidden 64 concepts 258 tau 0.35 eps 0.010 lr 0.0010 2368s
+06:46:34 [no_sleep s201] box 28000 train S1 79.39 hidden 64 concepts 0 tau 0.50 eps 0.020 lr 0.0004 2379s
+06:46:46 [no_concepts s203] box 22000 train S1 77.83 hidden 64 concepts 0 tau 0.39 eps 0.016 lr 0.0004 2391s
+06:46:49 CKPT no_concepts s202 box 20000 held-out 87.64
+06:46:56 [no_meta_matched_floor s202] box 24000 train S1 75.60 hidden 64 concepts 42 tau 0.69 eps 0.031 lr 0.0010 2402s
+06:46:57 [full s300] box 20000 train S1 81.77 hidden 128 concepts 37 tau 0.36 eps 0.016 lr 0.0007 2402s
+06:47:03 [no_meta_matched_floor s200] box 20000 train S1 73.46 hidden 64 concepts 42 tau 0.91 eps 0.042 lr 0.0010 2408s
+06:47:07 CKPT no_dream s203 box 28000 held-out 84.88
+06:47:10 CKPT no_meta_matched_floor s203 box 24000 held-out 84.24
+06:47:11 [full s302] box 22000 train S1 78.98 hidden 128 concepts 152 tau 0.50 eps 0.023 lr 0.0007 2416s
+06:47:12 [no_meta s201] box 22000 train S1 85.19 hidden 64 concepts 108 tau 0.35 eps 0.010 lr 0.0010 2417s
+06:47:17 CKPT no_sleep s202 box 24000 held-out 85.65
+06:47:18 CKPT no_meta s203 box 20000 held-out 87.19
+06:47:26 CKPT no_meta s200 box 24000 held-out 87.24
+06:47:31 CKPT no_sleep s201 box 28000 held-out 85.44
+06:47:41 [full s304] box 20000 train S1 79.15 hidden 128 concepts 57 tau 0.52 eps 0.020 lr 0.0003 2447s
+06:47:55 [no_sleep s200] box 26000 train S1 83.62 hidden 64 concepts 0 tau 0.33 eps 0.014 lr 0.0005 2458s
+06:47:57 CKPT no_meta_matched_floor s202 box 24000 held-out 84.85
+06:48:03 [no_sleep s203] box 28000 train S1 80.37 hidden 64 concepts 0 tau 0.41 eps 0.017 lr 0.0004 2468s
+06:48:11 [no_dream s201] box 22000 train S1 80.91 hidden 128 concepts 45 tau 0.39 eps 0.018 lr 0.0008 2476s
+06:48:13 CKPT no_meta_matched_floor s200 box 20000 held-out 82.87
+06:48:14 [no_meta s202] box 26000 train S1 86.34 hidden 64 concepts 202 tau 0.35 eps 0.010 lr 0.0010 2479s
+06:48:20 [no_dream s202] box 24000 train S1 84.14 hidden 64 concepts 115 tau 0.37 eps 0.017 lr 0.0007 2485s
+06:48:41 [full s301] box 24000 train S1 84.80 hidden 64 concepts 167 tau 0.29 eps 0.012 lr 0.0005 2507s
+06:48:50 [no_dream s203] box 30000 train S1 86.33 hidden 64 concepts 120 tau 0.25 eps 0.007 lr 0.0003 2514s
+06:48:53 CKPT full s300 box 20000 held-out 85.63
+06:49:04 [no_dream s200] box 20000 train S1 77.33 hidden 128 concepts 62 tau 0.56 eps 0.026 lr 0.0009 2529s
+06:49:12 CKPT no_sleep s203 box 28000 held-out 85.65
+06:49:38 [no_sleep s201] box 30000 train S1 80.12 hidden 64 concepts 0 tau 0.44 eps 0.018 lr 0.0003 2563s
+06:49:39 [no_meta_matched_floor s201] box 22000 train S1 74.36 hidden 64 concepts 45 tau 0.80 eps 0.037 lr 0.0010 2564s
+06:49:39 CKPT full s304 box 20000 held-out 84.96
+06:49:43 [no_meta_matched_floor s203] box 26000 train S1 75.85 hidden 64 concepts 41 tau 0.58 eps 0.025 lr 0.0010 2568s
+06:49:53 [no_concepts s203] box 24000 train S1 79.99 hidden 64 concepts 0 tau 0.33 eps 0.013 lr 0.0003 2577s
+06:49:56 [no_meta s200] box 26000 train S1 84.78 hidden 64 concepts 278 tau 0.35 eps 0.010 lr 0.0010 2581s
+06:49:58 CKPT no_dream s202 box 24000 held-out 87.25
+06:50:13 [no_concepts s201] box 22000 train S1 77.42 hidden 128 concepts 0 tau 0.59 eps 0.024 lr 0.0004 2598s
+06:50:22 CKPT full s301 box 24000 held-out 87.04
+06:50:29 [no_sleep s202] box 26000 train S1 77.30 hidden 64 concepts 0 tau 0.58 eps 0.024 lr 0.0004 2613s
+06:50:38 [no_meta s201] box 24000 train S1 85.19 hidden 64 concepts 132 tau 0.35 eps 0.010 lr 0.0010 2623s
+06:50:39 [no_meta_matched_floor s202] box 26000 train S1 76.38 hidden 64 concepts 47 tau 0.58 eps 0.025 lr 0.0010 2625s
+06:50:48 [no_concepts s202] box 22000 train S1 85.00 hidden 128 concepts 0 tau 0.31 eps 0.015 lr 0.0010 2632s
+06:50:54 [no_dream s203] box 32000 train S1 86.90 hidden 64 concepts 161 tau 0.25 eps 0.006 lr 0.0003 2639s
+06:50:54 [full s302] box 24000 train S1 80.36 hidden 128 concepts 188 tau 0.47 eps 0.022 lr 0.0007 2639s
+06:50:55 [no_meta s202] box 28000 train S1 86.57 hidden 64 concepts 230 tau 0.35 eps 0.010 lr 0.0010 2640s
+06:50:57 [no_sleep s200] box 28000 train S1 84.40 hidden 64 concepts 0 tau 0.31 eps 0.013 lr 0.0005 2641s
+06:50:59 [no_meta s203] box 22000 train S1 84.41 hidden 64 concepts 75 tau 0.35 eps 0.010 lr 0.0010 2644s
+06:51:12 CKPT no_concepts s203 box 24000 held-out 82.87
+06:51:17 CKPT no_dream s200 box 20000 held-out 85.27
+06:51:24 [full s305] box 18000 train S1 78.50 hidden 256 concepts 43 tau 0.45 eps 0.021 lr 0.0009 2668s
+06:51:30 [no_sleep s203] box 30000 train S1 82.34 hidden 64 concepts 0 tau 0.34 eps 0.014 lr 0.0003 2675s
+06:51:50 [no_meta_matched_floor s200] box 22000 train S1 73.93 hidden 64 concepts 57 tau 0.80 eps 0.037 lr 0.0010 2696s
+06:51:53 [no_sleep s201] box 32000 train S1 81.48 hidden 64 concepts 0 tau 0.37 eps 0.014 lr 0.0003 2699s
+06:51:58 CKPT no_dream s203 box 32000 held-out 87.14
+06:51:58 DONE no_dream s203: 2703s held-out@32000 87.14
+06:52:03 CKPT no_meta s202 box 28000 held-out 88.70
+06:52:04 CKPT no_meta s201 box 24000 held-out 87.78
+06:52:18 [no_meta_matched_floor s203] box 28000 train S1 77.16 hidden 64 concepts 59 tau 0.47 eps 0.019 lr 0.0010 2724s
+06:52:22 [no_meta s200] box 28000 train S1 84.37 hidden 64 concepts 276 tau 0.35 eps 0.010 lr 0.0010 2727s
+06:52:23 CKPT no_sleep s200 box 28000 held-out 86.23
+06:52:42 CKPT full s302 box 24000 held-out 86.33
+06:52:47 CKPT no_sleep s201 box 32000 held-out 85.73
+06:52:47 DONE no_sleep s201: 2752s held-out@32000 85.73
+06:52:49 [no_dream s201] box 24000 train S1 82.36 hidden 128 concepts 74 tau 0.33 eps 0.015 lr 0.0007 2754s
+06:52:57 [no_dream s202] box 26000 train S1 85.19 hidden 64 concepts 143 tau 0.31 eps 0.014 lr 0.0005 2762s
+06:53:12 [no_meta_matched_floor s202] box 28000 train S1 78.65 hidden 64 concepts 59 tau 0.47 eps 0.019 lr 0.0010 2778s
+06:53:15 [full s300] box 22000 train S1 82.58 hidden 128 concepts 38 tau 0.30 eps 0.013 lr 0.0006 2780s
+06:53:17 [no_meta_matched_floor s201] box 24000 train S1 75.48 hidden 64 concepts 37 tau 0.69 eps 0.031 lr 0.0010 2783s
+06:53:18 [no_sleep s203] box 32000 train S1 84.46 hidden 64 concepts 0 tau 0.29 eps 0.012 lr 0.0003 2783s
+06:53:19 CKPT no_meta_matched_floor s203 box 28000 held-out 83.67
+06:53:20 [full s301] box 26000 train S1 87.65 hidden 64 concepts 153 tau 0.25 eps 0.009 lr 0.0005 2785s
+06:53:21 CKPT no_meta s200 box 28000 held-out 87.60
+06:53:23 CKPT no_concepts s200 box 15000 held-out 83.70
+06:53:27 [no_sleep s202] box 28000 train S1 79.60 hidden 64 concepts 0 tau 0.52 eps 0.021 lr 0.0003 2791s
+06:53:58 [full s304] box 22000 train S1 80.22 hidden 128 concepts 74 tau 0.46 eps 0.018 lr 0.0003 2824s
+06:54:07 [no_concepts s203] box 26000 train S1 81.70 hidden 64 concepts 0 tau 0.31 eps 0.012 lr 0.0003 2831s
+06:54:16 [full s303] box 18000 train S1 78.73 hidden 256 concepts 17 tau 0.49 eps 0.022 lr 0.0007 2841s
+06:54:24 CKPT no_meta_matched_floor s202 box 28000 held-out 85.37
+06:54:25 CKPT no_meta_matched_floor s201 box 24000 held-out 84.52
+06:54:25 CKPT no_sleep s202 box 28000 held-out 86.28
+06:54:25 CKPT no_sleep s203 box 32000 held-out 86.81
+06:54:25 DONE no_sleep s203: 2850s held-out@32000 86.81
+06:54:30 [no_meta s203] box 24000 train S1 84.51 hidden 64 concepts 106 tau 0.35 eps 0.010 lr 0.0010 2855s
+06:54:31 CKPT no_dream s201 box 24000 held-out 86.02
+06:54:33 [no_meta_matched_floor s200] box 24000 train S1 74.89 hidden 64 concepts 54 tau 0.69 eps 0.031 lr 0.0010 2858s
+06:54:37 [no_meta s202] box 30000 train S1 87.20 hidden 64 concepts 231 tau 0.35 eps 0.010 lr 0.0010 2862s
+06:54:49 [no_concepts s202] box 24000 train S1 87.33 hidden 128 concepts 0 tau 0.27 eps 0.013 lr 0.0011 2874s
+06:55:05 [no_meta s201] box 26000 train S1 85.47 hidden 64 concepts 161 tau 0.35 eps 0.010 lr 0.0010 2891s
+06:55:11 [no_sleep s200] box 30000 train S1 85.19 hidden 64 concepts 0 tau 0.26 eps 0.011 lr 0.0005 2894s
+06:55:18 [no_concepts s201] box 24000 train S1 78.57 hidden 128 concepts 0 tau 0.53 eps 0.021 lr 0.0003 2903s
+06:55:24 [no_dream s202] box 28000 train S1 86.75 hidden 64 concepts 148 tau 0.28 eps 0.012 lr 0.0005 2909s
+06:55:25 [no_dream s200] box 22000 train S1 77.41 hidden 128 concepts 73 tau 0.50 eps 0.022 lr 0.0008 2911s
+06:55:43 CKPT no_meta_matched_floor s200 box 24000 held-out 82.76
+06:55:46 [full s301] box 28000 train S1 88.20 hidden 64 concepts 157 tau 0.25 eps 0.007 lr 0.0005 2931s
+06:55:47 [no_meta s200] box 30000 train S1 84.91 hidden 64 concepts 333 tau 0.35 eps 0.010 lr 0.0010 2933s
+06:55:48 CKPT no_meta s203 box 24000 held-out 87.32
+06:55:50 [no_meta_matched_floor s203] box 30000 train S1 81.19 hidden 64 concepts 74 tau 0.36 eps 0.013 lr 0.0010 2936s
+06:56:14 [no_concepts s203] box 28000 train S1 83.36 hidden 64 concepts 0 tau 0.25 eps 0.010 lr 0.0003 2958s
+06:56:22 [full s302] box 26000 train S1 80.26 hidden 128 concepts 131 tau 0.42 eps 0.019 lr 0.0007 2968s
+06:56:29 [no_sleep s202] box 30000 train S1 80.36 hidden 64 concepts 0 tau 0.49 eps 0.020 lr 0.0003 2974s
+06:56:37 CKPT no_dream s202 box 28000 held-out 88.09
+06:56:43 [no_meta_matched_floor s202] box 30000 train S1 82.67 hidden 64 concepts 95 tau 0.36 eps 0.013 lr 0.0010 2988s
+06:56:49 CKPT no_concepts s202 box 24000 held-out 88.88
+06:56:57 [no_meta s202] box 32000 train S1 87.10 hidden 64 concepts 222 tau 0.35 eps 0.010 lr 0.0010 3002s
+06:57:08 CKPT no_concepts s201 box 24000 held-out 85.61
+06:57:10 [no_meta_matched_floor s201] box 26000 train S1 76.89 hidden 64 concepts 52 tau 0.58 eps 0.025 lr 0.0010 3016s
+06:57:11 CKPT full s301 box 28000 held-out 88.43
+06:57:27 [no_sleep s200] box 32000 train S1 87.09 hidden 64 concepts 0 tau 0.25 eps 0.009 lr 0.0005 3031s
+06:57:29 CKPT no_concepts s203 box 28000 held-out 84.66
+06:57:32 [full s300] box 24000 train S1 84.54 hidden 128 concepts 51 tau 0.27 eps 0.011 lr 0.0005 3038s
+06:57:43 [no_concepts s200] box 16000 train S1 74.69 hidden 256 concepts 0 tau 0.66 eps 0.029 lr 0.0007 3049s
+06:57:53 [no_meta s201] box 28000 train S1 85.26 hidden 64 concepts 198 tau 0.35 eps 0.010 lr 0.0010 3058s
+06:58:02 CKPT no_meta s202 box 32000 held-out 88.94
+06:58:05 [no_meta_matched_floor s203] box 32000 train S1 85.50 hidden 64 concepts 86 tau 0.25 eps 0.008 lr 0.0010 3071s
+06:58:13 [full s304] box 24000 train S1 81.26 hidden 128 concepts 72 tau 0.43 eps 0.017 lr 0.0003 3079s
+06:58:14 [no_dream s201] box 26000 train S1 83.75 hidden 128 concepts 69 tau 0.28 eps 0.012 lr 0.0005 3079s
+06:58:15 [no_meta s200] box 32000 train S1 83.58 hidden 64 concepts 344 tau 0.35 eps 0.010 lr 0.0010 3080s
+06:58:28 [no_meta_matched_floor s200] box 26000 train S1 75.84 hidden 64 concepts 65 tau 0.58 eps 0.025 lr 0.0010 3094s
+06:58:32 [no_meta s203] box 26000 train S1 83.31 hidden 64 concepts 99 tau 0.35 eps 0.010 lr 0.0010 3097s
+06:58:39 [no_sleep s202] box 32000 train S1 81.44 hidden 64 concepts 0 tau 0.41 eps 0.016 lr 0.0003 3103s
+06:58:42 CKPT no_sleep s200 box 32000 held-out 87.14
+06:58:42 DONE no_sleep s200: 3106s held-out@32000 87.14
+06:58:50 [no_dream s202] box 30000 train S1 87.86 hidden 64 concepts 166 tau 0.25 eps 0.010 lr 0.0005 3116s
+06:59:00 CKPT no_meta s201 box 28000 held-out 88.02
+06:59:03 CKPT no_meta_matched_floor s203 box 32000 held-out 86.84
+06:59:11 CKPT no_meta s200 box 32000 held-out 86.61
+06:59:17 [no_dream s200] box 24000 train S1 79.03 hidden 128 concepts 88 tau 0.42 eps 0.018 lr 0.0007 3142s
+06:59:28 [no_meta_matched_floor s202] box 32000 train S1 85.60 hidden 64 concepts 114 tau 0.25 eps 0.008 lr 0.0010 3153s
+06:59:37 CKPT full s304 box 24000 held-out 85.57
+06:59:39 [no_meta_matched_floor s201] box 28000 train S1 79.04 hidden 64 concepts 44 tau 0.47 eps 0.019 lr 0.0010 3164s
+06:59:40 [full s301] box 30000 train S1 88.79 hidden 64 concepts 163 tau 0.25 eps 0.006 lr 0.0005 3166s
+06:59:41 [no_concepts s203] box 30000 train S1 85.95 hidden 64 concepts 0 tau 0.25 eps 0.007 lr 0.0003 3165s
+06:59:46 CKPT full s300 box 24000 held-out 86.10
+06:59:47 CKPT no_sleep s202 box 32000 held-out 86.21
+06:59:47 DONE no_sleep s202: 3171s held-out@32000 86.21
+07:00:07 [full s302] box 28000 train S1 81.34 hidden 128 concepts 135 tau 0.36 eps 0.016 lr 0.0005 3192s
+07:00:34 [no_concepts s201] box 26000 train S1 80.19 hidden 128 concepts 0 tau 0.45 eps 0.017 lr 0.0003 3219s
+07:00:35 CKPT no_meta_matched_floor s202 box 32000 held-out 87.90
+07:00:36 CKPT no_meta_matched_floor s201 box 28000 held-out 85.45
+07:00:52 [no_dream s202] box 32000 train S1 88.57 hidden 64 concepts 166 tau 0.25 eps 0.009 lr 0.0005 3237s
+07:00:55 [no_meta_matched_floor s200] box 28000 train S1 79.38 hidden 64 concepts 84 tau 0.47 eps 0.019 lr 0.0010 3240s
+07:00:56 [no_concepts s202] box 26000 train S1 88.18 hidden 128 concepts 0 tau 0.25 eps 0.011 lr 0.0010 3241s
+07:00:57 [no_meta s203] box 28000 train S1 83.47 hidden 64 concepts 117 tau 0.35 eps 0.010 lr 0.0010 3242s
+07:00:58 [full s305] box 20000 train S1 79.70 hidden 256 concepts 47 tau 0.38 eps 0.017 lr 0.0007 3243s
+07:01:19 [no_meta s201] box 30000 train S1 85.37 hidden 64 concepts 197 tau 0.35 eps 0.010 lr 0.0010 3264s
+07:01:34 [full s301] box 32000 train S1 89.00 hidden 64 concepts 180 tau 0.25 eps 0.005 lr 0.0005 3280s
+07:01:37 [no_dream s201] box 28000 train S1 86.34 hidden 128 concepts 61 tau 0.25 eps 0.009 lr 0.0005 3282s
+07:01:38 CKPT no_dream s200 box 24000 held-out 84.54
+07:01:40 CKPT no_meta_matched_floor s200 box 28000 held-out 85.08
+07:01:44 CKPT no_dream s202 box 32000 held-out 89.09
+07:01:44 DONE no_dream s202: 3289s held-out@32000 89.09
+07:01:45 [no_concepts s203] box 32000 train S1 87.30 hidden 64 concepts 0 tau 0.25 eps 0.006 lr 0.0003 3289s
+07:01:49 CKPT no_meta s203 box 28000 held-out 86.45
+07:02:05 CKPT full s302 box 28000 held-out 86.43
+07:02:21 [full s303] box 20000 train S1 80.81 hidden 256 concepts 22 tau 0.41 eps 0.018 lr 0.0006 3326s
+07:02:31 [no_meta_matched_floor s201] box 30000 train S1 82.15 hidden 64 concepts 41 tau 0.36 eps 0.013 lr 0.0010 3337s
+07:02:33 CKPT full s301 box 32000 held-out 89.61
+07:02:42 CKPT no_concepts s203 box 32000 held-out 87.48
+07:02:42 DONE no_concepts s203: 3346s held-out@32000 87.48
+07:03:07 CKPT no_dream s201 box 28000 held-out 86.84
+07:03:10 DONE no_meta_matched_floor s203: 3128s held-out@32000 86.84
+07:03:15 DONE no_meta s202: 3067s held-out@32000 88.94
+07:03:20 [no_meta s201] box 32000 train S1 86.14 hidden 64 concepts 244 tau 0.35 eps 0.010 lr 0.0010 3386s
+07:03:35 DONE no_meta s200: 3136s held-out@32000 86.61
+07:03:37 [no_concepts s201] box 28000 train S1 81.54 hidden 128 concepts 0 tau 0.38 eps 0.014 lr 0.0002 3401s
+07:03:41 [no_meta_matched_floor s200] box 30000 train S1 82.27 hidden 64 concepts 178 tau 0.36 eps 0.013 lr 0.0010 3406s
+07:03:46 [full s304] box 26000 train S1 81.64 hidden 128 concepts 70 tau 0.37 eps 0.013 lr 0.0002 3412s
+07:03:50 [full s300] box 26000 train S1 86.04 hidden 128 concepts 66 tau 0.25 eps 0.009 lr 0.0005 3416s
+07:04:09 CKPT no_meta s201 box 32000 held-out 88.19
+07:04:10 [no_meta s203] box 30000 train S1 83.78 hidden 64 concepts 135 tau 0.35 eps 0.010 lr 0.0010 3435s
+07:04:19 CKPT full s305 box 20000 held-out 84.67
+07:04:20 [full s301] box 34000 train S1 89.79 hidden 64 concepts 203 tau 0.25 eps 0.005 lr 0.0005 3445s
+07:04:27 [no_meta_matched_floor s201] box 32000 train S1 84.54 hidden 64 concepts 48 tau 0.25 eps 0.008 lr 0.0010 3453s
+07:04:42 [no_dream s200] box 26000 train S1 80.18 hidden 128 concepts 95 tau 0.36 eps 0.015 lr 0.0005 3467s
+07:04:43 DONE no_meta_matched_floor s202: 3220s held-out@32000 87.90
+07:04:47 CKPT no_concepts s201 box 28000 held-out 85.58
+07:04:50 [no_concepts s202] box 28000 train S1 88.71 hidden 128 concepts 0 tau 0.25 eps 0.009 lr 0.0008 3475s
+07:04:52 [full s302] box 30000 train S1 83.44 hidden 128 concepts 134 tau 0.34 eps 0.015 lr 0.0005 3477s
+07:05:12 CKPT no_meta_matched_floor s201 box 32000 held-out 86.96
+07:05:29 [no_meta_matched_floor s200] box 32000 train S1 85.08 hidden 64 concepts 185 tau 0.25 eps 0.008 lr 0.0010 3514s
+07:05:40 [no_dream s201] box 30000 train S1 87.42 hidden 128 concepts 83 tau 0.25 eps 0.007 lr 0.0005 3525s
+07:05:41 CKPT full s303 box 20000 held-out 85.81
+07:05:56 [no_concepts s200] box 18000 train S1 75.35 hidden 256 concepts 0 tau 0.56 eps 0.024 lr 0.0005 3542s
+07:06:00 [full s301] box 36000 train S1 91.10 hidden 64 concepts 217 tau 0.25 eps 0.005 lr 0.0005 3545s
+07:06:06 [no_meta s203] box 32000 train S1 83.60 hidden 64 concepts 157 tau 0.35 eps 0.010 lr 0.0010 3552s
+07:06:15 CKPT no_meta_matched_floor s200 box 32000 held-out 87.34
+07:06:23 CKPT no_concepts s202 box 28000 held-out 89.12
+07:06:48 CKPT full s301 box 36000 held-out 91.58
+07:06:51 [full s300] box 28000 train S1 87.52 hidden 128 concepts 83 tau 0.25 eps 0.008 lr 0.0005 3596s
+07:06:57 CKPT no_meta s203 box 32000 held-out 86.97
+07:07:01 [full s304] box 28000 train S1 83.26 hidden 128 concepts 77 tau 0.31 eps 0.011 lr 0.0002 3606s
+07:07:20 DONE no_meta s201: 3434s held-out@32000 88.19
+07:07:21 [no_dream s200] box 28000 train S1 81.97 hidden 128 concepts 107 tau 0.32 eps 0.013 lr 0.0005 3626s
+07:07:26 [no_concepts s201] box 30000 train S1 82.65 hidden 128 concepts 0 tau 0.36 eps 0.013 lr 0.0002 3631s
+07:07:42 [full s302] box 32000 train S1 84.26 hidden 128 concepts 127 tau 0.32 eps 0.014 lr 0.0005 3648s
+07:08:11 CKPT full s300 box 28000 held-out 87.56
+07:08:12 [no_dream s201] box 32000 train S1 88.11 hidden 128 concepts 97 tau 0.25 eps 0.006 lr 0.0005 3677s
+07:08:18 CKPT full s304 box 28000 held-out 85.96
+07:08:20 DONE no_meta_matched_floor s201: 3497s held-out@32000 86.96
+07:08:28 [full s301] box 38000 train S1 91.21 hidden 64 concepts 229 tau 0.25 eps 0.005 lr 0.0005 3693s
+07:08:38 CKPT no_dream s200 box 28000 held-out 84.57
+07:08:52 CKPT full s302 box 32000 held-out 87.24

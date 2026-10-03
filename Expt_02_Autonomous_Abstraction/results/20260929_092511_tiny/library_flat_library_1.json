@@ -1,0 +1,239 @@
+{
+  "byte_cap": 262144,
+  "confirm_uses": 3,
+  "confirm_tasks": 2,
+  "expiry_boxes": 20,
+  "frozen": false,
+  "evictions": 0,
+  "rejected_positive": 0,
+  "selector": {
+    "ltm": {
+      "n": 4,
+      "sum": 0.384
+    }
+  },
+  "ops": {
+    "op_8dfc757e972b0260": {
+      "op_id": "op_8dfc757e972b0260",
+      "parents": [],
+      "ast": {
+        "kind": "SEQ",
+        "children": [
+          {
+            "kind": "PLACE_REL",
+            "type": "G",
+            "rotation": 3,
+            "dx": 0,
+            "dy": 0
+          },
+          {
+            "kind": "PLACE_REL",
+            "type": "G",
+            "rotation": 3,
+            "dx": 1,
+            "dy": 3
+          }
+        ]
+      },
+      "source": "mine",
+      "provenance": "real",
+      "created_episode": 1,
+      "primitive_sequence": [
+        {
+          "type": "G",
+          "rotation": 3,
+          "dx": 0,
+          "dy": 0,
+          "cells": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "type": "G",
+          "rotation": 3,
+          "dx": 1,
+          "dy": 3,
+          "cells": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              5
+            ]
+          ]
+        }
+      ],
+      "inventory_counts": {
+        "G": 2
+      },
+      "footprint": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "guards": {
+        "inventory": {
+          "G": 2
+        },
+        "footprint": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "connected": true
+      },
+      "stats": {
+        "support": 4,
+        "successes": 4,
+        "failures": 0,
+        "real_uses": 4,
+        "sim_uses": 1,
+        "real_task_ids": [
+          "legacy"
+        ],
+        "origins": [
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            7,
+            2,
+            0
+          ],
+          [
+            5,
+            4,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "utility_sum": 0.384,
+        "utility_sq_sum": 0.036864,
+        "paired_utility_sum": 0.0958,
+        "physical_cost_sum": 0,
+        "model_cost_sum": 0,
+        "use_count": 4,
+        "boxes_since_benefit": 0,
+        "last_utility": 0.096,
+        "eviction_reason": null
+      },
+      "status": "same_task_reuse",
+      "confirmation_scope": "same_task",
+      "depth": 1,
+      "structural_hash": "8dfc757e972b0260"
+    }
+  }
+}

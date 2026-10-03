@@ -1,0 +1,137 @@
+{
+  "cheap_scan_reserve": 0,
+  "note": "part_* is an innermost partition of candidate_evals. span_think and span_paired are inclusive and overlap that partition.",
+  "by_mode": {
+    "primitive": {
+      "boxes": 104,
+      "part_think": 0.0,
+      "part_paired": 0.0,
+      "part_guard": 0.0,
+      "part_selection": 5200000.0,
+      "part_other": 0.0,
+      "span_think": 0.0,
+      "span_paired": 0.0,
+      "candidate_evals": 5200000.0,
+      "cheap_actions": 0.0,
+      "macro_invocations": 0.0,
+      "physical_actions": 1444.0,
+      "final_score": 6820.0,
+      "means": {
+        "part_think": 0.0,
+        "part_paired": 0.0,
+        "part_guard": 0.0,
+        "part_selection": 50000.0,
+        "part_other": 0.0,
+        "span_think": 0.0,
+        "span_paired": 0.0,
+        "candidate_evals": 50000.0,
+        "cheap_actions": 0.0,
+        "macro_invocations": 0.0,
+        "physical_actions": 13.884615384615385,
+        "final_score": 65.57692307692308
+      }
+    },
+    "search_only": {
+      "boxes": 104,
+      "part_think": 0.0,
+      "part_paired": 0.0,
+      "part_guard": 0.0,
+      "part_selection": 5197268.0,
+      "part_other": 0.0,
+      "span_think": 1170952.0,
+      "span_paired": 0.0,
+      "candidate_evals": 5197268.0,
+      "cheap_actions": 0.0,
+      "macro_invocations": 0.0,
+      "physical_actions": 1454.0,
+      "final_score": 6622.0,
+      "means": {
+        "part_think": 0.0,
+        "part_paired": 0.0,
+        "part_guard": 0.0,
+        "part_selection": 49973.730769230766,
+        "part_other": 0.0,
+        "span_think": 11259.153846153846,
+        "span_paired": 0.0,
+        "candidate_evals": 49973.730769230766,
+        "cheap_actions": 0.0,
+        "macro_invocations": 0.0,
+        "physical_actions": 13.98076923076923,
+        "final_score": 63.67307692307692
+      }
+    },
+    "flat_library": {
+      "boxes": 104,
+      "part_think": 0.0,
+      "part_paired": 4034964.0,
+      "part_guard": 92416.0,
+      "part_selection": 1072620.0,
+      "part_other": 0.0,
+      "span_think": 4042068.0,
+      "span_paired": 4042068.0,
+      "candidate_evals": 5200000.0,
+      "cheap_actions": 0.0,
+      "macro_invocations": 121.0,
+      "physical_actions": 567.0,
+      "final_score": 2722.0,
+      "means": {
+        "part_think": 0.0,
+        "part_paired": 38797.730769230766,
+        "part_guard": 888.6153846153846,
+        "part_selection": 10313.653846153846,
+        "part_other": 0.0,
+        "span_think": 38866.03846153846,
+        "span_paired": 38866.03846153846,
+        "candidate_evals": 50000.0,
+        "cheap_actions": 0.0,
+        "macro_invocations": 1.1634615384615385,
+        "physical_actions": 5.451923076923077,
+        "final_score": 26.173076923076923
+      }
+    },
+    "hierarchical_library": {
+      "boxes": 104,
+      "part_think": 0.0,
+      "part_paired": 4561860.0,
+      "part_guard": 9152.0,
+      "part_selection": 628988.0,
+      "part_other": 0.0,
+      "span_think": 4568964.0,
+      "span_paired": 4568964.0,
+      "candidate_evals": 5200000.0,
+      "cheap_actions": 0.0,
+      "macro_invocations": 6.0,
+      "physical_actions": 186.0,
+      "final_score": 887.0,
+      "means": {
+        "part_think": 0.0,
+        "part_paired": 43864.03846153846,
+        "part_guard": 88.0,
+        "part_selection": 6047.961538461538,
+        "part_other": 0.0,
+        "span_think": 43932.346153846156,
+        "span_paired": 43932.346153846156,
+        "candidate_evals": 50000.0,
+        "cheap_actions": 0.0,
+        "macro_invocations": 0.057692307692307696,
+        "physical_actions": 1.7884615384615385,
+        "final_score": 8.528846153846153
+      }
+    }
+  },
+  "arm_choices": {
+    "hierarchical_library": {
+      "primitive": 91,
+      "stm": 66,
+      "think": 124,
+      "ltm": 20
+    }
+  },
+  "arm_choice_events": 301,
+  "think_batches": {
+    "count": 225,
+    "evals_sum": 8611032.0,
+    "evals_mean": 38271.253333333334,
+    "evals_max": 50000.0
+  }
+}

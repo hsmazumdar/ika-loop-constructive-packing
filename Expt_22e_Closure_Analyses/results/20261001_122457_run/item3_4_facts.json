@@ -1,0 +1,38 @@
+{
+ "engine_hashes": {
+  "Expt_21_Continuous_Learning_Memory": "8295979bb1e6",
+  "Expt_22a_Organic_Value_Learner": "8295979bb1e6",
+  "Expt_22b_Organic_Value_Learner": "8295979bb1e6",
+  "Expt_22c_Long_Streams": "8295979bb1e6",
+  "Expt_22d_Long_Ablations_Saturation": "8295979bb1e6"
+ },
+ "learner_ref_hashes": {
+  "Expt_22b_Organic_Value_Learner": "8fe669b8f1f3",
+  "Expt_22c_Long_Streams": "8fe669b8f1f3",
+  "Expt_22d_Long_Ablations_Saturation": "8fe669b8f1f3"
+ },
+ "start_board_empty": true,
+ "distinctness": {
+  "learner_22c_s100_memory": {
+   "distinct_sequences": 1200,
+   "distinct_final_placement_sets": 1200,
+   "distinct_first_placements": 130,
+   "n": 1200
+  },
+  "uniform_natural": {
+   "distinct_sequences": 1200,
+   "distinct_final_placement_sets": 1200,
+   "distinct_first_placements": 827,
+   "n": 1200
+  },
+  "hand_rule": {
+   "distinct_sequences": 1181,
+   "distinct_final_placement_sets": 447,
+   "distinct_first_placements": 8,
+   "n": 1200
+  }
+ },
+ "learner_22c_s100_episode_sd": 2.3695219808160033,
+ "learner_22c_s100_se_of_mean_1200": 0.06840220767374273,
+ "learner_22c_s100_S1_1200": 87.82666666666667
+}

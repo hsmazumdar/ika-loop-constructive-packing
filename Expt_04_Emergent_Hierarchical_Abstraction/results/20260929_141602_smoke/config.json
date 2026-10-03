@@ -1,0 +1,38 @@
+{
+  "q_min": 75.0,
+  "scan": 48,
+  "physical": 80,
+  "undo_budget": 4,
+  "eval_cap": 8000,
+  "top_k": 3,
+  "retrieval_pool": 8,
+  "anchors": 8,
+  "max_depth": 4,
+  "min_len": 2,
+  "max_len": 5,
+  "min_support": 2,
+  "episodic_capacity": 8,
+  "operation_capacity": 6,
+  "byte_cap": 65536,
+  "decay": 0.05,
+  "fail_penalty": 1.0,
+  "storage_weight": 0.001,
+  "applicability_min": 0.05,
+  "max_promotions_per_episode": 2,
+  "train_boxes": 12,
+  "change_at": 6,
+  "checkpoints": [
+    0,
+    6,
+    12
+  ],
+  "seeds": [
+    11
+  ],
+  "heldout_limit": 3,
+  "probe_count": 2,
+  "master_seed": 11,
+  "score_area": 1.0,
+  "score_contact": 0.2,
+  "score_boundary": 0.05
+}

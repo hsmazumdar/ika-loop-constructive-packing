@@ -1,0 +1,47 @@
+{
+  "schema": "expt20_baselines_manifest_v1",
+  "created": "2026-09-30T22:22:00+05:30",
+  "seed": 20261003,
+  "trials": 10000,
+  "same_boxes_as": "E:\\PaperSubmissions2026\\Assembly_Skill_Learning\\Expt_20_Winning_Combination_LTM\\results\\20260930_210213_stronger",
+  "workers": 18,
+  "n_boot": 2000,
+  "best_plain_baseline": "G_contact_any_first_tie",
+  "best_nondeterministic_plain": "G_contact_any_random_tie",
+  "code_hash": {
+    "combined_sha256": "5983f05a37dbf3f66968c99fd3675f7a4b17ca171fc88552c78b7d8df3d90e34",
+    "files": {
+      "run_expt20.py": "28c5cde2bc40e7eedec5cc96a4001c3b557c9f682432e8a25afbc0dceb8e948e",
+      "config.py": "7e72e46a748b80ed5eeb41643fcfd9b20a5bc28f6bebf931e74ec41e3116c06d",
+      "extract.py": "39b97b63be6ef3483ac7ed8f9bf3b8d5c0f1dfc5c0ff5ceeb68446125e48ec5e",
+      "ltm.py": "e85e43395c0dddd52fbffa29a98e5dd1ad62e8bca99353b48065bb756c53add9",
+      "trials.py": "f544e00b08fe63c409864347b0d61dd5ba79794ce33e09135e54a186eba9b9f7"
+    },
+    "baselines": {
+      "__init__.py": "65ba6465eb08961fc4d039e05f45793de42f47b2e678d376a4ccf2ec911c98a5",
+      "arms_b.py": "5f2df043b79743dbf3ccc8f0535906304b30b2827f3cc1c087408be2e1962490",
+      "e16_run.py": "43724362dab7fb198ff5f63220f794a0bdd670eb06369daabcbf80458baff008",
+      "e1agent.py": "df95952e9fad3c8990a2c794561c721bede8b1abc0815e2f97edc3b2ee2c97c8",
+      "rules.py": "7e8d1926967eef7151f7732f1c5bb1e71a97856bae88bedf0afe737796058304"
+    },
+    "stronger": {
+      "__init__.py": "97a617dc0a0fdf691ab3e5d407a56f8f69238c304fe3a2e52254550233a4d6aa",
+      "arms.py": "f522d647b34078b8dac2bdacb66ffc3ba00f702c022d0fa1a4fecf664eaec55b",
+      "engine.py": "2dcc5b865e8c091239ef40d38d4cb204db7332125b6d9fb002b9bbeef566c010",
+      "ltmbuild.py": "ce590e7939ff462aaff545707eae65882826ed54d6cdb2eee6203b2e89ffb29c",
+      "policies.py": "23227f03e447c61c591ba09d57df383e33d2bf7dde9e00fb6954ee00a7e7b76d",
+      "stats.py": "b749592fb35c1dc15721c0863333b421b67b32f998d744f18feddcf03e34eb89"
+    },
+    "phases": {
+      "__init__.py": "e110282b5de6c137638172a07dcaa9200024b04357d82276c3d6e28d66065951",
+      "compare.py": "006533079e5638ae2d2298f38cff4823240e2f83ccc39c339851176e57a0726e",
+      "policy.py": "d51f8e4c82d12cb08549d84f26292638af25793e7c53b4cfdd2fa645b07334e5",
+      "stm.py": "9b668c496e192f7143f094a3ca34c72952eb92bf1394017bb33a949fac7e73d1"
+    },
+    "run_expt20_baselines.py": "e22f6ae7be3c65c040241d951c3a66f5c96176b863821b20fa370fcdfcab3140"
+  },
+  "python": "3.13.1",
+  "numpy": "2.5.2",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "runtime_seconds": 2337.3
+}

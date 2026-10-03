@@ -1,0 +1,103 @@
+{
+  "created": "2026-10-01T02:49:19",
+  "code_hash": "fadfed8e13ecd7b9",
+  "git_commit": null,
+  "cfg": {
+    "budget": 14,
+    "hidden": 64,
+    "tau0": 2.0,
+    "tau_min": 0.35,
+    "eps0": 0.1,
+    "eps_min": 0.01,
+    "anneal_boxes": 15000,
+    "tau_eval": 0.25,
+    "online_lr_mult": 0.5,
+    "slow_beta": 0.3,
+    "dream_tau_mult": 1.5,
+    "dream_eps": 0.15,
+    "dream_w": 0.5,
+    "n_old": 150,
+    "per_alpha": 0.6,
+    "epoch": 1000,
+    "probe_boxes": 60,
+    "probe_tau": 0.25,
+    "con_min_n": 25,
+    "con_z": 3.0,
+    "con_min_abs": 0.3,
+    "con_cap": 6000,
+    "hidden_steps": [
+      64,
+      128,
+      256
+    ],
+    "grow_every_epochs": 2,
+    "grow_min_box": 6000,
+    "grow_ratio": 0.93,
+    "grow_test_steps": 150,
+    "eval_boxes": 400,
+    "eval_seed": 7700000,
+    "n_boxes": 8000,
+    "checkpoints": [
+      0,
+      500,
+      1000,
+      2000,
+      4000,
+      6000,
+      8000
+    ],
+    "transfer_budgets": [
+      12,
+      14,
+      16,
+      20,
+      40
+    ],
+    "transfer_boxes": 1000,
+    "h0": {
+      "tau": 2.0,
+      "eps": 0.1,
+      "lr": 0.001,
+      "lam": 0.9,
+      "dream": 0.5,
+      "sleep_every": 200,
+      "stm": 1000,
+      "steps": 40,
+      "batch": 256
+    }
+  },
+  "variants": {
+    "full": {
+      "sched": false,
+      "learn": true,
+      "online": true,
+      "sleep": true,
+      "dream": true,
+      "meta": true,
+      "concepts": true,
+      "growth": true,
+      "lam_fixed": null
+    },
+    "frozen": {
+      "sched": false,
+      "learn": false,
+      "online": true,
+      "sleep": true,
+      "dream": true,
+      "meta": false,
+      "concepts": true,
+      "growth": false,
+      "lam_fixed": null
+    }
+  },
+  "full_reps": 1,
+  "abl_reps": 1,
+  "abl_boxes": 8000,
+  "max_boxes": 8000,
+  "workers": 2,
+  "python": "3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]",
+  "tag": "pilot",
+  "abl_names": [
+    "frozen"
+  ]
+}

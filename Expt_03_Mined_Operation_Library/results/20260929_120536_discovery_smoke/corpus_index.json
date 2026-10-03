@@ -1,0 +1,290 @@
+[
+  {
+    "solution_id": "sol_30a56596c7c47e5b",
+    "task_id": "inv_0b96b3917fa7",
+    "Q": 100,
+    "solver": "teacher_exact_cover"
+  },
+  {
+    "solution_id": "sol_4dc06e550aafb7b8",
+    "task_id": "inv_0b96b3917fa7",
+    "Q": 92,
+    "solver": "teacher_gpu_beam"
+  },
+  {
+    "solution_id": "sol_09af970c8bff4b94",
+    "task_id": "inv_02c8738d8d04",
+    "Q": 100,
+    "solver": "teacher_exact_cover"
+  },
+  {
+    "solution_id": "sol_f305c361a1f0ca1d",
+    "task_id": "inv_02c8738d8d04",
+    "Q": 95,
+    "solver": "teacher_gpu_beam"
+  },
+  {
+    "solution_id": "sol_87a5ce13bbfca947",
+    "task_id": "inv_1e4f1d082f5d",
+    "Q": 100,
+    "solver": "teacher_exact_cover"
+  },
+  {
+    "solution_id": "sol_4b09a23071d1aed0",
+    "task_id": "inv_1e4f1d082f5d",
+    "Q": 96,
+    "solver": "teacher_gpu_beam"
+  },
+  {
+    "solution_id": "sol_38d767c86e1c9dcd",
+    "task_id": "inv_b9faefb3c8ff",
+    "Q": 100,
+    "solver": "teacher_exact_cover"
+  },
+  {
+    "solution_id": "sol_7392d03e5734827b",
+    "task_id": "inv_b9faefb3c8ff",
+    "Q": 92,
+    "solver": "teacher_gpu_beam"
+  },
+  {
+    "solution_id": "sol_05f50179028da576",
+    "task_id": "inv_ac2c19d4f316",
+    "Q": 100,
+    "solver": "teacher_exact_cover"
+  },
+  {
+    "solution_id": "sol_4ca33aee55b80126",
+    "task_id": "inv_ac2c19d4f316",
+    "Q": 96,
+    "solver": "teacher_gpu_beam"
+  },
+  {
+    "solution_id": "sol_a7aa3d35439e34f1",
+    "task_id": "inv_588da8b253d7",
+    "Q": 100,
+    "solver": "teacher_exact_cover"
+  },
+  {
+    "solution_id": "sol_db0380f621392381",
+    "task_id": "inv_588da8b253d7",
+    "Q": 96,
+    "solver": "teacher_gpu_beam"
+  },
+  {
+    "solution_id": "sol_0575607a90c4637b",
+    "task_id": "inv_dddce847bbe5",
+    "Q": 100,
+    "solver": "teacher_exact_cover"
+  },
+  {
+    "solution_id": "sol_11a397868de074c6",
+    "task_id": "inv_dddce847bbe5",
+    "Q": 92,
+    "solver": "teacher_gpu_beam"
+  },
+  {
+    "solution_id": "sol_c1cbe4040ba29a9d",
+    "task_id": "inv_44b82f447c59",
+    "Q": 100,
+    "solver": "teacher_exact_cover"
+  },
+  {
+    "solution_id": "sol_2db39aa2a61dc9b1",
+    "task_id": "inv_44b82f447c59",
+    "Q": 96,
+    "solver": "teacher_gpu_beam"
+  },
+  {
+    "solution_id": "sol_8db7b819c1d1556b",
+    "task_id": "inv_521aa3f4db2c",
+    "Q": 100,
+    "solver": "teacher_exact_cover"
+  },
+  {
+    "solution_id": "sol_d19decefa3be52f5",
+    "task_id": "inv_521aa3f4db2c",
+    "Q": 92,
+    "solver": "teacher_gpu_beam"
+  },
+  {
+    "solution_id": "sol_9d758c104c98f377",
+    "task_id": "inv_05bc74f7cd7c",
+    "Q": 100,
+    "solver": "teacher_exact_cover"
+  },
+  {
+    "solution_id": "sol_28a42cced2fe980f",
+    "task_id": "inv_05bc74f7cd7c",
+    "Q": 92,
+    "solver": "teacher_gpu_beam"
+  },
+  {
+    "solution_id": "sol_79ce8fa57914a003",
+    "task_id": "inv_04d049b72da2",
+    "Q": 100,
+    "solver": "teacher_exact_cover"
+  },
+  {
+    "solution_id": "sol_704fdc3100e9f2c4",
+    "task_id": "inv_04d049b72da2",
+    "Q": 96,
+    "solver": "teacher_gpu_beam"
+  },
+  {
+    "solution_id": "sol_ffe1e631105cecec",
+    "task_id": "inv_3853d99a7890",
+    "Q": 100,
+    "solver": "teacher_exact_cover"
+  },
+  {
+    "solution_id": "sol_24fb54ec971f4f5c",
+    "task_id": "inv_3853d99a7890",
+    "Q": 90,
+    "solver": "teacher_gpu_beam"
+  },
+  {
+    "solution_id": "sol_6bb3f84e3b2f4a82",
+    "task_id": "inv_b70847430efc",
+    "Q": 100,
+    "solver": "teacher_exact_cover"
+  },
+  {
+    "solution_id": "sol_06a27c0366e61e61",
+    "task_id": "inv_b70847430efc",
+    "Q": 96,
+    "solver": "teacher_gpu_beam"
+  },
+  {
+    "solution_id": "sol_bcfecea920c1e3b5",
+    "task_id": "inv_846c32759cc2",
+    "Q": 100,
+    "solver": "teacher_exact_cover"
+  },
+  {
+    "solution_id": "sol_bb731462ab192271",
+    "task_id": "inv_846c32759cc2",
+    "Q": 96,
+    "solver": "teacher_gpu_beam"
+  },
+  {
+    "solution_id": "sol_174645ded9e26e3a",
+    "task_id": "inv_e5a7016014b8",
+    "Q": 100,
+    "solver": "teacher_exact_cover"
+  },
+  {
+    "solution_id": "sol_6384167b5851d8ea",
+    "task_id": "inv_e5a7016014b8",
+    "Q": 95,
+    "solver": "teacher_gpu_beam"
+  },
+  {
+    "solution_id": "sol_69c0457c7e9891cc",
+    "task_id": "inv_1f2dbf0588dc",
+    "Q": 100,
+    "solver": "teacher_exact_cover"
+  },
+  {
+    "solution_id": "sol_79da5fa7091b4afa",
+    "task_id": "inv_1f2dbf0588dc",
+    "Q": 96,
+    "solver": "teacher_gpu_beam"
+  },
+  {
+    "solution_id": "sol_adaa2994a5f4180c",
+    "task_id": "inv_bfd90425f5bd",
+    "Q": 100,
+    "solver": "teacher_exact_cover"
+  },
+  {
+    "solution_id": "sol_f2425b2bfe3e45c9",
+    "task_id": "inv_bfd90425f5bd",
+    "Q": 92,
+    "solver": "teacher_gpu_beam"
+  },
+  {
+    "solution_id": "sol_3a8fe1bdf1418e4e",
+    "task_id": "inv_e705d8722fa9",
+    "Q": 100,
+    "solver": "teacher_exact_cover"
+  },
+  {
+    "solution_id": "sol_95e1bbf4ffa0223e",
+    "task_id": "inv_e705d8722fa9",
+    "Q": 96,
+    "solver": "teacher_gpu_beam"
+  },
+  {
+    "solution_id": "sol_236f60b1260c74cc",
+    "task_id": "inv_fb74b6e5ee17",
+    "Q": 100,
+    "solver": "teacher_exact_cover"
+  },
+  {
+    "solution_id": "sol_cc81c5e9842d6b73",
+    "task_id": "inv_fb74b6e5ee17",
+    "Q": 95,
+    "solver": "teacher_gpu_beam"
+  },
+  {
+    "solution_id": "sol_7adc93ceb450404f",
+    "task_id": "inv_64567200de91",
+    "Q": 100,
+    "solver": "teacher_exact_cover"
+  },
+  {
+    "solution_id": "sol_66e787c8065ba85f",
+    "task_id": "inv_64567200de91",
+    "Q": 95,
+    "solver": "teacher_gpu_beam"
+  },
+  {
+    "solution_id": "sol_b3c8a5aef47d04f2",
+    "task_id": "inv_5a447efe53b2",
+    "Q": 100,
+    "solver": "teacher_exact_cover"
+  },
+  {
+    "solution_id": "sol_e5bca72dbe659b21",
+    "task_id": "inv_5a447efe53b2",
+    "Q": 95,
+    "solver": "teacher_gpu_beam"
+  },
+  {
+    "solution_id": "sol_9968831176da0d4f",
+    "task_id": "inv_a5b815783152",
+    "Q": 100,
+    "solver": "teacher_exact_cover"
+  },
+  {
+    "solution_id": "sol_7ec08debc02759e8",
+    "task_id": "inv_a5b815783152",
+    "Q": 96,
+    "solver": "teacher_gpu_beam"
+  },
+  {
+    "solution_id": "sol_32f5db8e335203d3",
+    "task_id": "inv_0a58649f313c",
+    "Q": 100,
+    "solver": "teacher_exact_cover"
+  },
+  {
+    "solution_id": "sol_c16a4b4e0e7084d7",
+    "task_id": "inv_0a58649f313c",
+    "Q": 96,
+    "solver": "teacher_gpu_beam"
+  },
+  {
+    "solution_id": "sol_ea09fb75b2cc9ff6",
+    "task_id": "inv_ad0404a64b5b",
+    "Q": 100,
+    "solver": "teacher_exact_cover"
+  },
+  {
+    "solution_id": "sol_b764f3ece40f9ca1",
+    "task_id": "inv_ad0404a64b5b",
+    "Q": 96,
+    "solver": "teacher_gpu_beam"
+  }
+]

@@ -1,0 +1,18 @@
+{
+ "uniform": {
+  "states": 4500,
+  "mismatching_states": 0
+ },
+ "hand": {
+  "states": 4483,
+  "mismatching_states": 0
+ },
+ "learner": {
+  "states": 4350,
+  "mismatching_states": 0
+ },
+ "learner_trajectories": {
+  "states": 4424,
+  "mismatching_states": 0
+ }
+}
