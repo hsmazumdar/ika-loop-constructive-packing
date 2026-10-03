@@ -59,8 +59,32 @@ call :run "%ROOT%Expt_22b_Organic_Value_Learner"
 call :run "%ROOT%Expt_22c_Long_Streams"
 call :run "%ROOT%Expt_22d_Long_Ablations_Saturation"
 echo.
-echo Part C suite (Expt-23).
+echo Part C suite (Expt-23: 34 tests, about 1-2 minutes).
 call :run "%ROOT%Expt_23_MultiProblem"
+echo.
+echo Part C check: re-analysing the saved A8 controller-off streams (read-only, about 30 s).
+echo Primary data: results_ctrloff_i9 (seeds 2400-2405) and results_ctrloff_i7 (seeds 2406-2407).
+echo results_ctrloff_i9b is a replicate only. Output goes to %%TEMP%%, nothing in this folder changes.
+set "A8OUT=%TEMP%\expt23_a8_recheck"
+if exist "%A8OUT%" rmdir /s /q "%A8OUT%"
+pushd "%ROOT%Expt_23_MultiProblem"
+"%PY%" src\analyze_ctrloff.py --out "%A8OUT%" >nul 2>&1
+if errorlevel 1 goto a8_failed
+fc /b "%A8OUT%\ctrloff_summary.csv" analysis_ctrloff\ctrloff_summary.csv >nul
+if errorlevel 1 goto a8_differs
+fc /b "%A8OUT%\ctrloff_summary.md" analysis_ctrloff\ctrloff_summary.md >nul
+if errorlevel 1 goto a8_differs
+echo A8 re-analysis reproduces analysis_ctrloff\ctrloff_summary.csv and .md exactly.
+goto a8_done
+:a8_failed
+echo A8 re-analysis could not run (check that numpy and scipy are installed).
+set "FAIL=1"
+goto a8_done
+:a8_differs
+echo A8 re-analysis differs from the saved analysis_ctrloff files. Compare %A8OUT% with analysis_ctrloff.
+set "FAIL=1"
+:a8_done
+popd
 
 echo.
 if "%FAIL%"=="0" (
@@ -80,7 +104,7 @@ echo ----------------------------------------
 echo %~1
 echo ----------------------------------------
 pushd "%~1"
-"%PY%" -m pytest -q
+"%PY%" -m pytest -q -p no:cacheprovider
 if errorlevel 1 set "FAIL=1"
 popd
 exit /b 0

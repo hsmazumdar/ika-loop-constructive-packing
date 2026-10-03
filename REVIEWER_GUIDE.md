@@ -112,37 +112,76 @@ Earlier pilot, smoke and partial folders next to these are kept for provenance a
 
 # Part C: Expt-23 MultiProblem
 
-## Task and metric
+## What it is
 
-Variable board sizes, obstacle cells, and polyomino catalogues (283 pieces of size 3-7; the Expt-1 A-P set is the `legacy` subset). Primary condition = 14-piece cap + natural placing. Score is normalised filled non-obstacle cells (S1 / free cells). Arms: full learner with guided generation and consolidation (`F`), plain online learner (`N`), compute-matched no-meta (`NM`), random-data full (`R`), random-data no-consolidate (`RN`). Hand rule and CEM-hand are references only.
+A multi-problem packing case study of an information -> knowledge -> application loop. Variable board sizes (7x7 to 12x12), obstacle cells and polyomino catalogues (283 pieces of size 3-7; the Expt-1 A-P set is the `legacy` subset), a limit of 14 placements, natural placing. Training uses a distribution of problems; evaluation is on 200 unseen problems from four held-out splits (`test_iid`, `test_size`, `test_piece`, `test_both`). Primary condition = 14-piece cap + natural placing (`capped_nat`), in two variants: `std` (standard) and `hard`. Score = held-out S1 / reference, per problem (reference = per-problem maximum of beam-64, rollout beam and the hand rule), averaged over the four splits; one value per stream, the stream is the unit of replication (n = 8 streams per arm). Hand rule, CEM-tuned hand rule and beam search are references only; DQN and PPO are baselines. No learner contains a hand-written rule.
 
-The A8 controller-off confirmation freezes the self-tuning controller (fixed exploration / sleep schedule) after diagnostics showed the controller held the full learner back on the earlier E-runs.
+Arms: `F` full learner (guided generation, consolidation, concept library, meta-controller), `N` plain online learner, `NM` compute-matched plain learner, `R` random data with the full learner, `RN` random data online only.
 
-## Claims that the record supports (A8 controller-off, std / capped_nat, n = 8 per arm)
+The manuscript (V2, with its figures and a sources-and-changes file) is in `_Manuscript/`.
 
-- Consolidation helps: `F` vs `N` +0.0234; `F` vs `NM` +0.0266 (primary family, Holm-supported under Welch / permutation / MWU).
-- Guided data helps: `F` vs `R` +0.0498 (primary family, Holm-supported).
-- Secondary: `F` beats `RN`, earlier DQN, and earlier PPO; `F` remains below hand / cemhand references (~0.93).
-- Transfer (E3): `F` final split means stay near test_iid (gaps to size / piece / both are small); `F` minus `N` is positive on every split.
-- Improvement across checkpoints (E4): `F` rises from ~0.76 to ~0.90 over 20k episodes; generated-data quality under `F` rises across rounds while `R`/`RN` stay flat.
+## Order of evidence (read in this order)
+
+1. Controller ON, specified in advance (`Expt_23_MultiProblem/results/e_streams`, seeds 2300-2307; `results/e_summary.md` is stale, see below). NEGATIVE: the full learner did not beat the plain learner (std F 0.841 vs N 0.879; hard F 0.791 vs N 0.861) and guided data were not better than random data.
+2. Post-hoc diagnostics D1-D4 (`results_i9/`, `results_vivo_diag/`). Exploratory, no confirmatory status. D4 (controller off, same seeds 2300-2307): std 0.892, hard 0.870.
+3. Controller-off confirmation, amendment A8 of `DESIGN.md` (seeds 2400-2407, written before any A8 stream existed). 80 streams = 5 arms x 2 variants x 8 seeds. Verdict: CONFIRMED on both variants (see below).
+4. Baselines and references (earlier run, seeds 2300-2307, `results/streams`, `results/refs`): N std 0.879 / hard 0.861; DQN 0.825 / 0.785; PPO 0.883 / 0.853; hand rule 0.931 / 0.888; CEM-hand 0.930 / 0.897; uniform natural 0.760 / 0.751; beam-64 0.986 / 0.974.
+
+## Claims that the record supports (A8, controller off, n = 8 per arm and variant)
+
+Final means at 20,000 episodes: std F 0.900, N 0.876, NM 0.873, R 0.850, RN 0.844; hard F 0.872, N 0.853, NM 0.842, R 0.800, RN 0.783.
+
+| Primary contrast (F minus) | std difference, Holm-Welch p | hard difference, Holm-Welch p | A8 label |
+| --- | --- | --- | --- |
+| N (E2, consolidation vs plain) | +0.0234, 3.0e-06 | +0.0187, 0.0052 | supported (both) |
+| NM (E2, matched compute) | +0.0266, 2.5e-06 | +0.0297, 0.0052 | supported (both) |
+| R (E1, guided vs random data) | +0.0498, 1.7e-07 | +0.0719, 1.0e-12 | supported (both) |
+
+- "Supported" = Welch-Holm < 0.05 and permutation-Holm and Mann-Whitney-Holm < 0.10, with F higher. F against N supported on std and hard = claim CONFIRMED. The i9-only sensitivity family is also supported for all six primary contrasts.
+- Secondary (exploratory): F beats RN, DQN and PPO on both variants; F stays significantly BELOW the hand rule and the CEM-hand rule (std -0.031 / -0.030; hard -0.016 / -0.025).
+- E3 (transfer, descriptive): F minus N is positive on every split of both variants; gaps of F to `test_iid` are small (about -0.008 to -0.014 on `test_piece` / `test_both`).
+- E4 (improvement across checkpoints, descriptive): F rises from 0.760 to 0.900 (std) and 0.753 to 0.872 (hard) over 20k episodes; generated-data quality under F and N rises across 1,000-episode rounds, under R and RN it stays flat.
 
 ## What is not established
 
-- Other domains in DESIGN.md (puzzles, programs, equations) are not run in this repository copy.
-- Hard-variant and uncapped / non-natural condition grids are secondary; quote the A8 std / capped_nat table unless the guide names another run.
-- The earlier controller-ON E-run (`F` 0.841) is superseded for the consolidation claim by the A8 controller-off confirmation.
+- The controller-ON result stays negative. A8 does not contrast controller on and off on the same seeds, so "the controller caused the negative result" remains an interpretation of post-hoc D1-D4, not a tested effect.
+- Hand rules remain higher than every learner. Search references (beam-64 0.986 / 0.974) are far higher.
+- Only packing is run. The list-program and sliding-tile environments (`src/cs2_programs.py`, `src/cs3_tiles.py`) are unit-tested only; no loop arm was run on them. Other domains named in `DESIGN.md` are not run.
+- Eight streams per arm, one author, author-owned computers, design file dated but not externally registered. Data-swap test, few-shot test, hierarchical bootstrap and a tuned PPO arm were specified or announced and not run.
+- `results/e_summary.md` and `results/baseline_summary.md` predate the end of the runs (hard F had n = 5, NM n = 4) and are stale; use the numbers in the manuscript or re-run `src/analyze_e.py` / `src/analyze_baselines.py` on the complete streams.
+
+## Primary data versus replicate data (A8)
+
+| Folder | Seeds | Machine | Status |
+| --- | --- | --- | --- |
+| `results_ctrloff_i9/` | 2400-2405 (60 streams) | i9Win10 (Python 3.12.4, numpy 2.0.0) | PRIMARY |
+| `results_ctrloff_i7/` | 2406-2407 (20 streams; 26 files, 7,898,916 bytes) | i7Win11B (Python 3.12.10, numpy 2.4.6) | PRIMARY for seeds 2406-2407 |
+| `results_ctrloff_i9b/` | 2406-2407 (20 streams) | i9Win10 | REPLICATE only, used for the machine-nuisance check, never in a test |
+
+The i7 streams are the primary data for seeds 2406-2407 because the i7 was the planned machine; the i9b batch was started when the i7 was offline and is kept as a replicate. `src/analyze_ctrloff.py` loads the folders in the order i9, i7, i9b and treats later copies of the same arm / variant / seed as replicates. Machine offset i7 minus i9 over the ten arm x variant cells: -0.0023 (one-sample t p = 0.381); paired replicate difference (i9b minus i7 primary) over 20 streams: +0.0017 (p = 0.664). Both are below the A8 nuisance rule (|mean| > 0.004 or p < 0.05), so machine is not treated as a nuisance.
+
+## How to run and check (from `Expt_23_MultiProblem/`; all commands need the environment in `README.md`)
+
+- Unit tests (34 tests, about 1-2 minutes; no scientific run): `python -m pytest tests -q -p no:cacheprovider`, or `run_unit_tests.bat` in the repository root (it also runs the two checks below). The files in `tests/` that are not named `test_*.py` (`sample_*.py`, `headroom_*.py`, `time_*.py`) are sample / timing scripts that produced files in `results/`; they are not run by pytest.
+- Re-analyse the saved A8 streams (read-only, about 30 s): `python src\analyze_ctrloff.py --out %TEMP%\a8_check`. The output (`ctrloff_summary.md`, `ctrloff_summary.csv`, `ctrloff_stream_scores.csv`) is byte-identical to `analysis_ctrloff/`. Use an `--out` outside the repository unless you intend to overwrite `analysis_ctrloff/`.
+- Check run status: `python src\run_ctrloff.py status --out results_ctrloff_i9 results_ctrloff_i7 --seeds 2400-2407`.
+- Rerun A8 (hours; 80 streams x 20,000 episodes; resumable; writes a NEW results folder, so use a new `--out` and do not point it at a saved folder): `python src\run_ctrloff.py run --out results_ctrloff_new --machine <name> --seeds 2400-2407 --nw <workers>`. The launchers that produced the saved data are `scripts/run_ctrloff_i9.ps1` (seeds 2400-2405), `scripts/run_ctrloff_i7.ps1` (2406-2407) and `scripts/run_ctrloff_i9b.ps1` (2406-2407 replicate). Streams are not bit-identical across machines or numpy versions (1 of 8 retrained streams was identical in D1), so a rerun reproduces the scores, not the files. Then analyse with `python src\analyze_ctrloff.py --folders results_ctrloff_new --out <outside>`.
+- Controller-ON main run and baselines: `src/run_e_streams.py`, `src/run_streams.py` (see `README.md`, `RESUME.md`, `DESIGN.md`).
 
 ## Authoritative runs
 
 | Experiment | Run | Notes |
 | --- | --- | --- |
-| Expt-23 A8 analysis | `Expt_23_MultiProblem/analysis_ctrloff/` | `ctrloff_summary.md`; 80 streams; primary numbers |
-| Expt-23 A8 streams (i9) | `Expt_23_MultiProblem/results_ctrloff_i9/` | controller-off streams |
-| Expt-23 A8 streams (i9b) | `Expt_23_MultiProblem/results_ctrloff_i9b/` | split batch on i9 |
-| Expt-23 A8 streams (i7) | `Expt_23_MultiProblem/results_ctrloff_i7/` | split batch on i7 |
-| Expt-23 diagnostics D1-D4 | `Expt_23_MultiProblem/results_i9/`, `results_vivo_diag/` | controller-ON finding; not the A8 headline |
+| Expt-23 A8 analysis | `Expt_23_MultiProblem/analysis_ctrloff/` | `ctrloff_summary.md` (+ `.csv`, `ctrloff_stream_scores.csv`); 80 streams; headline numbers, std and hard |
+| Expt-23 A8 streams (i9) | `Expt_23_MultiProblem/results_ctrloff_i9/` | PRIMARY, seeds 2400-2405 |
+| Expt-23 A8 streams (i7) | `Expt_23_MultiProblem/results_ctrloff_i7/` | PRIMARY, seeds 2406-2407 |
+| Expt-23 A8 streams (i9b) | `Expt_23_MultiProblem/results_ctrloff_i9b/` | REPLICATE only (seeds 2406-2407 on i9) |
+| Expt-23 controller-ON main run | `Expt_23_MultiProblem/results/e_streams/`, `results/streams/` | negative result; baselines N, DQN, PPO |
+| Expt-23 references | `Expt_23_MultiProblem/results/refs/` | uniform, hand, CEM-hand, beam, rollout beam |
+| Expt-23 diagnostics D1-D4 | `Expt_23_MultiProblem/results_i9/`, `results_vivo_diag/` | post-hoc, controller-ON finding; not the A8 headline |
+| Manuscript V2 | `_Manuscript/Continuous_Learning_Memory_Consolidation_V2.docx` (+ `.md`, `figures_v2/`, `V2_SOURCES_AND_CHANGES.md`) | number provenance in the sources file |
 
-Earlier `results/` reference tables and smoke outputs are kept for provenance. `DESIGN.md` is the frozen plan.
+`DESIGN.md` is the frozen plan (amendments A1-A8 logged in it). Earlier `results/` reference tables and smoke outputs are kept for provenance.
 
 ## What this repository contains
 
@@ -152,5 +191,6 @@ Earlier `results/` reference tables and smoke outputs are kept for provenance. `
 | `Expt_01_10x10_Packing/` through `Expt_19_Budgeted_Recognition/` | Part A code, tests, and saved runs |
 | `Expt_20_Winning_Combination_LTM/` through `Expt_22e_Closure_Analyses/` | Part B code, tests, saved runs, and closure analyses |
 | `Expt_23_MultiProblem/` | Part C multi-problem packing study, A8 controller-off confirmation, diagnostics |
+| `_Manuscript/` | Manuscript V2 (docx and md), its figures (`figures_v2/`) and `V2_SOURCES_AND_CHANGES.md` |
 
-The manuscript is not in this repository. Regenerating a run is not required to read the saved results, and the launchers do not start a new diagnostic or learning stream.
+The manuscript (V2) is in `_Manuscript/`. Regenerating a run is not required to read the saved results, and the launchers do not start a new diagnostic or learning stream.
