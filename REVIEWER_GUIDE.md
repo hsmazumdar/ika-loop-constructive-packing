@@ -194,3 +194,5 @@ The i7 streams are the primary data for seeds 2406-2407 because the i7 was the p
 | `_Manuscript/` | Manuscript V2 (docx and md), its figures (`figures_v2/`) and `V2_SOURCES_AND_CHANGES.md` |
 
 The manuscript (V2) is in `_Manuscript/`. Regenerating a run is not required to read the saved results, and the launchers do not start a new diagnostic or learning stream.
+
+- Review-response additions (3 October 2026): Expt_23_MultiProblem/analysis_ctrloff/ also holds the after-the-fact descriptive problem-resampling bootstrap (nalyze_ctrloff_problem_bootstrap.py, ctrloff_problem_bootstrap.md/.csv) and the approximate power / minimum-detectable-effect calculation (power_mde.py, power_mde_output.txt). Both are outside the A8 decision rule. The manuscript build scripts are in _Manuscript/V2_assets/.

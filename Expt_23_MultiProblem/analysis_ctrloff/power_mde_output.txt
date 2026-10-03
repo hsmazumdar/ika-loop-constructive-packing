@@ -1,0 +1,11 @@
+﻿alpha 0.0500  MDE d (80% power, n=8 v 8, equal-variance t) = 1.51
+alpha 0.0167  MDE d (80% power, n=8 v 8, equal-variance t) = 1.81
+std {'F': np.float64(0.0067), 'N': np.float64(0.0054), 'NM': np.float64(0.0065), 'R': np.float64(0.0015), 'RN': np.float64(0.0048)}
+  F v N pooled SD 0.0061 -> MDE diff at alpha .05: 0.0092 ; at .0167: 0.0110
+  F v NM pooled SD 0.0066 -> MDE diff at alpha .05: 0.0099 ; at .0167: 0.0119
+  F v R pooled SD 0.0049 -> MDE diff at alpha .05: 0.0073 ; at .0167: 0.0088
+hard {'F': np.float64(0.005), 'N': np.float64(0.012), 'NM': np.float64(0.0213), 'R': np.float64(0.0031), 'RN': np.float64(0.0085)}
+  F v N pooled SD 0.0092 -> MDE diff at alpha .05: 0.0139 ; at .0167: 0.0166
+  F v NM pooled SD 0.0155 -> MDE diff at alpha .05: 0.0233 ; at .0167: 0.0279
+  F v R pooled SD 0.0042 -> MDE diff at alpha .05: 0.0063 ; at .0167: 0.0075
+
