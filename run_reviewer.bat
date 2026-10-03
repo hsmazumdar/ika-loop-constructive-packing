@@ -6,7 +6,7 @@ echo.
 echo  Constructive packing with memory - reviewer repository
 echo  Folder: %CD%
 echo  This copy includes the experiments, saved runs, and supplementary materials.
-echo  The manuscript (V2) is in the _Manuscript folder.
+echo  The manuscript is not included.
 echo.
 
 :menu

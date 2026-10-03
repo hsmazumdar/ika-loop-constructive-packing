@@ -2,25 +2,21 @@
 
 Standalone reviewer repository for the packing line of experiments (Expt-1 to Expt-23). It contains the experiment code, unit tests, the saved runs, and the supplementary tables and figures.
 
-The manuscript (V2: docx, markdown, figures) is in [`_Manuscript/`](_Manuscript/).
+Associated manuscript: H. S. Mazumdar, "An information-knowledge-application loop with consolidated memory: a single-domain controlled study on constructive packing" (submitted). The manuscript is not included in this repository.
 
-Three studies (plus the manuscript folder) share this repository:
+Three studies share this repository:
 
 | Part | Experiments | Question |
 | --- | --- | --- |
 | A | `Expt_01` to `Expt_19` | When does memory reduce deliberation? (effort saving from stored arrangements, exact recall, gates, recognizers) |
 | B | `Expt_20` to `Expt_22e` | Continuous learning and memory consolidation for constructive packing (one box at a time, sleep consolidation, learned value function, under a 14-piece handicap) |
 | C | `Expt_23_MultiProblem` | Multi-problem packing case study of the information -> knowledge -> application loop. Controller-on main run: negative. Post-hoc diagnostics D1-D4. Controller-off confirmation A8 (seeds 2400-2407, 80 streams, standard and hard): confirmed; guided vs random data and consolidation vs plain / compute-matched. Baselines DQN, PPO, hand rule |
-| M | `_Manuscript` | Manuscript V2 for Part C (docx, md, figures) |
-
 ## Read this first
 
 1. [REVIEWER_GUIDE.md](REVIEWER_GUIDE.md): what was measured, what was not, and which run is authoritative, for all parts.
 2. Part A: [supplementary/SUPPLEMENTARY_TABLES.md](supplementary/SUPPLEMENTARY_TABLES.md) (Word: `supplementary/SUPPLEMENTARY_TABLES.docx`) and [supplementary/SUPPLEMENTARY_FIGURES.pdf](supplementary/SUPPLEMENTARY_FIGURES.pdf).
 3. Part B: [Expt_22e_Closure_Analyses/results/20261001_122457_run/report.md](Expt_22e_Closure_Analyses/results/20261001_122457_run/report.md) (paired statistics, multiplicity control, piece-P usage, baseline audit, evaluation-set description, provenance), and the `summary.md` of each authoritative run listed in the guide.
 4. Part C: [Expt_23_MultiProblem/analysis_ctrloff/ctrloff_summary.md](Expt_23_MultiProblem/analysis_ctrloff/ctrloff_summary.md) (A8 controller-off confirmation, 80 streams, standard and hard variants, verdict: confirmed), [Expt_23_MultiProblem/DESIGN.md](Expt_23_MultiProblem/DESIGN.md), and the Part C section of the guide (what Expt-23 is, order of evidence, how to run the tests and re-analyse or rerun A8, where the results are, primary versus replicate data).
-5. Manuscript: [_Manuscript/Continuous_Learning_Memory_Consolidation_V2.docx](_Manuscript/Continuous_Learning_Memory_Consolidation_V2.docx) (same text in `.md`; figures in `_Manuscript/figures_v2/`; number provenance in `_Manuscript/V2_SOURCES_AND_CHANGES.md`).
-
 Double-click **`run_reviewer.bat`** for a menu. It opens the guide and the supplementary documents, runs unit tests, and can open the Expt-1 packing window. It does not start a new diagnostic or a new learning stream.
 
 ## Launchers
@@ -51,3 +47,7 @@ All code locates sibling experiments by relative path (Part B imports the Expt-1
 ## What a passing test means
 
 A passing unit test means the checked function behaved as coded. It does not mean memory reduced deliberation or that the learner improved, and it does not replace the saved runs.
+
+## Licence
+
+MIT, see [LICENSE](LICENSE). It covers the code, the saved results and the documents in this repository.

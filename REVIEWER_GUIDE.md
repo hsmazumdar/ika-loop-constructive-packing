@@ -117,9 +117,6 @@ Earlier pilot, smoke and partial folders next to these are kept for provenance a
 A multi-problem packing case study of an information -> knowledge -> application loop. Variable board sizes (7x7 to 12x12), obstacle cells and polyomino catalogues (283 pieces of size 3-7; the Expt-1 A-P set is the `legacy` subset), a limit of 14 placements, natural placing. Training uses a distribution of problems; evaluation is on 200 unseen problems from four held-out splits (`test_iid`, `test_size`, `test_piece`, `test_both`). Primary condition = 14-piece cap + natural placing (`capped_nat`), in two variants: `std` (standard) and `hard`. Score = held-out S1 / reference, per problem (reference = per-problem maximum of beam-64, rollout beam and the hand rule), averaged over the four splits; one value per stream, the stream is the unit of replication (n = 8 streams per arm). Hand rule, CEM-tuned hand rule and beam search are references only; DQN and PPO are baselines. No learner contains a hand-written rule.
 
 Arms: `F` full learner (guided generation, consolidation, concept library, meta-controller), `N` plain online learner, `NM` compute-matched plain learner, `R` random data with the full learner, `RN` random data online only.
-
-The manuscript (V2, with its figures and a sources-and-changes file) is in `_Manuscript/`.
-
 ## Order of evidence (read in this order)
 
 1. Controller ON, specified in advance (`Expt_23_MultiProblem/results/e_streams`, seeds 2300-2307; `results/e_summary.md` is stale, see below). NEGATIVE: the full learner did not beat the plain learner (std F 0.841 vs N 0.879; hard F 0.791 vs N 0.861) and guided data were not better than random data.
@@ -179,8 +176,6 @@ The i7 streams are the primary data for seeds 2406-2407 because the i7 was the p
 | Expt-23 controller-ON main run | `Expt_23_MultiProblem/results/e_streams/`, `results/streams/` | negative result; baselines N, DQN, PPO |
 | Expt-23 references | `Expt_23_MultiProblem/results/refs/` | uniform, hand, CEM-hand, beam, rollout beam |
 | Expt-23 diagnostics D1-D4 | `Expt_23_MultiProblem/results_i9/`, `results_vivo_diag/` | post-hoc, controller-ON finding; not the A8 headline |
-| Manuscript V2 | `_Manuscript/Continuous_Learning_Memory_Consolidation_V2.docx` (+ `.md`, `figures_v2/`, `V2_SOURCES_AND_CHANGES.md`) | number provenance in the sources file |
-
 `DESIGN.md` is the frozen plan (amendments A1-A8 logged in it). Earlier `results/` reference tables and smoke outputs are kept for provenance.
 
 ## What this repository contains
@@ -191,8 +186,7 @@ The i7 streams are the primary data for seeds 2406-2407 because the i7 was the p
 | `Expt_01_10x10_Packing/` through `Expt_19_Budgeted_Recognition/` | Part A code, tests, and saved runs |
 | `Expt_20_Winning_Combination_LTM/` through `Expt_22e_Closure_Analyses/` | Part B code, tests, saved runs, and closure analyses |
 | `Expt_23_MultiProblem/` | Part C multi-problem packing study, A8 controller-off confirmation, diagnostics |
-| `_Manuscript/` | Manuscript V2 (docx and md), its figures (`figures_v2/`) and `V2_SOURCES_AND_CHANGES.md` |
 
-The manuscript (V2) is in `_Manuscript/`. Regenerating a run is not required to read the saved results, and the launchers do not start a new diagnostic or learning stream.
+The manuscript is not in this repository. Regenerating a run is not required to read the saved results, and the launchers do not start a new diagnostic or learning stream.
 
-- Review-response additions (3 October 2026): Expt_23_MultiProblem/analysis_ctrloff/ also holds the after-the-fact descriptive problem-resampling bootstrap (nalyze_ctrloff_problem_bootstrap.py, ctrloff_problem_bootstrap.md/.csv) and the approximate power / minimum-detectable-effect calculation (power_mde.py, power_mde_output.txt). Both are outside the A8 decision rule. The manuscript build scripts are in _Manuscript/V2_assets/.
+- Review-response additions (3 October 2026): `Expt_23_MultiProblem/analysis_ctrloff/` also holds the after-the-fact descriptive problem-resampling bootstrap (`analyze_ctrloff_problem_bootstrap.py`, `ctrloff_problem_bootstrap.md/.csv`) and the approximate power / minimum-detectable-effect calculation (`power_mde.py`, `power_mde_output.txt`). Both are outside the A8 decision rule.
