@@ -1,0 +1,503 @@
+[N std capped_nat s2301] ep 0 heldout S1/free 0.7027 71s
+[N std capped_nat s2300] ep 0 heldout S1/free 0.6983 71s
+[N std capped_nat s2303] ep 0 heldout S1/free 0.6993 74s
+[N std capped_nat s2302] ep 0 heldout S1/free 0.6894 75s
+[DQN std capped_nat s2302] ep 0 heldout S1/free 0.6965 94s
+[DQN std capped_nat s2301] ep 0 heldout S1/free 0.6993 94s
+[DQN std capped_nat s2300] ep 0 heldout S1/free 0.6950 96s
+[DQN std capped_nat s2303] ep 0 heldout S1/free 0.6972 96s
+[PPO std capped_nat s2302] ep 0 heldout S1/free 0.6933 182s
+[PPO std capped_nat s2301] ep 0 heldout S1/free 0.6969 184s
+[PPO std capped_nat s2300] ep 0 heldout S1/free 0.6958 186s
+[PPO std capped_nat s2303] ep 0 heldout S1/free 0.6950 196s
+[N std capped_nat s2300] ep 1000 heldout S1/free 0.7382 344s
+[N std capped_nat s2302] ep 1000 heldout S1/free 0.7386 347s
+[N std capped_nat s2303] ep 1000 heldout S1/free 0.7304 349s
+[N std capped_nat s2301] ep 1000 heldout S1/free 0.7308 352s
+[DQN std capped_nat s2303] ep 1000 heldout S1/free 0.6939 562s
+[DQN std capped_nat s2302] ep 1000 heldout S1/free 0.6893 567s
+[DQN std capped_nat s2301] ep 1000 heldout S1/free 0.6881 569s
+[DQN std capped_nat s2300] ep 1000 heldout S1/free 0.6899 570s
+[N std capped_nat s2300] ep 2000 heldout S1/free 0.7354 619s
+[N std capped_nat s2302] ep 2000 heldout S1/free 0.7500 621s
+[N std capped_nat s2303] ep 2000 heldout S1/free 0.7401 624s
+[N std capped_nat s2301] ep 2000 heldout S1/free 0.7475 627s
+[PPO std capped_nat s2301] ep 1000 heldout S1/free 0.7246 964s
+[PPO std capped_nat s2302] ep 1000 heldout S1/free 0.7360 992s
+[PPO std capped_nat s2300] ep 1000 heldout S1/free 0.7374 1003s
+[PPO std capped_nat s2303] ep 1000 heldout S1/free 0.7028 1007s
+[DQN std capped_nat s2303] ep 2000 heldout S1/free 0.7137 1043s
+[DQN std capped_nat s2302] ep 2000 heldout S1/free 0.7001 1050s
+[DQN std capped_nat s2301] ep 2000 heldout S1/free 0.7075 1051s
+[DQN std capped_nat s2300] ep 2000 heldout S1/free 0.6942 1068s
+[N std capped_nat s2302] ep 5000 heldout S1/free 0.7501 1269s
+[N std capped_nat s2303] ep 5000 heldout S1/free 0.7354 1272s
+[N std capped_nat s2300] ep 5000 heldout S1/free 0.7378 1279s
+[N std capped_nat s2301] ep 5000 heldout S1/free 0.7321 1283s
+[PPO std capped_nat s2301] ep 2000 heldout S1/free 0.7687 1953s
+[PPO std capped_nat s2303] ep 2000 heldout S1/free 0.7718 1987s
+[PPO std capped_nat s2300] ep 2000 heldout S1/free 0.7711 2054s
+[PPO std capped_nat s2302] ep 2000 heldout S1/free 0.7653 2067s
+[N std capped_nat s2301] ep 10000 heldout S1/free 0.7710 2563s
+[N std capped_nat s2303] ep 10000 heldout S1/free 0.7693 2570s
+[N std capped_nat s2302] ep 10000 heldout S1/free 0.7703 2578s
+[N std capped_nat s2300] ep 10000 heldout S1/free 0.7692 2618s
+[DQN std capped_nat s2303] ep 5000 heldout S1/free 0.7286 2721s
+[DQN std capped_nat s2301] ep 5000 heldout S1/free 0.7231 2731s
+[DQN std capped_nat s2302] ep 5000 heldout S1/free 0.7243 2736s
+[DQN std capped_nat s2300] ep 5000 heldout S1/free 0.7254 2771s
+[PPO std capped_nat s2303] ep 5000 heldout S1/free 0.7919 4411s
+[PPO std capped_nat s2302] ep 5000 heldout S1/free 0.7866 4560s
+[PPO std capped_nat s2301] ep 5000 heldout S1/free 0.7838 4649s
+[PPO std capped_nat s2300] ep 5000 heldout S1/free 0.7903 4803s
+DONE N std capped_nat s2301 5163s
+DONE N std capped_nat s2303 5175s
+DONE N std capped_nat s2302 5243s
+DONE N std capped_nat s2300 5295s
+[N std capped_nat s2304] ep 0 heldout S1/free 0.6976 127s
+[DQN std capped_nat s2304] ep 0 heldout S1/free 0.6935 156s
+[N std capped_nat s2305] ep 0 heldout S1/free 0.7022 119s
+[PPO std capped_nat s2304] ep 0 heldout S1/free 0.6931 317s
+[DQN std capped_nat s2303] ep 10000 heldout S1/free 0.7504 5586s
+[DQN std capped_nat s2301] ep 10000 heldout S1/free 0.7504 5599s
+[DQN std capped_nat s2302] ep 10000 heldout S1/free 0.7531 5608s
+[DQN std capped_nat s2300] ep 10000 heldout S1/free 0.7538 5658s
+[N std capped_nat s2304] ep 1000 heldout S1/free 0.7438 538s
+[N std capped_nat s2305] ep 1000 heldout S1/free 0.7186 544s
+[DQN std capped_nat s2304] ep 1000 heldout S1/free 0.6873 856s
+[N std capped_nat s2304] ep 2000 heldout S1/free 0.7371 929s
+[N std capped_nat s2305] ep 2000 heldout S1/free 0.7367 936s
+[PPO std capped_nat s2304] ep 1000 heldout S1/free 0.7263 1509s
+[DQN std capped_nat s2304] ep 2000 heldout S1/free 0.7086 1595s
+[N std capped_nat s2304] ep 5000 heldout S1/free 0.7501 1859s
+[N std capped_nat s2305] ep 5000 heldout S1/free 0.7446 1865s
+[PPO std capped_nat s2304] ep 2000 heldout S1/free 0.7642 2570s
+[N std capped_nat s2304] ep 10000 heldout S1/free 0.7719 3214s
+[N std capped_nat s2305] ep 10000 heldout S1/free 0.7623 3208s
+[DQN std capped_nat s2304] ep 5000 heldout S1/free 0.7229 3407s
+[PPO std capped_nat s2302] ep 10000 heldout S1/free 0.7963 8823s
+[PPO std capped_nat s2303] ep 10000 heldout S1/free 0.7989 9238s
+[PPO std capped_nat s2301] ep 10000 heldout S1/free 0.8002 9508s
+[PPO std capped_nat s2300] ep 10000 heldout S1/free 0.8017 10159s
+[PPO std capped_nat s2304] ep 5000 heldout S1/free 0.7713 5072s
+DONE N std capped_nat s2304 5762s
+DONE N std capped_nat s2305 5778s
+[DQN std capped_nat s2305] ep 0 heldout S1/free 0.6930 148s
+DONE DQN std capped_nat s2302 11228s
+DONE DQN std capped_nat s2303 11248s
+DONE DQN std capped_nat s2301 11253s
+DONE DQN std capped_nat s2300 11321s
+[N std capped_nat s2306] ep 0 heldout S1/free 0.6984 118s
+[PPO std capped_nat s2305] ep 0 heldout S1/free 0.6973 292s
+[DQN std capped_nat s2304] ep 10000 heldout S1/free 0.7527 6207s
+[DQN std capped_nat s2306] ep 0 heldout S1/free 0.6970 149s
+[N std capped_nat s2307] ep 0 heldout S1/free 0.6881 122s
+[PPO std capped_nat s2306] ep 0 heldout S1/free 0.6961 286s
+[N std capped_nat s2306] ep 1000 heldout S1/free 0.7288 517s
+[DQN std capped_nat s2305] ep 1000 heldout S1/free 0.6990 828s
+[N std capped_nat s2307] ep 1000 heldout S1/free 0.7461 519s
+[DQN std capped_nat s2306] ep 1000 heldout S1/free 0.6921 827s
+[N std capped_nat s2306] ep 2000 heldout S1/free 0.7463 879s
+[N std capped_nat s2307] ep 2000 heldout S1/free 0.7464 890s
+[DQN std capped_nat s2305] ep 2000 heldout S1/free 0.7048 1523s
+[PPO std capped_nat s2305] ep 1000 heldout S1/free 0.7314 1425s
+[PPO std capped_nat s2306] ep 1000 heldout S1/free 0.7161 1465s
+[DQN std capped_nat s2306] ep 2000 heldout S1/free 0.7160 1524s
+[N std capped_nat s2306] ep 5000 heldout S1/free 0.7476 1723s
+[N std capped_nat s2307] ep 5000 heldout S1/free 0.7471 1746s
+[PPO std capped_nat s2305] ep 2000 heldout S1/free 0.7617 2483s
+[PPO std capped_nat s2306] ep 2000 heldout S1/free 0.7680 2502s
+[DQN std capped_nat s2305] ep 5000 heldout S1/free 0.7329 3269s
+[N std capped_nat s2306] ep 10000 heldout S1/free 0.7668 3014s
+[N std capped_nat s2307] ep 10000 heldout S1/free 0.7665 3055s
+[PPO std capped_nat s2304] ep 10000 heldout S1/free 0.7836 9221s
+[DQN std capped_nat s2306] ep 5000 heldout S1/free 0.7276 3267s
+[PPO std capped_nat s2305] ep 5000 heldout S1/free 0.7882 4808s
+[PPO std capped_nat s2306] ep 5000 heldout S1/free 0.7962 4814s
+DONE N std capped_nat s2306 5227s
+DONE DQN std capped_nat s2304 11349s
+DONE N std capped_nat s2307 5227s
+[DQN std capped_nat s2305] ep 10000 heldout S1/free 0.7533 5613s
+DONE PPO std capped_nat s2302 16567s
+[DQN std capped_nat s2307] ep 0 heldout S1/free 0.7016 95s
+[N hard capped_nat s2300] ep 0 heldout S1/free 0.6717 24s
+[DQN hard capped_nat s2300] ep 0 heldout S1/free 0.6648 31s
+[N hard capped_nat s2300] ep 1000 heldout S1/free 0.6635 111s
+[PPO std capped_nat s2307] ep 0 heldout S1/free 0.6970 176s
+[N hard capped_nat s2300] ep 2000 heldout S1/free 0.6845 199s
+[DQN std capped_nat s2306] ep 10000 heldout S1/free 0.7568 5522s
+[DQN hard capped_nat s2300] ep 1000 heldout S1/free 0.6675 249s
+[N hard capped_nat s2300] ep 5000 heldout S1/free 0.6888 402s
+[DQN std capped_nat s2307] ep 1000 heldout S1/free 0.6894 519s
+[DQN hard capped_nat s2300] ep 2000 heldout S1/free 0.6646 489s
+[N hard capped_nat s2300] ep 10000 heldout S1/free 0.7329 749s
+[DQN std capped_nat s2307] ep 2000 heldout S1/free 0.7019 941s
+[PPO std capped_nat s2307] ep 1000 heldout S1/free 0.7201 885s
+[DQN hard capped_nat s2300] ep 5000 heldout S1/free 0.6582 1104s
+DONE N hard capped_nat s2300 1428s
+[PPO hard capped_nat s2300] ep 0 heldout S1/free 0.6711 57s
+[PPO std capped_nat s2307] ep 2000 heldout S1/free 0.7728 1528s
+[PPO hard capped_nat s2300] ep 1000 heldout S1/free 0.6760 326s
+[DQN std capped_nat s2307] ep 5000 heldout S1/free 0.7355 2106s
+[PPO hard capped_nat s2300] ep 2000 heldout S1/free 0.6748 685s
+[PPO std capped_nat s2305] ep 10000 heldout S1/free 0.7984 7734s
+[PPO std capped_nat s2306] ep 10000 heldout S1/free 0.7975 7705s
+[DQN hard capped_nat s2300] ep 10000 heldout S1/free 0.6866 2398s
+[PPO hard capped_nat s2300] ep 5000 heldout S1/free 0.7063 1555s
+[PPO std capped_nat s2307] ep 5000 heldout S1/free 0.7828 3909s
+DONE DQN std capped_nat s2305 9857s
+[N hard capped_nat s2301] ep 0 heldout S1/free 0.6716 35s
+[N hard capped_nat s2301] ep 1000 heldout S1/free 0.6842 163s
+[N hard capped_nat s2301] ep 2000 heldout S1/free 0.6935 291s
+DONE DQN std capped_nat s2306 9854s
+[DQN std capped_nat s2307] ep 10000 heldout S1/free 0.7488 4643s
+[DQN hard capped_nat s2301] ep 0 heldout S1/free 0.6692 44s
+[PPO hard capped_nat s2300] ep 10000 heldout S1/free 0.7501 3196s
+[N hard capped_nat s2301] ep 5000 heldout S1/free 0.6906 587s
+[DQN hard capped_nat s2301] ep 1000 heldout S1/free 0.6640 366s
+[DQN hard capped_nat s2301] ep 2000 heldout S1/free 0.6661 704s
+[N hard capped_nat s2301] ep 10000 heldout S1/free 0.7189 1056s
+DONE DQN hard capped_nat s2300 5645s
+[PPO hard capped_nat s2301] ep 0 heldout S1/free 0.6679 86s
+[PPO hard capped_nat s2301] ep 1000 heldout S1/free 0.6703 437s
+[DQN hard capped_nat s2301] ep 5000 heldout S1/free 0.6682 1635s
+DONE N hard capped_nat s2301 2067s
+[N hard capped_nat s2302] ep 0 heldout S1/free 0.6691 34s
+[PPO hard capped_nat s2301] ep 2000 heldout S1/free 0.6744 773s
+[N hard capped_nat s2302] ep 1000 heldout S1/free 0.6766 154s
+[N hard capped_nat s2302] ep 2000 heldout S1/free 0.6866 273s
+[N hard capped_nat s2302] ep 5000 heldout S1/free 0.6866 551s
+[PPO hard capped_nat s2301] ep 5000 heldout S1/free 0.7247 1662s
+[N hard capped_nat s2302] ep 10000 heldout S1/free 0.7229 1025s
+[DQN hard capped_nat s2301] ep 10000 heldout S1/free 0.6811 3021s
+[PPO std capped_nat s2307] ep 10000 heldout S1/free 0.7997 7638s
+DONE N hard capped_nat s2302 1675s
+[DQN hard capped_nat s2302] ep 0 heldout S1/free 0.6675 29s
+[DQN hard capped_nat s2302] ep 1000 heldout S1/free 0.6611 235s
+[DQN hard capped_nat s2302] ep 2000 heldout S1/free 0.6606 430s
+[PPO hard capped_nat s2301] ep 10000 heldout S1/free 0.7533 3007s
+DONE DQN std capped_nat s2307 8784s
+[PPO hard capped_nat s2302] ep 0 heldout S1/free 0.6683 54s
+DONE PPO hard capped_nat s2300 7514s
+[N hard capped_nat s2303] ep 0 heldout S1/free 0.6717 23s
+[PPO hard capped_nat s2302] ep 1000 heldout S1/free 0.6731 294s
+[DQN hard capped_nat s2302] ep 5000 heldout S1/free 0.6573 1024s
+[N hard capped_nat s2303] ep 1000 heldout S1/free 0.6610 105s
+[N hard capped_nat s2303] ep 2000 heldout S1/free 0.6709 184s
+[PPO hard capped_nat s2302] ep 2000 heldout S1/free 0.6925 521s
+[N hard capped_nat s2303] ep 5000 heldout S1/free 0.6913 363s
+DONE DQN hard capped_nat s2301 4967s
+[DQN hard capped_nat s2303] ep 0 heldout S1/free 0.6701 24s
+[N hard capped_nat s2303] ep 10000 heldout S1/free 0.7345 648s
+[PPO hard capped_nat s2302] ep 5000 heldout S1/free 0.7321 1029s
+[DQN hard capped_nat s2303] ep 1000 heldout S1/free 0.6609 199s
+[DQN hard capped_nat s2303] ep 2000 heldout S1/free 0.6616 383s
+[DQN hard capped_nat s2302] ep 10000 heldout S1/free 0.6907 1916s
+DONE PPO std capped_nat s2305 15470s
+[PPO hard capped_nat s2303] ep 0 heldout S1/free 0.6677 48s
+DONE N hard capped_nat s2303 1230s
+[N hard capped_nat s2304] ep 0 heldout S1/free 0.6736 20s
+[PPO hard capped_nat s2303] ep 1000 heldout S1/free 0.6686 246s
+[N hard capped_nat s2304] ep 1000 heldout S1/free 0.6653 85s
+[N hard capped_nat s2304] ep 2000 heldout S1/free 0.6889 154s
+[DQN hard capped_nat s2303] ep 5000 heldout S1/free 0.6601 888s
+[PPO hard capped_nat s2303] ep 2000 heldout S1/free 0.6704 447s
+[N hard capped_nat s2304] ep 5000 heldout S1/free 0.6854 317s
+[PPO hard capped_nat s2302] ep 10000 heldout S1/free 0.7505 1952s
+[N hard capped_nat s2304] ep 10000 heldout S1/free 0.7348 605s
+DONE PPO std capped_nat s2300 27480s
+[PPO hard capped_nat s2303] ep 5000 heldout S1/free 0.7128 938s
+[DQN hard capped_nat s2304] ep 0 heldout S1/free 0.6671 25s
+[DQN hard capped_nat s2304] ep 1000 heldout S1/free 0.6594 208s
+DONE PPO std capped_nat s2306 16560s
+[PPO hard capped_nat s2304] ep 0 heldout S1/free 0.6674 52s
+DONE PPO std capped_nat s2304 22637s
+[DQN hard capped_nat s2304] ep 2000 heldout S1/free 0.6678 413s
+[DQN hard capped_nat s2303] ep 10000 heldout S1/free 0.6873 1807s
+[N hard capped_nat s2305] ep 0 heldout S1/free 0.6710 19s
+DONE N hard capped_nat s2304 1220s
+[N hard capped_nat s2305] ep 1000 heldout S1/free 0.6643 95s
+[DQN hard capped_nat s2305] ep 0 heldout S1/free 0.6676 28s
+[N hard capped_nat s2305] ep 2000 heldout S1/free 0.6737 177s
+[PPO hard capped_nat s2304] ep 1000 heldout S1/free 0.6629 265s
+[DQN hard capped_nat s2305] ep 1000 heldout S1/free 0.6649 210s
+[N hard capped_nat s2305] ep 5000 heldout S1/free 0.6955 345s
+DONE DQN hard capped_nat s2302 3717s
+[PPO hard capped_nat s2304] ep 2000 heldout S1/free 0.6824 466s
+[PPO hard capped_nat s2303] ep 10000 heldout S1/free 0.7349 1762s
+[PPO hard capped_nat s2305] ep 0 heldout S1/free 0.6682 47s
+[DQN hard capped_nat s2305] ep 2000 heldout S1/free 0.6662 395s
+[DQN hard capped_nat s2304] ep 5000 heldout S1/free 0.6581 939s
+[N hard capped_nat s2305] ep 10000 heldout S1/free 0.7243 626s
+[PPO hard capped_nat s2305] ep 1000 heldout S1/free 0.6657 250s
+[PPO hard capped_nat s2305] ep 2000 heldout S1/free 0.6717 465s
+[PPO hard capped_nat s2304] ep 5000 heldout S1/free 0.7278 1018s
+[DQN hard capped_nat s2305] ep 5000 heldout S1/free 0.6627 950s
+DONE N hard capped_nat s2305 1246s
+[N hard capped_nat s2306] ep 0 heldout S1/free 0.6728 21s
+[N hard capped_nat s2306] ep 1000 heldout S1/free 0.6598 99s
+[PPO hard capped_nat s2305] ep 5000 heldout S1/free 0.7280 991s
+[N hard capped_nat s2306] ep 2000 heldout S1/free 0.6852 173s
+[DQN hard capped_nat s2304] ep 10000 heldout S1/free 0.6930 1864s
+[N hard capped_nat s2306] ep 5000 heldout S1/free 0.6868 342s
+DONE DQN hard capped_nat s2303 3655s
+[N hard capped_nat s2306] ep 10000 heldout S1/free 0.7343 627s
+[DQN hard capped_nat s2306] ep 0 heldout S1/free 0.6690 25s
+[DQN hard capped_nat s2305] ep 10000 heldout S1/free 0.6857 1850s
+[PPO hard capped_nat s2304] ep 10000 heldout S1/free 0.7466 2027s
+[DQN hard capped_nat s2306] ep 1000 heldout S1/free 0.6603 202s
+[PPO hard capped_nat s2305] ep 10000 heldout S1/free 0.7425 1809s
+[DQN hard capped_nat s2306] ep 2000 heldout S1/free 0.6609 386s
+DONE N hard capped_nat s2306 1206s
+[PPO hard capped_nat s2306] ep 0 heldout S1/free 0.6692 46s
+DONE PPO hard capped_nat s2303 3962s
+[N hard capped_nat s2307] ep 0 heldout S1/free 0.6695 19s
+[PPO hard capped_nat s2306] ep 1000 heldout S1/free 0.6748 245s
+[N hard capped_nat s2307] ep 1000 heldout S1/free 0.6638 87s
+[DQN hard capped_nat s2306] ep 5000 heldout S1/free 0.6563 903s
+[N hard capped_nat s2307] ep 2000 heldout S1/free 0.6890 156s
+[PPO hard capped_nat s2306] ep 2000 heldout S1/free 0.6890 442s
+[N hard capped_nat s2307] ep 5000 heldout S1/free 0.6906 321s
+DONE PPO std capped_nat s2307 14348s
+[DQN hard capped_nat s2307] ep 0 heldout S1/free 0.6697 24s
+[DQN hard capped_nat s2307] ep 1000 heldout S1/free 0.6680 204s
+DONE DQN hard capped_nat s2304 3648s
+[N hard capped_nat s2307] ep 10000 heldout S1/free 0.7421 617s
+[PPO hard capped_nat s2307] ep 0 heldout S1/free 0.6646 47s
+[PPO hard capped_nat s2306] ep 5000 heldout S1/free 0.7209 913s
+[DQN hard capped_nat s2307] ep 2000 heldout S1/free 0.6660 391s
+[PPO hard capped_nat s2307] ep 1000 heldout S1/free 0.6699 251s
+[DQN hard capped_nat s2306] ep 10000 heldout S1/free 0.6943 1815s
+[PPO hard capped_nat s2307] ep 2000 heldout S1/free 0.6821 499s
+DONE DQN hard capped_nat s2305 3696s
+DONE PPO std capped_nat s2303 31700s
+[N std capped_any s2300] ep 0 heldout S1/free 0.6978 119s
+[DQN std capped_any s2300] ep 0 heldout S1/free 0.6953 148s
+DONE N hard capped_nat s2307 1358s
+[DQN hard capped_nat s2307] ep 5000 heldout S1/free 0.6650 1081s
+[PPO std capped_any s2300] ep 0 heldout S1/free 0.6932 294s
+[N std capped_any s2300] ep 1000 heldout S1/free 0.7391 537s
+[PPO hard capped_nat s2306] ep 10000 heldout S1/free 0.7247 1975s
+[DQN std capped_any s2300] ep 1000 heldout S1/free 0.6883 779s
+[PPO hard capped_nat s2307] ep 5000 heldout S1/free 0.7370 1420s
+[N std capped_any s2300] ep 2000 heldout S1/free 0.7371 923s
+DONE PPO std capped_nat s2301 32908s
+[N std capped_any s2301] ep 0 heldout S1/free 0.6983 122s
+[DQN std capped_any s2300] ep 2000 heldout S1/free 0.7077 1405s
+[PPO std capped_any s2300] ep 1000 heldout S1/free 0.7392 1448s
+[DQN hard capped_nat s2307] ep 10000 heldout S1/free 0.6802 2470s
+[N std capped_any s2301] ep 1000 heldout S1/free 0.7376 540s
+[N std capped_any s2300] ep 5000 heldout S1/free 0.7443 1782s
+DONE PPO hard capped_nat s2305 5477s
+[N std capped_any s2301] ep 2000 heldout S1/free 0.7362 894s
+[DQN std capped_any s2301] ep 0 heldout S1/free 0.6937 98s
+DONE PPO hard capped_nat s2301 11734s
+DONE DQN hard capped_nat s2306 4391s
+[PPO std capped_any s2301] ep 0 heldout S1/free 0.6939 197s
+[PPO std capped_any s2300] ep 2000 heldout S1/free 0.7807 2300s
+[N std capped_any s2302] ep 0 heldout S1/free 0.6847 84s
+DONE PPO hard capped_nat s2302 9030s
+[DQN std capped_any s2301] ep 1000 heldout S1/free 0.6869 523s
+[N std capped_any s2301] ep 5000 heldout S1/free 0.7468 1477s
+[DQN std capped_any s2300] ep 5000 heldout S1/free 0.7247 2688s
+[DQN std capped_any s2302] ep 0 heldout S1/free 0.6915 100s
+DONE N std capped_any s2300 2724s
+[PPO hard capped_nat s2307] ep 10000 heldout S1/free 0.7509 3320s
+[N std capped_any s2302] ep 1000 heldout S1/free 0.7464 355s
+[PPO std capped_any s2302] ep 0 heldout S1/free 0.6910 200s
+[DQN std capped_any s2301] ep 2000 heldout S1/free 0.7094 952s
+[N std capped_any s2302] ep 2000 heldout S1/free 0.7442 611s
+[DQN std capped_any s2302] ep 1000 heldout S1/free 0.6871 512s
+[PPO std capped_any s2301] ep 1000 heldout S1/free 0.7417 954s
+DONE N std capped_any s2301 2294s
+[DQN std capped_any s2302] ep 2000 heldout S1/free 0.7039 935s
+[N std capped_any s2303] ep 0 heldout S1/free 0.6932 79s
+[N std capped_any s2302] ep 5000 heldout S1/free 0.7464 1168s
+[PPO std capped_any s2302] ep 1000 heldout S1/free 0.7376 949s
+DONE DQN hard capped_nat s2307 4474s
+[DQN std capped_any s2303] ep 0 heldout S1/free 0.6957 99s
+[N std capped_any s2303] ep 1000 heldout S1/free 0.7336 353s
+[PPO std capped_any s2301] ep 2000 heldout S1/free 0.7716 1638s
+[DQN std capped_any s2301] ep 5000 heldout S1/free 0.7262 2096s
+[N std capped_any s2303] ep 2000 heldout S1/free 0.7424 712s
+[DQN std capped_any s2303] ep 1000 heldout S1/free 0.6908 644s
+[PPO std capped_any s2300] ep 5000 heldout S1/free 0.7899 4373s
+DONE DQN std capped_any s2300 4584s
+[PPO std capped_any s2302] ep 2000 heldout S1/free 0.7751 1939s
+DONE N std capped_any s2302 2292s
+[N std capped_any s2304] ep 0 heldout S1/free 0.6970 129s
+[PPO std capped_any s2303] ep 0 heldout S1/free 0.6931 332s
+[DQN std capped_any s2302] ep 5000 heldout S1/free 0.7274 2359s
+[DQN std capped_any s2303] ep 2000 heldout S1/free 0.7036 1294s
+[N std capped_any s2303] ep 5000 heldout S1/free 0.7401 1609s
+[N std capped_any s2304] ep 1000 heldout S1/free 0.7350 580s
+[N std capped_any s2304] ep 2000 heldout S1/free 0.7436 998s
+DONE PPO hard capped_nat s2306 7438s
+[PPO std capped_any s2303] ep 1000 heldout S1/free 0.6986 1532s
+[DQN std capped_any s2304] ep 0 heldout S1/free 0.6920 158s
+DONE N std capped_any s2303 2967s
+[N std capped_any s2304] ep 5000 heldout S1/free 0.7429 1899s
+[DQN std capped_any s2303] ep 5000 heldout S1/free 0.7218 2987s
+[PPO std capped_any s2301] ep 5000 heldout S1/free 0.7873 4537s
+[PPO std capped_any s2304] ep 0 heldout S1/free 0.6916 351s
+DONE DQN std capped_any s2301 4780s
+[DQN std capped_any s2304] ep 1000 heldout S1/free 0.6905 827s
+[N std capped_any s2305] ep 0 heldout S1/free 0.6983 132s
+[PPO std capped_any s2303] ep 2000 heldout S1/free 0.7518 2687s
+[N std capped_any s2305] ep 1000 heldout S1/free 0.7324 585s
+[DQN std capped_any s2304] ep 2000 heldout S1/free 0.6982 1452s
+DONE DQN std capped_any s2302 4966s
+[DQN std capped_any s2305] ep 0 heldout S1/free 0.6912 94s
+[PPO std capped_any s2302] ep 5000 heldout S1/free 0.7893 4972s
+[N std capped_any s2305] ep 2000 heldout S1/free 0.7399 846s
+DONE N std capped_any s2304 3037s
+[PPO std capped_any s2304] ep 1000 heldout S1/free 0.7491 1356s
+[PPO std capped_any s2305] ep 0 heldout S1/free 0.6964 192s
+[DQN std capped_any s2305] ep 1000 heldout S1/free 0.6924 502s
+[N std capped_any s2305] ep 5000 heldout S1/free 0.7472 1404s
+[DQN std capped_any s2305] ep 2000 heldout S1/free 0.7027 924s
+[PPO std capped_any s2304] ep 2000 heldout S1/free 0.7812 2058s
+DONE PPO std capped_any s2300 8393s
+[DQN std capped_any s2304] ep 5000 heldout S1/free 0.7273 2519s
+DONE DQN std capped_any s2303 4969s
+[N std unc_nat s2300] ep 0 heldout S1/free 0.8043 62s
+DONE PPO hard capped_nat s2304 12593s
+[DQN std unc_nat s2300] ep 0 heldout S1/free 0.7920 80s
+[PPO std capped_any s2305] ep 1000 heldout S1/free 0.7272 972s
+[PPO std unc_nat s2300] ep 0 heldout S1/free 0.7943 159s
+[N std unc_nat s2300] ep 1000 heldout S1/free 0.8212 298s
+[PPO std capped_any s2303] ep 5000 heldout S1/free 0.7791 4468s
+DONE N std capped_any s2305 2228s
+[DQN std unc_nat s2300] ep 1000 heldout S1/free 0.7986 457s
+[N std unc_nat s2300] ep 2000 heldout S1/free 0.8290 537s
+[N std unc_nat s2301] ep 0 heldout S1/free 0.8008 65s
+DONE PPO hard capped_nat s2307 9859s
+[DQN std unc_nat s2301] ep 0 heldout S1/free 0.7987 82s
+[N std unc_nat s2301] ep 1000 heldout S1/free 0.8262 294s
+[DQN std unc_nat s2300] ep 2000 heldout S1/free 0.8047 834s
+[PPO std capped_any s2305] ep 2000 heldout S1/free 0.7732 1697s
+[PPO std unc_nat s2300] ep 1000 heldout S1/free 0.8021 819s
+[DQN std capped_any s2305] ep 5000 heldout S1/free 0.7185 1997s
+[N std unc_nat s2301] ep 2000 heldout S1/free 0.8351 559s
+[DQN std unc_nat s2301] ep 1000 heldout S1/free 0.8088 481s
+[N std unc_nat s2300] ep 5000 heldout S1/free 0.8845 1255s
+[DQN std unc_nat s2301] ep 2000 heldout S1/free 0.8000 933s
+[PPO std capped_any s2304] ep 5000 heldout S1/free 0.7867 3877s
+[PPO std unc_nat s2300] ep 2000 heldout S1/free 0.8367 1633s
+DONE DQN std capped_any s2304 4333s
+[N std unc_nat s2301] ep 5000 heldout S1/free 0.8811 1350s
+[N std unc_nat s2302] ep 0 heldout S1/free 0.8049 78s
+[DQN std unc_nat s2300] ep 5000 heldout S1/free 0.7891 1945s
+[N std unc_nat s2302] ep 1000 heldout S1/free 0.8380 358s
+DONE PPO std capped_any s2302 8311s
+[N std unc_nat s2302] ep 2000 heldout S1/free 0.8323 630s
+[DQN std unc_nat s2302] ep 0 heldout S1/free 0.7985 96s
+DONE N std unc_nat s2300 2735s
+[DQN std unc_nat s2301] ep 5000 heldout S1/free 0.7889 2039s
+[N std unc_nat s2303] ep 0 heldout S1/free 0.8083 76s
+DONE DQN std capped_any s2305 3941s
+[DQN std unc_nat s2302] ep 1000 heldout S1/free 0.8056 526s
+[DQN std unc_nat s2303] ep 0 heldout S1/free 0.7933 91s
+[N std unc_nat s2303] ep 1000 heldout S1/free 0.8145 326s
+[N std unc_nat s2302] ep 5000 heldout S1/free 0.8827 1386s
+DONE PPO std capped_any s2301 9586s
+[PPO std capped_any s2305] ep 5000 heldout S1/free 0.7931 4117s
+[N std unc_nat s2303] ep 2000 heldout S1/free 0.8314 581s
+DONE N std unc_nat s2301 2840s
+[N std unc_nat s2304] ep 0 heldout S1/free 0.8016 79s
+[DQN std unc_nat s2302] ep 2000 heldout S1/free 0.8027 941s
+[DQN std unc_nat s2303] ep 1000 heldout S1/free 0.8054 503s
+[DQN std unc_nat s2304] ep 0 heldout S1/free 0.7955 88s
+DONE PPO std capped_any s2303 7557s
+[N std unc_nat s2304] ep 1000 heldout S1/free 0.8189 321s
+[N std unc_nat s2305] ep 0 heldout S1/free 0.8030 66s
+DONE DQN std unc_nat s2300 3808s
+[DQN std unc_nat s2304] ep 1000 heldout S1/free 0.7977 583s
+[DQN std unc_nat s2303] ep 2000 heldout S1/free 0.8063 1019s
+[N std unc_nat s2304] ep 2000 heldout S1/free 0.8410 703s
+[PPO std unc_nat s2300] ep 5000 heldout S1/free 0.8696 3883s
+[DQN std unc_nat s2305] ep 0 heldout S1/free 0.7960 148s
+[N std unc_nat s2305] ep 1000 heldout S1/free 0.8185 458s
+[N std unc_nat s2303] ep 5000 heldout S1/free 0.9004 1541s
+[N std unc_nat s2305] ep 2000 heldout S1/free 0.8263 897s
+[DQN std unc_nat s2304] ep 2000 heldout S1/free 0.8010 1251s
+[DQN std unc_nat s2305] ep 1000 heldout S1/free 0.8050 790s
+[DQN std unc_nat s2302] ep 5000 heldout S1/free 0.7882 2423s
+DONE DQN std unc_nat s2301 4268s
+[N std unc_any s2300] ep 0 heldout S1/free 0.8023 143s
+[N std unc_nat s2304] ep 5000 heldout S1/free 0.9004 1922s
+DONE N std unc_nat s2302 3402s
+[DQN std unc_nat s2305] ep 2000 heldout S1/free 0.7992 1452s
+[DQN std unc_any s2300] ep 0 heldout S1/free 0.7960 178s
+[DQN std unc_nat s2303] ep 5000 heldout S1/free 0.7873 2701s
+[N std unc_nat s2305] ep 5000 heldout S1/free 0.8754 2070s
+DONE PPO std capped_any s2304 7765s
+[N std unc_any s2300] ep 1000 heldout S1/free 0.8270 666s
+[N std unc_any s2301] ep 0 heldout S1/free 0.8024 143s
+[N std unc_any s2300] ep 2000 heldout S1/free 0.8316 1171s
+[DQN std unc_any s2300] ep 1000 heldout S1/free 0.8050 920s
+[N std unc_any s2301] ep 1000 heldout S1/free 0.8195 602s
+[DQN std unc_nat s2304] ep 5000 heldout S1/free 0.7937 2933s
+DONE N std unc_nat s2303 3796s
+[DQN std unc_any s2301] ep 0 heldout S1/free 0.7959 179s
+[N std unc_any s2301] ep 2000 heldout S1/free 0.8275 1118s
+[DQN std unc_any s2300] ep 2000 heldout S1/free 0.8078 1685s
+[DQN std unc_nat s2305] ep 5000 heldout S1/free 0.7902 3112s
+[DQN std unc_any s2301] ep 1000 heldout S1/free 0.8036 888s
+DONE N std unc_nat s2304 4224s
+[N std unc_any s2300] ep 5000 heldout S1/free 0.8996 2572s
+DONE DQN std unc_nat s2302 5160s
+[N std unc_any s2302] ep 0 heldout S1/free 0.8050 144s
+[DQN std unc_any s2302] ep 0 heldout S1/free 0.7983 167s
+DONE N std unc_nat s2305 4292s
+[N std unc_any s2303] ep 0 heldout S1/free 0.8047 137s
+[N std unc_any s2302] ep 1000 heldout S1/free 0.8199 632s
+[N std unc_any s2301] ep 5000 heldout S1/free 0.8716 2476s
+[DQN std unc_any s2301] ep 2000 heldout S1/free 0.8036 1605s
+DONE DQN std unc_nat s2303 5399s
+[N std unc_any s2303] ep 1000 heldout S1/free 0.8165 584s
+[DQN std unc_any s2302] ep 1000 heldout S1/free 0.8061 860s
+[DQN std unc_any s2303] ep 0 heldout S1/free 0.8003 172s
+[N std unc_any s2302] ep 2000 heldout S1/free 0.8309 1083s
+[DQN std unc_any s2300] ep 5000 heldout S1/free 0.7911 3415s
+DONE DQN std unc_nat s2304 5440s
+[N std unc_any s2303] ep 2000 heldout S1/free 0.8233 914s
+[N std unc_any s2304] ep 0 heldout S1/free 0.8038 85s
+[DQN std unc_any s2302] ep 2000 heldout S1/free 0.7999 1340s
+[DQN std unc_any s2303] ep 1000 heldout S1/free 0.8108 637s
+[N std unc_any s2304] ep 1000 heldout S1/free 0.8199 378s
+DONE DQN std unc_nat s2305 5334s
+[DQN std unc_any s2304] ep 0 heldout S1/free 0.7974 102s
+[N std unc_any s2302] ep 5000 heldout S1/free 0.8649 1908s
+[DQN std unc_any s2301] ep 5000 heldout S1/free 0.7934 2873s
+[DQN std unc_any s2303] ep 2000 heldout S1/free 0.8043 1095s
+[N std unc_any s2304] ep 2000 heldout S1/free 0.8272 667s
+[N std unc_any s2303] ep 5000 heldout S1/free 0.8629 1737s
+DONE N std unc_any s2300 4705s
+[DQN std unc_any s2304] ep 1000 heldout S1/free 0.8027 546s
+[N std unc_any s2305] ep 0 heldout S1/free 0.8036 80s
+DONE N std unc_any s2301 4254s
+[DQN std unc_any s2305] ep 0 heldout S1/free 0.7962 101s
+[N std unc_any s2305] ep 1000 heldout S1/free 0.8181 351s
+[DQN std unc_any s2302] ep 5000 heldout S1/free 0.7885 2464s
+[DQN std unc_any s2304] ep 2000 heldout S1/free 0.7986 987s
+[N std unc_any s2304] ep 5000 heldout S1/free 0.8817 1476s
+[N std unc_any s2305] ep 2000 heldout S1/free 0.8243 648s
+[DQN std unc_any s2305] ep 1000 heldout S1/free 0.8038 530s
+DONE DQN std unc_any s2300 5226s
+DONE PPO std capped_any s2305 11321s
+[DQN std unc_any s2303] ep 5000 heldout S1/free 0.7873 2231s
+[DQN std unc_any s2305] ep 2000 heldout S1/free 0.8035 1035s
+DONE N std unc_any s2302 3604s
+[N std unc_any s2305] ep 5000 heldout S1/free 0.8687 1532s
+DONE DQN std unc_any s2301 4741s
+[DQN std unc_any s2304] ep 5000 heldout S1/free 0.7935 2128s
+DONE N std unc_any s2303 3526s
+DONE PPO std unc_nat s2300 11491s
+DONE DQN std unc_any s2302 4201s
+DONE N std unc_any s2304 3087s
+[DQN std unc_any s2305] ep 5000 heldout S1/free 0.7917 1956s
+DONE DQN std unc_any s2303 3741s
+DONE N std unc_any s2305 2651s
+DONE DQN std unc_any s2304 3182s
+DONE DQN std unc_any s2305 2698s

@@ -1,0 +1,208 @@
+10-02 20:46:02 START D4_F_nometa_std_capped_nat_s2300
+10-02 20:46:02 START D4_F_nometa_std_capped_nat_s2301
+10-02 20:46:02 START D4_F_nometa_std_capped_nat_s2302
+10-02 20:46:02 START D4_F_nometa_std_capped_nat_s2303
+10-02 20:46:02 START D4_F_nometa_std_capped_nat_s2304
+10-02 20:46:02 START D4_F_nometa_std_capped_nat_s2305
+10-02 20:46:02 START D4_F_nometa_std_capped_nat_s2306
+10-02 20:46:02 START D4_F_nometa_std_capped_nat_s2307
+10-02 20:46:02 START D4_F_nometa_hard_capped_nat_s2300
+10-02 20:46:02 START D4_F_nometa_hard_capped_nat_s2301
+10-02 20:46:02 START D4_F_nometa_hard_capped_nat_s2302
+10-02 20:46:02 START D4_F_nometa_hard_capped_nat_s2303
+10-02 20:46:02 START D4_F_nometa_hard_capped_nat_s2304
+10-02 20:46:02 START D4_F_nometa_hard_capped_nat_s2305
+10-02 20:46:38 [D4_F_nometa_hard_capped_nat_s2305] ckpt 0 extra evals ['fast_t0.25'] 36s
+10-02 20:46:38 [F_nometa hard capped_nat s2305] ep 0 heldout S1/free 0.6695 36s concepts 0 tau 2.00
+10-02 20:46:38 [D4_F_nometa_hard_capped_nat_s2302] ckpt 0 extra evals ['fast_t0.25'] 37s
+10-02 20:46:38 [F_nometa hard capped_nat s2302] ep 0 heldout S1/free 0.6690 37s concepts 0 tau 2.00
+10-02 20:46:38 [D4_F_nometa_hard_capped_nat_s2300] ckpt 0 extra evals ['fast_t0.25'] 37s
+10-02 20:46:38 [F_nometa hard capped_nat s2300] ep 0 heldout S1/free 0.6704 37s concepts 0 tau 2.00
+10-02 20:46:40 [D4_F_nometa_hard_capped_nat_s2303] ckpt 0 extra evals ['fast_t0.25'] 38s
+10-02 20:46:40 [F_nometa hard capped_nat s2303] ep 0 heldout S1/free 0.6681 38s concepts 0 tau 2.00
+10-02 20:46:40 [D4_F_nometa_hard_capped_nat_s2301] ckpt 0 extra evals ['fast_t0.25'] 38s
+10-02 20:46:40 [F_nometa hard capped_nat s2301] ep 0 heldout S1/free 0.6746 38s concepts 0 tau 2.00
+10-02 20:46:41 [D4_F_nometa_hard_capped_nat_s2304] ckpt 0 extra evals ['fast_t0.25'] 40s
+10-02 20:46:41 [F_nometa hard capped_nat s2304] ep 0 heldout S1/free 0.6723 40s concepts 0 tau 2.00
+10-02 20:48:19 [D4_F_nometa_std_capped_nat_s2302] ckpt 0 extra evals ['fast_t0.25'] 137s
+10-02 20:48:19 [F_nometa std capped_nat s2302] ep 0 heldout S1/free 0.6948 137s concepts 0 tau 2.00
+10-02 20:48:20 [D4_F_nometa_std_capped_nat_s2306] ckpt 0 extra evals ['fast_t0.25'] 138s
+10-02 20:48:20 [F_nometa std capped_nat s2306] ep 0 heldout S1/free 0.6974 138s concepts 0 tau 2.00
+10-02 20:48:21 [D4_F_nometa_std_capped_nat_s2305] ckpt 0 extra evals ['fast_t0.25'] 139s
+10-02 20:48:21 [F_nometa std capped_nat s2305] ep 0 heldout S1/free 0.6956 139s concepts 0 tau 2.00
+10-02 20:48:21 [D4_F_nometa_std_capped_nat_s2301] ckpt 0 extra evals ['fast_t0.25'] 139s
+10-02 20:48:21 [F_nometa std capped_nat s2301] ep 0 heldout S1/free 0.7014 139s concepts 0 tau 2.00
+10-02 20:48:21 [D4_F_nometa_std_capped_nat_s2300] ckpt 0 extra evals ['fast_t0.25'] 140s
+10-02 20:48:21 [F_nometa std capped_nat s2300] ep 0 heldout S1/free 0.6899 140s concepts 0 tau 2.00
+10-02 20:48:22 [D4_F_nometa_std_capped_nat_s2307] ckpt 0 extra evals ['fast_t0.25'] 140s
+10-02 20:48:22 [F_nometa std capped_nat s2307] ep 0 heldout S1/free 0.6957 140s concepts 0 tau 2.00
+10-02 20:48:22 [D4_F_nometa_std_capped_nat_s2303] ckpt 0 extra evals ['fast_t0.25'] 141s
+10-02 20:48:22 [F_nometa std capped_nat s2303] ep 0 heldout S1/free 0.6931 141s concepts 0 tau 2.00
+10-02 20:48:30 [D4_F_nometa_std_capped_nat_s2304] ckpt 0 extra evals ['fast_t0.25'] 149s
+10-02 20:48:30 [F_nometa std capped_nat s2304] ep 0 heldout S1/free 0.6960 149s concepts 0 tau 2.00
+10-02 20:48:46 [D4_F_nometa_hard_capped_nat_s2300] ckpt 1000 extra evals ['fast_t0.25'] 164s
+10-02 20:48:46 [F_nometa hard capped_nat s2300] ep 1000 heldout S1/free 0.6755 164s concepts 0 tau 1.65
+10-02 20:48:46 [D4_F_nometa_hard_capped_nat_s2302] ckpt 1000 extra evals ['fast_t0.25'] 164s
+10-02 20:48:46 [F_nometa hard capped_nat s2302] ep 1000 heldout S1/free 0.6772 164s concepts 0 tau 1.65
+10-02 20:48:46 [D4_F_nometa_hard_capped_nat_s2301] ckpt 1000 extra evals ['fast_t0.25'] 165s
+10-02 20:48:46 [F_nometa hard capped_nat s2301] ep 1000 heldout S1/free 0.6843 165s concepts 0 tau 1.65
+10-02 20:48:48 [D4_F_nometa_hard_capped_nat_s2303] ckpt 1000 extra evals ['fast_t0.25'] 166s
+10-02 20:48:48 [F_nometa hard capped_nat s2303] ep 1000 heldout S1/free 0.6698 166s concepts 0 tau 1.65
+10-02 20:48:50 [D4_F_nometa_hard_capped_nat_s2305] ckpt 1000 extra evals ['fast_t0.25'] 169s
+10-02 20:48:50 [F_nometa hard capped_nat s2305] ep 1000 heldout S1/free 0.6666 169s concepts 0 tau 1.65
+10-02 20:48:52 [D4_F_nometa_hard_capped_nat_s2304] ckpt 1000 extra evals ['fast_t0.25'] 170s
+10-02 20:48:52 [F_nometa hard capped_nat s2304] ep 1000 heldout S1/free 0.6678 170s concepts 0 tau 1.65
+10-02 20:50:48 [D4_F_nometa_hard_capped_nat_s2300] ckpt 2000 extra evals ['fast_t0.25'] 286s
+10-02 20:50:48 [F_nometa hard capped_nat s2300] ep 2000 heldout S1/free 0.6914 286s concepts 2 tau 1.30
+10-02 20:50:49 [D4_F_nometa_hard_capped_nat_s2302] ckpt 2000 extra evals ['fast_t0.25'] 288s
+10-02 20:50:49 [F_nometa hard capped_nat s2302] ep 2000 heldout S1/free 0.6970 287s concepts 1 tau 1.30
+10-02 20:50:53 [D4_F_nometa_hard_capped_nat_s2301] ckpt 2000 extra evals ['fast_t0.25'] 291s
+10-02 20:50:53 [F_nometa hard capped_nat s2301] ep 2000 heldout S1/free 0.6960 291s concepts 3 tau 1.30
+10-02 20:50:55 [D4_F_nometa_hard_capped_nat_s2303] ckpt 2000 extra evals ['fast_t0.25'] 293s
+10-02 20:50:55 [F_nometa hard capped_nat s2303] ep 2000 heldout S1/free 0.6898 293s concepts 4 tau 1.30
+10-02 20:50:58 [D4_F_nometa_hard_capped_nat_s2304] ckpt 2000 extra evals ['fast_t0.25'] 296s
+10-02 20:50:58 [F_nometa hard capped_nat s2304] ep 2000 heldout S1/free 0.6844 296s concepts 1 tau 1.30
+10-02 20:50:59 [D4_F_nometa_hard_capped_nat_s2305] ckpt 2000 extra evals ['fast_t0.25'] 297s
+10-02 20:50:59 [F_nometa hard capped_nat s2305] ep 2000 heldout S1/free 0.6850 297s concepts 2 tau 1.30
+10-02 20:54:19 [D4_F_nometa_std_capped_nat_s2306] ckpt 1000 extra evals ['fast_t0.25'] 497s
+10-02 20:54:19 [F_nometa std capped_nat s2306] ep 1000 heldout S1/free 0.7239 497s concepts 0 tau 1.65
+10-02 20:54:23 [D4_F_nometa_std_capped_nat_s2301] ckpt 1000 extra evals ['fast_t0.25'] 501s
+10-02 20:54:23 [F_nometa std capped_nat s2301] ep 1000 heldout S1/free 0.7379 501s concepts 0 tau 1.65
+10-02 20:54:24 [D4_F_nometa_std_capped_nat_s2302] ckpt 1000 extra evals ['fast_t0.25'] 502s
+10-02 20:54:24 [F_nometa std capped_nat s2302] ep 1000 heldout S1/free 0.7418 502s concepts 0 tau 1.65
+10-02 20:54:25 [D4_F_nometa_std_capped_nat_s2303] ckpt 1000 extra evals ['fast_t0.25'] 503s
+10-02 20:54:25 [F_nometa std capped_nat s2303] ep 1000 heldout S1/free 0.7261 503s concepts 0 tau 1.65
+10-02 20:54:26 [D4_F_nometa_std_capped_nat_s2300] ckpt 1000 extra evals ['fast_t0.25'] 505s
+10-02 20:54:26 [F_nometa std capped_nat s2300] ep 1000 heldout S1/free 0.7157 505s concepts 0 tau 1.65
+10-02 20:54:30 [D4_F_nometa_std_capped_nat_s2307] ckpt 1000 extra evals ['fast_t0.25'] 508s
+10-02 20:54:30 [F_nometa std capped_nat s2307] ep 1000 heldout S1/free 0.7271 508s concepts 0 tau 1.65
+10-02 20:54:38 [D4_F_nometa_std_capped_nat_s2304] ckpt 1000 extra evals ['fast_t0.25'] 517s
+10-02 20:54:38 [F_nometa std capped_nat s2304] ep 1000 heldout S1/free 0.7299 517s concepts 0 tau 1.65
+10-02 20:54:46 [D4_F_nometa_std_capped_nat_s2305] ckpt 1000 extra evals ['fast_t0.25'] 525s
+10-02 20:54:46 [F_nometa std capped_nat s2305] ep 1000 heldout S1/free 0.7090 525s concepts 0 tau 1.65
+10-02 20:55:17 [D4_F_nometa_hard_capped_nat_s2301] ckpt 5000 extra evals ['fast_t0.25'] 555s
+10-02 20:55:17 [F_nometa hard capped_nat s2301] ep 5000 heldout S1/free 0.6868 555s concepts 14 tau 0.25
+10-02 20:55:18 [D4_F_nometa_hard_capped_nat_s2303] ckpt 5000 extra evals ['fast_t0.25'] 556s
+10-02 20:55:18 [F_nometa hard capped_nat s2303] ep 5000 heldout S1/free 0.6889 556s concepts 17 tau 0.25
+10-02 20:55:20 [D4_F_nometa_hard_capped_nat_s2302] ckpt 5000 extra evals ['fast_t0.25'] 558s
+10-02 20:55:20 [F_nometa hard capped_nat s2302] ep 5000 heldout S1/free 0.6949 558s concepts 12 tau 0.25
+10-02 20:55:21 [D4_F_nometa_hard_capped_nat_s2300] ckpt 5000 extra evals ['fast_t0.25'] 559s
+10-02 20:55:21 [F_nometa hard capped_nat s2300] ep 5000 heldout S1/free 0.6961 559s concepts 16 tau 0.25
+10-02 20:55:31 [D4_F_nometa_hard_capped_nat_s2304] ckpt 5000 extra evals ['fast_t0.25'] 570s
+10-02 20:55:31 [F_nometa hard capped_nat s2304] ep 5000 heldout S1/free 0.6905 570s concepts 10 tau 0.25
+10-02 20:55:32 [D4_F_nometa_hard_capped_nat_s2305] ckpt 5000 extra evals ['fast_t0.25'] 570s
+10-02 20:55:32 [F_nometa hard capped_nat s2305] ep 5000 heldout S1/free 0.6909 570s concepts 13 tau 0.25
+10-02 21:00:05 [D4_F_nometa_std_capped_nat_s2306] ckpt 2000 extra evals ['fast_t0.25'] 843s
+10-02 21:00:05 [F_nometa std capped_nat s2306] ep 2000 heldout S1/free 0.7402 843s concepts 3 tau 1.30
+10-02 21:00:15 [D4_F_nometa_std_capped_nat_s2300] ckpt 2000 extra evals ['fast_t0.25'] 853s
+10-02 21:00:15 [F_nometa std capped_nat s2300] ep 2000 heldout S1/free 0.7457 853s concepts 2 tau 1.30
+10-02 21:00:15 [D4_F_nometa_std_capped_nat_s2301] ckpt 2000 extra evals ['fast_t0.25'] 854s
+10-02 21:00:15 [F_nometa std capped_nat s2301] ep 2000 heldout S1/free 0.7465 854s concepts 4 tau 1.30
+10-02 21:00:19 [D4_F_nometa_std_capped_nat_s2307] ckpt 2000 extra evals ['fast_t0.25'] 857s
+10-02 21:00:19 [F_nometa std capped_nat s2307] ep 2000 heldout S1/free 0.7427 857s concepts 15 tau 1.30
+10-02 21:00:25 [D4_F_nometa_std_capped_nat_s2303] ckpt 2000 extra evals ['fast_t0.25'] 864s
+10-02 21:00:25 [F_nometa std capped_nat s2303] ep 2000 heldout S1/free 0.7481 864s concepts 3 tau 1.30
+10-02 21:00:29 [D4_F_nometa_std_capped_nat_s2302] ckpt 2000 extra evals ['fast_t0.25'] 867s
+10-02 21:00:29 [F_nometa std capped_nat s2302] ep 2000 heldout S1/free 0.7459 867s concepts 3 tau 1.30
+10-02 21:00:33 [D4_F_nometa_std_capped_nat_s2304] ckpt 2000 extra evals ['fast_t0.25'] 872s
+10-02 21:00:33 [F_nometa std capped_nat s2304] ep 2000 heldout S1/free 0.7426 872s concepts 4 tau 1.30
+10-02 21:00:48 [D4_F_nometa_std_capped_nat_s2305] ckpt 2000 extra evals ['fast_t0.25'] 886s
+10-02 21:00:48 [F_nometa std capped_nat s2305] ep 2000 heldout S1/free 0.7445 886s concepts 3 tau 1.30
+10-02 21:02:28 [D4_F_nometa_hard_capped_nat_s2303] ckpt 10000 extra evals ['fast_t0.25'] 986s
+10-02 21:02:28 [F_nometa hard capped_nat s2303] ep 10000 heldout S1/free 0.7182 986s concepts 44 tau 0.25
+10-02 21:03:00 [D4_F_nometa_hard_capped_nat_s2301] ckpt 10000 extra evals ['fast_t0.25'] 1018s
+10-02 21:03:00 [F_nometa hard capped_nat s2301] ep 10000 heldout S1/free 0.7425 1018s concepts 18 tau 0.25
+10-02 21:03:04 [D4_F_nometa_hard_capped_nat_s2304] ckpt 10000 extra evals ['fast_t0.25'] 1023s
+10-02 21:03:04 [F_nometa hard capped_nat s2304] ep 10000 heldout S1/free 0.7380 1023s concepts 40 tau 0.25
+10-02 21:03:20 [D4_F_nometa_hard_capped_nat_s2300] ckpt 10000 extra evals ['fast_t0.25'] 1039s
+10-02 21:03:20 [F_nometa hard capped_nat s2300] ep 10000 heldout S1/free 0.7528 1039s concepts 39 tau 0.25
+10-02 21:03:24 [D4_F_nometa_hard_capped_nat_s2305] ckpt 10000 extra evals ['fast_t0.25'] 1042s
+10-02 21:03:24 [F_nometa hard capped_nat s2305] ep 10000 heldout S1/free 0.7413 1042s concepts 32 tau 0.25
+10-02 21:03:26 [D4_F_nometa_hard_capped_nat_s2302] ckpt 10000 extra evals ['fast_t0.25'] 1045s
+10-02 21:03:26 [F_nometa hard capped_nat s2302] ep 10000 heldout S1/free 0.7645 1045s concepts 25 tau 0.25
+10-02 21:12:11 [D4_F_nometa_std_capped_nat_s2300] ckpt 5000 extra evals ['fast_t0.25'] 1570s
+10-02 21:12:11 [F_nometa std capped_nat s2300] ep 5000 heldout S1/free 0.7463 1570s concepts 9 tau 0.25
+10-02 21:12:12 [D4_F_nometa_std_capped_nat_s2306] ckpt 5000 extra evals ['fast_t0.25'] 1570s
+10-02 21:12:12 [F_nometa std capped_nat s2306] ep 5000 heldout S1/free 0.7473 1570s concepts 8 tau 0.25
+10-02 21:12:24 [D4_F_nometa_std_capped_nat_s2301] ckpt 5000 extra evals ['fast_t0.25'] 1582s
+10-02 21:12:24 [F_nometa std capped_nat s2301] ep 5000 heldout S1/free 0.7525 1582s concepts 6 tau 0.25
+10-02 21:12:30 [D4_F_nometa_std_capped_nat_s2307] ckpt 5000 extra evals ['fast_t0.25'] 1588s
+10-02 21:12:30 [F_nometa std capped_nat s2307] ep 5000 heldout S1/free 0.7545 1588s concepts 50 tau 0.25
+10-02 21:12:39 [D4_F_nometa_std_capped_nat_s2304] ckpt 5000 extra evals ['fast_t0.25'] 1597s
+10-02 21:12:39 [F_nometa std capped_nat s2304] ep 5000 heldout S1/free 0.7456 1597s concepts 18 tau 0.25
+10-02 21:12:48 [D4_F_nometa_std_capped_nat_s2303] ckpt 5000 extra evals ['fast_t0.25'] 1606s
+10-02 21:12:48 [F_nometa std capped_nat s2303] ep 5000 heldout S1/free 0.7470 1606s concepts 16 tau 0.25
+10-02 21:12:50 [D4_F_nometa_std_capped_nat_s2302] ckpt 5000 extra evals ['fast_t0.25'] 1608s
+10-02 21:12:50 [F_nometa std capped_nat s2302] ep 5000 heldout S1/free 0.7469 1608s concepts 18 tau 0.25
+10-02 21:12:58 [D4_F_nometa_std_capped_nat_s2305] ckpt 5000 extra evals ['fast_t0.25'] 1617s
+10-02 21:12:58 [F_nometa std capped_nat s2305] ep 5000 heldout S1/free 0.7569 1617s concepts 12 tau 0.25
+10-02 21:21:01 [D4_F_nometa_hard_capped_nat_s2303] ckpt 20000 extra evals ['fast_t0.1', 'fast_t0.25', 'fast_t0.5', 'slow_t0.1', 'slow_t0.5'] 2099s
+10-02 21:21:03 DONE D4_F_nometa_hard_capped_nat_s2303 2102s
+10-02 21:21:04 START D4_F_nometa_hard_capped_nat_s2306
+10-02 21:21:16 [D4_F_nometa_hard_capped_nat_s2304] ckpt 20000 extra evals ['fast_t0.1', 'fast_t0.25', 'fast_t0.5', 'slow_t0.1', 'slow_t0.5'] 2114s
+10-02 21:21:18 DONE D4_F_nometa_hard_capped_nat_s2304 2116s
+10-02 21:21:19 START D4_F_nometa_hard_capped_nat_s2307
+10-02 21:21:26 [D4_F_nometa_hard_capped_nat_s2301] ckpt 20000 extra evals ['fast_t0.1', 'fast_t0.25', 'fast_t0.5', 'slow_t0.1', 'slow_t0.5'] 2124s
+10-02 21:21:28 DONE D4_F_nometa_hard_capped_nat_s2301 2127s
+10-02 21:21:43 [D4_F_nometa_hard_capped_nat_s2300] ckpt 20000 extra evals ['fast_t0.1', 'fast_t0.25', 'fast_t0.5', 'slow_t0.1', 'slow_t0.5'] 2142s
+10-02 21:21:45 DONE D4_F_nometa_hard_capped_nat_s2300 2144s
+10-02 21:21:48 [D4_F_nometa_hard_capped_nat_s2306] ckpt 0 extra evals ['fast_t0.25'] 44s
+10-02 21:21:48 [F_nometa hard capped_nat s2306] ep 0 heldout S1/free 0.6751 44s concepts 0 tau 2.00
+10-02 21:22:03 [D4_F_nometa_hard_capped_nat_s2307] ckpt 0 extra evals ['fast_t0.25'] 45s
+10-02 21:22:03 [F_nometa hard capped_nat s2307] ep 0 heldout S1/free 0.6683 45s concepts 0 tau 2.00
+10-02 21:22:04 [D4_F_nometa_hard_capped_nat_s2302] ckpt 20000 extra evals ['fast_t0.1', 'fast_t0.25', 'fast_t0.5', 'slow_t0.1', 'slow_t0.5'] 2162s
+10-02 21:22:06 DONE D4_F_nometa_hard_capped_nat_s2302 2164s
+10-02 21:22:08 [D4_F_nometa_hard_capped_nat_s2305] ckpt 20000 extra evals ['fast_t0.1', 'fast_t0.25', 'fast_t0.5', 'slow_t0.1', 'slow_t0.5'] 2166s
+10-02 21:22:09 DONE D4_F_nometa_hard_capped_nat_s2305 2168s
+10-02 21:23:46 [D4_F_nometa_hard_capped_nat_s2306] ckpt 1000 extra evals ['fast_t0.25'] 163s
+10-02 21:23:46 [F_nometa hard capped_nat s2306] ep 1000 heldout S1/free 0.6654 162s concepts 0 tau 1.65
+10-02 21:24:03 [D4_F_nometa_hard_capped_nat_s2307] ckpt 1000 extra evals ['fast_t0.25'] 164s
+10-02 21:24:03 [F_nometa hard capped_nat s2307] ep 1000 heldout S1/free 0.6833 164s concepts 0 tau 1.65
+10-02 21:25:48 [D4_F_nometa_hard_capped_nat_s2306] ckpt 2000 extra evals ['fast_t0.25'] 284s
+10-02 21:25:48 [F_nometa hard capped_nat s2306] ep 2000 heldout S1/free 0.6811 284s concepts 2 tau 1.30
+10-02 21:26:03 [D4_F_nometa_hard_capped_nat_s2307] ckpt 2000 extra evals ['fast_t0.25'] 284s
+10-02 21:26:03 [F_nometa hard capped_nat s2307] ep 2000 heldout S1/free 0.6995 284s concepts 4 tau 1.30
+10-02 21:29:46 [D4_F_nometa_hard_capped_nat_s2306] ckpt 5000 extra evals ['fast_t0.25'] 522s
+10-02 21:29:46 [F_nometa hard capped_nat s2306] ep 5000 heldout S1/free 0.6793 522s concepts 18 tau 0.25
+10-02 21:30:00 [D4_F_nometa_hard_capped_nat_s2307] ckpt 5000 extra evals ['fast_t0.25'] 522s
+10-02 21:30:00 [F_nometa hard capped_nat s2307] ep 5000 heldout S1/free 0.7002 521s concepts 17 tau 0.25
+10-02 21:30:26 [D4_F_nometa_std_capped_nat_s2306] ckpt 10000 extra evals ['fast_t0.25'] 2664s
+10-02 21:30:26 [F_nometa std capped_nat s2306] ep 10000 heldout S1/free 0.7800 2664s concepts 35 tau 0.25
+10-02 21:30:33 [D4_F_nometa_std_capped_nat_s2300] ckpt 10000 extra evals ['fast_t0.25'] 2671s
+10-02 21:30:33 [F_nometa std capped_nat s2300] ep 10000 heldout S1/free 0.7776 2671s concepts 83 tau 0.25
+10-02 21:30:53 [D4_F_nometa_std_capped_nat_s2307] ckpt 10000 extra evals ['fast_t0.25'] 2691s
+10-02 21:30:53 [F_nometa std capped_nat s2307] ep 10000 heldout S1/free 0.7796 2691s concepts 111 tau 0.25
+10-02 21:30:56 [D4_F_nometa_std_capped_nat_s2304] ckpt 10000 extra evals ['fast_t0.25'] 2694s
+10-02 21:30:56 [F_nometa std capped_nat s2304] ep 10000 heldout S1/free 0.7772 2694s concepts 74 tau 0.25
+10-02 21:31:16 [D4_F_nometa_std_capped_nat_s2305] ckpt 10000 extra evals ['fast_t0.25'] 2714s
+10-02 21:31:16 [F_nometa std capped_nat s2305] ep 10000 heldout S1/free 0.7723 2714s concepts 46 tau 0.25
+10-02 21:31:19 [D4_F_nometa_std_capped_nat_s2303] ckpt 10000 extra evals ['fast_t0.25'] 2717s
+10-02 21:31:19 [F_nometa std capped_nat s2303] ep 10000 heldout S1/free 0.7782 2717s concepts 68 tau 0.25
+10-02 21:31:19 [D4_F_nometa_std_capped_nat_s2301] ckpt 10000 extra evals ['fast_t0.25'] 2717s
+10-02 21:31:19 [F_nometa std capped_nat s2301] ep 10000 heldout S1/free 0.7912 2717s concepts 75 tau 0.25
+10-02 21:31:19 [D4_F_nometa_std_capped_nat_s2302] ckpt 10000 extra evals ['fast_t0.25'] 2718s
+10-02 21:31:19 [F_nometa std capped_nat s2302] ep 10000 heldout S1/free 0.7769 2718s concepts 56 tau 0.25
+10-02 21:36:24 [D4_F_nometa_hard_capped_nat_s2306] ckpt 10000 extra evals ['fast_t0.25'] 920s
+10-02 21:36:24 [F_nometa hard capped_nat s2306] ep 10000 heldout S1/free 0.7456 920s concepts 31 tau 0.25
+10-02 21:36:53 [D4_F_nometa_hard_capped_nat_s2307] ckpt 10000 extra evals ['fast_t0.25'] 934s
+10-02 21:36:53 [F_nometa hard capped_nat s2307] ep 10000 heldout S1/free 0.7520 934s concepts 55 tau 0.25
+10-02 21:51:18 [D4_F_nometa_hard_capped_nat_s2306] ckpt 20000 extra evals ['fast_t0.1', 'fast_t0.25', 'fast_t0.5', 'slow_t0.1', 'slow_t0.5'] 1814s
+10-02 21:51:27 DONE D4_F_nometa_hard_capped_nat_s2306 1823s
+10-02 21:52:01 [D4_F_nometa_hard_capped_nat_s2307] ckpt 20000 extra evals ['fast_t0.1', 'fast_t0.25', 'fast_t0.5', 'slow_t0.1', 'slow_t0.5'] 1842s
+10-02 21:52:03 DONE D4_F_nometa_hard_capped_nat_s2307 1844s
+10-02 22:03:47 [D4_F_nometa_std_capped_nat_s2306] ckpt 20000 extra evals ['fast_t0.1', 'fast_t0.25', 'fast_t0.5', 'slow_t0.1', 'slow_t0.5'] 4665s
+10-02 22:03:48 DONE D4_F_nometa_std_capped_nat_s2306 4667s
+10-02 22:04:10 [D4_F_nometa_std_capped_nat_s2300] ckpt 20000 extra evals ['fast_t0.1', 'fast_t0.25', 'fast_t0.5', 'slow_t0.1', 'slow_t0.5'] 4688s
+10-02 22:04:12 DONE D4_F_nometa_std_capped_nat_s2300 4690s
+10-02 22:04:15 [D4_F_nometa_std_capped_nat_s2305] ckpt 20000 extra evals ['fast_t0.1', 'fast_t0.25', 'fast_t0.5', 'slow_t0.1', 'slow_t0.5'] 4693s
+10-02 22:04:16 DONE D4_F_nometa_std_capped_nat_s2305 4695s
+10-02 22:04:34 [D4_F_nometa_std_capped_nat_s2304] ckpt 20000 extra evals ['fast_t0.1', 'fast_t0.25', 'fast_t0.5', 'slow_t0.1', 'slow_t0.5'] 4712s
+10-02 22:04:35 DONE D4_F_nometa_std_capped_nat_s2304 4714s
+10-02 22:05:01 [D4_F_nometa_std_capped_nat_s2303] ckpt 20000 extra evals ['fast_t0.1', 'fast_t0.25', 'fast_t0.5', 'slow_t0.1', 'slow_t0.5'] 4740s
+10-02 22:05:02 DONE D4_F_nometa_std_capped_nat_s2303 4741s
+10-02 22:05:04 [D4_F_nometa_std_capped_nat_s2307] ckpt 20000 extra evals ['fast_t0.1', 'fast_t0.25', 'fast_t0.5', 'slow_t0.1', 'slow_t0.5'] 4743s
+10-02 22:05:05 DONE D4_F_nometa_std_capped_nat_s2307 4744s
+10-02 22:05:08 [D4_F_nometa_std_capped_nat_s2302] ckpt 20000 extra evals ['fast_t0.1', 'fast_t0.25', 'fast_t0.5', 'slow_t0.1', 'slow_t0.5'] 4747s
+10-02 22:05:09 DONE D4_F_nometa_std_capped_nat_s2302 4747s
+10-02 22:05:37 [D4_F_nometa_std_capped_nat_s2301] ckpt 20000 extra evals ['fast_t0.1', 'fast_t0.25', 'fast_t0.5', 'slow_t0.1', 'slow_t0.5'] 4775s
+10-02 22:05:38 DONE D4_F_nometa_std_capped_nat_s2301 4776s

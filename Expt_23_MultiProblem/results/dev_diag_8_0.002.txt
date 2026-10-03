@@ -1,0 +1,7 @@
+steps=8 lr=0.002 std ep 0 dev frac 0.6887 (uniform 0.6633) 8s
+steps=8 lr=0.002 std ep 500 dev frac 0.5542 (uniform 0.6633) 159s
+steps=8 lr=0.002 std ep 1000 dev frac 0.6923 (uniform 0.6633) 315s
+steps=8 lr=0.002 std ep 1500 dev frac 0.7205 (uniform 0.6633) 489s
+steps=8 lr=0.002 std ep 2000 dev frac 0.7348 (uniform 0.6633) 672s
+steps=8 lr=0.002 std ep 2500 dev frac 0.7189 (uniform 0.6633) 854s
+steps=8 lr=0.002 std ep 3000 dev frac 0.6842 (uniform 0.6633) 1054s

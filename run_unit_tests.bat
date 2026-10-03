@@ -48,7 +48,7 @@ call :run "%ROOT%Expt_17_Arrangement_Census"
 call :run "%ROOT%Expt_18_Arrangement_Utility"
 call :run "%ROOT%Expt_19_Budgeted_Recognition"
 echo.
-echo Part B suites (Expt-20 to Expt-22d) take several minutes.
+echo Part B suites (Expt-20 to Expt-22d) and Part C (Expt-23) take several minutes.
 set OMP_NUM_THREADS=1
 set OPENBLAS_NUM_THREADS=1
 set MKL_NUM_THREADS=1
@@ -58,6 +58,9 @@ call :run "%ROOT%Expt_22a_Organic_Value_Learner"
 call :run "%ROOT%Expt_22b_Organic_Value_Learner"
 call :run "%ROOT%Expt_22c_Long_Streams"
 call :run "%ROOT%Expt_22d_Long_Ablations_Saturation"
+echo.
+echo Part C suite (Expt-23).
+call :run "%ROOT%Expt_23_MultiProblem"
 
 echo.
 if "%FAIL%"=="0" (

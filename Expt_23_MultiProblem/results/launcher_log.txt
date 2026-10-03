@@ -1,0 +1,3 @@
+2026-10-02 11:04:13 watcher started (waiting for run_streams.py to exit; expect 91 baseline streams)
+2026-10-02 14:14:15 baselines complete (91/91); starting E-streams (F,R,RN,NM x std,hard x 8 seeds, 20k episodes), NW=12
+2026-10-02 18:52:18 E-streams process exited rc=0

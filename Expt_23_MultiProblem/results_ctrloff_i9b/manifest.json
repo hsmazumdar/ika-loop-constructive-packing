@@ -1,0 +1,28 @@
+[
+ {
+  "machine": "i9Win10",
+  "node": "i9Win10",
+  "python": "3.12.4",
+  "numpy": "2.0.0",
+  "scipy": "1.13.1",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "cpu_count": 20,
+  "controller": "off",
+  "amendment": "A8",
+  "seeds": [
+   2406,
+   2407
+  ],
+  "arms": [
+   "F",
+   "R",
+   "RN",
+   "NM",
+   "N"
+  ],
+  "nw": 16,
+  "n_ep": 20000,
+  "started": "2026-10-03 09:22:25",
+  "cmd": "src\\run_ctrloff.py run --out results_ctrloff_i9b --machine i9Win10 --seeds 2406-2407 --nw 16"
+ }
+]

@@ -1,6 +1,6 @@
 # Reviewer guide
 
-Part A covers Expt-1 to Expt-19 (when memory reduces deliberation). Part B covers Expt-20 to Expt-22e (continuous learning and memory consolidation). The two parts use different tasks and metrics; numbers are not comparable across them.
+Part A covers Expt-1 to Expt-19 (when memory reduces deliberation). Part B covers Expt-20 to Expt-22e (continuous learning and memory consolidation on one fixed problem). Part C covers Expt-23 (multi-problem packing case study of the information -> knowledge loop, with the A8 controller-off confirmation). The parts use different tasks and metrics; numbers are not comparable across them.
 
 # Part A: Expt-1 to Expt-19
 
@@ -109,6 +109,41 @@ Earlier pilot, smoke and partial folders next to these are kept for provenance a
 - Not recoverable: the numpy version on the first machine for Expt-22b, 22c and 22d run 1; the Expt-22b pilot sweep logs that selected lambda = 1. Expt-22b/22c stored one final memory each (seed 0, seed 100).
 - n is small (6 streams for saturation, 4 per ablation). No power analysis was done.
 
+
+# Part C: Expt-23 MultiProblem
+
+## Task and metric
+
+Variable board sizes, obstacle cells, and polyomino catalogues (283 pieces of size 3-7; the Expt-1 A-P set is the `legacy` subset). Primary condition = 14-piece cap + natural placing. Score is normalised filled non-obstacle cells (S1 / free cells). Arms: full learner with guided generation and consolidation (`F`), plain online learner (`N`), compute-matched no-meta (`NM`), random-data full (`R`), random-data no-consolidate (`RN`). Hand rule and CEM-hand are references only.
+
+The A8 controller-off confirmation freezes the self-tuning controller (fixed exploration / sleep schedule) after diagnostics showed the controller held the full learner back on the earlier E-runs.
+
+## Claims that the record supports (A8 controller-off, std / capped_nat, n = 8 per arm)
+
+- Consolidation helps: `F` vs `N` +0.0234; `F` vs `NM` +0.0266 (primary family, Holm-supported under Welch / permutation / MWU).
+- Guided data helps: `F` vs `R` +0.0498 (primary family, Holm-supported).
+- Secondary: `F` beats `RN`, earlier DQN, and earlier PPO; `F` remains below hand / cemhand references (~0.93).
+- Transfer (E3): `F` final split means stay near test_iid (gaps to size / piece / both are small); `F` minus `N` is positive on every split.
+- Improvement across checkpoints (E4): `F` rises from ~0.76 to ~0.90 over 20k episodes; generated-data quality under `F` rises across rounds while `R`/`RN` stay flat.
+
+## What is not established
+
+- Other domains in DESIGN.md (puzzles, programs, equations) are not run in this repository copy.
+- Hard-variant and uncapped / non-natural condition grids are secondary; quote the A8 std / capped_nat table unless the guide names another run.
+- The earlier controller-ON E-run (`F` 0.841) is superseded for the consolidation claim by the A8 controller-off confirmation.
+
+## Authoritative runs
+
+| Experiment | Run | Notes |
+| --- | --- | --- |
+| Expt-23 A8 analysis | `Expt_23_MultiProblem/analysis_ctrloff/` | `ctrloff_summary.md`; 80 streams; primary numbers |
+| Expt-23 A8 streams (i9) | `Expt_23_MultiProblem/results_ctrloff_i9/` | controller-off streams |
+| Expt-23 A8 streams (i9b) | `Expt_23_MultiProblem/results_ctrloff_i9b/` | split batch on i9 |
+| Expt-23 A8 streams (i7) | `Expt_23_MultiProblem/results_ctrloff_i7/` | split batch on i7 |
+| Expt-23 diagnostics D1-D4 | `Expt_23_MultiProblem/results_i9/`, `results_vivo_diag/` | controller-ON finding; not the A8 headline |
+
+Earlier `results/` reference tables and smoke outputs are kept for provenance. `DESIGN.md` is the frozen plan.
+
 ## What this repository contains
 
 | Path | Role |
@@ -116,5 +151,6 @@ Earlier pilot, smoke and partial folders next to these are kept for provenance a
 | `supplementary/` | Part A supplementary tables and figures |
 | `Expt_01_10x10_Packing/` through `Expt_19_Budgeted_Recognition/` | Part A code, tests, and saved runs |
 | `Expt_20_Winning_Combination_LTM/` through `Expt_22e_Closure_Analyses/` | Part B code, tests, saved runs, and closure analyses |
+| `Expt_23_MultiProblem/` | Part C multi-problem packing study, A8 controller-off confirmation, diagnostics |
 
 The manuscript is not in this repository. Regenerating a run is not required to read the saved results, and the launchers do not start a new diagnostic or learning stream.

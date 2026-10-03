@@ -1,0 +1,21 @@
+20 streams to run of 20; nw=7
+N std 2407 done
+N std 2406 done
+NM std 2407 done
+NM std 2406 done
+R std 2406 done
+F std 2407 done
+F std 2406 done
+NM hard 2406 done
+NM hard 2407 done
+F hard 2406 done
+F hard 2407 done
+R hard 2406 done
+RN std 2406 done
+RN std 2407 done
+R hard 2407 done
+N hard 2406 done
+RN hard 2406 done
+RN hard  done
+N hard 2407 done
+R std 2407 donefinished

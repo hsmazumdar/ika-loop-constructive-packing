@@ -1,0 +1,6 @@
+Hard-variant headroom (train problems 0..19, 40 episodes uniform/hand, ref = max(beam64, rollout-beam w8 pp4 nr2, hand mean)); measured 2026-10-01 on Vivobook
+obst_frac 0.06 k (6, 16) uniform/ref 0.757 hand/ref 0.939 frac(hand/ref<.9) 0.10
+obst_frac 0.15 k (6, 16) uniform/ref 0.754 hand/ref 0.932 frac(hand/ref<.9) 0.25
+obst_frac 0.25 k (6, 16) uniform/ref 0.743 hand/ref 0.925 frac(hand/ref<.9) 0.25
+obst_frac 0.15 k (4, 7) uniform/ref 0.751 hand/ref 0.898 frac(hand/ref<.9) 0.35
+obst_frac 0.25 k (4, 7) uniform/ref 0.750 hand/ref 0.894 frac(hand/ref<.9) 0.50

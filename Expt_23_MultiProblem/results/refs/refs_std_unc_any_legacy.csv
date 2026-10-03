@@ -1,0 +1,2 @@
+variant,cond,split,index,pid,H,W,k,obstacles,free,max_area,uniform,hand,cemhand,beam64_s0,beam64_s1,beam64_s2,rollout_beam,hand_mean60,ref,t_beam,t_rollout
+std,unc_any,legacy,0,legacy_10x10_A-P,10,10,16,0,100,7,79.08,92.86,97.96,99,98,98,100,93.433,100,0.57,6.92

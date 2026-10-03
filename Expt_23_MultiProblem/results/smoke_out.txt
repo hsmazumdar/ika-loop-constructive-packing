@@ -1,0 +1,6 @@
+[N std capped_nat s1] ep 0 heldout S1/free 0.6993 42s
+N 300 eps total 130s
+[DQN std capped_nat s1] ep 0 heldout S1/free 0.6969 62s
+DQN 300 eps total 169s
+[PPO std capped_nat s1] ep 0 heldout S1/free 0.6987 103s
+PPO 300 eps total 612s

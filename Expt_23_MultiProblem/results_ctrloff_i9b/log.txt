@@ -1,0 +1,140 @@
+10-03 09:22:26 START F std s2406
+10-03 09:22:26 START N std s2406
+10-03 09:22:26 START F std s2407
+10-03 09:22:26 START N std s2407
+10-03 09:22:26 START NM std s2406
+10-03 09:22:26 START NM std s2407
+10-03 09:22:26 START R std s2406
+10-03 09:22:26 START R std s2407
+10-03 09:22:26 START NM hard s2406
+10-03 09:22:26 START F hard s2406
+
+10-03 09:22:26 START F hard s2407
+10-03 09:22:26 START RN std s2406
+10-03 09:22:26 START RN std s2407
+10-03 09:22:26 START R hard s2406
+10-03 09:22:26 START R hard s2407
+10-03 09:22:48 [NM hard capped_nat s2407] ep 0 heldout S1/free 0.6764 22s
+10-03 09:22:49 [F hard capped_nat s2407] ep 0 heldout S1/free 0.6775 23s concepts 0 tau 2.00
+10-03 09:22:50 [R hard capped_nat s2407] ep 0 heldout S1/free 0.6775 24s concepts 0 tau 2.00
+10-03 09:22:50 [NM hard capped_nat s2406] ep 0 heldout S1/free 0.6751 24s
+10-03 09:22:52 [F hard capped_nat s2406] ep 0 heldout S1/free 0.6702 26s concepts 0 tau 2.00
+10-03 09:22:52 [R hard capped_nat s2406] ep 0 heldout S1/free 0.6702 26s concepts 0 tau 2.00
+10-03 09:23:38 [N std capped_nat s2407] ep 0 heldout S1/free 0.7130 72s
+10-03 09:23:39 [RN std capped_nat s2407] ep 0 heldout S1/free 0.7130 73s
+10-03 09:23:40 [NM std capped_nat s2407] ep 0 heldout S1/free 0.7130 74s
+10-03 09:23:40 [R std capped_nat s2407] ep 0 heldout S1/free 0.7065 74s concepts 0 tau 2.00
+10-03 09:23:40 [F std capped_nat s2407] ep 0 heldout S1/free 0.7065 74s concepts 0 tau 2.00
+10-03 09:23:43 [NM std capped_nat s2406] ep 0 heldout S1/free 0.6993 77s
+10-03 09:23:43 [RN std capped_nat s2406] ep 0 heldout S1/free 0.6993 77s
+10-03 09:23:43 [N std capped_nat s2406] ep 0 heldout S1/free 0.6993 77s
+10-03 09:23:47 [R std capped_nat s2406] ep 0 heldout S1/free 0.6954 81s concepts 0 tau 2.00
+10-03 09:23:48 [F std capped_nat s2406] ep 0 heldout S1/free 0.6954 82s concepts 0 tau 2.00
+10-03 09:24:18 [NM hard capped_nat s2407] ep 1000 heldout S1/free 0.6680 112s
+10-03 09:24:18 [NM hard capped_nat s2406] ep 1000 heldout S1/free 0.6839 112s
+10-03 09:24:22 [R hard capped_nat s2406] ep 1000 heldout S1/free 0.6746 116s concepts 0 tau 1.65
+10-03 09:24:22 [R hard capped_nat s2407] ep 1000 heldout S1/free 0.6710 116s concepts 0 tau 1.65
+10-03 09:24:32 [F hard capped_nat s2407] ep 1000 heldout S1/free 0.6712 126s concepts 0 tau 1.65
+10-03 09:24:33 [F hard capped_nat s2406] ep 1000 heldout S1/free 0.6875 127s concepts 0 tau 1.65
+10-03 09:25:46 [NM hard capped_nat s2407] ep 2000 heldout S1/free 0.6889 200s
+10-03 09:25:48 [NM hard capped_nat s2406] ep 2000 heldout S1/free 0.6780 202s
+10-03 09:25:56 [R hard capped_nat s2406] ep 2000 heldout S1/free 0.6863 210s concepts 0 tau 1.30
+10-03 09:25:58 [R hard capped_nat s2407] ep 2000 heldout S1/free 0.6970 212s concepts 2 tau 1.30
+10-03 09:26:13 [F hard capped_nat s2407] ep 2000 heldout S1/free 0.6909 226s concepts 2 tau 1.30
+10-03 09:26:13 [F hard capped_nat s2406] ep 2000 heldout S1/free 0.6938 227s concepts 3 tau 1.30
+10-03 09:26:15 [RN std capped_nat s2406] ep 1000 heldout S1/free 0.7506 229s
+10-03 09:26:17 [RN std capped_nat s2407] ep 1000 heldout S1/free 0.7021 231s
+10-03 09:27:27 [N std capped_nat s2407] ep 1000 heldout S1/free 0.7270 301s
+10-03 09:27:30 [NM std capped_nat s2407] ep 1000 heldout S1/free 0.7441 304s
+10-03 09:27:32 [NM std capped_nat s2406] ep 1000 heldout S1/free 0.7477 306s
+10-03 09:27:33 [N std capped_nat s2406] ep 1000 heldout S1/free 0.7347 307s
+10-03 09:28:07 [R std capped_nat s2407] ep 1000 heldout S1/free 0.7178 341s concepts 0 tau 1.65
+10-03 09:28:14 [R std capped_nat s2406] ep 1000 heldout S1/free 0.7480 348s concepts 0 tau 1.65
+10-03 09:28:30 [F std capped_nat s2407] ep 1000 heldout S1/free 0.7196 364s concepts 0 tau 1.65
+10-03 09:28:40 [F std capped_nat s2406] ep 1000 heldout S1/free 0.7393 374s concepts 0 tau 1.65
+10-03 09:28:47 [RN std capped_nat s2406] ep 2000 heldout S1/free 0.7651 381s
+10-03 09:28:49 [RN std capped_nat s2407] ep 2000 heldout S1/free 0.7508 383s
+10-03 09:29:34 [NM hard capped_nat s2406] ep 5000 heldout S1/free 0.6960 428s
+10-03 09:29:35 [NM hard capped_nat s2407] ep 5000 heldout S1/free 0.7020 429s
+10-03 09:29:35 [R hard capped_nat s2406] ep 5000 heldout S1/free 0.6991 429s concepts 17 tau 0.25
+10-03 09:29:36 [R hard capped_nat s2407] ep 5000 heldout S1/free 0.7095 430s concepts 33 tau 0.25
+10-03 09:30:13 [F hard capped_nat s2406] ep 5000 heldout S1/free 0.6909 467s concepts 22 tau 0.25
+10-03 09:30:18 [F hard capped_nat s2407] ep 5000 heldout S1/free 0.6859 472s concepts 8 tau 0.25
+10-03 09:31:08 [N std capped_nat s2407] ep 2000 heldout S1/free 0.7435 522s
+10-03 09:31:15 [NM std capped_nat s2407] ep 2000 heldout S1/free 0.7394 529s
+10-03 09:31:16 [N std capped_nat s2406] ep 2000 heldout S1/free 0.7440 530s
+10-03 09:31:17 [NM std capped_nat s2406] ep 2000 heldout S1/free 0.7349 531s
+10-03 09:32:29 [R std capped_nat s2407] ep 2000 heldout S1/free 0.7498 603s concepts 3 tau 1.30
+10-03 09:32:34 [R std capped_nat s2406] ep 2000 heldout S1/free 0.7580 608s concepts 3 tau 1.30
+10-03 09:33:08 [F std capped_nat s2407] ep 2000 heldout S1/free 0.7409 642s concepts 4 tau 1.30
+10-03 09:33:12 [F std capped_nat s2406] ep 2000 heldout S1/free 0.7479 646s concepts 2 tau 1.30
+10-03 09:33:42 [RN std capped_nat s2406] ep 5000 heldout S1/free 0.7540 676s
+10-03 09:33:45 [RN std capped_nat s2407] ep 5000 heldout S1/free 0.7436 679s
+10-03 09:35:20 [R hard capped_nat s2407] ep 10000 heldout S1/free 0.7023 774s concepts 39 tau 0.25
+10-03 09:35:20 [R hard capped_nat s2406] ep 10000 heldout S1/free 0.7022 774s concepts 49 tau 0.25
+10-03 09:35:54 [NM hard capped_nat s2407] ep 10000 heldout S1/free 0.7176 808s
+10-03 09:36:04 [NM hard capped_nat s2406] ep 10000 heldout S1/free 0.7232 818s
+10-03 09:37:03 [F hard capped_nat s2407] ep 10000 heldout S1/free 0.7188 877s concepts 36 tau 0.25
+10-03 09:37:09 [F hard capped_nat s2406] ep 10000 heldout S1/free 0.7488 883s concepts 27 tau 0.25
+10-03 09:39:16 [N std capped_nat s2407] ep 5000 heldout S1/free 0.7480 1010s
+10-03 09:39:28 [N std capped_nat s2406] ep 5000 heldout S1/free 0.7547 1022s
+10-03 09:40:01 [NM std capped_nat s2407] ep 5000 heldout S1/free 0.7402 1055s
+10-03 09:40:05 [NM std capped_nat s2406] ep 5000 heldout S1/free 0.7424 1059s
+10-03 09:40:48 [RN std capped_nat s2406] ep 10000 heldout S1/free 0.7607 1102s
+10-03 09:40:52 [RN std capped_nat s2407] ep 10000 heldout S1/free 0.7576 1106s
+10-03 09:42:42 [R std capped_nat s2407] ep 5000 heldout S1/free 0.7493 1216s concepts 21 tau 0.25
+10-03 09:42:54 [R std capped_nat s2406] ep 5000 heldout S1/free 0.7544 1228s concepts 17 tau 0.25
+10-03 09:43:53 [F std capped_nat s2407] ep 5000 heldout S1/free 0.7515 1287s concepts 20 tau 0.25
+10-03 09:44:01 [F std capped_nat s2406] ep 5000 heldout S1/free 0.7465 1295s concepts 14 tau 0.25
+10-03 09:46:10 DONE R hard s2406 1423s
+10-03 09:46:10 START N hard s2406
+10-03 09:46:13 DONE R hard s2407 1427s
+10-03 09:46:14 START N hard s2407
+10-03 09:46:33 [N hard capped_nat s2406] ep 0 heldout S1/free 0.6751 23s
+10-03 09:46:36 [N hard capped_nat s2407] ep 0 heldout S1/free 0.6764 22s
+10-03 09:47:51 [N hard capped_nat s2406] ep 1000 heldout S1/free 0.6708 101s
+10-03 09:47:53 [N hard capped_nat s2407] ep 1000 heldout S1/free 0.6608 99s
+10-03 09:48:39 DONE NM hard s2407 1572s
+10-03 09:48:39 START RN hard s2406
+10-03 09:48:53 DONE NM hard s2406 1587s
+10-03 09:48:53 START RN hard s2407
+10-03 09:49:00 [RN hard capped_nat s2406] ep 0 heldout S1/free 0.6751 21s
+10-03 09:49:06 [N hard capped_nat s2406] ep 2000 heldout S1/free 0.6809 176s
+10-03 09:49:10 [N hard capped_nat s2407] ep 2000 heldout S1/free 0.6722 176s
+10-03 09:49:13 [RN hard capped_nat s2407] ep 0 heldout S1/free 0.6764 19s
+10-03 09:49:49 [RN hard capped_nat s2406] ep 1000 heldout S1/free 0.6640 70s
+10-03 09:50:04 [RN hard capped_nat s2407] ep 1000 heldout S1/free 0.6624 70s
+10-03 09:50:40 [RN hard capped_nat s2406] ep 2000 heldout S1/free 0.6711 121s
+10-03 09:50:54 [RN hard capped_nat s2407] ep 2000 heldout S1/free 0.6805 121s
+10-03 09:51:08 DONE F hard s2407 1721s
+10-03 09:51:20 DONE F hard s2406 1734s
+10-03 09:51:27 [N std capped_nat s2406] ep 10000 heldout S1/free 0.7648 1741s
+10-03 09:51:38 [N std capped_nat s2407] ep 10000 heldout S1/free 0.7627 1752s
+10-03 09:51:58 [N hard capped_nat s2406] ep 5000 heldout S1/free 0.6845 348s
+10-03 09:51:58 [N hard capped_nat s2407] ep 5000 heldout S1/free 0.6816 345s
+10-03 09:52:16 [RN hard capped_nat s2406] ep 5000 heldout S1/free 0.6997 217s
+10-03 09:52:30 [RN hard capped_nat s2407] ep 5000 heldout S1/free 0.6862 217s
+10-03 09:53:10 [NM std capped_nat s2407] ep 10000 heldout S1/free 0.7705 1844s
+10-03 09:53:28 [NM std capped_nat s2406] ep 10000 heldout S1/free 0.7749 1862s
+10-03 09:53:37 DONE RN std s2406 1871s
+10-03 09:53:41 DONE RN std s2407 1875s
+10-03 09:54:29 [RN hard capped_nat s2406] ep 10000 heldout S1/free 0.6986 350s
+10-03 09:54:42 [RN hard capped_nat s2407] ep 10000 heldout S1/free 0.6937 349s
+10-03 09:55:55 [N hard capped_nat s2407] ep 10000 heldout S1/free 0.7308 581s
+10-03 09:56:15 [N hard capped_nat s2406] ep 10000 heldout S1/free 0.7518 605s
+10-03 09:57:11 [R std capped_nat s2407] ep 10000 heldout S1/free 0.7691 2085s concepts 39 tau 0.25
+10-03 09:57:34 [R std capped_nat s2406] ep 10000 heldout S1/free 0.7691 2108s concepts 33 tau 0.25
+10-03 09:58:24 DONE RN hard s2406 585s
+10-03 09:58:35 [F std capped_nat s2407] ep 10000 heldout S1/free 0.7780 2169s concepts 74 tau 0.25
+10-03 09:58:40 DONE RN hard s2407 587s
+10-03 09:58:50 [F std capped_nat s2406] ep 10000 heldout S1/free 0.7757 2184s concepts 54 tau 0.25
+10-03 10:03:29 DONE N hard s2407 1035s
+10-03 10:03:57 DONE N hard s2406 1067s
+10-03 10:08:44 DONE N std s2406 2778s
+10-03 10:08:55 DONE N std s2407 2789s
+10-03 10:11:45 DONE NM std s2407 2959s
+10-03 10:11:59 DONE NM std s2406 2973s
+10-03 10:16:43 DONE R std s2407 3257s
+10-03 10:17:10 DONE R std s2406 3284s
+10-03 10:19:19 DONE F std s2407 3413s
+10-03 10:19:55 DONE F std s2406 3449s

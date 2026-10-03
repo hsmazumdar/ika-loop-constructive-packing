@@ -1,0 +1,6 @@
+[F std capped_nat s1] ep 0 heldout S1/free 0.7383 3s concepts 0 tau 2.00
+F 420s meta events 0 concepts 0 distinct/1000 [1000, 100]
+[R std capped_nat s1] ep 0 heldout S1/free 0.7383 3s concepts 0 tau 2.00
+R 352s meta events 0 concepts 0 distinct/1000 [1000, 100]
+[RN std capped_nat s1] ep 0 heldout S1/free 0.7417 3s
+RN 127s meta events None concepts None distinct/1000 [1000, 100]

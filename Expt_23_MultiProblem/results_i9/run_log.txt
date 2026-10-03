@@ -1,0 +1,4 @@
+2026-10-02T19:07:25 run_diag_i9.ps1 nw=8
+2026-10-02 19:07:25 run suites=['D1', 'D2'] nw=8 units=16 todo=16 cmd=src\diag_i9.py run --suites D1 D2 --nw 8
+2026-10-02 20:51:14 run suites=['D3', 'D4', 'D2L'] nw=8 units=24 todo=16 cmd=src\diag_i9.py run --suites D3 D4 D2L --nw 8
+2026-10-02T22:21:02 run_diag_i9.ps1 finished

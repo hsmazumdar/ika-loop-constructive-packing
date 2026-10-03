@@ -1,0 +1,17 @@
+16 of 16 units to run with 14 workers
+D4_F_nometa_hard_capped_nat_s2303 done
+D4_F_nometa_hard_capped_nat_s2304 done
+D4_F_nometa_hard_capped_nat_s2301 done
+D4_F_nometa_hard_capped_nat_s2300 done
+D4_F_nometa_hard_capped_nat_s2302 done
+D4_F_nometa_hard_capped_nat_s2305 done
+D4_F_nometa_hard_capped_nat_s2306 done
+D4_F_nometa_hard_capped_nat_s2307 done
+D4_F_nometa_std_capped_nat_s2306 done
+D4_F_nometa_std_capped_nat_s2300 done
+D4_F_nometa_std_capped_nat_s2305 done
+D4_F_nometa_std_capped_nat_s2304 done
+D4_F_nometa_std_capped_nat_s2303 done
+D4_F_nometa_std_capped_nat_s2307 done
+D4_F_nometa_std_capped_nat_s2302 done
+D4_F_nometa_std_capped_nat_s2301 done
